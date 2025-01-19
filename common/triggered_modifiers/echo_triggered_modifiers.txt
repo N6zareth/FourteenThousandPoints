@@ -80,7 +80,7 @@ We_stand_alone = {
 	}
 	trigger  = {
 		OR = {
-			NOT = num_of_allies = 0
+			NOT = num_of_allies = 1
 			great_power_rank = 4
 			NOT = { is_hegemon = yes }
 			NOT = { is_colonial_nation = yes }	

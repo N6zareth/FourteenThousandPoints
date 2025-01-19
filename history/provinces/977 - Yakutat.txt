@@ -1,0 +1,25 @@
+#977 - Yakutat
+culture = aleutian
+religion = totemism
+capital = "Yakutat"
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 3
+discovered_by = north_american
+1741.1.1 = { discovered_by = RUS }
+1778.1.1 = { discovered_by = GBR }
+1784.1.1 = { 
+	controller = RUS
+	add_core = RUS
+	city = yes
+	culture = russian
+	religion = Orthodox
+	trade_goods = Fur
+}
+1786.1.1 = { discovered_by = FRA }
+1791.1.1 = { discovered_by = SPA }
+is_city = no

@@ -1,0 +1,102 @@
+﻿l_english:
+ player_modifier:0 "£yes£ Player Nation"
+ 
+ War_chest:0 "£tiny_loot_icon£ War Chest"
+ War_chest_desc: "Obtained by being in a war with a year and a half of your income stored with no loans or corruption"
+ 
+ Splendid_Court:0 "£icon_sue_for_peace£ Splendid Court"
+ Splendid_Court_desc: "Obtained by having filling your court with Level 3 Advisors (Only applicable during the Age of Discovery)"
+ 
+ We_stand_alone:0 "£icon_powerprojection£ Wolf Warrior Diplomacy"
+ We_stand_alone_desc: "A small bonus for not having any allies"
+ 
+ Ahead_of_time:0 "£time£ Ahead of Time"
+ Ahead_of_time_desc: "Obtained by not behind behind in any institutions"
+ 
+ Minor:0 "£war_leader£ Minor Nation"
+ Minor_desc: "A small bonus given to countries that below 400 development are not Great Powers or HRE Emperor"
+ 
+ NAZ_BOOKMARK_NAME:0 "Nyaaaaa :3"
+ NAZ_BOOKMARK_DESC:0 "Uwaaaaa :3"
+ 
+ fra_royal_musketeers:0 "Musketeers of the Guard"
+ fra_royal_musketeers_desc: "In 1622 Lous XIII established the Musketeers of the Guard which acted as the King's elite personal guard; these Musketeers were the most prestigious units in the French Army with only Nobles being able to enlist."
+
+ naz_mor_reconquista:0 "The Reconquista"
+ naz_mor_reconquista_desc: "For five hundred years the Muslim caliphates of the Maghreb have fought the Christian Kingdoms of Western Europe for hegemony of Iberia - five hundred years of warfare has strengthened the armies of Morocco."
+ zzz_french_colonial_enthusiasm:0 "French Colonial Enthusiasm"
+ zzz_french_colonial_enthusiasm_desc: "Our people are eager to settle in the new world and reap its endless bounties."
+
+
+ economic_golden_age:0 "¤ Golden Age (Economic)"
+ military_golden_age:0 "£infantry_icon_small£ Golden Age (Military)"
+ 
+ qolu_2colonists:0 "£explorer_16£ Colonialism"
+ qolu_national_rebuild:0 "£icon_war_exhaustion£ National Rebuilding"
+ qolu_tackle_debt:0 "£icon_war_exhaustion£ Tackling National Debt"
+ 
+ zzz_eco_golden_age_decisions_title: "¤ Economic Golden Age"
+ zzz_eco_golden_age_decisions_desc: ""
+ zzz_mil_golden_age_decisions_title: "£infantry_icon_small£ Military Golden Age"
+ zzz_mil_golden_age_decisions_desc: ""
+ 
+ qolu_all_seats_parliament_title: "£add_parliament_icon£ Set All Provinces into Parliament"
+ qolu_all_seats_parliament_desc: ""
+ 
+ zzz_wool_cloth_title: "£trade_icon£ Change Wool to Cloth"
+ zzz_wool_cloth_desc: ""
+ 
+ development_counter_title:0 "£icon_development_in_text£ Total Development Improvements"
+ development_counter_desc:0 "This counts how much you've developed your country by clicking the development button" 
+ development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §B[Root.dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §R[Root.mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §W[Root.total_dev_counter.GetValue]§!"
+ development_counter_tt_updater:0 "Add §YDevelopment Improvement Counter§!".
+ 
+ echo_critical_events_title:0 "£icon_sue_for_peace£ Available Military Events"
+ echo_critical_events_desc:0 ""
+
+ echo_radical_reform_decision:0 "Radical Reforms / 200 Admin and Diplomatic power"
+ echo_military_reform_decision:0 "Military Reforms / 20% Morale"
+ echo_commandant_decision:0 "Inspirational Leader / 10% Discipline"
+ echo_grand_captain_decision:0 "Grand Captain / 20% Morale"
+ 
+ echo_commandant_cooldown:0 "Inspirational Leader Cooldown"
+ echo_commandant_cooldown_tooltip:0 "Perhaps another time..."
+ 
+ echo_grand_captain_cooldown:0 "Grand Captain Cooldown"
+ echo_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
+ 
+ echo_armyreform_cooldown:0 "Let's not get ahead of ourselves..."
+ echo_armyreform_cooldowntooltip:0 "Perhaps another time..."
+ 
+ echo_grand_captain_cooldown_100:0 "Grand Captain Cooldown"
+ echo_commandant_cooldown_100:0 "Inspiration Leader Cooldown"
+ 
+ qolu_eur_colonists_title: "£explorer_16£ Colonial Ventures"
+ qolu_eur_colonists_desc: ""
+ qolu_afr_colonists_title: "explorer_16£ Colonial Ventures"
+ qolu_afr_colonists_desc: ""
+ qolu_asia_colonists_title: "£explorer_16£ Colonial Ventures"
+ qolu_asia_colonists_desc: ""
+ 
+ qolu_national_debt_title: "£icon_war_exhaustion£ Tackle National Debt"
+ qolu_national_debt_desc: ""
+ qolu_national_rebuilding_title: "£icon_war_exhaustion£ Commence the National Rebuilding"
+ qolu_national_rebuilding_desc: ""
+
+ edict_devastation_edict:0 "Reduce Devastation"
+ 
+ CRO_ideas:0 "Croatian Ideas"
+ zzz_cro_1:0 "Silver Printing"
+ zzz_cro_1_desc: ""
+ zzz_cro_2:0 "Bulwark against Islam"
+ zzz_cro_2_desc: ""
+ zzz_cro_3:0 "The Pandurs"
+ zzz_cro_3_desc: ""
+ zzz_cro_4:0 "Croat Purity"
+ zzz_cro_4_desc: ""
+ zzz_cro_5:0 "Jewel of the Adriatic"
+ zzz_cro_5_desc: ""
+ zzz_cro_6:0 "The Sabor"
+ zzz_cro_6_desc: ""
+ zzz_cro_7:0 "Hill Climbers"
+ zzz_cro_7_desc: ""

@@ -1,0 +1,37 @@
+milaccess = { # REQUEST MIL ACCESS
+	condition = {
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+	condition = {
+		allow = {
+			has_opinion = {
+				who = FROM
+				value = -200
+			}
+		}
+	}
+}
+offermilaccess = { # OFFER MIL ACCESS
+    condition = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+	condition = {
+		allow = {
+			has_opinion = {
+				who = FROM
+				value = -200
+			}
+		}
+	}
+}

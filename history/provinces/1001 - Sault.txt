@@ -1,0 +1,34 @@
+#1001 - Sault
+culture = anishinabe
+religion = totemism
+capital = "Sault"
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 6
+tribal_owner = MSG
+discovered_by = north_american
+1611.1.1 = { 
+	discovered_by = FRA
+	discovered_by = ENG
+}
+1668.1.1 = { 
+	controller = FRA
+	add_core = FRA
+	culture = cosmopolitan_french
+	religion = Catholic
+	capital = "Sault Ste. Marie"
+	city = yes
+}
+1707.5.12 = { discovered_by = GBR }
+1763.2.10 = { 
+	controller = GBR
+	add_core = GBR
+	religion = Protestant
+	culture = english
+	trade_goods = Fur
+}
+is_city = no

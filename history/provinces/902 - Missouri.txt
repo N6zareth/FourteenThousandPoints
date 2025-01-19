@@ -1,0 +1,37 @@
+#902 - Missouri
+culture = pawnee
+religion = totemism
+capital = "Missouri"
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 25
+native_ferocity = 2
+native_hostileness = 9
+discovered_by = north_american
+1684.1.1 = { discovered_by = FRA }
+1744.1.1 = { 
+	controller = FRA
+	add_core = FRA
+	culture = cosmopolitan_french
+	religion = Catholic
+	city = yes
+}
+1762.1.1 = { 
+	controller = SPA
+	add_core = SPA
+	trade_goods = Grain
+}
+1764.1.1 = { capital = "Saint Louis" }
+1800.10.1 = { 
+	controller = FRA
+	culture = cosmopolitan_french
+}
+1803.4.3 = { 
+	controller = USA
+	add_core = USA
+	culture = american
+	religion = Protestant
+}
+is_city = no

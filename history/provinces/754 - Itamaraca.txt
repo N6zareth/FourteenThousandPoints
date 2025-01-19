@@ -1,0 +1,36 @@
+#754 - Itamaraca
+culture = tupinamba
+discovered_by = south_american
+religion = animism
+capital = "Filipeia"
+trade_goods = unknown
+base_tax = 2
+base_production = 4
+base_manpower = 1
+native_size = 15
+native_ferocity = 1
+native_hostileness = 3
+1500.1.26 = { discovered_by = CAS }
+1500.4.23 = { discovered_by = POR }
+1516.1.23 = { discovered_by = SPA }
+1526.1.1 = { 
+	controller = POR
+	add_core = POR
+	culture = portugese
+	religion = Catholic
+	trade_goods = Sugar
+}
+1634.1.1 = { 
+	controller = NED
+	add_core = NED
+	capital = "Frederikstad"
+	culture = dutch
+	religion = Reformed
+}
+1654.1.1 = { 
+	controller = POR
+	capital = "Parahyba do Norte"
+	culture = portugese
+	religion = Catholic
+}
+is_city = no

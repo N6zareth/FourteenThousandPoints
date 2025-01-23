@@ -1,0 +1,238 @@
+namespace = nazy_norse
+
+#1. The Long and Tiring Days of [Ruler]
+country_event = {
+	id = nazy_norse.1
+	title = nazy_norse.1.title
+	desc = nazy_norse.1.desc
+	picture = ROYAL_STRESS_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = { #Nothing bad has ever happened on a hunting trip...
+		name = nazy_norse.a
+		country_event = { id = nazy_norse.2 }
+		set_country_flag = Nazy_Norse_Event_Chain
+		custom_tooltip = nazy_norse.1.tooltip # God save His/Her Majesty...?
+	}
+}
+
+#2. The Court of Sweden
+country_event = {
+	id = nazy_norse.2
+	title = nazy_norse.2.title
+	desc = nazy_norse.2.desc
+	picture = PANIC_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = { #The Absentee [Monarch Title] was correct in that regard...
+		name = nazy_norse.b
+		country_event = { id = nazy_norse.3 }
+		days = 14
+		custom_tooltip = nazy_norse.2.tooltip #Those little shits...
+	}
+}
+
+#3. The Absentee [Monarch Title]
+country_event = {
+	id = nazy_norse.3
+	title = nazy_norse.3.title
+	desc = nazy_norse.3.desc
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = { #
+		name = nazy_norse.c #The Heathen King...
+		country_event = { id = nazy_norse.4 }
+		custom_tooltip = nazy_norse.3.tooltip # Long Live the [Monarch...]
+	}
+
+	option = { #
+		name = nazy_norse.d #The Return to the old ways...
+		country_event = { id = nazy_norse.5 }
+		custom_tooltip = nazy_norse.3.tooltip # Long Live the [Monarch...]
+	}
+}
+
+#4. The [Monarch Title] is Dead, Long Live the King
+country_event = {
+	id = nazy_norse.4
+	title = nazy_norse.4.title
+	desc = nazy_norse.4.desc
+	picture = GERMAN_UNIFICATION_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = {
+		name = nazy_norse.e #Long may he Reign...
+		kill_ruler = yes
+		remove_advisor_by_category = MIL
+		add_stability = -1
+		add_estate_influence_modifier = {
+			estate = estate_church
+			desc = nazy_norse.church1
+			influence = 50
+			duration = 10950
+		}
+		add_estate_influence_modifier = {
+			estate = estate_nobles
+			desc = nazy_norse.nobles2
+			influence = 50
+			duration = 10950
+		}
+		add_papal_influence = 50
+		define_ruler = {
+			name = "Wither I"
+			dynasty = "Vasaborg"
+			adm = 3
+			dip = 2
+			mil = 2
+			age = 15
+			claim = 30
+		}
+		custom_tooltip = nazy_norse.4.tooltip #Gods Save the King...
+	}
+}
+
+#5. The Old Ways
+country_event = {
+	id = nazy_norse.5
+	title = nazy_norse.5.title
+	desc = nazy_norse.5.desc
+	picture = NORSE_TEMPLE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = {
+		name = nazy_norse.f #Hurra! The Heathen King!
+		country_event = { id = nazy_norse.6 }
+		custom_tooltip = nazy_norse.5.tooltip #Gods Save the King...
+	}
+}
+
+#6. The Army of Christ Uprising
+country_event = {
+	id = nazy_norse.6
+	title = nazy_norse.6.title
+	desc = nazy_norse.6.desc
+	picture = REVOLT_HUNGARIAN_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = { #Call the Banners...
+		name = nazy_norse.g
+		country_event = { id = nazy_norse.7 }
+		custom_tooltip = nazy_norse.6.tooltip #We may have been too hasty...
+	}
+}
+
+#7. Papal Emmissary
+country_event = {
+	id = nazy_norse.7
+	title = nazy_norse.7.title
+	desc = nazy_norse.7.desc
+	picture = PAY_POPE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = {
+		name = nazy_norse.h #The edicts of Rome hold no weight in [CapitalName]...
+		custom_tooltip = nazy_norse.7.tooltip #The Return of the Pagans...
+	}
+}
+
+#8 Norse Victory over Christianity
+country_event = {
+	id = nazy_norse.8
+	title = nazy_norse.8.title
+	desc = nazy_norse.8.desc
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = {
+		name = nazy_norse.i
+	}
+}
+
+#9. The Lion of the North
+ country_event = {
+	id = nazy_norse.9
+	title = nazy_norse.9.title
+	desc = nazy_norse.9.desc
+	picture = NORTH_SEA_MAPS_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	option = {
+		name = nazy_norse.j
+	}
+ }
+
+#10. The Return of the Pagans
+country_event = {
+	id = nazy_norse.10
+	title = nazy_norse.10.title
+	desc = nazy_norse.10.desc
+	picture = NORTH_SEA_MAPS_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		tag = SWE
+	}
+
+	tooltip = nazy_norse.10.tooltip #...Does Rome not remember what happened in Varna?
+	
+	option = {
+		name = nazy_norse.k #Yet Another Crusade...
+	}
+}

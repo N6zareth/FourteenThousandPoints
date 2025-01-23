@@ -27,13 +27,14 @@
  zzz_french_colonial_enthusiasm:0 "French Colonial Enthusiasm"
  zzz_french_colonial_enthusiasm_desc: "Our people are eager to settle in the new world and reap its endless bounties."
 
-
  economic_golden_age:0 "¤ Golden Age (Economic)"
  military_golden_age:0 "£infantry_icon_small£ Golden Age (Military)"
  
  qolu_2colonists:0 "£explorer_16£ Colonialism"
  qolu_national_rebuild:0 "£icon_war_exhaustion£ National Rebuilding"
  qolu_tackle_debt:0 "£icon_war_exhaustion£ Tackling National Debt"
+
+ nazy_wazy_norse_title: "£norse£ Return to the old ways"
  
  zzz_eco_golden_age_decisions_title: "¤ Economic Golden Age"
  zzz_eco_golden_age_decisions_desc: ""

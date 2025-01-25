@@ -3335,7 +3335,7 @@ dom_cas_missions_4_c = {
 		trigger = { 
 			custom_trigger_tooltip = {
 				tooltip = naz_castile_exploration_ideas
-				has_country_modifier = qolu_eur_colonists
+				has_country_modifier = qolu_2colonists
 			}
 		}
 	

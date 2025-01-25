@@ -29,7 +29,6 @@ qolu_tackle_debt = {
 }
 
 qolu_tackle_debt_cd = {
-
 }
 
 qolu_national_rebuild = {

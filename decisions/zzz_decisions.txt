@@ -1,4 +1,23 @@
 country_decisions = {
+	nazy_temp_norse = {
+		color = { 166 0 0 }
+		potential = {
+			ai = no
+			tag = SWE
+			NOT = { has_country_flag = nazy_temp_norse }
+		}
+
+		effect = {
+			ROOT = {
+				change_religion = norse_pagan_reformed
+				capital_scope = {
+					change_religion = norse_pagan_reformed
+				}
+			}
+			set_country_flag = nazy_temp_norse
+		}
+	}
+
 	gecko_court_recruitment = {
 		color = { 166 0 0 }
 		potential = {

@@ -1,5 +1,6 @@
 ﻿l_english:
  player_modifier:0 "£yes£ Player Nation"
+ nazy_temp_norse_title: "£theocrats_statists£ Return to the old ways"
  
  War_chest:0 "£tiny_loot_icon£ War Chest"
  War_chest_desc: "Obtained by being in a war with a year and a half of your income stored with no loans or corruption"
@@ -33,8 +34,6 @@
  qolu_2colonists:0 "£explorer_16£ Colonialism"
  qolu_national_rebuild:0 "£icon_war_exhaustion£ National Rebuilding"
  qolu_tackle_debt:0 "£icon_war_exhaustion£ Tackling National Debt"
-
- nazy_wazy_norse_title: "£norse£ Return to the old ways"
  
  zzz_eco_golden_age_decisions_title: "¤ Economic Golden Age"
  zzz_eco_golden_age_decisions_desc: ""

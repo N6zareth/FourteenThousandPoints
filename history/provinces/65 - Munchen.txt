@@ -1,7 +1,4 @@
 # 65 - M�nchen
-owner = UBV
-controller = UBV
-add_core = UBV
 culture = bavarian
 religion = catholic
 base_tax = 6 

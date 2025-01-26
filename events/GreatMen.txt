@@ -976,94 +976,94 @@ country_event = {
 
 
 # grand_captain
-country_event = {
-	id = 4114
-	title = "EVTNAME4114"
-	desc = "EVTDESC4114"
-	picture = ADVISOR_eventPicture	
+# country_event = {
+# 	id = 4114
+# 	title = "EVTNAME4114"
+# 	desc = "EVTDESC4114"
+# 	picture = ADVISOR_eventPicture	
 	
-	trigger = {
-		grand_captain = 3
-		NOT = { has_country_modifier = echo_grand_captain_cooldown }
-		NOT = { has_country_modifier = echo_grand_captain_cooldown_100 }
-	}
+# 	trigger = {
+# 		grand_captain = 3
+# 		NOT = { has_country_modifier = echo_grand_captain_cooldown }
+# 		NOT = { has_country_modifier = echo_grand_captain_cooldown_100 }
+# 	}
 	
-	mean_time_to_happen = {
-		months = 300
+# 	mean_time_to_happen = {
+# 		months = 300
 
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 4
-		}
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 6
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 4 }
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 2 }
-		}
-	}
+# 		modifier = {
+# 			factor = 0.9
+# 			innovativeness_ideas = 4
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			innovativeness_ideas = 6
+# 		}
+# 		modifier = {
+# 			factor = 1.1
+# 			NOT = { innovativeness_ideas = 4 }
+# 		}
+# 		modifier = {
+# 			factor = 1.1
+# 			NOT = { innovativeness_ideas = 2 }
+# 		}
+# 	}
 	
-	option = {
-		name = "echo_grand_captain_cooldown_tooltip"
-		ai_chance = { 
-			factor = 0
-		}
-		add_country_modifier = {
-			name = "echo_grand_captain_cooldown"
-			duration = 3650
-			hidden = yes
-		}
-	}
-	option = {
-		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				stability = 2
-			}
-		}
-		add_meritocracy_effect = yes
-		add_stability_or_adm_power = yes
-		add_country_modifier = {
-			name = "grand_captain_boost"
-			duration = 2190
-		}		
-		add_country_modifier = { 
-			name = echo_grand_captain_cooldown_100
-			duration = 36500
-			hidden = yes
-		}
-	}
+# 	option = {
+# 		name = "echo_grand_captain_cooldown_tooltip"
+# 		ai_chance = { 
+# 			factor = 0
+# 		}
+# 		add_country_modifier = {
+# 			name = "echo_grand_captain_cooldown"
+# 			duration = 3650
+# 			hidden = yes
+# 		}
+# 	}
+# 	option = {
+# 		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
+# 		ai_chance = {
+# 			factor = 50
+# 			modifier = {
+# 				factor = 0
+# 				stability = 2
+# 			}
+# 		}
+# 		add_meritocracy_effect = yes
+# 		add_stability_or_adm_power = yes
+# 		add_country_modifier = {
+# 			name = "grand_captain_boost"
+# 			duration = 2190
+# 		}		
+# 		add_country_modifier = { 
+# 			name = echo_grand_captain_cooldown_100
+# 			duration = 36500
+# 			hidden = yes
+# 		}
+# 	}
 
-	option = {
-		name = "EVTOPTB4114"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				NOT = { stability = 1 }
-			}
-		}
-		add_meritocracy_effect = yes
-		add_prestige_or_monarch_power = { amount = 50 }
-		add_country_modifier = {
-			name = "grand_captain_boost"
-			duration = 2190
-		}
-		add_country_modifier = { 
-			name = echo_grand_captain_cooldown_100
-			duration = 36500
-			hidden = yes
-		}
-	}
-}
+# 	option = {
+# 		name = "EVTOPTB4114"	# His reputation will reach further than our borders
+# 		ai_chance = {
+# 			factor = 50
+# 			modifier = {
+# 				factor = 0
+# 				NOT = { stability = 1 }
+# 			}
+# 		}
+# 		add_meritocracy_effect = yes
+# 		add_prestige_or_monarch_power = { amount = 50 }
+# 		add_country_modifier = {
+# 			name = "grand_captain_boost"
+# 			duration = 2190
+# 		}
+# 		add_country_modifier = { 
+# 			name = echo_grand_captain_cooldown_100
+# 			duration = 36500
+# 			hidden = yes
+# 		}
+# 	}
+# }
 
 
 # army_organiser
@@ -1137,96 +1137,96 @@ country_event = {
 }
 
 
-# commandant
-country_event = {
-	id = 4116
-	title = "EVTNAME4116"
-	desc = "EVTDESC4116"
-	picture = ADVISOR_eventPicture
+# # commandant
+# country_event = {
+# 	id = 4116
+# 	title = "EVTNAME4116"
+# 	desc = "EVTDESC4116"
+# 	picture = ADVISOR_eventPicture
 	
-	trigger = {
-		commandant = 3
-		NOT = { has_country_modifier = echo_commandant_cooldown }
-		NOT = { has_country_modifier = echo_commandant_cooldown_100 }
-	}
+# 	trigger = {
+# 		commandant = 3
+# 		NOT = { has_country_modifier = echo_commandant_cooldown }
+# 		NOT = { has_country_modifier = echo_commandant_cooldown_100 }
+# 	}
 	
-	mean_time_to_happen = {
-		months = 300
+# 	mean_time_to_happen = {
+# 		months = 300
 		
 		
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 4
-		}
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 6
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 4 }
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 2 }
-		}
-	}
+# 		modifier = {
+# 			factor = 0.9
+# 			innovativeness_ideas = 4
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			innovativeness_ideas = 6
+# 		}
+# 		modifier = {
+# 			factor = 1.1
+# 			NOT = { innovativeness_ideas = 4 }
+# 		}
+# 		modifier = {
+# 			factor = 1.1
+# 			NOT = { innovativeness_ideas = 2 }
+# 		}
+# 	}
 	
-	option = {
-		name = "echo_commandant_cooldown_tooltip"	
-		ai_chance = {
-			factor = 0
-		}
-		add_country_modifier = {
-			name = echo_commandant_cooldown
-			duration = 3650
-			hidden = yes
-		}
-	}
-	option = {
-		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				stability = 2
-			}
-		}
-		add_meritocracy_effect = yes
-		add_stability_or_adm_power = yes
-		add_country_modifier = {
-			name = "commandant_boost"
-			duration = 2190
-		}		
-		add_country_modifier = {
-			name = echo_commandant_cooldown_100
-			duration = 36500
-			hidden = yes
-		}
-	}
+# 	option = {
+# 		name = "echo_commandant_cooldown_tooltip"	
+# 		ai_chance = {
+# 			factor = 0
+# 		}
+# 		add_country_modifier = {
+# 			name = echo_commandant_cooldown
+# 			duration = 3650
+# 			hidden = yes
+# 		}
+# 	}
+# 	option = {
+# 		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
+# 		ai_chance = {
+# 			factor = 50
+# 			modifier = {
+# 				factor = 0
+# 				stability = 2
+# 			}
+# 		}
+# 		add_meritocracy_effect = yes
+# 		add_stability_or_adm_power = yes
+# 		add_country_modifier = {
+# 			name = "commandant_boost"
+# 			duration = 2190
+# 		}		
+# 		add_country_modifier = {
+# 			name = echo_commandant_cooldown_100
+# 			duration = 36500
+# 			hidden = yes
+# 		}
+# 	}
 
-	option = {
-		name = "EVTOPTB4116"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				NOT = { stability = 1 }
-			}
-		}
-		add_meritocracy_effect = yes
-		add_prestige_or_monarch_power = { amount = 50 }
-		add_country_modifier = {
-			name = "commandant_boost"
-			duration = 2190
-		}
-		add_country_modifier = { 
-			name = echo_commandant_cooldown_100
-			duration = 36500
-			hidden = yes
-		}
-	}
-}
+# 	option = {
+# 		name = "EVTOPTB4116"	# His reputation will reach further than our borders
+# 		ai_chance = {
+# 			factor = 50
+# 			modifier = {
+# 				factor = 0
+# 				NOT = { stability = 1 }
+# 			}
+# 		}
+# 		add_meritocracy_effect = yes
+# 		add_prestige_or_monarch_power = { amount = 50 }
+# 		add_country_modifier = {
+# 			name = "commandant_boost"
+# 			duration = 2190
+# 		}
+# 		add_country_modifier = { 
+# 			name = echo_commandant_cooldown_100
+# 			duration = 36500
+# 			hidden = yes
+# 		}
+# 	}
+# }
 
 
 # Quartermaster
@@ -1300,75 +1300,75 @@ country_event = {
 }
 
 
-# Recruitmaster
-country_event = {
-	id = 4118
-	title = "EVTNAME4118"
-	desc = "EVTDESC4118"
-	picture = ADVISOR_eventPicture	
+# # Recruitmaster
+# country_event = {
+# 	id = 4118
+# 	title = "EVTNAME4118"
+# 	desc = "EVTDESC4118"
+# 	picture = ADVISOR_eventPicture	
 	
-	trigger = {
-		recruitmaster = 3
-		NOT = { has_country_flag = recruitmaster }
-	}
+# 	trigger = {
+# 		recruitmaster = 3
+# 		NOT = { has_country_flag = recruitmaster }
+# 	}
 	
-	mean_time_to_happen = {
-		months = 300
+# 	mean_time_to_happen = {
+# 		months = 300
 		
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 4
-		}
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 6
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 4 }
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 2 }
-		}
-	}
+# 		modifier = {
+# 			factor = 0.9
+# 			innovativeness_ideas = 4
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			innovativeness_ideas = 6
+# 		}
+# 		modifier = {
+# 			factor = 1.1
+# 			NOT = { innovativeness_ideas = 4 }
+# 		}
+# 		modifier = {
+# 			factor = 1.1
+# 			NOT = { innovativeness_ideas = 2 }
+# 		}
+# 	}
 	
-	option = {
-		name = "EVTOPTA4118"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				stability = 2
-			}
-		}
-		add_meritocracy_effect = yes
-		add_stability_or_adm_power = yes
-		add_country_modifier = {
-			name = "recruitmaster_boost"
-			duration = 2190
-		}		
-		set_country_flag = recruitmaster
-	}
+# 	option = {
+# 		name = "EVTOPTA4118"	# His efforts will be admired throughout the nation
+# 		ai_chance = {
+# 			factor = 50
+# 			modifier = {
+# 				factor = 0
+# 				stability = 2
+# 			}
+# 		}
+# 		add_meritocracy_effect = yes
+# 		add_stability_or_adm_power = yes
+# 		add_country_modifier = {
+# 			name = "recruitmaster_boost"
+# 			duration = 2190
+# 		}		
+# 		set_country_flag = recruitmaster
+# 	}
 		
-	option = {
-		name = "EVTOPTB4118"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				NOT = { stability = 1 }
-			}
-		}
-		add_meritocracy_effect = yes
-		add_prestige = 50
-		add_country_modifier = {
-			name = "recruitmaster_boost"
-			duration = 2190
-		}
-		set_country_flag = recruitmaster
-	}
-}
+# 	option = {
+# 		name = "EVTOPTB4118"	# His reputation will reach further than our borders
+# 		ai_chance = {
+# 			factor = 50
+# 			modifier = {
+# 				factor = 0
+# 				NOT = { stability = 1 }
+# 			}
+# 		}
+# 		add_meritocracy_effect = yes
+# 		add_prestige = 50
+# 		add_country_modifier = {
+# 			name = "recruitmaster_boost"
+# 			duration = 2190
+# 		}
+# 		set_country_flag = recruitmaster
+# 	}
+# }
 
 
 # Fortification Expert

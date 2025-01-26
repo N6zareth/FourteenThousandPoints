@@ -1,8 +1,5 @@
 #64 - Straubing
 
-owner = UBV
-controller = UBV
-add_core = UBV
 culture = bavarian
 religion = catholic
 base_tax = 3 

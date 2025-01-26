@@ -1,0 +1,176 @@
+namespace = nazy_greatmen
+
+country_event = { # Discipline, Commandant
+	id = nazy_greatmen.1
+	title = nazy_greatmen.1.title 
+	desc = nazy_greatmen.1.desc
+	picture = REFORM_eventPicture
+
+	trigger = {
+		commandant = 3
+		OR = {
+			NOT = { has_country_modifier = nazy_discipline_event }
+			NOT = { has_country_modifier = nazy_discipline_timer }
+			NOT = { has_country_modifier = nazy_discipline_no }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = { # Yes
+		name = nazy_greatmen.b
+		add_country_modifier = {
+			name = "nazy_discipline_event"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "nazy_discipline_timer"
+			duration = -1
+		}
+	}
+
+	option = { # No
+		name = nazy_greatmen.a
+		add_country_modifier = {
+			name = "nazy_discipline_no"
+			duration = 10950
+		}
+	}
+}
+
+country_event = { # Morale, Grand Captain
+	id = nazy_greatmen.2
+	title = nazy_greatmen.2.title
+	desc = nazy_greatmen.2.desc
+	picture = REFORM_eventPicture
+
+	trigger = {
+		grand_captain = 3
+		OR = {
+			NOT = { has_country_modifier = nazy_morale_event }
+			NOT = { has_country_modifier = nazy_morale_timer }
+			NOT = { has_country_modifier = nazy_morale_no }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = { # Yes
+		name = nazy_greatmen.b
+		add_country_modifier = {
+			name = "nazy_morale_event"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "nazy_morale_timer"
+			duration = -1
+		}
+	}
+
+	option = { # No
+		name = nazy_greatmen.a
+		add_country_modifier = {
+			name = "nazy_morale_no"
+			duration = 10950
+		}
+	}
+}
+
+country_event = { # Manpower, Recruitmaster
+	id = nazy_greatmen.3
+	title = nazy_greatmen.3.title
+	desc = nazy_greatmen.3.title
+	picture = REFORM_eventPicture
+
+	trigger = {
+		recruitmaster = 3
+		OR = {
+			NOT = { has_country_modifier = nazy_manpower_event }
+			NOT = { has_country_modifier = nazy_manpower_timer }
+			NOT = { has_country_modifier = nazy_manpower_no }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = { # Yes
+		name = nazy_greatmen.b
+		add_country_modifier = {
+			name = "nazy_manpower_event"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "nazy_manpower_timer"
+			duration = -1
+		}
+	}
+
+	option = { # No
+		name = nazy_greatmen.a
+		add_country_modifier = {
+			name = "nazy_manpower_no"
+			duration = 10950
+		}
+	}
+}
+
+country_event = { # Military Reforms
+	id = nazy_greatmen.4
+	title = nazy_greatmen.4.title
+	desc = nazy_greatmen.4.desc
+	picture = REFORM_eventPicture
+
+	trigger = {
+		dip = 5
+		mil = 5
+		is_year = 1500
+		OR = {
+			NOT = { has_country_flag = nazy_mil_reforms }
+			NOT = { has_country_flag = nazy_navy_reforms }
+			NOT = { has_country_modifier = nazy_reforms_timer }
+			NOT = { has_country_flag = nazy_reforms_no }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = { # Just the Army
+		name = nazy_greatmen.c
+		add_country_modifier = {
+			name = "nazy_mil_reforms"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "nazy_reforms_timer"
+			duration = -1
+		}
+	}
+
+	option = { # Just the Navy
+		name = nazy_greatmen.d
+		add_country_modifier = {
+			name = "nazy_navy_reforms"
+			duration = 3650
+		}
+		add_country_modifier = {
+			name = "nazy_reforms_timer"
+			duration = -1
+		}
+	}
+
+	option = { # No
+		name = nazy_greatmen.a
+		add_country_modifier = {
+			name = "nazy_reforms_no"
+			duration = 10950
+		}
+	}
+}

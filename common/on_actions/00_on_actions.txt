@@ -5865,6 +5865,32 @@ on_new_age = {
 		}
 		remove_country_modifier = eng_longbowmen 
 	}
+
+	#Nazy Greatmen
+	if = {
+		limit = {
+			has_country_modifier = nazy_discipline_timer
+		}
+		remove_country_modifier = nazy_discipline_timer
+	}
+	if = {
+		limit = {
+			has_country_modifier = nazy_morale_timer
+		}
+		remove_country_modifier = nazy_morale_timer
+	}
+	if = {
+		limit = {
+			has_country_modifier = nazy_manpower_timer
+		}
+		remove_country_modifier = nazy_manpower_timer
+	}
+	if = {
+		limit = {
+			has_country_modifier = nazy_reforms_timer
+		}
+		remove_country_modifier = nazy_reforms_timer
+	}
 }
 
 #ROOT = province

@@ -235,39 +235,6 @@ qolu_national_debt = {
 			}
 		}
 	}
-
-	echo_critical_events = {
-		color = { 166  0  0 }
-		potential = {
-			ai = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		allow = {
-			custom_trigger_tooltip = {
-				tooltip = echo_radical_reform_decision
-				NOT = { has_country_flag = radical_mercantilist_reforms }
-			}
-			custom_trigger_tooltip = {
-				tooltip = echo_military_reform_decision
-				NOT = { has_country_flag = military_reform }
-			}
-			custom_trigger_tooltip = {
-				tooltip = echo_commandant_decision
-				NOT = { has_country_modifier = echo_commandant_cooldown }
-				NOT = { has_country_modifier = echo_commandant_cooldown_100 }
-			}
-			custom_trigger_tooltip = {
-				tooltip = echo_grand_captain_decision
-				NOT = { has_country_modifier = echo_grand_captain_cooldown }
-				NOT = { has_country_modifier = echo_grand_captain_cooldown_100 }
-			}
-			always = no
-		}
-		effect = {
-		}
-	}
 	
 	zzz_wool_cloth = {
 		color = { 166  0  0 }
@@ -328,6 +295,41 @@ qolu_national_debt = {
 		}
 		ai_will_do = {
 			factor = 0
+		}
+	}
+
+
+
+
+
+
+
+	naz_greatmen_events = {
+		color = { 166 0 0 }
+		potential = { ai = no}
+
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_discipline_tt
+				NOT = { has_country_flag = nazy_discipline_timer }
+			}
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_morale_tt
+				NOT = { has_country_flag = nazy_morale_timer }
+			}
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_reforms_tt
+				NOT = { has_country_flag = nazy_reforms_timer }
+			}
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_manpower_tt
+				NOT = { has_country_flag = nazy_manpower_timer }
+			}
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_radical_reforms
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			always = no
 		}
 	}
 }

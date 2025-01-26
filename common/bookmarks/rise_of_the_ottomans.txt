@@ -8,7 +8,4 @@ bookmark =
 	default = yes
 	
 	country = ENG
-
-	easy_country = ENG
-
 }

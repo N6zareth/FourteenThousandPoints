@@ -51,26 +51,6 @@
  development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §B[Root.dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §R[Root.mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §W[Root.total_dev_counter.GetValue]§!"
  development_counter_tt_updater:0 "Add §YDevelopment Improvement Counter§!".
  
- echo_critical_events_title:0 "£icon_sue_for_peace£ Available Military Events"
- echo_critical_events_desc:0 ""
-
- echo_radical_reform_decision:0 "Radical Reforms / 200 Admin and Diplomatic power"
- echo_military_reform_decision:0 "Military Reforms / 20% Morale"
- echo_commandant_decision:0 "Inspirational Leader / 10% Discipline"
- echo_grand_captain_decision:0 "Grand Captain / 20% Morale"
- 
- echo_commandant_cooldown:0 "Inspirational Leader Cooldown"
- echo_commandant_cooldown_tooltip:0 "Perhaps another time..."
- 
- echo_grand_captain_cooldown:0 "Grand Captain Cooldown"
- echo_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
- 
- echo_armyreform_cooldown:0 "Let's not get ahead of ourselves..."
- echo_armyreform_cooldowntooltip:0 "Perhaps another time..."
- 
- echo_grand_captain_cooldown_100:0 "Grand Captain Cooldown"
- echo_commandant_cooldown_100:0 "Inspiration Leader Cooldown"
- 
  qolu_eur_colonists_title: "£explorer_16£ Colonial Ventures"
  qolu_eur_colonists_desc: ""
  qolu_afr_colonists_title: "explorer_16£ Colonial Ventures"
@@ -100,3 +80,16 @@
  zzz_cro_6_desc: ""
  zzz_cro_7:0 "Hill Climbers"
  zzz_cro_7_desc: ""
+
+ naz_greatmen_events_title: "£icon_sue_for_peace£ Remaining Greatmen events"
+ 
+ nazy_greatmen_discipline_tt:0 "+10% Discipline"
+ nazy_greatmen_morale_tt:0 "+20% Army Morale"
+ nazy_greatmen_manpower_tt:0 "+20% Manpower"
+ nazy_greatmen_reforms_tt:0 "+20% Army Morale / +20% Navy Morale"
+ nazy_greatmen_radical_reforms:0 "200 Admin and Diplo"
+ 
+ nazy_greatmen.b:0 "[ROOT.GetName] is truly the spoiled child of victory..."
+ nazy_greatmen.a:0 "Perhaps another time..."
+ nazy_greatmen.c:0 "Reform the army"
+ nazy_greatmen.d:0 "Reform the navy"

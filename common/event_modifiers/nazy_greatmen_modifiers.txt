@@ -1,0 +1,42 @@
+nazy_discipline_event = {
+	discipline = 0.1
+}
+
+nazy_morale_event = {
+	land_morale = 0.2
+}
+
+nazy_manpower_event = {
+	global_manpower_modifier = 0.2
+}
+
+nazy_mil_reforms = {
+	land_morale = 0.2
+	mil_tech_cost_modifier = -0.1
+}
+
+nazy_navy_reforms = {
+	naval_morale = 0.2
+	dip_tech_cost_modifier = -0.1
+}
+
+
+
+
+nazy_discipline_timer = {
+}
+nazy_morale_timer = {
+}
+nazy_manpower_timer = {
+}
+nazy_reforms_timer = {
+}
+
+nazy_discipline_no = {
+}
+nazy_morale_no = {
+}
+nazy_manpower_no = {
+}
+nazy_reforms_no = {
+}

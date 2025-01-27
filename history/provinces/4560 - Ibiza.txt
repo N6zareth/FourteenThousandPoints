@@ -1,7 +1,6 @@
 #Ibiza
-owner = MJO# Alfons V of Aragon
-controller = MJO
-add_core = MJO
+owner = ARA# Alfons V of Aragon
+controller = ARA
 culture = catalan
 religion = catholic
 base_tax = 1
@@ -24,3 +23,4 @@ discovered_by = ottoman
 1713.4.11 = { controller = REB revolt = { type = revolutionary_rebels size = 1 } }
 1713.7.13 = { revolt = { size = 1 } }
 1714.9.14 = { controller = SPA }
+add_core = ARA

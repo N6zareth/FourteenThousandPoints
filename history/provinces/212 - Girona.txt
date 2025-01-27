@@ -11,13 +11,11 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-1444.1.1 = {
-	owner = CAT
-	controller = CAT
-	add_core = CAT
+1444.1.1 = { 
+	owner = ARA
+	controller = ARA
+	add_core = ARA
 }
-
 1412.6.29 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1413.1.1 = { controller = REB revolt = { size = 1 } }
 1413.8.31 = { controller = ARA revolt = { size = 1 } }
@@ -45,3 +43,9 @@ discovered_by = ottoman
 1753.1.1 = { fort_17th = no fort_18th = yes }
 1813.8.31 = { controller = REB revolt = { type = pretender_rebels size = 1 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
+add_core = CAT
+1444.11.11 = { 
+	remove_core = CAT
+}
+owner = ARA
+controller = ARA

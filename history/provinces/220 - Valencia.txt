@@ -1,7 +1,6 @@
 #220 - València
-owner = VAL#Alfons V of Aragon
-controller = VAL
-add_core = VAL
+owner = ARA#Alfons V of Aragon
+controller = ARA
 culture = catalan
 religion = catholic
 base_tax = 6
@@ -28,4 +27,5 @@ center_of_trade = 2
 1812.1.1 = { controller = SPA revolt = { size = 1 } }
 1813.3.19 = { controller = REB revolt = { type = pretender_rebels size = 2 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
+add_core = ARA
 fort_15th = yes

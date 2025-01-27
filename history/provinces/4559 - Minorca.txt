@@ -1,7 +1,6 @@
 #Minorca
-owner = MJO# Alfons V of Aragon
-controller = MJO
-add_core = MJO
+owner = ARA# Alfons V of Aragon
+controller = ARA
 culture = catalan
 religion = catholic
 base_tax = 1
@@ -22,3 +21,4 @@ discovered_by = ottoman
 1523.3.8 = { controller = SPA revolt = { size = 1 } }
 1713.1.1 = { controller = GBR add_core = GBR }
 1782.1.1 = { controller = SPA }
+add_core = ARA

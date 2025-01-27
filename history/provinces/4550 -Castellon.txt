@@ -1,7 +1,6 @@
 #1750 - Castellon
-owner = VAL#Martí I of Aragon
-controller = VAL
-add_core = VAL
+owner = ARA#Martí I of Aragon
+controller = ARA
 culture = catalan
 religion = catholic
 base_tax = 4
@@ -24,3 +23,4 @@ discovered_by = ottoman
 1812.1.1 = { controller = SPA revolt = { size = 1 } }
 1813.3.19 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
+add_core = ARA

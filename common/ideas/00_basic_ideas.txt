@@ -980,8 +980,8 @@ quality_ideas = {
 	naval_drill = {
 		naval_morale = 0.10
 	}
-	copper_bottoms = {
-		naval_attrition = -0.25
+	nazy_army_flexibility = {
+		free_land_leader_pool = 3
 	}
 	massed_battery = {
 		artillery_power = 0.1

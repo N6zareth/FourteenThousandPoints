@@ -1,0 +1,32 @@
+#2406 - Ingil
+culture = crimean
+religion = sunni
+base_tax = 1
+base_production = 1
+trade_goods = wine
+base_manpower = 1
+capital = "Kyzy-Kermen"
+is_city = yes
+add_local_autonomy = 25
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+
+1444.1.1 = {
+	owner = VOL
+	controller = VOL
+	add_core = VOL
+}
+
+1569.7.1 = { 
+	controller = PLC
+	add_core = PLC
+}
+1570.1.1 = { controller = ZAZ culture = ruthenian religion = Orthodox }
+1764.1.1 = { controller = RUS add_core = RUS }
+add_core = LIT
+1444.11.11 = { 
+	remove_core = LIT
+}

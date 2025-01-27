@@ -311,25 +311,28 @@ qolu_national_debt = {
 		allow = {
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_discipline_tt
-				NOT = { has_country_flag = nazy_discipline_timer }
+				NOT = { has_country_modifier = nazy_discipline_timer }
 			}
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_morale_tt
-				NOT = { has_country_flag = nazy_morale_timer }
+				NOT = { has_country_modifier = nazy_morale_timer }
 			}
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_reforms_tt
-				NOT = { has_country_flag = nazy_reforms_timer }
+				NOT = { has_country_modifier = nazy_reforms_timer }
 			}
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_manpower_tt
-				NOT = { has_country_flag = nazy_manpower_timer }
+				NOT = { has_country_modifier = nazy_manpower_timer }
 			}
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_radical_reforms
 				NOT = { has_country_flag = radical_mercantilist_reforms }
 			}
-			always = no
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_decisions_desc
+				always = no
+			}
 		}
 	}
 }

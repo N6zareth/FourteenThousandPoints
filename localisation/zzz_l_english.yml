@@ -81,15 +81,5 @@
  zzz_cro_7:0 "Hill Climbers"
  zzz_cro_7_desc: ""
 
- naz_greatmen_events_title: "£icon_sue_for_peace£ Remaining Greatmen events"
- 
- nazy_greatmen_discipline_tt:0 "+10% Discipline"
- nazy_greatmen_morale_tt:0 "+20% Army Morale"
- nazy_greatmen_manpower_tt:0 "+20% Manpower"
- nazy_greatmen_reforms_tt:0 "+20% Army Morale / +20% Navy Morale"
- nazy_greatmen_radical_reforms:0 "200 Admin and Diplo"
- 
- nazy_greatmen.b:0 "[ROOT.GetName] is truly the spoiled child of victory..."
- nazy_greatmen.a:0 "Perhaps another time..."
- nazy_greatmen.c:0 "Reform the army"
- nazy_greatmen.d:0 "Reform the navy"
+ nazy_army_flexibility:0 "Army Flexibility"
+ nazy_army_flexibility_desc:0 ""

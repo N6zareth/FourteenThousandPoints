@@ -1,0 +1,36 @@
+﻿l_english:
+
+ naz_greatmen_events_title: "£icon_sue_for_peace£ Remaining Critical Events"
+ 
+ nazy_greatmen_discipline_tt:0 "Discipline Event"
+ nazy_greatmen_morale_tt:0 "Morale Event"
+ nazy_greatmen_manpower_tt:0 "Manpower Event"
+ nazy_greatmen_reforms_tt:0 "Military Reforms"
+ nazy_greatmen_radical_reforms:0 "Radical Reforms"
+ nazy_greatmen_decisions_desc:0 "IMPORTANT - You may reroll for these events again (except for Radical Reforms) during the next age."
+
+ nazy_discipline_event:0 "Discipline Event"
+ nazy_morale_event:0 "Morale Event"
+ nazy_manpower_event:0 "Manpower Event"
+ nazy_mil_reforms:0 "Army Reforms"
+ nazy_navy_reforms:0 "Navy Reforms"
+ 
+ nazy_greatmen.b:0 "$COUNTRY$ is truly the spoiled child of victory..."
+ nazy_greatmen.a:0 "Perhaps another time..."
+ nazy_greatmen.c:0 "Reform the army"
+ nazy_greatmen.d:0 "Reform the navy"
+
+
+ #Discipline Event
+ nazy_greatmen.1.title: "Discipline Event"
+ nazy_greatmen.1.desc: ""Everything would go very well if the soldiers did not abandon themselves to pillage.\nNot a day passes without some looters being shot. Despite this severity, the mania doesn't stop; The rural folk are arming themselves..."\n\n- Barthélemy Joubert, Brigadier General, 3rd Division"
+ 
+ nazy_greatmen.2.title: "Morale Event"
+ nazy_greatmen.2.desc: ""What soldier could fail to admire the gallant old Wurmser? Never depressed by defeat, who, having been hunted from the Brenta to Mantua, now stood in front of the garrison, determined to cut his way back...\n\n- Ramsay Weston Phipps, Colonel of the Royal Artillery""
+
+ nazy_greatmen.3.title: "Manpower Event"
+ nazy_greatmen.3.desc: ""We may be on the verge of losing Italy. None of the expected help has arrived... The Army of Italy, reduced to a handful of men, is worn out... The heroes of Lodi, Millesimo, Castiglione and Bessano have died for their country or are in the hospitals. The men have nothing left but their reputation and their pride... We are abandoned in the depths of Italy!"\n\n— Napoléon Buonaparte, Commander of the Army of Italy"
+ 
+ nazy_greatmen.4.title: "Military Reforms"
+ nazy_greatmen.4.desc: ""What a career Napoleon has ruined! Having gained so much glory, he could have bestowed peace upon Europe, but he has not done so. We are no longer the same rabble he had fought at Austerlitz. The spell is broken."\n\n- Aleksandr Pavlovich, Emperor and Autocrat of all Russia"
+ 

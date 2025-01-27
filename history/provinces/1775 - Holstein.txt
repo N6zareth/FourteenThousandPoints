@@ -5,7 +5,6 @@ controller = SHL
 add_core = SHL
 culture = lower_saxon
 religion = catholic
-hre = yes
 base_tax = 4
 base_production = 4
 trade_goods = livestock

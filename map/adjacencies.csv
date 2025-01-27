@@ -7,13 +7,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 341;4736;sea;1302;-1;-1;-1;-1;Italy-Tunis
 122;4174;sea;1310;-1;-1;-1;-1;Italy-Albania
 
+4621;492;sea;1526;-1;-1;-1;-1;Hispanola-Puerto Rico
+493;492;sea;1526;-1;-1;-1;-1;Puerto Rico-Lesser Antilles
+
+
+493;1881;sea;1523;-1;-1;-1;-1;LA1
+1881;494;sea;1523;-1;-1;-1;-1;LA2
+496;497;sea;1523;-1;-1;-1;-1;LA3
+501;500;sea;1522;-1;-1;-1;-1;LA4
+
 247;4365;sea;1284;-1;-1;-1;-1;Mann
 4365;373;sea;1284;-1;-1;-1;-1;Dublin
 319;320;sea;1932;-1;-1;-1;-1;Rhodes
 145;163;sea;1319;-1;-1;-1;-1;Crete
 163;320;sea;1319;-1;-1;-1;-1;Crete2
 2536;4622;sea;1505;-1;-1;-1;-1;Florida
-486;488;sea;1516;-1;-1;-1;-1;Hispanola
+486;489;sea;1516;-1;-1;-1;-1;Hispanola
 482;2536;sea;1503;-1;-1;-1;-1;Bahama
 483;482;sea;1503;-1;-1;-1;-1;Turks
 2654;483;sea;1524;-1;-1;-1;-1;Turks2

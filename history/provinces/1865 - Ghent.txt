@@ -1,8 +1,6 @@
 # 1865 - Ghent
 
-owner = FLA
-controller = FLA
-add_core = FLA
+
 is_city = yes
 capital = "Ghent"
 culture = flemish

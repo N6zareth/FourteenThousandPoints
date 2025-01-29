@@ -1622,8 +1622,7 @@ PRU_ideas = {
 		global_regiment_recruit_speed = -0.10
 	}
 	religious_toleration = {
-		development_cost = -0.05
-		tolerance_heretic = 1
+		development_cost = -0.1
 	}
 }
 
@@ -5120,7 +5119,7 @@ CRO_ideas = {
 		tolerance_own = 1
 	}
 	the_sabor = {
-		governing_cost = -0.1
+		core_creation = -0.1
 	}
 	croatian_renaissance = {
 		adm_tech_cost_modifier = -0.1
@@ -8145,7 +8144,7 @@ SHL_ideas = {
 HES_ideas = {
 	start = {
 		global_tax_modifier = 0.1
-		diplomatic_reputation = 1
+		discipline = 0.05
 	}
 	bonus = {
 		merc_maintenance_modifier = -0.15
@@ -8156,6 +8155,9 @@ HES_ideas = {
 	
 	free = yes
 	
+	hessian_mercenaries_idea = {
+		land_forcelimit_modifier = 0.25
+	}
 	break_the_hessian_estates = {
 		stability_cost_modifier = -0.1
 	}
@@ -8170,10 +8172,7 @@ HES_ideas = {
 		development_cost = -0.1
 	}
 	modernization_of_the_hessian_army = {
-		discipline = 0.05
-	}
-	hessian_mercenaries_idea = {
-		land_forcelimit_modifier = 0.25
+		diplomatic_reputation = 1
 	}
 	hessian_economic_reforms = {
 		production_efficiency = 0.1
@@ -16463,8 +16462,7 @@ WES_ideas = {
 		idea_cost = -0.1
 	}
 	wes_westphalian_decentralisation  = {
-		state_maintenance_modifier = -0.1
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	wes_increased_conscription = {
 		global_manpower_modifier = 0.20
@@ -16477,8 +16475,7 @@ WES_ideas = {
 		global_tax_modifier = 0.1
 	}
 	wes_enlightenment = {
-		tolerance_heretic = 1
-		tolerance_heathen = 1
+		fire_damage = 0.1
 	}
 	wes_cities_of_the_rhineland = {
 		global_prov_trade_power_modifier = 0.15

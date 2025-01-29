@@ -301,6 +301,8 @@ age_of_reformation = {
 				religion = reformed
 				religion = anglican
 				religion = hussite
+				religion = jewish
+				religion = norse_pagan_reformed
 			}
 		}
 		

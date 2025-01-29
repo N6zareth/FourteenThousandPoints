@@ -1,6 +1,8 @@
 ﻿l_english:
  player_modifier:0 "£yes£ Player Nation"
  nazy_temp_norse_title: "£theocrats_statists£ Return to the old ways"
+ nazy_temp_norse_modifier:0 "Religious Zeal"
+ nazy_jewish_decision_title: "Convert to Judaism"
  
  War_chest:0 "£tiny_loot_icon£ War Chest"
  War_chest_desc: "Obtained by being in a war with a year and a half of your income stored with no loans or corruption"

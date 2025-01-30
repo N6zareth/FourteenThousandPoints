@@ -1,8 +1,6 @@
 #935 - Cherokee
-culture = yuchi
-religion = totemism
 capital = "Cherokee"
-trade_goods = naval_supplies
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

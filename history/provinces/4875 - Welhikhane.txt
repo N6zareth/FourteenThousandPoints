@@ -1,6 +1,4 @@
 # No previous file for Welhikhane
-culture = iroquois
-religion = totemism
 capital = "Welhikane"
 trade_goods = unknown
 base_tax = 3

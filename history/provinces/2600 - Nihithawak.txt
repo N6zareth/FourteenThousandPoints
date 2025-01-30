@@ -1,6 +1,4 @@
 # No previous file for Nihithawak
-culture = chipewyan
-religion = totemism
 capital = "Nihithawak"
 trade_goods = unknown
 base_tax = 1

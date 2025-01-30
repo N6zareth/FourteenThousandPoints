@@ -1,6 +1,4 @@
 # No previous file for Tapouaro
-culture = illini
-religion = totemism
 capital = "Tapouaro"
 trade_goods = unknown
 base_tax = 3

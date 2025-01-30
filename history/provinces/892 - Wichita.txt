@@ -1,6 +1,4 @@
 #892 - Wichita
-culture = wichita
-religion = totemism
 capital = "Wichita"
 trade_goods = unknown
 base_tax = 1

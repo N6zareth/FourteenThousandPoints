@@ -1,6 +1,4 @@
 # No previous file for Michigamea
-culture = illini
-religion = totemism
 capital = "Michigamea"
 trade_goods = unknown
 base_tax = 1

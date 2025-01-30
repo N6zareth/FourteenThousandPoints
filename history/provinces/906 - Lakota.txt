@@ -1,6 +1,4 @@
 #906 - Lakota
-culture = dakota
-religion = totemism
 capital = "Lakota"
 trade_goods = unknown
 base_tax = 1

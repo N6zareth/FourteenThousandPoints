@@ -1,6 +1,4 @@
 # No previous file for Noquet
-culture = anishinabe
-religion = totemism
 capital = "Noquet"
 trade_goods = unknown
 base_tax = 1

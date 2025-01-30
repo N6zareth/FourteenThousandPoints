@@ -1,8 +1,6 @@
 # No previous file for Choinumni
-culture = yokuts
-religion = totemism
 capital = "Choinumni"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

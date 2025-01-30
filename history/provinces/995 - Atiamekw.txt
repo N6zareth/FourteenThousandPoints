@@ -1,6 +1,4 @@
 #995 - Atiamekw
-culture = innu
-religion = totemism
 capital = "Tadoussac"
 trade_goods = unknown
 base_tax = 2

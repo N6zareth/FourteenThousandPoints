@@ -1,8 +1,6 @@
 #934 - Shawnee
-culture = yuchi
-religion = totemism
 capital = "Tsoyaha"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

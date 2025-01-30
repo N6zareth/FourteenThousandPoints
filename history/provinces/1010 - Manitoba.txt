@@ -1,6 +1,4 @@
 #1010 - Manitoba
-culture = chipewyan
-religion = totemism
 capital = "Manitoba"
 trade_goods = unknown
 base_tax = 1

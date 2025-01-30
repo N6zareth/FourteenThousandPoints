@@ -1,8 +1,6 @@
 #913 - Fox
-culture = chiwere
-religion = totemism
 capital = "Fox"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 2

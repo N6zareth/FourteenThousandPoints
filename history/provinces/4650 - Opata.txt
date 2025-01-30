@@ -1,6 +1,4 @@
 # No previous file for Opata
-culture = piman
-religion = totemism
 capital = "Opata"
 trade_goods = unknown
 base_tax = 1

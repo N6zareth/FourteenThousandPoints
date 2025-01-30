@@ -1,6 +1,4 @@
 # No previous file for Tutelo
-culture = yuchi
-religion = totemism
 capital = "Tutelo"
 trade_goods = unknown
 base_tax = 2

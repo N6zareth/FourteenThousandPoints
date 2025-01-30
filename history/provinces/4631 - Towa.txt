@@ -1,8 +1,6 @@
 # No previous file for Towa
-culture = pueblo
-religion = totemism
 capital = "Cochiti"
-trade_goods = salt
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

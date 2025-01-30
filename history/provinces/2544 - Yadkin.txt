@@ -1,6 +1,4 @@
 # No previous file for Yadkin
-culture = catawba
-religion = totemism
 capital = "Yadkin"
 trade_goods = unknown
 base_tax = 2

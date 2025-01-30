@@ -1,6 +1,4 @@
 #986 - Kespek
-culture = mikmaq
-religion = totemism
 capital = "Kespek"
 trade_goods = unknown
 base_tax = 1

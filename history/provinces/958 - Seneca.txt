@@ -1,8 +1,6 @@
 #958 - Seneca (Area was Wenro until 1638)
-culture = iroquois
-religion = totemism
 capital = "Seneca"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 2
 base_manpower = 1

@@ -1,6 +1,4 @@
 #2009 - Teton
-culture = pawnee#Not yet Dakota
-religion = totemism
 capital = "Teton"
 trade_goods = unknown
 base_tax = 1

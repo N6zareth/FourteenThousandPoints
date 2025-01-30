@@ -1,6 +1,4 @@
 # No previous file for Mayaimi
-culture = arawak
-religion = totemism
 capital = "Mayaimi"
 trade_goods = unknown
 base_tax = 1

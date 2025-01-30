@@ -1,6 +1,4 @@
 #903 - Omaha
-culture = pawnee#Old plains people
-religion = totemism
 capital = "Omaha"
 trade_goods = unknown
 base_tax = 1

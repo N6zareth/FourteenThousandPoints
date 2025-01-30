@@ -1,6 +1,4 @@
 # 1813 - Saskatchewan
-culture = plains_cree
-religion = totemism
 capital = "Saskatchewan"
 trade_goods = unknown
 base_tax = 1

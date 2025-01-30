@@ -1,6 +1,4 @@
 # No previous file for Bohogue
-culture = shoshone
-religion = totemism
 capital = "Bohogue"
 trade_goods = unknown
 base_tax = 1

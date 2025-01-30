@@ -1,7 +1,5 @@
 # No previous file for Mandan
 is_city = yes
-culture = arapaho
-religion = totemism
 capital = "Mandan"
 trade_goods = unknown
 base_tax = 1

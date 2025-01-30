@@ -1,6 +1,4 @@
 #965 - Manhattan
-culture = delaware
-religion = totemism
 capital = "Manhattan"
 trade_goods = unknown
 base_tax = 2

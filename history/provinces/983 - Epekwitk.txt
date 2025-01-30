@@ -1,6 +1,4 @@
 #983 - Epekwitk
-culture = mikmaq
-religion = totemism
 capital = "Epekwitk"
 trade_goods = unknown
 base_tax = 1

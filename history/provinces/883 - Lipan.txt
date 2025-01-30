@@ -1,9 +1,7 @@
 #883 - Lipan
 is_city = yes
-culture = lipan
-religion = totemism
 capital = "Lipan"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

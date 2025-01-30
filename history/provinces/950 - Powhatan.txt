@@ -1,6 +1,4 @@
 #950 - Chesapeake
-culture = powhatan
-religion = totemism
 capital = "Chesapeake"
 trade_goods = unknown
 base_tax = 5

@@ -1,6 +1,4 @@
 # No previous file for Mosopelea
-culture = osage
-religion = totemism
 capital = "Mosopelea"
 trade_goods = unknown
 base_tax = 3

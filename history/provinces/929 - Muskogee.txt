@@ -1,6 +1,4 @@
 #929 - Muskogee
-culture = yamasee
-religion = totemism
 capital = "Guale"
 trade_goods = unknown
 base_tax = 2

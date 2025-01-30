@@ -1,8 +1,6 @@
 # No previous file for Piekougami
-culture = innu
-religion = totemism
 capital = "Piekougami"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

@@ -1,6 +1,4 @@
 #967 - Narraganset
-culture = pequot
-religion = totemism
 capital = "Narraganset"
 trade_goods = unknown
 base_tax = 3

@@ -1,6 +1,4 @@
 # No previous file for Piankeshaw
-culture = miami
-religion = totemism
 capital = "Piankeshaw"
 trade_goods = unknown
 base_tax = 1

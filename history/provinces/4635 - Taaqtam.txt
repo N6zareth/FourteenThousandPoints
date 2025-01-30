@@ -1,6 +1,4 @@
 # No previous file for Taaqtam
-culture = piman
-religion = totemism
 capital = "Taaqtam"
 trade_goods = unknown
 base_tax = 1

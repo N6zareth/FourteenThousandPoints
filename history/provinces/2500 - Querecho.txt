@@ -1,6 +1,4 @@
 # No previous file for Querecho
-culture = lipan
-religion = totemism
 capital = "Querecho"
 trade_goods = unknown
 base_tax = 1

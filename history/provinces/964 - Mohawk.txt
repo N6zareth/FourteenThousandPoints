@@ -1,8 +1,6 @@
 #964 - Mohawk
-culture = iroquois
-religion = totemism
 capital = "Mohawk"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 2

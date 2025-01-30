@@ -1,6 +1,4 @@
 #948 - Ohio
-culture = shawnee
-religion = totemism
 capital = "Ohio"
 trade_goods = unknown
 base_tax = 1

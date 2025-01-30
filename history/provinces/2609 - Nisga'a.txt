@@ -1,6 +1,4 @@
 # No previous file for Nisga'a
-culture = chinook#sub-branch of Tsimshian, suspected Penutian language
-religion = totemism
 capital = "Quileute"
 trade_goods = unknown
 base_tax = 1

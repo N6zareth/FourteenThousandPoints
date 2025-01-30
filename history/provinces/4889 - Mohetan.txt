@@ -1,6 +1,4 @@
 # No previous file for Mohetan
-culture = shawnee
-religion = totemism
 capital = "Mohetan"
 trade_goods = unknown
 base_tax = 3

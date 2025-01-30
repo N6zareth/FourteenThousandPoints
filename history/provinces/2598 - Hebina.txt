@@ -1,6 +1,4 @@
 # No previous file for Hebina
-culture = blackfoot
-religion = totemism
 capital = "Hebina"
 trade_goods = unknown
 base_tax = 1

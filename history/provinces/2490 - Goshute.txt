@@ -1,6 +1,4 @@
 # No previous file for Goshute
-culture = shoshone
-religion = totemism
 capital = "Goshute"
 trade_goods = unknown
 base_tax = 1

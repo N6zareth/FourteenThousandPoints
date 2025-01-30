@@ -1,6 +1,4 @@
 # No previous file for Passamaquoddy
-culture = maliseet
-religion = totemism
 capital = "Passamaquoddy"
 trade_goods = unknown
 base_tax = 2

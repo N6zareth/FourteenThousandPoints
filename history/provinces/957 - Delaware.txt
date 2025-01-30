@@ -1,6 +1,4 @@
 #957 - Delaware
-culture = delaware
-religion = totemism
 capital = "Delaware"
 trade_goods = unknown
 base_tax = 4

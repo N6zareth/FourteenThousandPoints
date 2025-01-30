@@ -1,8 +1,6 @@
 #2020 - Bannock
-culture = shoshone
-religion = totemism
 capital = "Bannock"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

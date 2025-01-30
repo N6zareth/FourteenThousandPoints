@@ -1,6 +1,4 @@
 # No previous file for Scahentowanen
-culture = susquehannock
-religion = totemism
 capital = "Scahentowanen"
 trade_goods = unknown
 base_tax = 2

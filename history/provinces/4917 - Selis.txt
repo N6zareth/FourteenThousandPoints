@@ -1,6 +1,4 @@
 # No previous file for Selis
-culture = salish
-religion = totemism
 capital = "Selis"
 trade_goods = unknown
 base_tax = 3

@@ -1,6 +1,4 @@
 # No previous file for Siksikawa
-culture = blackfoot
-religion = totemism
 capital = "Siksikawa"
 trade_goods = unknown
 base_tax = 1

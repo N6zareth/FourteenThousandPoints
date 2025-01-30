@@ -1,6 +1,4 @@
 #962 - Unami
-culture = delaware
-religion = totemism
 capital = "Unami"
 trade_goods = unknown
 base_tax = 2

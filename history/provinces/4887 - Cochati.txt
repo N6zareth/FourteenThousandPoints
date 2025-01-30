@@ -1,6 +1,4 @@
 # No previous file for Cochati
-culture = chickasaw
-religion = totemism
 capital = "Cochati"
 trade_goods = unknown
 base_tax = 3

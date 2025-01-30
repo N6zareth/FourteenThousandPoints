@@ -1,9 +1,7 @@
 #874 - Salish
 is_city = yes
-culture = salish
-religion = totemism
 capital = "Salish"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

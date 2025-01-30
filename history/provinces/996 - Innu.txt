@@ -1,6 +1,4 @@
 #996 - Innu
-culture = innu
-religion = totemism
 capital = "Innu"
 trade_goods = unknown
 base_tax = 1

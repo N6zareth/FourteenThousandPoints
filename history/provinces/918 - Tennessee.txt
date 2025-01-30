@@ -1,6 +1,4 @@
 #918 - Tennessee
-culture = chickasaw
-religion = totemism
 capital = "Tennessee"
 trade_goods = unknown
 base_tax = 2

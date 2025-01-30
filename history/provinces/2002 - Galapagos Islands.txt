@@ -1,0 +1,26 @@
+#2002 - Galápagos Islands
+capital = "Puerto Baquerizo Moreno"
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+culture = cara
+religion = animism
+discovered_by = INC
+1535.3.10 = { 
+	discovered_by = SPA
+	controller = SPA
+	add_core = SPA
+	trade_goods = Grain
+	city = yes
+	culture = castillian
+	religion = Catholic
+}
+1819.12.17 = { 
+	controller = COL
+	add_core = COL
+}
+is_city = no

@@ -1,6 +1,4 @@
 # No previous file for Naskapi
-culture = innu
-religion = totemism
 capital = "Naskapi"
 trade_goods = unknown
 base_tax = 1

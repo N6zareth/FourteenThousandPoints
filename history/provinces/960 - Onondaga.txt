@@ -1,8 +1,6 @@
 #960 - Onondaga
-culture = iroquois
-religion = totemism
 capital = "Onondaga"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 3
 base_production = 3
 base_manpower = 2

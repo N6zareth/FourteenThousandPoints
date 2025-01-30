@@ -1,6 +1,4 @@
 # No previous file for Espeminkia
-culture = illini
-religion = totemism
 capital = "Espeminkia"
 trade_goods = unknown
 base_tax = 3

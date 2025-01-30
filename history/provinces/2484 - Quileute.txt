@@ -1,6 +1,4 @@
 # No previous file for Quileute
-culture = salish
-religion = totemism
 capital = "Quileute"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 #990 - Kwedech
-culture = laurentian
-religion = totemism
 capital = "Maisouna"
 trade_goods = unknown
 base_tax = 3

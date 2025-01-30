@@ -1,7 +1,5 @@
 # No previous file for Mahmikiwiniyak
 is_city = yes
-culture = plains_cree
-religion = totemism
 capital = "Mahmikiwiniyak"
 trade_goods = unknown
 base_tax = 1

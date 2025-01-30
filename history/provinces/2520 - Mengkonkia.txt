@@ -1,6 +1,4 @@
 # No previous file for Mengkonkia
-culture = miami
-religion = totemism
 capital = "Mengkonkia"
 trade_goods = unknown
 base_tax = 1

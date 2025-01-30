@@ -1,6 +1,4 @@
 # No previous file for Cotoname
-culture = chichimecan
-religion = animism
 capital = "Cotoname"
 trade_goods = unknown
 base_tax = 1

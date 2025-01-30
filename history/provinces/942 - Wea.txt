@@ -1,6 +1,4 @@
 #942 - Wea
-culture = miami
-religion = totemism
 capital = "Wea"
 trade_goods = unknown
 base_tax = 1

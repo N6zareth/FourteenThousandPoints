@@ -1,6 +1,4 @@
 # No previous file for Eyak
-culture = haida
-religion = totemism
 capital = "Eyak"
 trade_goods = unknown
 base_tax = 1

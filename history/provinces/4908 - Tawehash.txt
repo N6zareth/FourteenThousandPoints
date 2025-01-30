@@ -1,6 +1,4 @@
 # No previous file for Tawehash
-culture = wichita
-religion = totemism
 capital = "Tawehash"
 trade_goods = unknown
 base_tax = 3

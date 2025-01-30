@@ -1,6 +1,4 @@
 # No previous file for Kodiak
-culture = aleutian
-religion = totemism
 capital = "Quileute"
 trade_goods = unknown
 base_tax = 1

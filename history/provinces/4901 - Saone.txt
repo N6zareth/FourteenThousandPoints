@@ -1,7 +1,5 @@
 # No previous file for Saone
 is_city = yes
-culture = dakota
-religion = totemism
 capital = "Saone"
 trade_goods = unknown
 base_tax = 3

@@ -1,6 +1,4 @@
 #953 - Conoy
-culture = powhatan
-religion = totemism
 capital = "Conoy"
 trade_goods = unknown
 base_tax = 2

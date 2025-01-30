@@ -1,6 +1,4 @@
 #896 - Ozark
-culture = wichita# Old plains people
-religion = totemism
 capital = "Ozark"
 trade_goods = unknown
 base_tax = 1

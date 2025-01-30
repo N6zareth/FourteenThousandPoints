@@ -1,6 +1,4 @@
 # No previous file for Tanu
-culture = caddo
-religion = totemism
 capital = "Tanu"
 trade_goods = unknown
 base_tax = 1

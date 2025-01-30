@@ -2,8 +2,6 @@
 latent_trade_goods = { 
 	coal 
 }
-culture = delaware
-religion = totemism
 capital = "Munsee"
 trade_goods = unknown
 base_tax = 2

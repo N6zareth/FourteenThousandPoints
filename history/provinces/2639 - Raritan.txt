@@ -1,6 +1,4 @@
 # No previous file for Raritan
-culture = delaware
-religion = totemism
 capital = "Raritan"
 trade_goods = unknown
 base_tax = 2

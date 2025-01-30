@@ -1,6 +1,4 @@
 # No previous file for Cusabo
-culture = catawba
-religion = totemism
 capital = "Cusabo"
 trade_goods = unknown
 base_tax = 2

@@ -1,6 +1,4 @@
 #876 - Yavapai
-culture = piman
-religion = totemism
 capital = "Yavapai"
 trade_goods = unknown
 base_tax = 1

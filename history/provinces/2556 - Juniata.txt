@@ -1,6 +1,4 @@
 # No previous file for Juniata
-culture = susquehannock
-religion = totemism
 capital = "Juniata"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 # No previous file for Kespukwitk
-culture = mikmaq
-religion = totemism
 capital = "Kespukwitk"
 trade_goods = unknown
 base_tax = 2

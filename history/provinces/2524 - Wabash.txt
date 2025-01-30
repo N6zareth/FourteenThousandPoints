@@ -1,9 +1,7 @@
 # No previous file for Wabash
 is_city = yes
-culture = osage
-religion = totemism
 capital = "Wabash"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

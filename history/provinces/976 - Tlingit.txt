@@ -1,6 +1,4 @@
 #976 - Tlingit
-culture = haida
-religion = totemism
 capital = "Tlingit"
 trade_goods = unknown
 base_tax = 1

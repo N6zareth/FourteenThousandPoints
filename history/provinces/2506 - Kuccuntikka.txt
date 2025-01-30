@@ -1,6 +1,4 @@
 # No previous file for Kuccuntikka
-culture = shoshone
-religion = totemism
 capital = "Kuccuntikka"
 trade_goods = unknown
 base_tax = 1

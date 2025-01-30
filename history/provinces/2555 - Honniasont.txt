@@ -1,6 +1,4 @@
 # No previous file for Honniasont
-culture = tionontate
-religion = totemism
 capital = "Honniasont"
 trade_goods = unknown
 base_tax = 2

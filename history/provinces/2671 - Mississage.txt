@@ -1,6 +1,4 @@
 # No previous file for Mississage
-culture = anishinabe
-religion = totemism
 capital = "Missisage"
 trade_goods = unknown
 base_tax = 1

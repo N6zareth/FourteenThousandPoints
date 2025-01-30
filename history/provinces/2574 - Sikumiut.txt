@@ -1,6 +1,4 @@
 # No previous file for Sikumiut
-culture = inuit
-religion = totemism
 capital = "Sikumiut"
 trade_goods = unknown
 base_tax = 1

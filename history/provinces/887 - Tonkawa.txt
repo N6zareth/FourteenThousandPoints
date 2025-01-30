@@ -1,6 +1,4 @@
 #887 - Tonkawa
-culture = caddo
-religion = totemism
 capital = "Tonkawa"
 trade_goods = unknown
 base_tax = 1

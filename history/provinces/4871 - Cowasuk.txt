@@ -1,6 +1,4 @@
 # No previous file for Cowasuk
-culture = abenaki
-religion = totemism
 capital = "Cowasuk"
 trade_goods = unknown
 base_tax = 2

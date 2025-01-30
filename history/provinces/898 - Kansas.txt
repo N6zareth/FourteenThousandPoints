@@ -1,6 +1,4 @@
 #898 - Kansas
-culture = pawnee#Old plains people
-religion = totemism
 capital = "Kansas"
 trade_goods = unknown
 base_tax = 1

@@ -1,9 +1,7 @@
 #879 - Apache
 is_city = yes
-culture = apache
-religion = totemism
 capital = "Apache"
-trade_goods = salt
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

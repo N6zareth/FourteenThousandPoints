@@ -1,6 +1,4 @@
 # No previous file for Outoulibi
-culture = cree
-religion = totemism
 capital = "Outoulibi"
 trade_goods = unknown
 base_tax = 1

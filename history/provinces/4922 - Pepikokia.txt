@@ -1,6 +1,4 @@
 # No previous file for Pepikokia
-culture = miami
-religion = totemism
 capital = "Pepikokia"
 trade_goods = unknown
 base_tax = 3

@@ -1,6 +1,4 @@
 #872 - Kalapuya
-culture = chinook
-religion = totemism
 capital = "Siuslaw"
 trade_goods = unknown
 base_tax = 2

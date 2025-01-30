@@ -1,6 +1,4 @@
 # No previous file for Utsehta
-culture = wichita
-religion = totemism
 capital = "Utsehta"
 trade_goods = unknown
 base_tax = 1

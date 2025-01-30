@@ -1,9 +1,7 @@
 #954 - Allegheny
 is_city = yes
-culture = tionontate
-religion = totemism
 capital = "Allegheny"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 2
 base_manpower = 2

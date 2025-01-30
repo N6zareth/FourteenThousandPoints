@@ -1,6 +1,4 @@
 #900 - Tamaroa
-culture = illini
-religion = totemism
 capital = "Tamaroa"
 trade_goods = unknown
 base_tax = 2

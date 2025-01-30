@@ -1,6 +1,4 @@
 #955 - Susquehanna
-culture = susquehannock
-religion = totemism
 capital = "Susquehanna"
 trade_goods = unknown
 base_tax = 2

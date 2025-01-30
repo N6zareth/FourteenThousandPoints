@@ -1,9 +1,7 @@
 ## No previous file for Shatteras
 is_city = yes
-culture = shawnee
-religion = totemism
 capital = "Shatteras"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

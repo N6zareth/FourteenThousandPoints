@@ -1,6 +1,4 @@
 # No previous file for Sobaipuri
-culture = piman
-religion = totemism
 capital = "Sobaipuri"
 trade_goods = unknown
 base_tax = 1

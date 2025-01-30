@@ -1,6 +1,4 @@
 # No previous file for Pitahawirata
-culture = pawnee
-religion = totemism
 capital = "Pitahawirata"
 trade_goods = unknown
 base_tax = 3

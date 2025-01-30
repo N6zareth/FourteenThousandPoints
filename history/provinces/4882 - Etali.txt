@@ -1,6 +1,4 @@
 # No previous file for Etali
-culture = cherokee
-religion = totemism
 capital = "Eta"
 trade_goods = unknown
 base_tax = 3

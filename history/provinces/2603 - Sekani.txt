@@ -1,6 +1,4 @@
 # No previous file for Sekani
-culture = athabascan
-religion = totemism
 capital = "Sekani"
 trade_goods = unknown
 base_tax = 1

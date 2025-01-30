@@ -1,6 +1,4 @@
 # No previous file for Danezaa
-culture = athabascan
-religion = totemism
 capital = "Danezaa"
 trade_goods = unknown
 base_tax = 1

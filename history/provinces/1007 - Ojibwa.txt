@@ -1,6 +1,4 @@
 #1007 - Ojibwa
-culture = anishinabe
-religion = totemism
 capital = "Ojibwa"
 trade_goods = unknown
 base_tax = 1

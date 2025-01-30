@@ -1,9 +1,7 @@
 #993 - Hochelega
 is_city = yes
-culture = laurentian
-religion = totemism
 capital = "Hochelega"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

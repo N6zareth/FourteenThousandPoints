@@ -1,6 +1,4 @@
 # No previous file for Mascouten
-culture = mesquakie
-religion = totemism
 capital = "Mascouten"
 trade_goods = unknown
 base_tax = 1

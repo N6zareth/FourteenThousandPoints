@@ -1,6 +1,4 @@
 #1001 - Sault
-culture = anishinabe
-religion = totemism
 capital = "Sault"
 trade_goods = unknown
 base_tax = 2

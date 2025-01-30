@@ -1,6 +1,4 @@
 #921 - Bayougoula
-culture = natchez
-religion = totemism
 capital = "Bayougoula"
 trade_goods = unknown
 base_tax = 2

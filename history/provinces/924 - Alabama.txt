@@ -1,6 +1,4 @@
 #924 - Alabama
-culture = choctaw
-religion = totemism
 capital = "Alabama"
 trade_goods = unknown
 base_tax = 1

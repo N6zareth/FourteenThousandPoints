@@ -1,6 +1,4 @@
 # No previous file for Westenhuck
-culture = mahican
-religion = totemism
 capital = "Westenhuck"
 trade_goods = unknown
 base_tax = 2

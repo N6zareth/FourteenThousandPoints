@@ -1,6 +1,4 @@
 # No previous file for Wappus
-culture = bungi
-religion = totemism
 capital = "Wappus"
 trade_goods = unknown
 base_tax = 1

@@ -1,7 +1,5 @@
 # No previous file for Madawaska
 is_city = yes
-culture = maliseet
-religion = totemism
 capital = "Madawaska"
 trade_goods = unknown
 base_tax = 1

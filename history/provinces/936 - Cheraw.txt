@@ -1,8 +1,6 @@
 #936 - Cheraw
-culture = catawba
-religion = totemism
 capital = "Cheraw"
-trade_goods = tobacco
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

@@ -1,6 +1,4 @@
 # No previous file for Espachomy
-culture = delaware
-religion = totemism
 capital = "Espachomy"
 trade_goods = unknown
 base_tax = 2

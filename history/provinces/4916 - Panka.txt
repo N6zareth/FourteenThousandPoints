@@ -1,6 +1,4 @@
 # No previous file for Panka
-culture = pawnee
-religion = totemism
 capital = "Panka"
 trade_goods = unknown
 base_tax = 3

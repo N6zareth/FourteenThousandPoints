@@ -1,6 +1,4 @@
 #1105 - Vestbygden
-culture = inuit
-religion = totemism
 capital = "Vestbygden"
 trade_goods = unknown
 base_tax = 1

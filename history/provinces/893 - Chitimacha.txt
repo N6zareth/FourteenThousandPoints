@@ -1,6 +1,4 @@
 #893 - Chitimacha
-culture = natchez
-religion = totemism
 capital = "Chitimacha"
 trade_goods = unknown
 base_tax = 5

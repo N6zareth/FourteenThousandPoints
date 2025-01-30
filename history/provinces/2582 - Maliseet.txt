@@ -1,6 +1,4 @@
 # No previous file for Maliseet
-culture = maliseet
-religion = totemism
 capital = "Maliseet"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 #2018 - Tsuu Tina
-culture = athabascan
-religion = totemism
 capital = "Tsuutina"
 trade_goods = unknown
 base_tax = 1

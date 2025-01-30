@@ -1,6 +1,4 @@
 # No previous file for Tsilhoqotin
-culture = athabascan
-religion = totemism
 capital = "Tsilhqotin"
 trade_goods = unknown
 base_tax = 1

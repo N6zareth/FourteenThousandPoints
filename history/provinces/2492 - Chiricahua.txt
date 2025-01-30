@@ -1,6 +1,4 @@
 # No previous file for Chiricahua
-culture = apache
-religion = totemism
 capital = "Chiricahua"
 trade_goods = unknown
 base_tax = 1

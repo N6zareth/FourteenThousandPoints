@@ -1,6 +1,4 @@
 #910 - Chippewa
-culture = anishinabe
-religion = totemism
 capital = "Makoua"
 trade_goods = unknown
 base_tax = 1

@@ -1,8 +1,6 @@
 #901 - Pawnee
-culture = pawnee
-religion = totemism
 capital = "Pawnee"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 2
 base_production = 1
 is_city = yes

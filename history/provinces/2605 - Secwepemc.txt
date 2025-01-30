@@ -1,6 +1,4 @@
 # No previous file for Secwepemc
-culture = athabascan
-religion = totemism
 capital = "Secwepemc"
 trade_goods = unknown
 base_tax = 1

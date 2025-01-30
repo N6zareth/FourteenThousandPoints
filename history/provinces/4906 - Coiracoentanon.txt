@@ -1,6 +1,4 @@
 # No previous file for Coiracoentanon
-culture = illini
-religion = totemism
 capital = "Coiracoentanon"
 trade_goods = unknown
 base_tax = 3

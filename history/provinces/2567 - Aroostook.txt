@@ -1,6 +1,4 @@
 # No previous file for Aroostook
-culture = maliseet
-religion = totemism
 capital = "Aroostook"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 # No previous file for Saluda
-culture = catawba
-religion = totemism
 capital = "Saluda"
 trade_goods = unknown
 base_tax = 2

@@ -1,6 +1,4 @@
 # No previous file for Pennacook
-culture = massachusset
-religion = totemism
 capital = "Pennacook"
 trade_goods = unknown
 base_tax = 2

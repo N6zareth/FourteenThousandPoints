@@ -1,6 +1,4 @@
 #914 - Winnebago
-culture = chiwere
-religion = totemism
 capital = "Winnebago"
 trade_goods = unknown
 base_tax = 2

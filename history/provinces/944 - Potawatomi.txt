@@ -1,8 +1,6 @@
 #944 - Potawatomi
-culture = mesquakie
-religion = totemism
 capital = "Potawatomi"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 3
 base_manpower = 1

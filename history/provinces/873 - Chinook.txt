@@ -1,9 +1,7 @@
 #873 - Chinook
 is_city = yes
-culture = chinook
-religion = totemism
 capital = "Chinook"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

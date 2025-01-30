@@ -1,0 +1,39 @@
+#866 - Guaycura
+capital = "Guaycura"
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+discovered_by = north_american
+1533.1.1 = { discovered_by = SPA }
+1535.5.3 = { 
+	controller = SPA
+	add_core = SPA
+	capital = "La Paz"
+	culture = castillian
+	religion = Catholic
+	city = yes
+	trade_goods = Fish
+}
+1540.1.1 = { 
+	owner = ---
+	controller = ---
+	capital = "Guaycura"
+	city = no
+	culture = piman
+	religion = Animism
+}
+1578.1.1 = { discovered_by = ENG }
+1697.1.1 = { 
+	controller = SPA
+	capital = "Loreto"
+	city = yes
+	trade_goods = Fish
+	culture = castillian
+	religion = Catholic
+}
+1810.9.16 = { add_core = MEX controller = SPA }
+is_city = no

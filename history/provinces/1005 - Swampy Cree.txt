@@ -1,6 +1,4 @@
 #1005 - Swampy Cree
-culture = cree
-religion = totemism
 capital = "Swampy Cree"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 #902 - Missouri
-culture = pawnee
-religion = totemism
 capital = "Missouri"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 #984 - Acadia
-culture = mikmaq
-religion = totemism
 capital = "Sipeknekatik"
 trade_goods = unknown
 base_tax = 2

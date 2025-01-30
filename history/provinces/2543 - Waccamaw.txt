@@ -1,6 +1,4 @@
 # No previous file for Waccamaw
-culture = catawba
-religion = totemism
 capital = "Waccamaw"
 trade_goods = unknown
 base_tax = 2

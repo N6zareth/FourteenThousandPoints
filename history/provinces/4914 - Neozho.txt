@@ -1,6 +1,4 @@
 # No previous file for Neozho
-culture = wichita
-religion = totemism
 capital = "Neozho"
 trade_goods = unknown
 base_tax = 3

@@ -1,6 +1,4 @@
 # No previous file for Siknikt
-culture = mikmaq
-religion = totemism
 capital = "Siknikt"
 trade_goods = unknown
 base_tax = 2

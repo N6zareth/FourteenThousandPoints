@@ -1,6 +1,4 @@
 #963 - Mahican
-culture = mahican
-religion = totemism
 capital = "Mahican"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 #923 - Pensacola
-culture = choctaw
-religion = totemism
 capital = "Pensacola"
 trade_goods = unknown
 base_tax = 1

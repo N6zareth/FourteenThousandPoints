@@ -1,6 +1,4 @@
 # No previous file for Tachi
-culture = yokuts
-religion = totemism
 capital = "Tachi"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 # No previous file for Mocama
-culture = yamasee
-religion = totemism
 capital = "Mocama"
 trade_goods = unknown
 base_tax = 1

@@ -1,6 +1,4 @@
 # No previous file for Lipiyanes
-culture = lipan
-religion = totemism
 capital = "Lipiyanes"
 trade_goods = unknown
 base_tax = 1

@@ -1,0 +1,6 @@
+discovered_by = south_american
+1661.6.22 = { 
+	discovered_by = POR
+}
+trade_goods = unknown
+is_city = no

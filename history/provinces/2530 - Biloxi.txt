@@ -1,6 +1,4 @@
 # No previous file for Biloxi
-culture = choctaw
-religion = totemism
 capital = "Biloxi"
 trade_goods = unknown
 base_tax = 2

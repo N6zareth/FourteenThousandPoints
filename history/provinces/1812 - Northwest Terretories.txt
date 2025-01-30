@@ -1,0 +1,6 @@
+discovered_by = north_american
+1778.1.1 = { 
+	discovered_by = GBR
+}
+trade_goods = unknown
+is_city = no

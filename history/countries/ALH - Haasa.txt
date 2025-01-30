@@ -3,6 +3,7 @@ add_government_reform = iqta
 government_rank = 1 #Emirate
 technology_group = muslim
 religion = shia
+religion = shia
 primary_culture = gulf_arabic
 capital = 396	# Bahrain
 add_accepted_culture = omani_culture

@@ -1,6 +1,4 @@
 # No previous file for Napochi
-culture = chickasaw
-religion = totemism
 capital = "Napochi"
 trade_goods = unknown
 base_tax = 3

@@ -1,6 +1,4 @@
 # No previous file for Kuttawa
-culture = shawnee
-religion = totemism
 capital = "Kuttawa"
 trade_goods = unknown
 base_tax = 3

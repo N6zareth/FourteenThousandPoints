@@ -1,6 +1,4 @@
 # No previous file for Hinonoeino
-culture = wichita
-religion = totemism
 capital = "Hinonoeino"
 trade_goods = unknown
 base_tax = 1

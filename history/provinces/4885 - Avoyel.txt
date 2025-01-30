@@ -1,6 +1,4 @@
 # No previous file for Avoyel
-culture = natchez
-religion = totemism
 capital = "Avoyel"
 trade_goods = unknown
 base_tax = 3

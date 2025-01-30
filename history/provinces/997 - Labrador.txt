@@ -1,6 +1,4 @@
 #997 - Labrador
-culture = innu
-religion = totemism
 capital = "Labrador"
 trade_goods = unknown
 base_tax = 1

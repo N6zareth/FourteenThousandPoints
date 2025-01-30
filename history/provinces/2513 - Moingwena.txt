@@ -1,6 +1,4 @@
 # No previous file for Moingwena
-culture = illini
-religion = totemism
 capital = "Moingwena"
 trade_goods = unknown
 base_tax = 1

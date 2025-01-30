@@ -1,6 +1,4 @@
 #939 - Pennyrile
-culture = shawnee
-religion = totemism
 capital = "Pennyrile"
 trade_goods = unknown
 base_tax = 2

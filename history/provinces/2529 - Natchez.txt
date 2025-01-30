@@ -1,9 +1,7 @@
 # No previous file for Natchez
 is_city = yes
-culture = natchez
-religion = totemism
 capital = "Natchez"
-trade_goods = cotton
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

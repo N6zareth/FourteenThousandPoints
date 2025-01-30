@@ -1,8 +1,6 @@
 #969 - Pocumtuk
-culture = mahican
-religion = totemism
 capital = "Pocumtuk"
-trade_goods = naval_supplies
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 3

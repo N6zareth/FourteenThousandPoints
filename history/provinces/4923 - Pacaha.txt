@@ -1,7 +1,5 @@
 # No previous file for Pacaha
 is_city = yes
-culture = yoron
-religion = totemism
 capital = "Satsukhdin"
 trade_goods = unknown
 base_tax = 1

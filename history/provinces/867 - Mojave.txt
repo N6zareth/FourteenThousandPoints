@@ -1,6 +1,4 @@
 #867 - Mojave
-culture = piman
-religion = totemism
 capital = "Cahuila"
 trade_goods = unknown
 base_tax = 1

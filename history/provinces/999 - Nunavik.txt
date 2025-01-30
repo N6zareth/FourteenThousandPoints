@@ -1,6 +1,4 @@
 #999 - Nunavik
-culture = cree
-religion = totemism
 capital = "Nunavik"
 trade_goods = unknown
 base_tax = 1

@@ -1,8 +1,6 @@
 #945 - Michigan
-culture = anishinabe
-religion = totemism
 capital = "Michigan"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 2
 base_manpower = 1

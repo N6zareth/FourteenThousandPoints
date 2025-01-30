@@ -1,6 +1,4 @@
 #912 - Sauk
-culture = chiwere
-religion = totemism
 capital = "Sauk"
 trade_goods = unknown
 base_tax = 1

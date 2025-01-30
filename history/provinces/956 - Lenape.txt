@@ -1,9 +1,7 @@
 #956 - Lenape
 is_city = yes
-culture = delaware
-religion = totemism
 capital = "Lenape"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

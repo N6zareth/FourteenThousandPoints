@@ -1,6 +1,4 @@
 #2003 - Ktunaxa
-culture = shoshone
-religion = totemism
 capital = "Ktunaxa"
 trade_goods = unknown
 base_tax = 1

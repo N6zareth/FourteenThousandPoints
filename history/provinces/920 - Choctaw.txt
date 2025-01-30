@@ -1,8 +1,6 @@
 #920 - Choctaw
-culture = choctaw
-religion = totemism
 capital = "Choctaw"
-trade_goods = cotton
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

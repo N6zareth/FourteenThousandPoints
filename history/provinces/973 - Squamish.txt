@@ -1,6 +1,4 @@
 #973 - Squamish
-culture = salish
-religion = totemism
 capital = "Squamish"
 trade_goods = unknown
 base_tax = 2

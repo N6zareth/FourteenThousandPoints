@@ -1,8 +1,6 @@
 #899 - Osage
-culture = yoron
-religion = totemism
 capital = "Pahatsi"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

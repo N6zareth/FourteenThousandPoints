@@ -1,6 +1,4 @@
 # No previous file for Nottoway
-culture = iroquois
-religion = totemism
 capital = "Nottoway"
 trade_goods = unknown
 base_tax = 3

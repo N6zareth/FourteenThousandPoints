@@ -1,6 +1,4 @@
 # No previous file for Mamaceqtaw
-culture = anishinabe
-religion = totemism
 capital = "Mamaceqtaw"
 trade_goods = unknown
 base_tax = 3

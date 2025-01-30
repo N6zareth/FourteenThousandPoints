@@ -1,6 +1,4 @@
 #946 - Wyandot
-culture = miami
-religion = totemism
 capital = "Wyandot"
 trade_goods = unknown
 base_tax = 1

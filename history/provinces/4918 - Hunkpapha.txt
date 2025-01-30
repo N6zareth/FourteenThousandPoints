@@ -1,6 +1,4 @@
 # No previous file for Hunkpapha
-culture = kiowa
-religion = totemism
 capital = "Hunkpapha"
 trade_goods = unknown
 base_tax = 3

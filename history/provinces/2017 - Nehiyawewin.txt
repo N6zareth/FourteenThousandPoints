@@ -1,6 +1,4 @@
 #2017 - Nehiyawewin
-culture = chipewyan
-religion = totemism
 capital = "Nehiyawewin"
 trade_goods = unknown
 base_tax = 1

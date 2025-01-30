@@ -1,6 +1,4 @@
 #975 - Tsimshian
-culture = chinook
-religion = totemism
 capital = "Tsimshian"
 trade_goods = unknown
 base_tax = 1

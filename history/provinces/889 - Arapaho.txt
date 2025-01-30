@@ -1,6 +1,4 @@
 #889 - Arapaho
-culture = wichita
-religion = totemism
 capital = "Arapaho"
 trade_goods = unknown
 base_tax = 1

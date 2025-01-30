@@ -1,6 +1,4 @@
 # No previous file for Waxhaw
-culture = catawba
-religion = totemism
 capital = "Waxhaw"
 trade_goods = unknown
 base_tax = 1

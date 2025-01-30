@@ -1,6 +1,4 @@
 #980 - Beothuk
-culture = innu
-religion = totemism
 capital = "Beothuk"
 trade_goods = unknown
 base_tax = 1

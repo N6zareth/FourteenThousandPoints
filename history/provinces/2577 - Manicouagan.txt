@@ -1,6 +1,4 @@
 # No previous file for Manicouagan
-culture = innu
-religion = totemism
 capital = "Manicouagan"
 trade_goods = unknown
 base_tax = 1

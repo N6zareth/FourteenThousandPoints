@@ -1,6 +1,4 @@
 #1008 - Winnipeg
-culture = bungi
-religion = totemism
 capital = "Manitoba"
 trade_goods = unknown
 base_tax = 1

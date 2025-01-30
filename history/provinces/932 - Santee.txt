@@ -1,6 +1,4 @@
 #932 - Santee
-culture = catawba
-religion = totemism
 capital = "Santee"
 trade_goods = unknown
 base_tax = 2

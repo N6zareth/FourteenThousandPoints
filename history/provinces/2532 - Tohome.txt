@@ -1,8 +1,6 @@
 is_city = yes
-culture = choctaw
-religion = totemism
 capital = "Tohome"
-trade_goods = grain
+trade_goods = unknown
 base_tax = 2
 base_production = 2
 base_manpower = 1

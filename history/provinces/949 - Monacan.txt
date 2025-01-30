@@ -1,6 +1,4 @@
 #949 - Monacan
-culture = yuchi
-religion = totemism
 capital = "Monacan"
 trade_goods = unknown
 base_tax = 1

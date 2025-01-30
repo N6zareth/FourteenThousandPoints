@@ -1,9 +1,7 @@
 # No previous file for Wenrohonon
 is_city = yes
-culture = tionontate
-religion = totemism
 capital = "Wenrohonon"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 2
 base_manpower = 2

@@ -1,6 +1,4 @@
 # No previous file for Aniyutsi
-culture = yuchi
-religion = totemism
 capital = "Aniyutsi"
 trade_goods = unknown
 base_tax = 3

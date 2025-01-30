@@ -1,9 +1,7 @@
 #908 - Minnesota
 tribal_owner = WCY
-culture = dakota
-religion = totemism
 capital = "Dakota"
-trade_goods = fur
+trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1

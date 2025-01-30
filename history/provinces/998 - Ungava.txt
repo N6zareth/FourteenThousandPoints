@@ -1,6 +1,4 @@
 #998 - Ungava
-culture = inuit
-religion = totemism
 capital = "Ungava"
 trade_goods = unknown
 base_tax = 1

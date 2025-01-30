@@ -1,6 +1,4 @@
 #968 - Massachusetts
-culture = massachusset
-religion = totemism
 capital = "Massachusetts"
 trade_goods = unknown
 base_tax = 4

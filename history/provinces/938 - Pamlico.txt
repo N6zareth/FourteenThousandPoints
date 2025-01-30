@@ -1,6 +1,4 @@
 #938 - Pamlico
-culture = powhatan
-religion = totemism
 capital = "Pamlico"
 trade_goods = unknown
 base_tax = 2

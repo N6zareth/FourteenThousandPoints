@@ -1,6 +1,4 @@
 #1104 - Eiriksfjord
-culture = inuit
-religion = totemism
 capital = "Eiriksfjord"
 trade_goods = unknown
 base_tax = 1

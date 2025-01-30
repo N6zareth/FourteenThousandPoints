@@ -1,6 +1,4 @@
 # No previous file for Cacaxtes
-culture = lipan
-religion = totemism
 capital = "Cacaxtes"
 trade_goods = unknown
 base_tax = 1

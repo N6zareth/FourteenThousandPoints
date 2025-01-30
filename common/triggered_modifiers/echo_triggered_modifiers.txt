@@ -22,6 +22,7 @@ player_modifier = {
 	governing_capacity_modifier = 0.33
 	num_accepted_cultures = 4
 	ae_impact = -0.25
+	diplomatic_annexation_cost = -0.33
 }
 
 Splendid_Court = {

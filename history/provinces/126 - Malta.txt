@@ -11,33 +11,7 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-1444.1.1 = {
-	owner = SIC
-	controller = SIC
-	add_core = SIC
-}
-
-
-1516.1.23 = { 
-	controller = SPA
-	add_core = SPA
-}
-1530.1.1 = { 
-	controller = KNI
-	add_core = KNI
-	capital = "Birgu"
-	fort_16th = yes
-}
-1566.3.28 = { capital = "Valletta" }
-1798.6.9 = { controller = FRA }
-1800.1.1 = { controller = KNI }
-1814.5.30 = { 
-	controller = GBR
-	add_core = GBR
-}
+owner = NAP
+controller = NAP
 add_core = NAP
-add_core = ARA
-1444.11.11 = { 
-	remove_core = ARA
-}
+controller = NAP

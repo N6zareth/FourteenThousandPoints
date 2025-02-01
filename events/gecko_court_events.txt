@@ -22,7 +22,7 @@ country_event = {
 		country_event = { id = echo.11 }
 	}
 	option = { #Recruit Military advisor
-		trigger = { add_treasury = 25 }
+		trigger = { add_treasury = -25 }
 		name = gecko_court.1.c
 		country_event = { id = echo.12 }
 	}
@@ -32,7 +32,7 @@ country_event = {
 			has_country_modifier = qolu_2colonists
 			}
 		name = gecko_court.1.d
-		add_treasury = 25
+		add_treasury = -25
 		create_conquistador = { tradition = 10 }
 		add_country_modifier = {
 			name = "hired_conquistador"

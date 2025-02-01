@@ -194,7 +194,11 @@ NDefines.NGovernment.LEADER_AS_MONARCH_TRADITION = 15
 NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 10
 NDefines.NDiplomacy.IMPERIAL_AUTHORITY_FROM_PRINCES	= 0.05
 NDefines.NDiplomacy.HRE_FOREIGN_CONTROL_PENALTY	= -0.012
-NDefines.NDiplomacy.AE_HRE_INTERNAL = 0
+NDefines.NDiplomacy.AE_HRE_INTERNAL = 25
+NDefines.NCountry.PS_RAISE_TARIFFS = 250
+NDefines.NCountry.BREAK_MARRIAGE_STABILITY_PENALTY = 0
+NDefines.NCountry.BREAK_MARRIAGE_PRESTIGE_PENALTY = -15
+
 
 NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down

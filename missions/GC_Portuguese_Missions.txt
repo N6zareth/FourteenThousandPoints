@@ -36,7 +36,7 @@ gc_por_1 = {
 			custom_trigger_tooltip = {
 				tooltip = naz_go_westward.1
 				region = brazil_region
-				colonial_brazil = {
+				colonial_the_carribean = {
 					has_discovered = ROOT
 				}
 			}
@@ -163,7 +163,7 @@ gc_por_1 = {
 		required_missions = { gc_por_bandeirantes }
 		position = 5
 		provinces_to_highlight = {
-			colonial_region = colonial_brazil
+			region = brazil_region
 		}
 		
 		trigger = {
@@ -176,7 +176,7 @@ gc_por_1 = {
 					tooltip = naz_por_jesuits
 					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
 						holy_order = jesuit_order
-						colonial_region = colonial_brazil
+						region = brazil_region
 						value = 7
 					}
 				}

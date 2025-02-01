@@ -39,7 +39,34 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			118 = {
-				is_state = yes
+				owned_by = ROOT
+			}
+			151 = {
+				owned_by = ROOT
+			}
+			114 = {
+				owned_by = ROOT
+			}
+			112 = {
+				owned_by = ROOT
+			}
+			104 = {
+				owned_by = ROOT
+			}
+			101 = {
+				owned_by = ROOT
+			}
+			121 = {
+				owned_by = ROOT
+			}
+			146 = {
+				owned_by = ROOT
+			}
+			316 = {
+				owned_by = ROOT
+			}
+			341 = {
+				owned_by = ROOT
 			}
 		}
 		effect = {

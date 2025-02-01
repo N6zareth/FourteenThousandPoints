@@ -2,12 +2,11 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1 #Emirate
 technology_group = muslim
-religion = shia
-religion = shia
+religion = shiite
 primary_culture = gulf_arabic
 capital = 396	# Bahrain
 add_accepted_culture = omani_culture
-religious_school = maliki_school
+religious_school = jafari_school
 
 #Rulers of Qatif
 1444.1.1 = {

@@ -2570,7 +2570,7 @@ MAM_ideas = {
 NAP_ideas = {
 	start = {
 		land_morale = 0.1
-		prestige_decay = -1
+		prestige = 1
 	}
 	
 	bonus = {
@@ -2596,7 +2596,7 @@ NAP_ideas = {
 		discipline = 0.05
 	}
 	expanded_arsenale = {
-		global_ship_cost = -0.1
+		galley_power = 0.15
 	}
 	city_of_artists = {
 		global_institution_spread = 0.1
@@ -13319,11 +13319,11 @@ SRV_ideas = {
 
 ALH_ideas = {
 	start = {
-		tolerance_heretic = 2
-		cavalry_power = 0.1
+		tolerance_heathen = 1
+		development_cost = -0.1
 	}
 	bonus = {
-		naval_forcelimit_modifier = 0.2
+		backrow_artillery_damage = 0.1
 	}
 	trigger = {
 		tag = ALH
@@ -13331,26 +13331,27 @@ ALH_ideas = {
 	free = yes
 	
 	alh_desert_warfare = {
-		cavalry_cost = -0.1
+		discipline = 0.05
 	}
-	alh_lord_of_the_eastern_bedouin = {
-		tolerance_own = 2
+	nazy_indian_servants = {
+		can_recruit_rajputs = yes
+		allowed_rajput_fraction = 0.15
 	}
 	alh_pearls_of_the_persian_gulf = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	alh_fortify_the_coastline = {
-		defensiveness = 0.2
+		defensiveness = 0.1
 	}
 	alh_entrepot_of_india = {
 		trade_efficiency = 0.1
 	}
 	alh_a_modern_navy = {
-		ship_durability = 0.05
+		heavy_ship_power = 0.125
 	}
 	alh_legacy_of_rahmah_ibn_jabir = {
 		navy_tradition = 1
-		privateer_efficiency = 0.15
+		naval_forcelimit_modifier = 0.2
 	}
 }
 

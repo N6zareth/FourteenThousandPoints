@@ -4294,29 +4294,10 @@ gbr_ave_row_1 = {
 			}
 		}		
 		trigger = {
-			if = {
-				limit = { is_random_new_world = no }
-				1500 = {
-					trade_share = {
-						country = ROOT
-						share = 40
-					}
-				}
-				1269 = {
-					highest_value_trade_node = yes
-					trade_share = {
-						country = ROOT
-						share = 60
-					}
-				}
-			}
-			else = {
-				1269 = {
-					highest_value_trade_node = yes
-					trade_share = {
-						country = ROOT
-						share = 60
-					}
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 50
 				}
 			}
 		}	

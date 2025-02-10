@@ -1381,7 +1381,8 @@ absolutism = {
 }
 
 low_army_professionalism = {
-	mercenary_cost = -0.33
+	mercenary_cost = -0.25
+	merc_maintenance_modifier = -0.25
 }
 
 high_army_professionalism = {
@@ -2199,7 +2200,7 @@ mobilized_new_order_regiments = {
 ########################################
 
 expand_administation_modifier = {
-	expand_administration_cost = 0.8
+	expand_administration_cost = 0.33
 	governing_capacity = 100
 }
 

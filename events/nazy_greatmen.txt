@@ -49,7 +49,7 @@ country_event = { # Morale, Grand Captain
 	picture = REFORM_eventPicture
 
 	trigger = {
-		grand_captain = 3
+		army_reformer = 3
 		OR = {
 			NOT = { has_country_modifier = nazy_morale_event }
 			NOT = { has_country_modifier = nazy_morale_timer }

@@ -6,6 +6,7 @@ ai = {
 	development_cost = 0.60
 	defensiveness = -0.50
 	diplomatic_upkeep = -3
+	global_missionary_strength = 0.04
 }
 
 colonial_nation = {
@@ -14,24 +15,18 @@ colonial_nation = {
 	}
 	colonists = 3
 	colony_cost_modifier = -1
-}
-
-player_subject = {
-	potential = {
-		is_subject = yes
-		ai = yes
-	}
-	liberty_desire	= -1000
+	liberty_desire = -1000
+	global_missionary_strength = 0.04
 }
 
 player_modifier = {
 	potential = {
 		ai = no
 	}
-	governing_capacity_modifier = 0.33
 	num_accepted_cultures = 4
+	diplomatic_annexation_cost = -0.25
 	ae_impact = -0.25
-	diplomatic_annexation_cost = -0.66
+	global_missionary_strength = 0.04
 }
 
 Splendid_Court = {

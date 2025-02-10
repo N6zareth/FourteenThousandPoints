@@ -168,9 +168,6 @@ qolu_national_debt = {
 		potential = {
 			ai = no
 			has_parliament = yes
-		}
-
-		allow = {
 			any_owned_province = {
 				has_seat_in_parliament = no
 			}
@@ -304,16 +301,16 @@ qolu_national_debt = {
 				NOT = { has_country_modifier = nazy_morale_timer }
 			}
 			custom_trigger_tooltip = {
-				tooltip = nazy_greatmen_reforms_tt
-				NOT = { has_country_modifier = nazy_reforms_timer }
-			}
-			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_manpower_tt
 				NOT = { has_country_modifier = nazy_manpower_timer }
 			}
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_radical_reforms
 				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = nazy_greatmen_reforms_tt
+				NOT = { has_country_modifier = nazy_reforms_timer }
 			}
 			custom_trigger_tooltip = {
 				tooltip = nazy_greatmen_decisions_desc

@@ -15,3 +15,4 @@ owner = NAP
 controller = NAP
 add_core = NAP
 controller = NAP
+hre = yes

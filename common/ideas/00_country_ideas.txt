@@ -2789,18 +2789,17 @@ BYZ_ideas = {
 	free = yes
 	
 	imperium_sine_fine = {
-		core_creation = -0.15
+		core_creation = -0.1
 		development_cost = -0.1
 	}
 	legacy_of_rome = {
 		diplomatic_reputation = 2
 	}
 	spqr = {
-		stability_cost_modifier = -0.2
+		stability_cost_modifier = -0.1
 	}
 	roman_legions = {
 		infantry_power = 0.1
-		land_forcelimit_modifier = 0.1
 	}
 	roman_architecture = {
 		production_efficiency = 0.1

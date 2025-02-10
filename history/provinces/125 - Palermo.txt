@@ -16,3 +16,4 @@ center_of_trade = 1
 owner = NAP
 controller = NAP
 add_core = NAP
+hre = yes

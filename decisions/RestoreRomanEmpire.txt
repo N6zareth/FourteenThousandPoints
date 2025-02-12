@@ -6,6 +6,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = restored_rome_flag }
 			owns = 118
+			owns = 151
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -33,40 +34,30 @@ country_decisions = {
 					tooltip = BYZ_highlighted_by_decision
 					BYZ_roman_empire_decision_trigger = yes
 				}
-				value = 200 #450 by default
+				value = 150 #450 by default
 			}
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			118 = {
-				owned_by = ROOT
-			}
-			151 = {
-				owned_by = ROOT
-			}
-			114 = {
-				owned_by = ROOT
-			}
-			112 = {
-				owned_by = ROOT
-			}
-			104 = {
-				owned_by = ROOT
-			}
-			101 = {
-				owned_by = ROOT
-			}
-			121 = {
-				owned_by = ROOT
-			}
-			146 = {
-				owned_by = ROOT
-			}
-			316 = {
-				owned_by = ROOT
-			}
-			341 = {
-				owned_by = ROOT
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = Nazy_SPQR_tt
+					118 = { # Rome
+						owned_by = ROOT
+					}
+					114 = { # Ravenna
+						owned_by = ROOT
+					}
+					151 = { # Constantinople
+						owned_by = ROOT
+					}
+					2313 = { # Antioch
+						owned_by = ROOT
+					}
+					341 = { #Tunis
+						owned_by = ROOT
+					}
+				}
 			}
 		}
 		effect = {

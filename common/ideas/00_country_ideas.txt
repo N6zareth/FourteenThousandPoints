@@ -13318,8 +13318,8 @@ SRV_ideas = {
 
 ALH_ideas = {
 	start = {
-		tolerance_heathen = 1
-		development_cost = -0.1
+		land_forcelimit_modifier = 0.1
+		development_cost = -0.15
 	}
 	bonus = {
 		backrow_artillery_damage = 0.1
@@ -13334,13 +13334,13 @@ ALH_ideas = {
 	}
 	nazy_indian_servants = {
 		can_recruit_rajputs = yes
-		allowed_rajput_fraction = 0.15
+		allowed_rajput_fraction = 0.3
 	}
 	alh_pearls_of_the_persian_gulf = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	alh_fortify_the_coastline = {
-		defensiveness = 0.1
+		defensiveness = 0.2
 	}
 	alh_entrepot_of_india = {
 		trade_efficiency = 0.1

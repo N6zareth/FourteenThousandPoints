@@ -670,7 +670,7 @@ fort_15th = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor = 1 #Lots of logic in code instead, that multiplies with this value
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
 	}
 }
 
@@ -1216,7 +1216,7 @@ fort_16th = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor = 1 #Lots of logic in code instead, that multiplies with this value
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
 	}
 }
 
@@ -1915,7 +1915,7 @@ fort_17th = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor = 1 #Lots of logic in code instead, that multiplies with this value
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
 	}
 }
 
@@ -2525,7 +2525,7 @@ fort_18th = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor = 1 #Lots of logic in code instead, that multiplies with this value
+		factor = 1000 #Lots of logic in code instead, that multiplies with this value
 	}
 }
 

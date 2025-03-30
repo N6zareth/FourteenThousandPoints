@@ -1751,12 +1751,12 @@ POL_ideas = {
 
 LIT_ideas = {
 	start = {
-		manpower_recovery_speed = 0.15
-		tolerance_heretic = 3
+		global_manpower_modifier = 0.15
+		discipline = 0.05
 	}
 	
 	bonus = {
-		leader_land_manuever = 1
+		leader_land_shock = 1
 	}
 	
 	trigger = {
@@ -1766,26 +1766,26 @@ LIT_ideas = {
 	free = yes		#will be added at load.
 	
 	warlord_dukes = {
-		leader_land_shock = 1
+		land_morale = 0.1
+	}
+	lithuanian_hussars = {
+		cavalry_power = 0.15
+		can_recruit_hussars = yes
 	}
 	auksine_laisve = {
 		stability_cost_modifier = -0.1
 	}
 	magdeburg_laws = {
-		global_tax_modifier = 0.1
+		all_estate_loyalty_equilibrium = 0.1
 	}
 	magnate_estates = {
 		production_efficiency = 0.1
-	}
-	lithuanian_hussars = {
-		cavalry_power = 0.25
-		can_recruit_hussars = yes
 	}
 	statutes_of_lithuania = {
 		global_unrest = -2
 	}
 	lithuanian_renaissance = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 }
 
@@ -18053,7 +18053,7 @@ FU2_ideas = {
 
 UKR_ideas = {
 	start = {
-		manpower_recovery_speed = 0.2
+		land_morale = 0.1
 		morale_damage_received = -0.1
 	}
 
@@ -18079,22 +18079,21 @@ UKR_ideas = {
 		promote_culture_cost = -0.25
 	}
 	zaporizhian_cossacs = {
-		cavalry_power = 0.15
-		cossacks_privilege_slots = 1
+		cavalry_power = 0.3
+		cavalry_cost = -0.15
 	}
 	east_and_west = {
 		global_trade_power = 0.1
 	}
 	legacy_of_ancient_rus = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.2
 	}
 	reuniting_rus = {
 		core_creation = -0.1
 		years_of_nationalism = -5
 	}
 	birth_of_russian_orthodoxy = {
-		tolerance_own = 2
-		yearly_patriarch_authority = 0.005
+		manpower_in_true_faith_provinces = 0.2
 	}
 }
 

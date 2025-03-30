@@ -1,0 +1,14 @@
+nazy_nw_del = {
+	every_province = {
+        limit = {
+            continent = north_america
+            continent = south_america
+        }
+        change_religion = ---
+	    change_culture = ---
+        trade_goods = ---
+	    set_base_tax = 1
+	    set_base_production = 1
+	    set_base_manpower = 1
+	}
+}

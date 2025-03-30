@@ -113,7 +113,8 @@ wooden_wall = {
 
 	cost = 0.1
 	country_modifier = {
-		own_coast_naval_combat_bonus = 1.0
+		heavy_ship_power = 0.05
+		naval_morale = 0.05
 	}
 	effect = {}
 	removed_effect = {}

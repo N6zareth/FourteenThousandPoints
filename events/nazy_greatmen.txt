@@ -7,16 +7,18 @@ country_event = { # Discipline, Commandant
 	picture = REFORM_eventPicture
 
 	trigger = {
-		commandant = 3
 		OR = {
-			NOT = { has_country_modifier = nazy_discipline_event }
-			NOT = { has_country_modifier = nazy_discipline_timer }
-			NOT = { has_country_modifier = nazy_discipline_no }
+			commandant = 3
+			commandant = 4
+			commandant = 5
 		}
+		NOT = { has_country_modifier = nazy_discipline_event }
+		NOT = { has_country_modifier = nazy_discipline_timer }
+		NOT = { has_country_modifier = nazy_discipline_no }
 	}
 
 	mean_time_to_happen = {
-		months = 300
+		months = 144
 	}
 
 	option = { # Yes
@@ -42,23 +44,25 @@ country_event = { # Discipline, Commandant
 	}
 }
 
-country_event = { # Morale, Grand Captain
+country_event = { # Morale, Army Reformer
 	id = nazy_greatmen.2
 	title = nazy_greatmen.2.title
 	desc = nazy_greatmen.2.desc
 	picture = REFORM_eventPicture
 
 	trigger = {
-		army_reformer = 3
 		OR = {
-			NOT = { has_country_modifier = nazy_morale_event }
-			NOT = { has_country_modifier = nazy_morale_timer }
-			NOT = { has_country_modifier = nazy_morale_no }
+			army_reformer = 3
+			army_reformer = 4
+			army_reformer = 5
 		}
+		NOT = { has_country_modifier = nazy_morale_event }
+		NOT = { has_country_modifier = nazy_morale_timer }
+		NOT = { has_country_modifier = nazy_morale_no }
 	}
 
 	mean_time_to_happen = {
-		months = 300
+		months = 144
 	}
 
 	option = { # Yes
@@ -91,16 +95,18 @@ country_event = { # Manpower, Recruitmaster
 	picture = REFORM_eventPicture
 
 	trigger = {
-		recruitmaster = 3
 		OR = {
-			NOT = { has_country_modifier = nazy_manpower_event }
-			NOT = { has_country_modifier = nazy_manpower_timer }
-			NOT = { has_country_modifier = nazy_manpower_no }
+			recruitmaster = 3
+			recruitmaster = 4
+			recruitmaster = 5
 		}
+		NOT = { has_country_modifier = nazy_manpower_event }
+		NOT = { has_country_modifier = nazy_manpower_timer }
+		NOT = { has_country_modifier = nazy_manpower_no }
 	}
 
 	mean_time_to_happen = {
-		months = 300
+		months = 144
 	}
 
 	option = { # Yes
@@ -136,16 +142,14 @@ country_event = { # Military Reforms
 		dip = 5
 		mil = 5
 		is_year = 1500
-		OR = {
-			NOT = { has_country_flag = nazy_mil_reforms }
-			NOT = { has_country_flag = nazy_navy_reforms }
-			NOT = { has_country_modifier = nazy_reforms_timer }
-			NOT = { has_country_flag = nazy_reforms_no }
-		}
+		NOT = { has_country_modifier = nazy_mil_reforms }
+		NOT = { has_country_modifier = nazy_navy_reforms }
+		NOT = { has_country_modifier = nazy_reforms_timer }
+		NOT = { has_country_modifier = nazy_reforms_no }
 	}
 
 	mean_time_to_happen = {
-		months = 300
+		months = 144
 	}
 
 	option = { # Just the Army

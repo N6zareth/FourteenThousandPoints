@@ -1,9 +1,9 @@
 nazy_discipline_event = {
-	discipline = 0.1
+	discipline = 0.05
 }
 
 nazy_morale_event = {
-	land_morale = 0.2
+	land_morale = 0.1
 }
 
 nazy_manpower_event = {
@@ -11,12 +11,12 @@ nazy_manpower_event = {
 }
 
 nazy_mil_reforms = {
-	land_morale = 0.2
+	land_morale = 0.1
 	mil_tech_cost_modifier = -0.1
 }
 
 nazy_navy_reforms = {
-	naval_morale = 0.2
+	naval_morale = 0.1
 	dip_tech_cost_modifier = -0.1
 }
 

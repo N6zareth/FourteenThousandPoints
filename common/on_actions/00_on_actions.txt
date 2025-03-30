@@ -19,7 +19,6 @@ on_startup = {
 		flavor_geo.1 # Disaster info
 		flavor_mam.111 # Mamluks-Syria relations
 		frscolor.1 #fars color event and ships
-		nazy_norse.1
 	}
 	on_startup_effect = yes
 	on_startup_dlc_cleanup_effect = yes
@@ -27,6 +26,8 @@ on_startup = {
 
 	gecko_mercs = { update = yes on_startup = yes }
 	development_counter = { on_startup = yes }
+
+	nazy_nw_del = yes
 
 	if = { 
 		limit ={ ai = no

@@ -4281,23 +4281,13 @@ gbr_ave_row_1 = {
 		required_missions = { gbr_a_house_divided }
 		position = 11		
 		provinces_to_highlight = {
-			if = {
-				limit = { is_random_new_world = no }
-				OR = {
-					province_id = 1500
-					province_id = 1269
-				}
-				has_discovered = ROOT
-			}
-			else = {
-				province_id = 1269
-			}
+			province_id = 1975
 		}		
 		trigger = {
-			home_trade_node = {
+			1975 = {
 				trade_share = {
 					country = ROOT
-					share = 50
+					share = 80
 				}
 			}
 		}	
@@ -4321,16 +4311,16 @@ gbr_ave_row_1 = {
 		}
 		position = 12
 		provinces_to_highlight = {
-			province_id = 1269
+			province_id = 1975
 		}		
 		trigger = { 
-			1269 = {
+			1975 = {
 				is_strongest_trade_power = ROOT
 			}
-			1269 = {
+			1975 = {
 				highest_value_trade_node = yes
 			}
-			1269 = {
+			1975 = {
 				trade_node_value = 500
 			}
 			reform_level = 8

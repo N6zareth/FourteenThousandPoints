@@ -1,4 +1,50 @@
 country_decisions = {
+	akai_mil_golden_age = {
+		color = { 166 0 0 }
+		
+		potential = {
+			NOT = { has_country_flag = akai_military_golden_age }
+			tag = MOS
+			tag = RUS
+			ai = no
+		}
+		allow = {
+			adm_power = 100
+			dip_power = 100
+			mil_power = 100
+			splendor = 200
+		}
+		effect = {
+			add_country_modifier = {
+				name = "military_golden_age"
+				duration = 18250
+			}
+			set_country_flag = akai_military_golden_age
+		}
+	}
+	akai_eco_golden_age = {
+		color = { 166  0  0 }
+		
+		potential = {
+			NOT = { has_country_flag = akai_economic_golden_age }
+			tag = MOS
+			tag = RUS
+			ai = no
+		}
+		allow = {
+			adm_power = 100
+			dip_power = 100
+			mil_power = 100
+			splendor = 200
+		}
+		effect = {
+			add_country_modifier = {
+				name = "economic_golden_age"
+				duration = 18250
+			}
+			set_country_flag = akai_economic_golden_age
+		}
+	}
 	gecko_court_recruitment = {
 		color = { 166 0 0 }
 		potential = {
@@ -16,12 +62,10 @@ country_decisions = {
 
 	zzz_eco_golden_age_decisions = {
 		color = { 166  0  0 }
-		ai_will_do = {
-			factor = 1
-		}
 		
 		potential = {
 			NOT = { has_country_flag = economic_golden_age }
+			ai = no
 		}
 		allow = {
 			adm_power = 100
@@ -40,12 +84,10 @@ country_decisions = {
 	
 	zzz_mil_golden_age_decisions = {
 		color = { 166 0 0 }
-		ai_will_do = {
-			factor = 1
-		}
 		
 		potential = {
 			NOT = { has_country_flag = military_golden_age }
+			ai = no
 		}
 		allow = {
 			adm_power = 100
@@ -65,7 +107,7 @@ country_decisions = {
 	qolu_eur_colonists = {
 		color = { 166 0 0 }
 		ai_will_do = {
-			factor = 1
+			factor = 400
 		}
 
 		potential = {
@@ -120,6 +162,7 @@ qolu_national_debt = {
 			NOT = { has_country_modifier = qolu_tackle_debt }
 			NOT = { has_country_modifier = qolu_national_rebuild }
 			is_bankrupt = no
+			ai = no
 		}
 
 		allow = {
@@ -221,9 +264,6 @@ qolu_national_debt = {
 	
 	zzz_wool_cloth = {
 		color = { 166  0  0 }
-		ai_will_do = {
-			factor = 1
-		}
 		
 		potential = {
 			ai = no

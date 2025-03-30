@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 150	# Sofia
+
+1444.1.1 = {
+	monarch = {
+		name = "Melkron"
+		dynasty = "Vladislav"
+		birth_date = 1411.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = sinner_personality
+}

@@ -201,8 +201,7 @@ NDefines.NCountry.PS_RAISE_TARIFFS = 777
 NDefines.NCountry.BREAK_MARRIAGE_STABILITY_PENALTY = 0
 NDefines.NCountry.BREAK_MARRIAGE_PRESTIGE_PENALTY = -15
 NDefines.NMilitary.FORTRESS_COST = 0.15
-NDefines.NAI.ADVISOR_BUDGET_FRACTION = 0.5
-NDefines.NAI.ADVISOR_BUDGET_FRACTION = 0.5
+NDefines.NAI.ADVISOR_BUDGET_FRACTION = 0.75
 
 NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down

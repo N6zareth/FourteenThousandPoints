@@ -79,101 +79,13 @@ interaction = {
 		on_sale_of_titles_effect = yes
     }
 	ai_will_do = {
-		factor = 25
+		factor = 1000
 		modifier = {
 			factor = 0
 			OR = {
 				NOT = { crown_land_share = 25 }
 				AND = {
 					is_absolutism_active = yes
-					NOT = { crown_land_share = 40 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 35 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 50 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_loans = 1 }
-		}
-		modifier = {
-			factor = 0.5
-			is_in_deficit = no
-		}
-		modifier = {
-			factor = 1.25
-			has_any_disaster = yes
-		}
-		modifier = {
-			factor = 1.5
-			num_of_loans = 2
-			is_in_deficit = yes
-		}
-		modifier = {
-			factor = 1.5
-			num_of_loans = 5
-		}
-		modifier = {
-			factor = 1.5
-			num_of_loans = 10
-		}
-		modifier = {
-			factor = 1.5
-			num_of_loans = 15
-		}
-		modifier = {
-			factor = 1.5
-			num_of_loans = 20
-		}
-		modifier = {
-			factor = 1.2
-			NOT = {
-				estate_loyalty = {
-					estate = all
-					loyalty = 25
-				}
-			}
-		}
-		modifier = {
-			factor = 1.1
-			crown_land_share = 80
-		}
-		modifier = {
-			factor = 0.75
-			num_of_powerful_estates = 1
-		}
-		modifier = {
-			factor = 0.8
-			has_country_flag = recent_land_distribution
-			NOT = {
-				had_country_flag = {
-					flag = recent_land_distribution
-					days = 5475
-				}
-			}
-		}
-		modifier = {
-			factor = 1.2
-			had_country_flag = {
-				flag = recent_land_distribution
-				days = 10950
-			}
-		}
-		modifier = {
-			factor = 0.5
-			has_country_flag = recent_land_seizure
-			NOT = {
-				had_country_flag = {
-					flag = recent_land_seizure
-					days = 5475
 				}
 			}
 		}
@@ -444,7 +356,7 @@ interaction = {
 		on_seize_land_effect = yes
 	}
 	ai_will_do = {
-		factor = 50
+		factor = 1000
 		modifier = {
 			factor = 0
 			# This check is needed to prevent collision with day-1 event theocracy.1
@@ -480,9 +392,6 @@ interaction = {
 		}
 		modifier = {
 			factor = 0.2
-
-			# This custom event target is set by code. If ai_will_do is higher when this is set (and >50) than when it isn't,
-			# the AI will raise maintenance and wait until the event target doesn't increase the ai_will_do score
 			NOT = { has_saved_event_target = ai_suppose_full_maintenance }
 
 			NOT = {

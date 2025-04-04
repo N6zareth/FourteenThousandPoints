@@ -27,6 +27,9 @@
  zzz_french_colonial_enthusiasm:0 "French Colonial Enthusiasm"
  zzz_french_colonial_enthusiasm_desc: "Our people are eager to settle in the new world and reap its endless bounties."
 
+ naz_remove_woods_decision_title: "£aggressiveness_icon£ Deforest Province"
+ naz_remove_woods:0 "£aggressiveness_icon£ Deforest Province"
+
  economic_golden_age:0 "¤ Golden Age (Economic)"
  military_golden_age:0 "£infantry_icon_small£ Golden Age (Military)"
  

@@ -20,6 +20,8 @@ naz_gbr_dominate_new_world.2:0 "§Y[Root.GetName]§! has no colonial subjects wi
 naz_gbr_chart_south_seas:0 "§Y[Root.GetName]§! has discovered the §YEastern Indian Ocean§! region"
 # Colonize Spice Isles
 naz_gbr_colonize_spice_isles:0 "§Y[Root.GetName]§! or its non-tributary subjects own §YSri Lanka§!"
+# Dominate the New World
+naz_gbr_strengthen_the_monarchy:0 "§Y[Root.GetName]§! or its colonial subjects own 50 provinces in the §YNew World§"
 
 ### SPAIN / CASTILE ###
 # Sails of Exploration

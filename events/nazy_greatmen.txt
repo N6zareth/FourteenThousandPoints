@@ -15,6 +15,7 @@ country_event = { # Discipline, Commandant
 		NOT = { has_country_modifier = nazy_discipline_event }
 		NOT = { has_country_modifier = nazy_discipline_timer }
 		NOT = { has_country_modifier = nazy_discipline_no }
+		ai = no
 	}
 
 	mean_time_to_happen = {
@@ -59,6 +60,7 @@ country_event = { # Morale, Army Reformer
 		NOT = { has_country_modifier = nazy_morale_event }
 		NOT = { has_country_modifier = nazy_morale_timer }
 		NOT = { has_country_modifier = nazy_morale_no }
+		ai = no
 	}
 
 	mean_time_to_happen = {
@@ -103,6 +105,7 @@ country_event = { # Manpower, Recruitmaster
 		NOT = { has_country_modifier = nazy_manpower_event }
 		NOT = { has_country_modifier = nazy_manpower_timer }
 		NOT = { has_country_modifier = nazy_manpower_no }
+		ai = no
 	}
 
 	mean_time_to_happen = {
@@ -146,6 +149,7 @@ country_event = { # Military Reforms
 		NOT = { has_country_modifier = nazy_navy_reforms }
 		NOT = { has_country_modifier = nazy_reforms_timer }
 		NOT = { has_country_modifier = nazy_reforms_no }
+		ai = no
 	}
 
 	mean_time_to_happen = {

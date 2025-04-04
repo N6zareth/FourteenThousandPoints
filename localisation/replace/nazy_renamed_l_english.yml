@@ -1,6 +1,8 @@
 ﻿l_english:
  colonial_eastern_america:0 "New World"
 
+ call_for_peace:0 "Hopefully disabled Call for Peace"
+
 #Naz Trade Nodes
  carribean_trade:0 "New World"
  english_channel:0 "Low Countries"

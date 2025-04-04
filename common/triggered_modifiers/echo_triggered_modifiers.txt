@@ -3,7 +3,6 @@ ai = {
 		ai = yes
 		is_colonial_nation = no
 	}
-	development_cost = 0.60
 	defensiveness = -0.50
 	diplomatic_upkeep = -3
 	global_missionary_strength = 0.04
@@ -15,7 +14,7 @@ colonial_nation = {
 	}
 	colonists = 3
 	colony_cost_modifier = -1
-	liberty_desire = -1000
+	liberty_desire = -200
 	global_missionary_strength = 0.04
 }
 

@@ -348,13 +348,8 @@ estate_nobles_officer_corp = {
 		modifier = { land_morale = 0.1 }
 	}
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0
-			is_absolutism_active = yes
-		}
+		factor = 400
 	}
-	
 }
 
 estate_nobles_levies = {
@@ -427,7 +422,7 @@ estate_nobles_levies = {
 		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 400
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes
@@ -482,7 +477,7 @@ estate_nobles_right_of_counsel = {
 		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 400
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes
@@ -625,7 +620,7 @@ estate_nobles_supremacy_over_crown = {
 	}
 
 	ai_will_do = {
-		factor = 1000
+		factor = 400
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes
@@ -1016,11 +1011,7 @@ estate_nobles_junker_primacy = {
 		}
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1000
-			has_dlc = "Rights of Man"
-		}
+		factor = 400
 	}
 }
 
@@ -1339,7 +1330,7 @@ estate_nobles_command_of_the_military = {
 		army_tradition = 1
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 0
 	}
 }
 
@@ -1386,7 +1377,7 @@ estate_nobles_better_integration = {
 		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 10
 	}
 }
 
@@ -1424,7 +1415,7 @@ estate_nobles_neighbor_raids = {
 	benefits = {
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 0
 	}
 }
 
@@ -1474,7 +1465,35 @@ estate_nobles_cawa_peace_keepers = {
 	}
 	cooldown_years = 5
 	ai_will_do = {
-		factor = 0
+		factor = 4
+		modifier = {
+			factor = 0
+			NOT = { num_of_cawa = 10 }
+		}
+		modifier = {
+			factor = 2
+			is_at_war = no
+		}
+		modifier = {
+			factor = 2
+			is_in_important_war = no
+		}
+		modifier = {
+			factor = 4
+			num_of_rebel_armies = 3
+		}
+		modifier = {
+			factor = 4
+			num_of_rebel_controlled_provinces = 3
+		}
+		modifier = {
+			factor = 4
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
 	}
 }
 
@@ -1522,7 +1541,24 @@ estate_nobles_cawa_offensive_fighters = {
 	}
 	cooldown_years = 5
 	ai_will_do = {
-		factor = 0
+		factor = 4
+		modifier = {
+			factor = 0
+			NOT = { num_of_cawa = 10 }
+		}
+		modifier = {
+			factor = 5
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 10
+			is_in_important_war = yes
+		}
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
 }
 
 estate_nobles_grant_power_to_the_bashorun = {
@@ -1561,7 +1597,11 @@ estate_nobles_grant_power_to_the_bashorun = {
 		stability_cost_modifier = -0.1
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 25
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
 	}
 }
 
@@ -1618,7 +1658,11 @@ estate_nobles_carolean_march = {
 	}
 	cooldown_years = 5
 	ai_will_do = {
-		factor = 1000
+		factor = 400
+		modifier = {
+			factor = 0
+			NOT = { num_of_carolean = 10 }
+		}
 	}
 }
 
@@ -1675,7 +1719,11 @@ estate_nobles_carolean_charge = {
 	}
 	cooldown_years = 5
 	ai_will_do = {
-		factor = 1000
+		factor = 400
+		modifier = {
+			factor = 0
+			NOT = { num_of_carolean = 10 }
+		}
 	}
 }
 
@@ -1703,6 +1751,10 @@ estate_nobles_leidang_conscription = {
 	}
 	ai_will_do = {
 		factor = 0
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
 	}
 }
 
@@ -2157,7 +2209,7 @@ estate_nobles_sponsor_hussars = {
 	}
 	cooldown_years = 50
 	ai_will_do = {
-		factor = 1000
+		factor = 1
 	}
 }
 
@@ -2181,7 +2233,7 @@ estate_nobles_mansabdari_cav_maintenance = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -2204,7 +2256,7 @@ estate_nobles_mansabdari_military_service = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -2219,7 +2271,7 @@ estate_nobles_mansabdari_royal_rule = {
 	}
 	mechanics = {  }
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -2246,7 +2298,7 @@ estate_nobles_rynda = {
 	}
 	mechanics = {  }
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -2271,7 +2323,7 @@ estate_nobles_landed_army = {
 	}
 	mechanics = {  }
 	ai_will_do = {
-		factor = 1000
+		factor = 1
 	}
 }
 
@@ -2952,7 +3004,7 @@ estate_nobles_consolidated_noble_contracts = {
 		exempt_from_seize_land
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -3023,7 +3075,7 @@ estate_nobles_english_copyhold_tenure = {
 	mechanics = {
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -3277,9 +3329,9 @@ estate_nobles_diet_right = {
 		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 10
 		modifier = {
-			factor = 0
+			factor = 0.1
 			is_absolutism_active = yes
 		}
 	}
@@ -3355,7 +3407,7 @@ estate_nobles_noble_officer_right = {
 		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 400
 	}
 }
 estate_nobles_expedition_rights = {
@@ -3473,6 +3525,9 @@ estate_nobles_highland_fortifications = {
 			remove_province_modifier = geo_privilege_mountains
 		}
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 #Turkomen
@@ -3536,7 +3591,7 @@ estate_nobles_emirs_of_baghdad = {
 	on_invalid_province = {
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -3643,7 +3698,7 @@ estate_nobles_tofangchi_regiment = {
 		infantry_power = 0.1
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 100
 	}
 }
 
@@ -3695,7 +3750,7 @@ estate_nobles_tupchi_artillery_corps = {
 		artillery_power = 0.05
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 100
 	}
 }
 
@@ -3736,7 +3791,7 @@ estate_nobles_qurchi_service = {
 		}
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 100
 	}
 }
 
@@ -3790,7 +3845,7 @@ estate_nobles_mamlukian_administration = {
 		remove_province_modifier = mamlukian_administration_modifier
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 100
 	}
 }
 
@@ -3812,7 +3867,7 @@ estate_nobles_enlist_the_mamluks = {
 		allowed_mamluks_fraction = 0.2
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 100
 	}
 }
 
@@ -3877,7 +3932,7 @@ estate_nobles_ITA_military_governors = {
 		}
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 100
 	}
 }
 
@@ -3904,7 +3959,7 @@ estate_nobles_GER_diploma_andreanum = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 100
 	}
 }
 
@@ -3993,7 +4048,7 @@ estate_nobles_vegvar_system = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 100
 	}
 }
 
@@ -4080,7 +4135,7 @@ estate_nobles_MAY_arm_nobles_with_obsidian_blades = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 100
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes
@@ -4107,7 +4162,7 @@ estate_nobles_MAY_spread_dynastic_influence = {
 		custom_tooltip = MAY_benefits_of_dynastic_influence
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -4152,7 +4207,7 @@ estate_nobles_AZT_triple_alliance = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -4233,7 +4288,7 @@ estate_nobles_AZT_warrior_culture = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -4369,7 +4424,7 @@ estate_nobles_imperial_war_leader = {
 		land_morale = 0.05
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 5
 	}
 }
 
@@ -4396,7 +4451,7 @@ estate_nobles_hab_habsburg_connections = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 5
 	}
 }
 
@@ -4431,7 +4486,7 @@ estate_nobles_habsburg_disunity = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 5
 	}
 }
 
@@ -4545,7 +4600,7 @@ estate_nobles_hab_von_raab_restructions = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 5
 	}
 }
 
@@ -4602,7 +4657,7 @@ estate_nobles_TIM_chagatai_warriors = {
 		}
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -4719,7 +4774,7 @@ estate_nobles_MUG_development_of_the_subah = {
 	}
 	
 	ai_will_do = {
-		factor = 0 #AI will not expand quickly enough
+		factor = 1 #AI will not expand quickly enough
 	}
 }
 
@@ -4754,7 +4809,7 @@ estate_nobles_four_class_system = {
 	}
 	
 	ai_will_do = {
-		factor = 1000
+		factor = 1
 	}
 }
 
@@ -4825,7 +4880,7 @@ estate_nobles_hungarian_nobility_privileges = {
 	}
 	cooldown_years = 25
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }
 
@@ -4896,6 +4951,6 @@ estate_nobles_austrian_nobility_privileges = {
 	}
 	cooldown_years = 25
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 }

@@ -500,51 +500,30 @@ eng_row_slot_1 = {
 		position = 8
 		provinces_to_highlight = {
 		}		
-		trigger = { 
-			if = {
-				limit = {
-					is_absolutism_active = no
-				}
-				legitimacy_equivalent = 90
-				NOT = {
-					estate_influence = {
-						estate = all
-						influence = 50
-					}
-				}
-				estate_loyalty = {
+		trigger = {
+			legitimacy_equivalent = 90
+			NOT = {
+				estate_influence = {
 					estate = all
-					loyalty = 60
-				}
-				num_of_subjects = 5
-				NOT = {
-					any_subject_country = {
-						liberty_desire = 20
-					}
-				}
-				NOT = { num_of_rebel_armies = 1 }
-				NOT = { num_of_rebel_controlled_provinces = 1 }
-				custom_trigger_tooltip = {
-					tooltip = absolutism_dynamic_reward_tt
-					is_absolutism_active = no
+					influence = 50
 				}
 			}
-			else = {
-				if = {
-					limit = {
-						is_revolutionary = yes
-						has_dlc = "Emperor"
-					}
-					revolutionary_zeal = 50
-				}
-				else = {
-					absolutism = 50
-				}
-				NOT = { average_home_autonomy = 20 }
-				NOT = { num_of_rebel_armies = 1 }
-				NOT = { num_of_rebel_controlled_provinces = 1 }
+			estate_loyalty = {
+				estate = all
+				loyalty = 60
 			}
-		}	
+			custom_trigger_tooltip = {
+				tooltip = naz_gbr_strengthen_the_monarchy
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+					value = 50
+					city = yes
+				}
+			}
+		}
 		effect = {
 			change_government_reform_progress = 50
 			unlock_government_reform = {

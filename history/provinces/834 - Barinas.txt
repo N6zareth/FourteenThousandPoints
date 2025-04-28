@@ -1,7 +1,5 @@
 #834 - Barinas
-culture = guajiro
 discovered_by = south_american
-religion = animism
 capital = "Barinas"
 trade_goods = unknown
 base_tax = 1

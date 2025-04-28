@@ -1,6 +1,4 @@
 # - Tucume
-culture = chimuan
-religion = inti
 capital = "Tucume"
 trade_goods = unknown
 base_tax = 1

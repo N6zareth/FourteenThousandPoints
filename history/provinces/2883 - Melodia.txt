@@ -1,8 +1,6 @@
 # - Melodia
-culture = chacoan
 discovered_by = south_american
 discovered_by = CCQ
-religion = animism
 capital = "Melodia"
 trade_goods = unknown
 base_tax = 1

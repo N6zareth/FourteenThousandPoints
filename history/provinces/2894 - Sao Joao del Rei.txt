@@ -1,7 +1,5 @@
 # - Sao Joao del Rei
-culture = tupinamba
 discovered_by = south_american
-religion = animism
 capital = "Sao Joao del Rei"
 trade_goods = unknown
 base_tax = 1

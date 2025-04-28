@@ -1,9 +1,7 @@
 #822 - Caqueta
-culture = jivaro
 discovered_by = south_american
 discovered_by = andean
 discovered_by = MCA
-religion = animism
 capital = "Mocoa"
 trade_goods = unknown
 base_tax = 1

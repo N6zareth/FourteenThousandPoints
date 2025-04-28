@@ -1,7 +1,5 @@
 #744 - Demerara
-culture = guajiro
 discovered_by = south_american
-religion = animism
 capital = "Demerara"
 trade_goods = unknown
 base_tax = 1

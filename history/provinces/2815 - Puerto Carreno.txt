@@ -1,8 +1,6 @@
 # - Puerto Carreno
-culture = guajiro
 discovered_by = south_american
 discovered_by = MCA
-religion = animism
 capital = "Puerto Carreno"
 trade_goods = unknown
 base_tax = 1

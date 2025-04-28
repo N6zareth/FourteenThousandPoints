@@ -1,6 +1,4 @@
 # - Florida Blanca
-culture = patagonian
-religion = animism
 capital = "Florida Blanca"
 trade_goods = unknown
 base_tax = 1

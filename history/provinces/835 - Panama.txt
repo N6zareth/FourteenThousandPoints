@@ -10,7 +10,6 @@ native_size = 20
 native_ferocity = 2
 native_hostileness = 5
 extra_cost = 8
-center_of_trade = 1
 1503.1.9 = { discovered_by = CAS }
 1509.1.1 = { 
 	controller = CAS

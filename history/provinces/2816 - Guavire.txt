@@ -1,8 +1,6 @@
 # - Guaviare
-culture = guajiro
 discovered_by = south_american
 discovered_by = MCA
-religion = animism
 capital = "Guaviare"
 trade_goods = unknown
 base_tax = 1

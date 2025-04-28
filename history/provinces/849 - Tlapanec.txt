@@ -1,15 +1,14 @@
 #849 - Tlapanec
 capital = "Acapulco"
 trade_goods = unknown
-base_tax = 4
-base_production = 4
+base_tax = 1
+base_production = 1
 base_manpower = 1
 is_city = yes
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
 extra_cost = 8
-center_of_trade = 1
 1505.1.1 = { 
 	controller = AZT
 	add_core = AZT

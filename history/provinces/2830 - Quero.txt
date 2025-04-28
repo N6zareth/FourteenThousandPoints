@@ -1,6 +1,4 @@
 # - Quero
-culture = inca
-religion = inti
 capital = "Quero"
 trade_goods = unknown
 base_tax = 1

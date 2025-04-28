@@ -1,8 +1,8 @@
 #843 - Belize
 capital = "Chactemal"
 trade_goods = unknown
-base_tax = 4
-base_production = 4
+base_tax = 1
+base_production = 1
 base_manpower = 1
 is_city = yes
 add_local_autonomy = 25

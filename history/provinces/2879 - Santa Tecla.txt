@@ -1,7 +1,5 @@
 # - Santa Tecla
-culture = guarani
 discovered_by = south_american
-religion = animism
 capital = "Santa Tecla"
 trade_goods = unknown
 base_tax = 1

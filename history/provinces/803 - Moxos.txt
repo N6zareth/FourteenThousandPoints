@@ -1,6 +1,4 @@
 #803 - Moxos
-culture = guarani
-religion = animism
 capital = "Moxos"
 trade_goods = unknown
 base_tax = 1

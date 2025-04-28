@@ -27,7 +27,17 @@ on_startup = {
 	gecko_mercs = { update = yes on_startup = yes }
 	development_counter = { on_startup = yes }
 
-	nazy_nw_del = yes
+	if = {
+		limit = {
+			AND = {
+				tag = BUR
+				ai=no
+			}
+		}
+		country_event = {
+			id = bertus_limitation_menu.50000
+		}
+	}
 
 	if = { 
 		limit ={ ai = no

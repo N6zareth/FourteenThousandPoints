@@ -1,6 +1,4 @@
 #783 - Alacaluf
-culture = patagonian
-religion = animism
 capital = "Alacaluf"
 trade_goods = unknown
 base_tax = 1

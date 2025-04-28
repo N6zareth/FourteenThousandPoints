@@ -1,7 +1,5 @@
 # - Diamantino
-culture = carib
 discovered_by = south_american
-religion = animism
 capital = "Diamantino"
 trade_goods = unknown
 base_tax = 1

@@ -1,7 +1,5 @@
 #746 - Cayenne
-culture = guajiro
 discovered_by = south_american
-religion = animism
 capital = "Cayenne"
 trade_goods = unknown
 base_tax = 1

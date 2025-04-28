@@ -1,7 +1,5 @@
 # - Muturu
-culture = tupinamba
 discovered_by = south_american
-religion = animism
 capital = "Muturu"
 trade_goods = unknown
 base_tax = 1

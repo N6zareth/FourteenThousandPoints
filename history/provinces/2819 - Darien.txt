@@ -1,8 +1,6 @@
 # - Darien 
-culture = muisca
 discovered_by = south_american
 discovered_by = MCA
-religion = animism
 capital = "Darien"
 trade_goods = unknown
 base_tax = 1

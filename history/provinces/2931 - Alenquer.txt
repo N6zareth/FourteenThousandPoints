@@ -1,7 +1,5 @@
 # - Pirara
-culture = carib
 discovered_by = south_american
-religion = animism
 capital = "Pirara"
 trade_goods = unknown
 base_tax = 1

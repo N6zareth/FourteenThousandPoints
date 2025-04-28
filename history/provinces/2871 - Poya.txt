@@ -1,6 +1,4 @@
 # - Poya
-culture = patagonian
-religion = animism
 capital = "Poya"
 trade_goods = unknown
 base_tax = 1

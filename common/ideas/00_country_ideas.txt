@@ -2569,7 +2569,7 @@ MAM_ideas = {
 
 NAP_ideas = {
 	start = {
-		land_morale = 0.1
+		global_institution_spread = 0.1
 		prestige = 1
 	}
 	
@@ -2583,17 +2583,14 @@ NAP_ideas = {
 	
 	free = yes
 	
-	consolidate_the_royal_domain = {
-		global_trade_goods_size_modifier = 0.1
+	crush_the_barons = {
+		land_morale = 0.05
 	}
 	academia_pontaniana = {
 		technology_cost = -0.05
 	}
 	encouraged_city_living = {
-		development_cost = -0.1 #Often among the largest cities of Europe
-	}
-	crush_the_barons = {
-		discipline = 0.05
+		development_cost = 0.1 #Often among the largest cities of Europe
 	}
 	expanded_arsenale = {
 		galley_power = 0.15
@@ -2601,6 +2598,9 @@ NAP_ideas = {
 	city_of_artists = {
 		global_institution_spread = 0.1
 		trade_efficiency = 0.1
+	}
+	consolidate_the_royal_domain = {
+		global_trade_goods_size_modifier = 0.1
 	}
 	lazzaroni_support = {
 		legitimacy = 1

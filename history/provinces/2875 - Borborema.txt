@@ -1,6 +1,4 @@
 # - Chubut
-culture = patagonian
-religion = animism
 capital = "Chubut"
 trade_goods = unknown
 base_tax = 1

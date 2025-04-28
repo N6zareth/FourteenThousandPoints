@@ -4756,7 +4756,7 @@ divine_kingship_reform = {
 	}
 }
 
-#Hereditary vs Nobility
+#Strengthen Noble Privileges
 enforce_privileges_reform = {
 	icon = "people_walking"
 	allow_normal_conversion = yes
@@ -4770,14 +4770,11 @@ enforce_privileges_reform = {
 		rajput_exclusive_influence_modifier = 0.1
 	}
 	ai = {
-		factor = 1
-		modifier = {
-			factor = 2
-			NOT = { max_manpower = 12 }
-		}
+		factor = 1000
 	}
 }
 
+# Curtail Noble Privileges
 quash_noble_power_reform = {
 	icon = "king_2"
 	allow_normal_conversion = yes
@@ -4792,14 +4789,11 @@ quash_noble_power_reform = {
 		#parliament_effect_duration = -2
 	}
 	ai = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_in_deficit = yes
-		}
+		factor = 0
 	}
 }
 
+# Grant Noble Castle Rights
 grant_noble_castle_rights_reform = {
 	icon = "castle"
 	allow_normal_conversion = yes
@@ -4816,22 +4810,11 @@ grant_noble_castle_rights_reform = {
 		on_fort_built_nobles_loyalty = yes	#5 Loyalty
 	}
 	ai = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			num_of_owned_provinces_with = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
-				value = 5
-			}
-		}
+		factor = 0
 	}
 }
 
+#Compromise with Nobility
 maintain_nobles_status_quo_reform = {
 	icon = "conciliarism_reform"
 	allow_normal_conversion = yes
@@ -4847,14 +4830,11 @@ maintain_nobles_status_quo_reform = {
 		free_noble_levies = yes
 	}
 	ai = {
-		factor = 1
-		modifier = {
-			factor = 0
-			crown_land_share = 50
-		}
+		factor = 0
 	}
 }
 
+#Noble Officer Corps
 grant_military_command_reform = {
 	icon = "soldiers"
 	allow_normal_conversion = yes
@@ -4872,10 +4852,11 @@ grant_military_command_reform = {
 		recruiting_generals_increases_nobles_loyalty = yes
 	}
 	ai = {
-		factor = 1
+		factor = 0
 	}
 }
 
+#Grant Nobles Electorate Reform
 grant_nobles_electorate_reform = {
 	icon = "ballot_box"
 	allow_normal_conversion = yes
@@ -4930,18 +4911,11 @@ grant_nobles_electorate_reform = {
 		}
 	}
 	ai = {
-		factor = 1
-		modifier = {
-			factor = 100
-			has_government_attribute = has_ruler_election
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_government_attribute = has_ruler_election }
-		}
+		factor = 0
 	}
 }
 
+#Puppet the Nobility
 blackmail_nobility_reform = {
 	icon = "blackmailing"
 	allow_normal_conversion = yes
@@ -5489,6 +5463,7 @@ centralize_reform = {
 	}
 }
 
+#Centralized Monarchical Bureaucracy
 centralize_empire_reform = {
 	icon = "paper_with_seal_3"
 	allow_normal_conversion = yes
@@ -5596,8 +5571,12 @@ centralize_empire_reform = {
 			#centralize_state_development = yes
 		}
 	}
+	ai = {
+		factor = 0
+	}
 }
 
+#Decentralized Bureaucracy
 decentralize_reform = {
 	icon = "map"
 	allow_normal_conversion = yes
@@ -5613,10 +5592,11 @@ decentralize_reform = {
 		all_estate_loyalty_equilibrium = 0.05
 	}
 	ai = {
-		factor = 1
+		factor = 0
 	}
 }
 
+#Expanded Royal Court # Naz
 expand_imperial_court_reform = {
 	icon = "royal_court"
 	allow_normal_conversion = yes
@@ -5631,8 +5611,16 @@ expand_imperial_court_reform = {
 		reform_progress_growth = 0.2
 		advisor_pool = 1
 	}
+	ai = {
+		factor = 500
+		modifier = {
+			has_unlocked_government_reform =  { government_reform = legislative_houses_reform }
+			factor = 0
+		}
+	}
 }
 
+# Royal Favoritism
 limit_imperial_court_reform = {
 	icon = "politician"
 	allow_normal_conversion = yes
@@ -5651,8 +5639,12 @@ limit_imperial_court_reform = {
 		blocked_call_diet = yes
 		seizing_land_loyalty = yes
 	}
+	ai = {
+		factor = 0
+	}
 }
 
+#Regional Councils
 regional_council_reform = {
 	icon = "peasants"
 	allow_normal_conversion = yes
@@ -5671,8 +5663,17 @@ regional_council_reform = {
 			unlock_special_state_edicts = yes
 		}
 	}
+	ai = {
+		factor = 1000
+		modifier = {
+			current_age = age_of_reformation
+			current_age = age_of_absolutism
+			factor = 0
+		}
+	}
 }
 
+#Representatives of the Crown
 representation_of_the_crown_reform = {
 	icon = "parliament_hall"
 	allow_normal_conversion = yes
@@ -5684,11 +5685,14 @@ representation_of_the_crown_reform = {
 	}
 	modifiers = {
 		diplomatic_upkeep = 1
-		vassal_forcelimit_bonus = 0.25
+		vassal_forcelimit_bonus = 0.1
 		monarch_power_tribute = 1
 	}
 	custom_attributes = {
 		subject_tax_modifier_25 = yes
+	}
+	ai = {
+		factor = 0
 	}
 }
 

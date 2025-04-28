@@ -1,7 +1,5 @@
 # - Tucurui
-culture = tupinamba
 discovered_by = south_american
-religion = animism
 capital = "Tucurui"
 trade_goods = unknown
 base_tax = 1

@@ -1,7 +1,15 @@
 ai = {
 	potential = {
-		ai = yes
+    	ai = yes
 		is_colonial_nation = no
+	    OR = {
+	        is_subject = no
+	        NOT = {
+	            overlord = {
+	                ai = no
+	            }
+	        }
+	    }
 	}
 	defensiveness = -0.50
 	diplomatic_upkeep = -3

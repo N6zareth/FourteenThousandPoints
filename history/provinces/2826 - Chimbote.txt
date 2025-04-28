@@ -1,6 +1,4 @@
 # - Chimbote
-culture = chimuan
-religion = inti
 capital = "Chimbote"
 trade_goods = unknown
 base_tax = 1

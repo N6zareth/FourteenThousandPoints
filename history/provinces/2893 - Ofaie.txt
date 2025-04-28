@@ -1,7 +1,5 @@
 # - Ofaie
-culture = ge
 discovered_by = south_american
-religion = animism
 capital = "Tres Lagoas"
 trade_goods = unknown
 base_tax = 1

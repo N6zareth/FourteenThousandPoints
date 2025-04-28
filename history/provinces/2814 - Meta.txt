@@ -1,9 +1,7 @@
 # - Meta
-culture = carib
 discovered_by = south_american
 discovered_by = andean
 discovered_by = MCA
-religion = animism
 capital = "Meta"
 trade_goods = unknown
 base_tax = 1

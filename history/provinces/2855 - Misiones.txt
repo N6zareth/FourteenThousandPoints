@@ -1,7 +1,5 @@
 #777 - Misiones
-culture = guarani
 discovered_by = south_american
-religion = animism
 capital = "Candelaria"
 trade_goods = unknown
 base_tax = 1

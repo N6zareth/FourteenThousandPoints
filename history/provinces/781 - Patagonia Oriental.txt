@@ -1,6 +1,4 @@
 #781 - Patagonia Oriental
-culture = patagonian
-religion = animism
 capital = "Puerto Desaedo"
 trade_goods = unknown
 base_tax = 1

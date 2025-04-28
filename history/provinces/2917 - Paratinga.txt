@@ -1,7 +1,5 @@
 # - Paratinga
-culture = ge
 discovered_by = south_american
-religion = animism
 capital = "Paratinga"
 trade_goods = unknown
 base_tax = 1

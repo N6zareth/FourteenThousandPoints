@@ -1,6 +1,4 @@
 #815 - Iquitos
-culture = jivaro
-religion = animism
 capital = "Iquitos"
 trade_goods = unknown
 base_tax = 1

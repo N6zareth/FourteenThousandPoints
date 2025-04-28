@@ -1,6 +1,4 @@
 # - Piwra
-culture = chimuan
-religion = inti
 capital = "Piwra"
 trade_goods = unknown
 base_tax = 1

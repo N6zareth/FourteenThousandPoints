@@ -1,10 +1,8 @@
 # - Rio Grande do Sol
-culture = guarani
 discovered_by = south_american
-religion = animism
 capital = "Rio Grande"
 trade_goods = unknown
-base_tax = 2
+base_tax = 1
 base_production = 1
 base_manpower = 1
 native_size = 10

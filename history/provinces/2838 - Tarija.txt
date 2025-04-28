@@ -1,13 +1,11 @@
 # - Tarija
 is_city = yes
-culture = aimara
 discovered_by = south_american
 discovered_by = andean
-religion = inti
 capital = "Tarija"
 trade_goods = unknown
-base_tax = 3
-base_production = 3
+base_tax = 1
+base_production = 1
 base_manpower = 1
 1485.1.1 = { 
 	controller = INC

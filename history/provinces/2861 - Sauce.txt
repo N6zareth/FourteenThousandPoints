@@ -1,7 +1,5 @@
 # - Sauce
-culture = het
 discovered_by = south_american
-religion = animism
 capital = "Sauce"
 trade_goods = unknown
 base_tax = 1

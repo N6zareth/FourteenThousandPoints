@@ -1,17 +1,14 @@
 #812 - Chanchan
-culture = chimuan
-religion = inti
 capital = "Chanchan"
 trade_goods = unknown
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
 discovered_by = CHM
 discovered_by = south_american
 discovered_by = andean
 extra_cost = 8
-center_of_trade = 1
 1470.1.1 = { 
 	controller = INC
 	add_core = INC
@@ -24,4 +21,3 @@ center_of_trade = 1
 	religion = Catholic
 }
 1534.1.1 = { capital = "Trujillo" }
-fort_15th = yes

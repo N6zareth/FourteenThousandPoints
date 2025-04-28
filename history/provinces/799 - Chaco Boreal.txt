@@ -1,8 +1,6 @@
 #799 - Chaco Boreal
-culture = chacoan
 discovered_by = south_american
 discovered_by = CCQ
-religion = animism
 capital = "Chaco Boreal"
 trade_goods = unknown
 base_tax = 1

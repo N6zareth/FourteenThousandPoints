@@ -1,6 +1,4 @@
 #806 - Nazca
-culture = inca
-religion = inti
 capital = "Nazca"
 trade_goods = unknown
 base_tax = 1

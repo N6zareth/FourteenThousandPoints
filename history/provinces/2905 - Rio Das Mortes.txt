@@ -1,7 +1,5 @@
 # - Rio Das Mortes
-culture = ge
 discovered_by = south_american
-religion = animism
 capital = "Araes"
 trade_goods = unknown
 base_tax = 1

@@ -2,5 +2,8 @@ discovered_by = south_american
 1661.6.22 = { 
 	discovered_by = POR
 }
+base_tax = 1
+base_manpower = 1
+base_production = 1
 trade_goods = unknown
 is_city = no

@@ -1,11 +1,9 @@
 #811 - Jauja
-culture = inca
-religion = inti
 capital = "Jauja"
 trade_goods = unknown
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
 discovered_by = south_american
 discovered_by = andean

@@ -1,7 +1,5 @@
 # - Rio Contas
-culture = tupinamba
 discovered_by = south_american
-religion = animism
 capital = "Rio de Contas"
 trade_goods = unknown
 base_tax = 1

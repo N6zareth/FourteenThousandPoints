@@ -1,7 +1,5 @@
 # - Colonia
-culture = charruan
 discovered_by = south_american
-religion = animism
 capital = "Colonia"
 trade_goods = unknown
 base_tax = 1

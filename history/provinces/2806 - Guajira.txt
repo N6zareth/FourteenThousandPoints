@@ -1,10 +1,5 @@
 #2806 - Guajira
-latent_trade_goods = { 
-	coal 
-}
-culture = guajiro
 discovered_by = south_american
-religion = animism
 capital = "Guajira"
 trade_goods = unknown
 base_tax = 1

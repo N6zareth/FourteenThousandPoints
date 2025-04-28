@@ -27,6 +27,6 @@ feudal_taxes_state_edict = {
 	on_state_edict_revoked = { FROM = { clr_country_flag = sea_state_edicts_decision_feudal_taxes_state_edict_flag } }
 	
 	ai_will_do = {
-		factor = 5
+		factor = 5000
 	}
 }

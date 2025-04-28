@@ -1,7 +1,5 @@
 #2919 - Luziana
-culture = ge
 discovered_by = south_american
-religion = animism
 capital = "Luziana"
 trade_goods = unknown
 base_tax = 1

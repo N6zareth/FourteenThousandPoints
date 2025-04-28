@@ -1,6 +1,4 @@
 # - Teush
-culture = patagonian
-religion = animism
 capital = "Teush"
 trade_goods = unknown
 base_tax = 1

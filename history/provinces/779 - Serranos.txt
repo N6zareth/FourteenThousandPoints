@@ -1,7 +1,5 @@
 #779 - Tandil
-culture = het
 discovered_by = south_american
-religion = animism
 capital = "Tandil"
 trade_goods = unknown
 base_tax = 1

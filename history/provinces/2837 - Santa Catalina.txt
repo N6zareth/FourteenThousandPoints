@@ -1,9 +1,7 @@
 # - Santa Catalina
 is_city = yes
-culture = diaguita
 discovered_by = south_american
 discovered_by = andean
-religion = inti
 capital = "Santa Catalina"
 trade_goods = unknown
 base_tax = 1

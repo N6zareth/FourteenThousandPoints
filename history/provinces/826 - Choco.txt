@@ -1,6 +1,4 @@
 #826 - Choco
-culture = guajiro
-religion = animism
 capital = "Choco"
 trade_goods = unknown
 base_tax = 1

@@ -1,9 +1,7 @@
 #829 - Magdalena
-culture = muisca
 is_city = yes
 discovered_by = south_american
 discovered_by = MCA
-religion = animism
 capital = "Tairo"
 trade_goods = unknown
 base_tax = 1

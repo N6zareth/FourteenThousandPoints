@@ -1,5 +1,8 @@
 discovered_by = north_american
 1741.1.1 = { discovered_by = RUS }
 1778.1.1 = { discovered_by = GBR }
+base_tax = 1
+base_manpower = 1
+base_production = 1
 trade_goods = unknown
 is_city = no

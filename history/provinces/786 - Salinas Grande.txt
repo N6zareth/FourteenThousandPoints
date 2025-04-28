@@ -1,7 +1,5 @@
 #786 - Carmen
-culture = het
 discovered_by = south_american
-religion = animism
 capital = "Carmen"
 trade_goods = unknown
 base_tax = 1

@@ -1,7 +1,5 @@
 # - Coxim
-culture = ge
 discovered_by = south_american
-religion = animism
 capital = "Coxim"
 trade_goods = unknown
 base_tax = 1

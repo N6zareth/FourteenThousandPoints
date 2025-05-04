@@ -17,29 +17,6 @@ country_event = {	#
 		name = bertus_limitation_menu.50000.a
 		highlight = yes
 	}
-	# option = {	#cheat engine
-	# 	name = bertus_limitation_menu.50000.z
-	# 	hidden_effect = {
-	# 		country_event = {
-	# 			id = bertus_limitation_menu.60000
-	# 		}
-	# 	}
-	# }
-	option = {
-		name = nazy_temp_new_world
-		hidden_effect = {
-			every_province = {
-				limit = {
-					is_city = no
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-				}
-				reset_development_bertus = yes
-			}
-		}
-	}
 	option = {	#all but europe
 		name = bertus_limitation_menu.50000.b
 		country_event = {
@@ -1170,6 +1147,35 @@ country_event = {	#india
 			id = bertus_limitation_menu.54610
 		}
 	}
+	#nazy india
+	option = {
+		name = bertus_limitation_menu.54600.a
+
+		country_event = {
+			id = bertus_limitation_menu.9300
+		}
+	}
+	option = {
+		name = bertus_limitation_menu.54600.c
+
+		country_event = {
+			id = bertus_limitation_menu.9400
+		}
+	}
+	option = {
+		name = bertus_limitation_menu.54600.d
+
+		country_event = {
+			id = bertus_limitation_menu.9500
+		}
+	}
+	option = {
+		name = bertus_limitation_menu.54600.e
+
+		country_event = {
+			id = bertus_limitation_menu.9600
+		}
+	}
 	after = {
 	}
 }
@@ -1274,6 +1280,23 @@ country_event = {	#middle east
 			id = bertus_limitation_menu.54710
 		}
 	}
+
+	#nazy middle east
+
+	option = { # persia
+		name = bertus_limitation_menu.54700.a
+
+		country_event = {
+			id = bertus_limitation_menu.9100
+		}
+	}
+	option = { # arabia
+		name = bertus_limitation_menu.54700.c
+
+		country_event = {
+			id = bertus_limitation_menu.9200
+		}
+	}
 	after = {
 	}
 }
@@ -1302,7 +1325,13 @@ country_event = {	#all middle east
 		name = bertus_limitation_menu.54710.a
 		hidden_effect = {
 			every_province = {
-				limit = {OR = {superregion = persia_superregion region = arabia_region region = mashriq_region region = anatolia_region }}
+				limit = {
+					OR = {
+						superregion = persia_superregion
+						region = arabia_region
+						region = mashriq_region
+						region = anatolia_region }
+					}
 				cede_province = ---
 				reset_natives_colonizable_province = yes
 				reset_native_ferocity_colonizable_province = yes
@@ -1718,6 +1747,13 @@ country_event = {	#southern africa
 			id = bertus_limitation_menu.55410
 		}
 	}
+	option = {
+		name = bertus_limitation_menu.55400.c
+
+		country_event = {
+			id = bertus_limitation_menu.9000
+		}
+	}
 	after = {
 	}
 }
@@ -1746,7 +1782,12 @@ country_event = {	#all southern africa
 		name = bertus_limitation_menu.55410.a
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = southern_africa_superregion }
+				limit = {
+					superregion = southern_africa_superregion
+					NOT = {
+						region = south_africa_region
+						}
+					}
 				cede_province = ---
 				reset_natives_colonizable_province = yes
 				reset_native_ferocity_colonizable_province = yes
@@ -1759,7 +1800,12 @@ country_event = {	#all southern africa
 		name = bertus_limitation_menu.55410.b
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = southern_africa_superregion }
+				limit = {
+					superregion = southern_africa_superregion
+					NOT = {
+						region = south_africa_region
+						}
+					}
 				colonization_malus = yes
 			}
 		}
@@ -1768,7 +1814,12 @@ country_event = {	#all southern africa
 		name = bertus_limitation_menu.55410.c
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = southern_africa_superregion }
+				limit = {
+					superregion = southern_africa_superregion
+					NOT = {
+						region = south_africa_region
+						}
+					}
 				add_permanent_province_modifier = {
 					name = unrule_lands
 					duration = -1
@@ -1780,7 +1831,12 @@ country_event = {	#all southern africa
 		name = bertus_limitation_menu.55410.d
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = southern_africa_superregion }
+				limit = {
+					superregion = southern_africa_superregion
+					NOT = {
+						region = south_africa_region
+						}
+					}
 				block_area_effect = yes
 			}
 		}
@@ -2265,10 +2321,11 @@ country_event = {	#Pontic Steppe
 		}
 	}
 }
-country_event = {	# configuration
-	id = bertus_limitation_menu.60000
-	title = bertus_limitation_menu.60000.t
-	desc = bertus_limitation_menu.60000.desc
+
+country_event = {	#south africa region
+	id = bertus_limitation_menu.9000
+	title = bertus_limitation_menu.9000.t
+	desc = bertus_limitation_menu.9000.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
@@ -2281,61 +2338,73 @@ country_event = {	# configuration
 	immediate = {
 		
 	}
+	
 	option = {	#back
 		name = bertus_limitation_menu.back
 		highlight = yes
-		
-		country_event = {
-			id = bertus_limitation_menu.50000
-		}
 	}
-	option = {	#activate power calculator
-		name = bertus_limitation_menu.60000.e
-		trigger = {
-			always = no
-		}
-		set_global_flag = bertus_TOP_activated_flag	
+	option = {	#Snap
+		name = bertus_limitation_menu.9000.a
 		hidden_effect = {
-			if = {
-				limit = {NOT = {has_country_flag = has_top_k_set_flag}}
-				set_country_flag = has_top_k_set_flag
-				set_constants = yes
-				country_event = {
-					id = bertus_TOP.1003
-				}	
-			}
-			country_event = {
-				id = bertus_limitation_menu.61000
+			every_province = {
+				limit = {
+					region = south_africa_region
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
 			}
 		}
 	}
-	option = {	#pvp boost
-		name = bertus_limitation_menu.60000.f
-		every_country = {
-			limit = {ai = no}
-			add_adm_tech = 14
-			add_dip_tech = 14
-			add_mil_tech = 14
-			add_treasury = 250000
-			change_government_reform_progress = 3000
-			add_country_modifier = {
-				name = cheat_engine_modifier
-				duration = 1825
-			}
-			add_country_modifier = {
-				name = limit_blocker_modifier
-				duration = -1
+	option = {	#
+		name = bertus_limitation_menu.9000.b
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = south_africa_region
+				}
+				colonization_malus = yes
 			}
 		}
-		hidden_effect = {country_event = {id = bertus_limitation_menu.50000}}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9000.c
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = south_africa_region
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9000.d
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = south_africa_region
+				}
+				block_area_effect = yes
+			}
+		}
 	}
 	after = {
+		country_event = {
+			id = bertus_limitation_menu.55400
+		}
 	}
 }
-country_event = {	# power calculator
-	id = bertus_limitation_menu.61000
-	title = bertus_limitation_menu.61000.t
-	desc = bertus_limitation_menu.61000.desc
+
+country_event = {	#persia
+	id = bertus_limitation_menu.9100
+	title = bertus_limitation_menu.9100.t
+	desc = bertus_limitation_menu.9100.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
@@ -2348,96 +2417,87 @@ country_event = {	# power calculator
 	immediate = {
 		
 	}
+	
 	option = {	#back
 		name = bertus_limitation_menu.back
 		highlight = yes
-		
-		country_event = {
-			id = bertus_limitation_menu.60000
-		}
 	}
-	option = {	#change K morale variable
-		name = bertus_limitation_menu.61000.b
+	option = {	#Snap
+		name = bertus_limitation_menu.9100.a
 		hidden_effect = {
-			set_country_flag = increase_morale_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
+			every_province = {
+				limit = {
+					superregion = persia_superregion
+					NOT = {
+						region = caucasia_region
+					}
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
 			}
 		}
 	}
-	option = {	#change K discipline variable
-		name = bertus_limitation_menu.61000.c
+	option = {	#
+		name = bertus_limitation_menu.9100.b
 		hidden_effect = {
-			set_country_flag = increase_discipline_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
+			every_province = {
+				limit = {
+					superregion = persia_superregion
+					NOT = {
+						region = caucasia_region
+					}
+				}
+				colonization_malus = yes
 			}
 		}
 	}
-	option = {	#change K infantry/cavalry variable
-		name = bertus_limitation_menu.61000.d
+	option = {	#
+		name = bertus_limitation_menu.9100.c
 		hidden_effect = {
-			set_country_flag = increase_melee_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
+			every_province = {
+				limit = {
+					superregion = persia_superregion
+					NOT = {
+						region = caucasia_region
+					}
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
 			}
 		}
 	}
-	option = {	#change K artillery variable
-		name = bertus_limitation_menu.61000.e
+	option = {	#
+		name = bertus_limitation_menu.9100.d
 		hidden_effect = {
-			set_country_flag = increase_artillery_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
-			}
-		}
-	}
-	option = {	#change K max manpower variable
-		name = bertus_limitation_menu.61000.f
-		hidden_effect = {
-			set_country_flag = increase_max_manpower_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
-			}
-		}
-	}
-	option = {	#change K manpower recovery variable
-		name = bertus_limitation_menu.61000.g
-		hidden_effect = {
-			set_country_flag = increase_manpower_recovery_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
-			}
-		}
-	}
-	option = {	#change K forcelimit variable
-		name = bertus_limitation_menu.61000.h
-		hidden_effect = {
-			set_country_flag = increase_forcelimit_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
-			}
-		}
-	}
-	option = {	#change K income variable
-		name = bertus_limitation_menu.61000.i
-		hidden_effect = {
-			set_country_flag = increase_income_k_flag
-			country_event = {
-				id = bertus_limitation_menu.61100
+			every_province = {
+				limit = {
+					superregion = persia_superregion
+					NOT = {
+						region = caucasia_region
+					}
+				}
+				block_area_effect = yes
 			}
 		}
 	}
 	after = {
+		country_event = {
+			id = bertus_limitation_menu.54700
+		}
 	}
 }
-country_event = {	# increase K variables
-	id = bertus_limitation_menu.61100
-	title = bertus_limitation_menu.61100.t
-	desc = bertus_limitation_menu.61100.desc
+
+country_event = {	#arabia
+	id = bertus_limitation_menu.9200
+	title = bertus_limitation_menu.9200.t
+	desc = bertus_limitation_menu.9200.desc
 	picture = DIPLOMACY_eventPicture
 	
-	hidden = yes
 	is_triggered_only = yes
     trigger = {	
     }
@@ -2445,138 +2505,394 @@ country_event = {	# increase K variables
 	mean_time_to_happen = {
 	}
 	
-	immediate = {	
+	immediate = {
+		
 	}
-	option = {	#change morale value by 10%
-		name = bertus_limitation_menu.61100.a
-		trigger = {
-			has_country_flag = increase_morale_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = morale_k_var
-				value = 0.1
-			}
-		}
+	
+	option = {	#back
+		name = bertus_limitation_menu.back
+		highlight = yes
 	}
-	option = {	#change discipline value by 10%
-		name = bertus_limitation_menu.61100.b
-		trigger = {
-			has_country_flag = increase_discipline_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = discipline_k_var
-				value = 0.1
+	option = {	#Snap
+		name = bertus_limitation_menu.9200.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
 			}
 		}
 	}
-	option = {	#change melee value by 10%
-		name = bertus_limitation_menu.61100.c
-		trigger = {
-			has_country_flag = increase_melee_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = infantry_power_k_var
-				value = 0.1
-			}
-			change_variable = {
-				which = cavalry_power_k_var
-				value = 0.1
+	option = {	#
+		name = bertus_limitation_menu.9200.b
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				colonization_malus = yes
 			}
 		}
 	}
-	option = {	#change artillery value by 10%
-		name = bertus_limitation_menu.61100.d
-		trigger = {
-			has_country_flag = increase_artillery_k_flag
-		}
-		change_variable = {
-			which = artillery_power_k_var
-			value = 0.1
-		}
-	}
-	option = {	#change max manpower value by 5%
-		name = bertus_limitation_menu.61100.e
-		trigger = {
-			has_country_flag = increase_max_manpower_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = manpower_k_var
-				value = 0.05
+	option = {	#
+		name = bertus_limitation_menu.9200.c
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
 			}
 		}
 	}
-	option = {	#change manpower recovery value by 12
-		name = bertus_limitation_menu.61100.f
-		trigger = {
-			has_country_flag = increase_manpower_recovery_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = manpower_recovery_k_var
-				value = 12
-			}
-		}
-	}
-	option = {	#change forcelimit value by 5%
-		name = bertus_limitation_menu.61100.g
-		trigger = {
-			has_country_flag = increase_forcelimit_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = land_forcelimit_k_var
-				value = 0.05
-			}
-		}
-	}
-	option = {	#change income value by 5%
-		name = bertus_limitation_menu.61100.h
-		trigger = {
-			has_country_flag = increase_income_k_flag
-		}
-		every_country = {
-			limit = {
-				has_tag_assigned = yes 
-			}
-			change_variable = {
-				which = monthly_income_k_var
-				value = 0.05
+	option = {	#
+		name = bertus_limitation_menu.9200.d
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				block_area_effect = yes
 			}
 		}
 	}
 	after = {
-		clr_country_flag = increase_morale_k_flag
-		clr_country_flag = increase_discipline_k_flag
-		clr_country_flag = increase_melee_k_flag
-		clr_country_flag = increase_artillery_k_flag
-		clr_country_flag = increase_max_manpower_k_flag
-		clr_country_flag = increase_manpower_recovery_k_flag
-		clr_country_flag = increase_forcelimit_k_flag
-		clr_country_flag = increase_income_k_flag
 		country_event = {
-			id = bertus_limitation_menu.61000
+			id = bertus_limitation_menu.54700
+		}
+	}
+}
+
+country_event = {	#bengal area
+	id = bertus_limitation_menu.9300
+	title = bertus_limitation_menu.9300.t
+	desc = bertus_limitation_menu.9300.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+    trigger = {	
+    }
+	
+	mean_time_to_happen = {
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {	#back
+		name = bertus_limitation_menu.back
+		highlight = yes
+	}
+	option = {	#Snap
+		name = bertus_limitation_menu.9300.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = bengal_region
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9300.b
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = bengal_region
+				}
+				colonization_malus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9300.c
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = bengal_region
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9300.d
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = bengal_region
+				}
+				block_area_effect = yes
+			}
+		}
+	}
+	after = {
+		country_event = {
+			id = bertus_limitation_menu.54600
+		}
+	}
+}
+
+country_event = {	#gujarat
+	id = bertus_limitation_menu.9400
+	title = bertus_limitation_menu.9400.t
+	desc = bertus_limitation_menu.9400.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+    trigger = {	
+    }
+	
+	mean_time_to_happen = {
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {	#back
+		name = bertus_limitation_menu.back
+		highlight = yes
+	}
+	option = {	#Snap
+		name = bertus_limitation_menu.9400.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = west_india_region
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9400.b
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = west_india_region
+				}
+				colonization_malus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9400.c
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = west_india_region
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9400.d
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = west_india_region
+				}
+				block_area_effect = yes
+			}
+		}
+	}
+	after = {
+		country_event = {
+			id = bertus_limitation_menu.54600
+		}
+	}
+}
+
+country_event = {	#deccan
+	id = bertus_limitation_menu.9500
+	title = bertus_limitation_menu.9500.t
+	desc = bertus_limitation_menu.9500.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+    trigger = {	
+    }
+	
+	mean_time_to_happen = {
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {	#back
+		name = bertus_limitation_menu.back
+		highlight = yes
+	}
+	option = {	#Snap
+		name = bertus_limitation_menu.9500.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					superregion = india_superregion
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9500.b
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				colonization_malus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9500.c
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9500.d
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				block_area_effect = yes
+			}
+		}
+	}
+	after = {
+		country_event = {
+			id = bertus_limitation_menu.54600
+		}
+	}
+}
+
+country_event = {	#hindustan
+	id = bertus_limitation_menu.9600
+	title = bertus_limitation_menu.9600.t
+	desc = bertus_limitation_menu.9600.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+    trigger = {	
+    }
+	
+	mean_time_to_happen = {
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {	#back
+		name = bertus_limitation_menu.back
+		highlight = yes
+	}
+	option = {	#Snap
+		name = bertus_limitation_menu.9600.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					superregion = india_superregion
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
+				}
+				cede_province = ---
+				reset_natives_colonizable_province = yes
+				reset_native_ferocity_colonizable_province = yes
+				reset_native_hostileness_colonizable_province = yes
+				reset_development_bertus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9600.b
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				colonization_malus = yes
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9600.c
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				add_permanent_province_modifier = {
+					name = unrule_lands
+					duration = -1
+				}
+			}
+		}
+	}
+	option = {	#
+		name = bertus_limitation_menu.9600.d
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = arabia_region
+				}
+				block_area_effect = yes
+			}
+		}
+	}
+	after = {
+		country_event = {
+			id = bertus_limitation_menu.54600
 		}
 	}
 }

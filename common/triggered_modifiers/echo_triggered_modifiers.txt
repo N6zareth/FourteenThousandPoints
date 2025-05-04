@@ -18,7 +18,13 @@ ai = {
 
 colonial_nation = {
 	potential = {
-		is_colonial_nation = yes
+		OR = {
+			is_colonial_nation = yes
+			capital_scope = {
+				continent = north_america
+				continent = south_america
+			}
+		}
 	}
 	colonists = 3
 	colony_cost_modifier = -1

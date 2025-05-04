@@ -29,9 +29,15 @@ on_startup = {
 
 	if = {
 		limit = {
-			AND = {
-				tag = BUR
-				ai=no
+			OR = {
+				AND = {
+					tag = BUR
+					ai=no
+				}
+				AND = {
+					tag = SWE
+					ai = no
+				}
 			}
 		}
 		country_event = {

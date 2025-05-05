@@ -45,6 +45,18 @@ on_startup = {
 		}
 	}
 
+	if = {
+		limit = {
+			ai = no
+			NOT = {
+				has_country_flag = nazy_disabled_tutorial
+			}
+		}
+		country_event = {
+			id = nazy_tutorial_event.1
+		}
+	}
+
 	if = { 
 		limit ={ ai = no
 			is_part_of_hre = yes

@@ -1,0 +1,101 @@
+namespace = nazy_tutorial_events
+
+country_event = {
+	id = nazy_tutorial_event.1
+	title = nazy_tutorial_event.1.t
+	desc = nazy_tutorial_event.1.desc
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+
+	is_triggered_only = yes
+    trigger = {}
+	immediate = {}
+
+	option = { # Close
+		name = nazy_tutorial_event.1.a
+		highlight = yes
+	}
+	option = { #Full DEFINES changes
+		name = nazy_tutorial_event.1.b
+
+		country_event = {
+			id = nazy_tutorial_event.2
+		}
+	}
+	option = { #New DECISIONS explained
+		name = nazy_tutorial_event.1.c
+
+		country_event = {
+			id = nazy_tutorial_event.3
+		}
+	}
+	option = { #TRIGGERED MODIFIERS
+		name = nazy_tutorial_event.1.d
+
+		country_event = {
+			id = nazy_tutorial_event.4
+		}
+	}
+}
+
+country_event = {
+	id = nazy_tutorial_event.2
+	title = nazy_tutorial_event.2.t
+	desc = nazy_tutorial_event.2.desc
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+
+	is_triggered_only = yes
+    trigger = {}
+	immediate = {}
+
+	option = {
+		name = nazy_tutorial_event.back
+		highlight = yes
+	}
+	after = {
+		country_event = {
+			id = nazy_tutorial_event.1
+		}
+	}
+}
+
+country_event = {
+	id = nazy_tutorial_event.3
+	title = nazy_tutorial_event.3.t
+	desc = nazy_tutorial_event.3.desc
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+
+	is_triggered_only = yes
+    trigger = {}
+	immediate = {}
+
+	option = {
+		name = nazy_tutorial_event.back
+		highlight = yes
+	}
+	after = {
+		country_event = {
+			id = nazy_tutorial_event.1
+		}
+	}
+}
+
+country_event = {
+	id = nazy_tutorial_event.4
+	title = nazy_tutorial_event.4.t
+	desc = nazy_tutorial_event.4.desc
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+
+	is_triggered_only = yes
+    trigger = {}
+	immediate = {}
+
+	option = {
+		name = nazy_tutorial_event.back
+		highlight = yes
+	}
+	after = {
+		country_event = {
+			id = nazy_tutorial_event.1
+		}
+	}
+}

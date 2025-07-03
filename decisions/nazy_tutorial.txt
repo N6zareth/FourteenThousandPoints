@@ -1,36 +1,4 @@
 country_decisions = {
-	nazy_tutorial_disable = {
-		color = { 144 238 144 }
-		provinces_to_highlight = {
-			owned_by = ROOT
-		}
-		potential = {
-			ai = no
-			NOT = {
-				has_country_flag = nazy_disabled_tutorial
-			}
-		}
-		effect = {
-			set_country_flag = nazy_disabled_tutorial
-		}
-	}
-
-	nazy_tutorial_enable = {
-		color = { 144 238 144 }
-		provinces_to_highlight = {
-			owned_by = ROOT
-		}
-
-		potential = {
-			ai = no
-			has_country_flag = nazy_disabled_tutorial
-		}
-
-		effect = {
-			clr_country_flag = nazy_disabled_tutorial
-		}
-	}
-
 	nazy_tutorial_read = {
 		color = { 144 238 144 }
 		provinces_to_highlight = {
@@ -38,13 +6,10 @@ country_decisions = {
 		}
 		potential = {
 			ai = no
-			NOT = {
-				has_country_flag = nazy_disabled_tutorial
-			}
 		}
 		effect = {
 			country_event = {
-				id = nazy_tutorial_event.1
+				id = nazy_tutorial_event.100
 			}
 		}
 	}

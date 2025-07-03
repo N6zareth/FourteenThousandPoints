@@ -1,35 +1,33 @@
 namespace = nazy_tutorial_events
 
 country_event = {
-	id = nazy_tutorial_event.1
-	title = nazy_tutorial_event.1.t
-	desc = nazy_tutorial_event.1.desc
+	id = nazy_tutorial_event.100
+	title = nazy_tutorial_event.100.t
+	desc = nazy_tutorial_event.100.desc
 	picture = DECLARATION_INDEPENDENCE_eventPicture
 
 	is_triggered_only = yes
-    trigger = {}
-	immediate = {}
 
 	option = { # Close
-		name = nazy_tutorial_event.1.a
+		name = nazy_tutorial_event.100.a
 		highlight = yes
 	}
 	option = { #Full DEFINES changes
-		name = nazy_tutorial_event.1.b
+		name = nazy_tutorial_event.100.b
 
 		country_event = {
 			id = nazy_tutorial_event.2
 		}
 	}
 	option = { #New DECISIONS explained
-		name = nazy_tutorial_event.1.c
+		name = nazy_tutorial_event.100.c
 
 		country_event = {
 			id = nazy_tutorial_event.3
 		}
 	}
 	option = { #TRIGGERED MODIFIERS
-		name = nazy_tutorial_event.1.d
+		name = nazy_tutorial_event.100.d
 
 		country_event = {
 			id = nazy_tutorial_event.4
@@ -44,8 +42,6 @@ country_event = {
 	picture = DECLARATION_INDEPENDENCE_eventPicture
 
 	is_triggered_only = yes
-    trigger = {}
-	immediate = {}
 
 	option = {
 		name = nazy_tutorial_event.back
@@ -65,8 +61,6 @@ country_event = {
 	picture = DECLARATION_INDEPENDENCE_eventPicture
 
 	is_triggered_only = yes
-    trigger = {}
-	immediate = {}
 
 	option = {
 		name = nazy_tutorial_event.back
@@ -86,8 +80,6 @@ country_event = {
 	picture = DECLARATION_INDEPENDENCE_eventPicture
 
 	is_triggered_only = yes
-    trigger = {}
-	immediate = {}
 
 	option = {
 		name = nazy_tutorial_event.back

@@ -1,0 +1,6 @@
+nazy_bur_fra_modifier = {
+}
+nazy_bur_ned_modifier = {
+}
+nazy_bur_lor_modifier = {
+}

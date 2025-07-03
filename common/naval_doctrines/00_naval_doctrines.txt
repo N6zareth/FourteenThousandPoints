@@ -414,9 +414,9 @@ maghrebi_corsairs = {
 
 	cost = 0.1
 	country_modifier = {
-		privateer_efficiency = 0.1
-		available_province_loot = 0.5
+		privateer_efficiency = 0.25
 		may_perform_slave_raid = yes
+		available_province_loot = 0.5
 	}
 	effect = {}
 	removed_effect = {}

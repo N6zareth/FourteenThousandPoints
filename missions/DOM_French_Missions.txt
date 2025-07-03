@@ -868,7 +868,7 @@ french_missions_1_Continuation_a = {
 					}
 					NOT = { liberty_desire = 10 } 
 				}
-				amount = 2
+				amount = 1
 			}
 			if = { 
 				limit = { is_random_new_world = no }

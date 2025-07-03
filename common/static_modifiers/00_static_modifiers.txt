@@ -233,7 +233,6 @@ severe_monsoon = {
 blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.2
-	local_monthly_devastation = 0.25
 	province_trade_power_modifier = -1
 }
 
@@ -1370,7 +1369,7 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 in_golden_era = {
 	max_absolutism = 5
 	max_revolutionary_zeal = 10
-	monthly_arabic_trade_influence_power = 0.25
+	monthly_arabic_trade_influence_power = 0.1
 }
 
 absolutism = {

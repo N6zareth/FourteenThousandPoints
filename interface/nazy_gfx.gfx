@@ -1,0 +1,57 @@
+spriteTypes = {
+    spriteType = {
+        name = "nazy_deforestation_icon"
+        texturefile = "gfx/interface/nazy_deforestation_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_cloth_change_icon"
+        texturefile = "gfx/interface/button_cloth_change.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_first_chairman_icon"
+        texturefile = "gfx/interface/first_chairman_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_dev_counter_icon"
+        texturefile = "gfx/interface/nazy_dev_counter_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_tackle_national_debt_icon"
+        texturefile = "gfx/interface/nazy_tackle_national_debt_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_national_rebuilding_icon"
+        texturefile = "gfx/interface/nazy_national_rebuilding_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_greatmen_icon"
+        texturefile = "gfx/interface/nazy_greatmen_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "button_flogi_tradecenter"
+        texturefile = "gfx/interface/button_flogi_tradecenter.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+}

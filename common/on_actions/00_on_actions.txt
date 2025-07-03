@@ -45,18 +45,6 @@ on_startup = {
 		}
 	}
 
-	if = {
-		limit = {
-			ai = no
-			NOT = {
-				has_country_flag = nazy_disabled_tutorial
-			}
-		}
-		country_event = {
-			id = nazy_tutorial_event.1
-		}
-	}
-
 	if = { 
 		limit ={ ai = no
 			is_part_of_hre = yes
@@ -64,34 +52,6 @@ on_startup = {
 			NOT={ tag = HAB}
 		}
 		elector = yes
-	}
-
-	if = {
-		limit = {
-				OR = {
-					tag = MOR
-					tag = TUN
-					tag = SON
-					tag = ZAN
-					tag = ETH
-					tag = MAM
-			}
-			NOT = { 
-				has_country_flag = PR_discover_africa_flag
-			}
-		}
-		country_event = { 
-			id = echo.5
-			days = 1
-		}
-		set_country_flag = PR_discover_africa_flag
-	}
-	if = {
-		limit = {
-			ai = no
-			NOT = { has_country_flag = start_estates_setup }
-		}
-		country_event = { id = echo.9 }
 	}
 }
 

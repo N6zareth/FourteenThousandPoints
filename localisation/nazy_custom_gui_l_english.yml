@@ -1,0 +1,42 @@
+﻿l_english:
+ 
+ # Deforestation
+ nazy_deforestation_tt:0 "§GThe deforestation of [Root.Province.GetName]\n§!Pave the way for urban development at the cost of defendability."
+ naz_removed_woods:0 "Deforest Province"
+ nazy_deforestation_tt2:0 "Have at least §Y100.0§!¤"
+ nazy_deforestation_tt3:0 "Military Power at least §Y15§!"
+ nazy_deforestation_tt4:0 "Not already deforested [Root.Province.GetName]"
+
+ # Wool to Cloth
+ nazy_cloth_change_tt:0 "§GDevelop cloth in [Root.Province.GetName]\n§!Economic growth has spurred the development of cloth in place of wool."
+ nazy_cloth_change_tt2:0 "Have at least §Y100.0§!¤"
+ nazy_cloth_change_tt3:0 "Diplomatic Power at least §Y15§!"
+ nazy_cloth_change_tt4:0 "Not already turned [Root.Province.GetName] into a cloth province."
+
+ # Gecko Recruitment
+ nazy_court_recruiment_tt:0 "§YCourt Recruitment§!"
+
+ #Golden Ages
+ nazy_start_eco_golden_age:0 "Start Economic Golden Age"
+ nazy_start_mil_golden_age:0 "Start Military Golden Age"
+ nazy_eco_golden_age_tt:0 "Not already started a Economic Golden Age"
+ nazy_mil_golden_age_tt:0 "Not already started a Military Golden Age"
+ nazy_start_absolute_golden_age:0 "Start Absolutism Golden Age"
+
+ #Tackle National Debt
+ nazy_tackle_national_debt_tt:0 "§YTackle National Debt§!\nMay be removed at any time by initiatng §YNational Rebuilding§! which will be displayed here."
+ nazy_national_rebuilding_tt:0 "§YInitiate National Rebuilding§!"
+ qolu_tackle_debt_cd_tt:0 "10 Year Cooldown"
+
+ #Devlopment Counter
+ development_counter_title:0 "§YTotal Development Improvements§!"
+ development_counter_desc:0 "This counts how much you've developed your country by clicking the development button" 
+ development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §B[Root.dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §R[Root.mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §W[Root.total_dev_counter.GetValue]§!"
+ development_counter_update_tt:0 "Start counting your nation's total development clicks."
+
+ # CoT creation
+ iv_tradecenter_button_title:0 "§YProvince Eligible to become a Centre of Trade§!\n[Root.Province.GetName] has become a trade hub and could potentially become a Center of Trade, our merchants say. They would however, need some investment to make this happen."
+ nazy_iv_tt1:0 "Not in the §YNew World§!"
+ nazy_iv_tt2:0 "Have at least §Y250.0§!¤"
+ nazy_iv_tt3:0 "Diplomatic Power at least §Y50§!"
+ nazy_cot_tt:0 "No Center of Trade exists in the [Root.GetAreaName] state"

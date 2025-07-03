@@ -444,6 +444,27 @@ flag_officers = {
     }
 }
 
+spare_jolly_roger = {
+    modifier = {
+        privateering_efficiency_in_fleet_modifier = 0.25
+        naval_maintenance_flagship_modifier = 0.5
+    }
+    ai_trade_score = {
+	    factor = 1
+        modifier = {
+            factor = 10
+            has_government_attribute = is_pirate_republic_reform
+        }
+    }
+    ai_war_score = {
+        factor = 1
+        modifier = {
+            factor = 10
+            has_government_attribute = is_pirate_republic_reform
+        }
+    }
+}
+
 captains_log = {
     modifier = {
         naval_tradition_in_fleet_modifier = 1

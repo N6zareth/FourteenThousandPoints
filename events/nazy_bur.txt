@@ -1,0 +1,52 @@
+namespace = nazy_bur_events.1
+
+country_event = {
+    id = nazy_bur_events.100
+    title = nazy_bur_events.100.t
+    desc = nazy_bur_events.100.desc
+    picture = BAD_WITH_MONARCH_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = nazy_bur_events.100.a
+
+
+        custom_tooltip = nazy_bur_events_fra_tt
+        hidden_effect = {
+            add_country_modifier = {
+                name = nazy_bur_fra_modifier
+                duration = -1
+                hidden = yes
+            }
+        }
+    }
+
+    option = {
+        name = nazy_bur_events.100.b
+
+
+        custom_tooltip = nazy_bur_events_lor_tt
+        hidden_effect = {
+            add_country_modifier = {
+                name = nazy_bur_lor_modifier
+                duration = -1
+                hidden = yes
+            }
+        }
+
+    }
+
+    option = {
+        name = nazy_bur_events.100.c
+
+        custom_tooltip = nazy_bur_events_ned_tt
+        hidden_effect = {
+            add_country_modifier = {
+                name = nazy_bur_ned_modifier
+                duration = -1
+                hidden = yes
+            }
+        }
+    }
+}

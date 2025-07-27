@@ -1,0 +1,116 @@
+milaccess = { # REQUEST MIL ACCESS
+	condition = {
+		tooltip = nazy_diplo_actions_tt
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+	condition = {
+		allow = {
+			has_opinion = {
+				who = FROM
+				value = -200
+			}
+		}
+	}
+}
+offermilaccess = { # OFFER MIL ACCESS
+    condition = {
+		tooltip = nazy_diplo_actions_tt
+		potential = {
+			ai = no
+		}
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+	condition = {
+		allow = {
+			has_opinion = {
+				who = FROM
+				value = -200
+			}
+		}
+	}
+}
+
+warningaction = {
+	condition = {
+		potential = {
+			always = no
+		}
+	}
+	condition = {
+		allow = {
+			always = no
+		}
+	}
+}
+
+guaranteeaction = {
+	condition = {
+		potential = {
+			always = no
+		}
+	}
+	condition = {
+		allow = {
+			always = no
+		}
+	}
+}
+
+threaten_war = {
+	condition = {
+		potential = {
+			always = no
+		}
+	}
+	condition = {
+		allow = {
+			always = no
+		}
+	}
+}
+
+enforce_peace = {
+	condition = {
+		potential = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+	condition = {
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+}
+
+demand_unlawful_territory_action = {
+	condition = {
+		tooltip = nazy_diplo_actions_tt
+		potential = {
+			ai = no
+		}
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+	condition = {
+		allow = {
+			ROOT = {
+				ai = no
+			}
+		}
+	}
+}

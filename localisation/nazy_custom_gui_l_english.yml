@@ -40,3 +40,7 @@
  nazy_iv_tt2:0 "Have at least §Y250.0§!¤"
  nazy_iv_tt3:0 "Diplomatic Power at least §Y50§!"
  nazy_cot_tt:0 "No Center of Trade exists in the [Root.GetAreaName] state"
+
+ #Parliament
+ nazy_all_seats_parliament_tt:0 "§YFull Parliamentary Representation§!\nSeatless provinces demand a voice in Parliament. Perhaps granting universal representation could unify and strengthen the realm."
+ nazy_all_seats_parliament_tt2:0 "There are full-cored, stated provinces without a seat in Parliament"

@@ -1,7 +1,10 @@
 bloqued_area_modifier = {
 	min_local_autonomy = 99
 	trade_goods_size_modifier = -99
-	local_governing_cost = -0.99
+	local_friendly_movement_speed = -2
+	local_hostile_movement_speed = -2
+	local_colonial_growth = -500
+	local_colony_cost_modifier = 3
 }
 unrule_lands_4 = {
 	min_local_autonomy = 10

@@ -2,7 +2,7 @@ government = republic
 add_government_reform = cossacks_reform
 technology_group = eastern
 religion = orthodox
-primary_culture = crimean
+primary_culture = ruthenian
 capital = 284	# Zaporozhia
 
 1444.1.1 = {

@@ -1,0 +1,939 @@
+######## Macro Destroyer buildings
+
+marketplace_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = marketplace
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = marketplace
+			remove_building = marketplace_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+workshop_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = workshop
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = workshop
+			remove_building = workshop_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+temple_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = temple
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = temple
+			remove_building = temple_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+barracks_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = barracks
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = barracks
+			remove_building = barracks_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+shipyard_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = shipyard
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = shipyard
+			remove_building = shipyard_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+fort_15th_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = fort_15th
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			if = {
+				limit = {
+					NOT = {
+						owner = {
+							AND = {
+								is_subject = yes
+								overlord = {
+									tag = FROM
+								}
+							}
+						}
+					}
+				}
+				remove_building = fort_15th
+			}
+			remove_building = fort_15th_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+coastal_defence_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = coastal_defence
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = coastal_defence
+			remove_building = coastal_defence_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+courthouse_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = courthouse
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = courthouse
+			remove_building = courthouse_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+dock_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = dock
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = dock
+			remove_building = dock_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+regimental_camp_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = regimental_camp
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = regimental_camp
+			remove_building = regimental_camp_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+fort_16th_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = fort_16th
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = fort_16th
+			remove_building = fort_16th_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+naval_battery_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = naval_battery
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = naval_battery
+			remove_building = naval_battery_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+cathedral_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = cathedral
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = cathedral
+			remove_building = cathedral_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+university_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = university
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = university
+			remove_building = university_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+trade_depot_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = trade_depot
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = trade_depot
+			remove_building = trade_depot_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+grand_shipyard_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = grand_shipyard
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = grand_shipyard
+			remove_building = grand_shipyard_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+training_fields_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = training_fields
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = training_fields
+			remove_building = training_fields_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+fort_17th_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = fort_17th
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = fort_17th
+			remove_building = fort_17th_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+stock_exchange_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = stock_exchange
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = stock_exchange
+			remove_building = stock_exchange_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+counting_house_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = counting_house
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = counting_house
+			remove_building = counting_house_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+town_hall_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = town_hall
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = town_hall
+			remove_building = town_hall_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+drydock_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = drydock
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = drydock
+			remove_building = drydock_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+conscription_center_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = conscription_center
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = conscription_center
+			remove_building = conscription_center_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+fort_18th_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = fort_18th
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = fort_18th
+			remove_building = fort_18th_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+manufactory_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			OR = {
+				has_building = wharf
+				has_building = weapons
+				has_building = textile
+				has_building = plantations
+				has_building = tradecompany
+				has_building = farm_estate
+				has_building = mills
+			}
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			if = {
+				limit = {
+					has_building = wharf
+				}
+				remove_building = wharf
+			}
+			else_if = {
+				limit = {
+					has_building = weapons
+				}
+				remove_building = weapons
+			}
+			else_if = {
+				limit = {
+					has_building = textile
+				}
+				remove_building = textile
+			}
+			else_if = {
+				limit = {
+					has_building = plantations
+				}
+				remove_building = plantations
+			}
+			else_if = {
+				limit = {
+					has_building = tradecompany
+				}
+				remove_building = tradecompany
+			}
+			else_if = {
+				limit = {
+					has_building = farm_estate
+				}
+				remove_building = farm_estate
+			}
+			else_if = {
+				limit = {
+					has_building = mills
+				}
+				remove_building = mills
+			}
+			remove_building = manufactory_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+furnace_destroy = {
+	cost = 1
+	time = 0
+	
+	potential = {
+		has_dlc = "Rule Britannia"
+	}
+
+	build_trigger = {
+		ROOT = {
+			has_building = furnace
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = furnace
+			remove_building = furnace_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+ramparts_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = ramparts
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = ramparts
+			remove_building = ramparts_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+soldier_households_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = soldier_households
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = soldier_households
+			remove_building = soldier_households_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+impressment_offices_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = impressment_offices
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = impressment_offices
+			remove_building = impressment_offices_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+state_house_destroy = {
+	cost = 1
+	time = 0
+	
+	build_trigger = {
+		ROOT = {
+			has_building = state_house
+		}
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	on_built = {
+		ROOT = {
+			remove_building = state_house
+			remove_building = state_house_destroy
+		}
+	}
+	on_destroyed = {
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}

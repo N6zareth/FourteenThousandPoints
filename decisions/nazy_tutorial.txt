@@ -1,16 +1,16 @@
-country_decisions = {
-	nazy_tutorial_read = {
-		color = { 144 238 144 }
-		provinces_to_highlight = {
-			owned_by = ROOT
-		}
-		potential = {
-			ai = no
-		}
-		effect = {
-			country_event = {
-				id = nazy_tutorial_event.100
-			}
-		}
-	}
-}
+# country_decisions = {
+# 	nazy_tutorial_read = {
+# 		color = { 144 238 144 }
+# 		provinces_to_highlight = {
+# 			owned_by = ROOT
+# 		}
+# 		potential = {
+# 			ai = no
+# 		}
+# 		effect = {
+# 			country_event = {
+# 				id = nazy_tutorial_event.100
+# 			}
+# 		}
+# 	}
+# }

@@ -31,19 +31,6 @@
  military_golden_age:0 "£infantry_icon_small£ Golden Age (Military)"
  
  qolu_2colonists:0 "£explorer_16£ Colonialism"
- qolu_national_rebuild:0 "£icon_war_exhaustion£ National Rebuilding"
- qolu_tackle_debt:0 "£icon_war_exhaustion£ Tackling National Debt"
- 
- zzz_eco_golden_age_decisions_title: "¤ Economic Golden Age"
- zzz_eco_golden_age_decisions_desc: ""
- zzz_mil_golden_age_decisions_title: "£infantry_icon_small£ Military Golden Age"
- zzz_mil_golden_age_decisions_desc: ""
- 
- qolu_all_seats_parliament_title: "£add_parliament_icon£ Set All Provinces into Parliament"
- qolu_all_seats_parliament_desc: ""
- 
- zzz_wool_cloth_title: "£trade_icon£ Change Wool to Cloth"
- zzz_wool_cloth_desc: ""
 
  Nazy_SPQR_tt:0 "Owns Rome, Constantinople, Ravenna, Antioch and Tunis"
  
@@ -53,11 +40,6 @@
  qolu_afr_colonists_desc: ""
  qolu_asia_colonists_title: "£explorer_16£ Colonial Ventures"
  qolu_asia_colonists_desc: ""
- 
- qolu_national_debt_title: "£icon_war_exhaustion£ Tackle National Debt"
- qolu_national_debt_desc: ""
- qolu_national_rebuilding_title: "£icon_war_exhaustion£ Commence the National Rebuilding"
- qolu_national_rebuilding_desc: ""
 
  edict_devastation_edict:0 "Reduce Devastation"
  
@@ -82,3 +64,5 @@
 
  nazy_army_flexibility:0 "Army Flexibility"
  nazy_army_flexibility_desc:0 ""
+
+ nazy_diplo_actions_tt:0 "AI cannot do this"

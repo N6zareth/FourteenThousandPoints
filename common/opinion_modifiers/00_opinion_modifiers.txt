@@ -1928,7 +1928,9 @@ opinion_forced_return_territory = {
 }
 
 opinion_unlawful_territory = {
-	optinion = 0
+	opinion = 0
+	years = 25
+	yearly_decay = 1
 }
 
 catholic_obstructing_church = {

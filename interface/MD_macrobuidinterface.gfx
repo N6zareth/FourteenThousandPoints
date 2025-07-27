@@ -1,0 +1,192 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_macro_destroyer"
+		texturefile = "gfx//interface//building_currentlybuilding.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_banner_left_5l"
+		texturefile = "gfx//interface//banner_left_5l.dds"
+	}
+
+	spriteType = {
+		name = "GFX_marketplace_destroy"
+		texturefile = "gfx//interface//buildings//latin_marketplace.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_trade_depot_destroy"
+		texturefile = "gfx//interface//buildings//latin_trade_depot.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_stock_exchange_destroy"
+		texturefile = "gfx//interface//buildings//latin_stock_exchange.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_town_hall_destroy"
+		texturefile = "gfx//interface//buildings//latin_town_hall.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_courthouse_destroy"
+		texturefile = "gfx//interface//buildings//latin_courthouse.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_university_destroy"
+		texturefile = "gfx//interface//buildings//manufactory_university.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_dock_destroy"
+		texturefile = "gfx//interface//buildings//latin_dock.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_drydock_destroy"
+		texturefile = "gfx//interface//buildings//latin_drydock.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_shipyard_destroy"
+		texturefile = "gfx//interface//buildings//latin_shipyard.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_grand_shipyard_destroy"
+		texturefile = "gfx//interface//buildings//latin_grand_shipyard.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_workshop_destroy"
+		texturefile = "gfx//interface//buildings//latin_workshop.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_counting_house_destroy"
+		texturefile = "gfx//interface//buildings//latin_counting_house.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_barracks_destroy"
+		texturefile = "gfx//interface//buildings//latin_barracks.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_training_fields_destroy"
+		texturefile = "gfx//interface//buildings//latin_training_fields.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_regimental_camp_destroy"
+		texturefile = "gfx//interface//buildings//latin_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_conscription_center_destroy"
+		texturefile = "gfx//interface//buildings//latin_conscription_center.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_temple_destroy"
+		texturefile = "gfx//interface//buildings//latin_temple.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_cathedral_destroy"
+		texturefile = "gfx//interface//buildings//latin_cathedral.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_fort_15th_destroy"
+		texturefile = "gfx//interface//buildings//latin_fort01.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_fort_16th_destroy"
+		texturefile = "gfx//interface//buildings//latin_fort02.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_fort_17th_destroy"
+		texturefile = "gfx//interface//buildings//latin_fort03.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_fort_18th_destroy"
+		texturefile = "gfx//interface//buildings//latin_fort04.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_coastal_defence_destroy"
+		texturefile = "gfx//interface//buildings//coastal_defence.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_naval_battery_destroy"
+		texturefile = "gfx//interface//buildings//naval_battery.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_manufactory_destroy"
+		texturefile = "gfx//interface//buildings//manufactory.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_furnace_destroy"
+		texturefile = "gfx//interface//buildings//manufactory_furnace.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_soldier_households_destroy"
+		texturefile = "gfx//interface//buildings//latin_constable.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_ramparts_destroy"
+		texturefile = "gfx//interface//buildings//latin_march.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_state_house_destroy"
+		texturefile = "gfx//interface//buildings//latin_royal_palace.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_impressment_offices_destroy"
+		texturefile = "gfx//interface//buildings//latin_college.tga"
+		loadType = "INGAME"
+	}	
+}	

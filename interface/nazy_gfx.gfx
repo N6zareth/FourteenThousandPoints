@@ -54,4 +54,11 @@ spriteTypes = {
         noOfFrames = 1
         noOfDirections = 1
     }
+
+    spriteType = {
+        name = "nazy_small"
+        texturefile = "gfx/interface/square_close_small.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
 }

@@ -27,24 +27,6 @@ on_startup = {
 	gecko_mercs = { update = yes on_startup = yes }
 	development_counter = { on_startup = yes }
 
-	if = {
-		limit = {
-			OR = {
-				AND = {
-					tag = BUR
-					ai=no
-				}
-				AND = {
-					tag = SWE
-					ai = no
-				}
-			}
-		}
-		country_event = {
-			id = bertus_limitation_menu.50000
-		}
-	}
-
 	if = { 
 		limit ={ ai = no
 			is_part_of_hre = yes

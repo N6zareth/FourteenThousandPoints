@@ -4,13 +4,13 @@ custom_button = {
     potential = {
         owned_by = FROM
 		FROM = {
-			culture_group = germanic
             ai = no
             NOT = {
 				has_government_attribute = enables_horde_idea_group
 			}
 		}
         has_terrain = woods
+        has_terrain = forest
     }
     trigger = {
         custom_trigger_tooltip = {
@@ -370,4 +370,56 @@ custom_button = {
 		}
 		center_of_trade = 1
 	}	
+}
+
+custom_button = {
+    name = nazy_all_seats_parliament
+    tooltip = nazy_all_seats_parliament_tt
+    potential = {
+        FROM = {
+			ai = no
+			has_parliament = yes
+		}
+    }
+    trigger = {
+        custom_trigger_tooltip = {
+            tooltip = nazy_all_seats_parliament_tt2
+            FROM = {
+                any_owned_province = {
+				    has_seat_in_parliament = no
+			    }
+            }
+        }
+    }
+    effect = {
+        FROM = {
+			every_owned_province = {
+				limit = {
+					has_seat_in_parliament = no
+					is_state = yes
+				}
+				set_seat_in_parliament = yes
+			}
+		}
+    }
+}
+
+custom_button = {
+    name = bertus_gui
+    tooltip = "z"
+    potential = {
+        FROM = {
+            ai = no
+            NOT = { has_global_flag = bertus_snapped }
+            NOT = { is_year = 1445 }
+        }
+    }
+    effect = {
+        FROM = {
+            country_event = {
+			    id = bertus_limitation_menu.50000
+		    }
+        }
+        set_global_flag = bertus_snapped
+    }
 }

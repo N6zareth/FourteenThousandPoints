@@ -967,7 +967,12 @@ country_event = {	#all east indies
 		name = bertus_limitation_menu.54410.a
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = east_indies_superregion}
+				limit = {
+					superregion = east_indies_superregion
+					NOT = {
+						area = indian_ocean_islands_area
+					}
+				}
 				cede_province = ---
 				reset_natives_colonizable_province = yes
 				reset_native_ferocity_colonizable_province = yes
@@ -980,7 +985,12 @@ country_event = {	#all east indies
 		name = bertus_limitation_menu.54410.b
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = east_indies_superregion}
+				limit = {
+					superregion = east_indies_superregion
+					NOT = {
+						area = indian_ocean_islands_area
+					}
+				}
 				colonization_malus = yes
 			}
 		}
@@ -989,7 +999,12 @@ country_event = {	#all east indies
 		name = bertus_limitation_menu.54410.c
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = east_indies_superregion}
+				limit = {
+					superregion = east_indies_superregion
+					NOT = {
+						area = indian_ocean_islands_area
+					}
+				}
 				add_permanent_province_modifier = {
 					name = unrule_lands
 					duration = -1
@@ -1001,7 +1016,12 @@ country_event = {	#all east indies
 		name = bertus_limitation_menu.54410.d
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = east_indies_superregion}
+				limit = {
+					superregion = east_indies_superregion
+					NOT = {
+						area = indian_ocean_islands_area
+					}
+				}
 				block_area_effect = yes
 			}
 		}
@@ -1204,7 +1224,10 @@ country_event = {	#all india
 		name = bertus_limitation_menu.54610.a
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = india_superregion}
+				limit = {
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+				}
 				cede_province = ---
 				reset_natives_colonizable_province = yes
 				reset_native_ferocity_colonizable_province = yes
@@ -1217,7 +1240,10 @@ country_event = {	#all india
 		name = bertus_limitation_menu.54610.b
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = india_superregion}
+				limit = {
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+				}
 				colonization_malus = yes
 			}
 		}
@@ -1226,7 +1252,10 @@ country_event = {	#all india
 		name = bertus_limitation_menu.54610.c
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = india_superregion}
+				limit = {
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+				}
 				add_permanent_province_modifier = {
 					name = unrule_lands
 					duration = -1
@@ -1238,7 +1267,10 @@ country_event = {	#all india
 		name = bertus_limitation_menu.54610.d
 		hidden_effect = {
 			every_province = {
-				limit = {superregion = india_superregion}
+				limit = {
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+				}
 				block_area_effect = yes
 			}
 		}
@@ -2756,6 +2788,7 @@ country_event = {	#deccan
 			every_province = {
 				limit = {
 					superregion = india_superregion
+					area = indian_ocean_islands_area
 					NOT = {
 						region = bengal_region
 						region = hindusthan_region
@@ -2775,7 +2808,13 @@ country_event = {	#deccan
 		hidden_effect = {
 			every_province = {
 				limit = {
-					region = arabia_region
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
 				}
 				colonization_malus = yes
 			}
@@ -2786,7 +2825,13 @@ country_event = {	#deccan
 		hidden_effect = {
 			every_province = {
 				limit = {
-					region = arabia_region
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
 				}
 				add_permanent_province_modifier = {
 					name = unrule_lands
@@ -2800,7 +2845,13 @@ country_event = {	#deccan
 		hidden_effect = {
 			every_province = {
 				limit = {
-					region = arabia_region
+					superregion = india_superregion
+					area = indian_ocean_islands_area
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
 				}
 				block_area_effect = yes
 			}
@@ -2859,7 +2910,12 @@ country_event = {	#hindustan
 		hidden_effect = {
 			every_province = {
 				limit = {
-					region = arabia_region
+					superregion = india_superregion
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
 				}
 				colonization_malus = yes
 			}
@@ -2870,7 +2926,12 @@ country_event = {	#hindustan
 		hidden_effect = {
 			every_province = {
 				limit = {
-					region = arabia_region
+					superregion = india_superregion
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
 				}
 				add_permanent_province_modifier = {
 					name = unrule_lands
@@ -2884,7 +2945,12 @@ country_event = {	#hindustan
 		hidden_effect = {
 			every_province = {
 				limit = {
-					region = arabia_region
+					superregion = india_superregion
+					NOT = {
+						region = bengal_region
+						region = hindusthan_region
+						region = west_india_region
+					}
 				}
 				block_area_effect = yes
 			}

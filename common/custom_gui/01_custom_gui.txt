@@ -10,7 +10,6 @@ custom_button = {
 			}
 		}
         has_terrain = woods
-        has_terrain = forest
     }
     trigger = {
         custom_trigger_tooltip = {
@@ -385,7 +384,7 @@ custom_button = {
         custom_trigger_tooltip = {
             tooltip = nazy_all_seats_parliament_tt2
             FROM = {
-                any_owned_province = {
+                any_province_in_state = {
 				    has_seat_in_parliament = no
 			    }
             }

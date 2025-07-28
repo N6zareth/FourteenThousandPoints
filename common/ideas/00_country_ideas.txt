@@ -116,7 +116,6 @@ GER_ideas = {
 	}
 	ger_german_universities = {
 		development_cost = -0.1
-		technology_cost = -0.1
 	}
 	ger_reichsheer = {
 		discipline = 0.05
@@ -3837,6 +3836,7 @@ SER_ideas = {
 	}
 	gold_mines = {
 		production_efficiency = 0.1
+		development_cost = 0.1
 	}
 	mercenary_armies = {
 		merc_maintenance_modifier = -0.15
@@ -13357,6 +13357,88 @@ ALH_ideas = {
 	}
 }
 
+IRQ_ideas = {
+	start = {
+		ae_impact = 0.5	
+		development_cost_modifier = -0.10			
+	}
+	bonus = {
+		interest = -1.5
+        ae_impact = 0.5	
+	}
+	trigger = {
+		tag = IRQ
+	}
+	free = yes
+	
+	weapons_of_mass_distuction = {
+		discipline = 0.075
+        ae_impact = 0.5
+	}
+	bunkers_just_in_case = {
+		defensiveness = 0.50	
+		ae_impact = 0.5
+	}
+	Oillllllllllllllllllllllll = {
+		global_trade_goods_size_modifier = 0.25
+    	ae_impact = 0.5
+	}
+	Hardend = {
+		attack_bonus_in_capital_terrain = 1
+         = 0.5	
+	}
+	missils = {
+		backrow_artillery_damage = 0.30	
+        ae_impact = 0.5
+	}
+	erm_we_deserve_kuwait = {
+		unjustified_demands = -1.5
+        ae_impact = 0.5	
+	}
+	5D_chess = {
+		free_mil_policy = 2
+        possible_mil_policy = 2
+        ae_impact = 0.5	
+	}
+}
+
+SYR_ideas = {
+	start = {	
+		can_bypass_forts = yes	
+        warscore_from_battles_modifier = 0.75			
+	}
+	bonus = {
+		interest = -1.5	
+	}
+	trigger = {
+		tag = SYR
+	}
+	free = yes
+	
+	well_treated_men = {
+		enable_forced_march = yes	
+	}
+	even_better_treated_men = {
+		force_march_free = yes	
+	}
+	forgot_to_turn_on_forts = {
+		defensiveness = -1.00	
+        siege_ability = 0.75	
+	}
+	THE_BEST_TREATED_MEN = {
+		movement_speed = 1.50	
+	}
+	HOLY_SHIT_MY_MEN_ARE_SO_WILLING_TO_DIE_FOR_THE_LION = {
+		reserves_organisation = 1.50	
+	}
+	GENEREALS_KNOW_HOW_TO_DO_A_3_DAY_OPERATION = {
+		max_general_maneuver = 4	
+	}
+	GOTTA_GO_FAST = {
+		leader_land_manuever = 5	
+	}
+}
+
 HDR_ideas = {
 	start = {
 		navy_tradition = 1
@@ -14141,7 +14223,7 @@ ORD_ideas = {
 
 irish_ideas = {
 	start = {
-		land_morale = 0.1
+		land_morale = 0.15
 		trade_efficiency = 0.1
 	}
 	
@@ -14159,13 +14241,13 @@ irish_ideas = {
 	free = yes
 	
 	irish_endurance = {
-		shock_damage_received = -0.1
+		infantry_power = 0.1
 	}
 	the_clanns = {
 		same_culture_advisor_cost = -0.2
 	}
 	more_than_irish = {
-		global_unrest = -2
+		development_cost = -0.1
 	}
 	loyal_catholics = {
 		papal_influence = 1

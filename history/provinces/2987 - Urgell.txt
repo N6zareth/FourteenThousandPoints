@@ -42,7 +42,8 @@ discovered_by = ottoman
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
 add_core = CAT
 1444.11.11 = { 
-	remove_core = CAT
+	remove_core = ARA
 }
-owner = ARA
-controller = ARA
+owner = GUY
+controller = GUY
+add_core = ARA

@@ -47,5 +47,11 @@ center_of_trade = 2
 1815.3.16 = { 
 	controller = NED
 }
-fort_15th = yes
 hre = yes
+add_core = BUR
+fort_15th = yes
+1444.11.11 = { 
+	remove_core = BUR
+}
+owner = HOL
+controller = HOL

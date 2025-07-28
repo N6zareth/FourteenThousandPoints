@@ -11,13 +11,16 @@ religious_school = jafari_school
 #Rulers of Qatif
 1444.1.1 = {
 	monarch = {
-		name = "Ajwad ibn Zamil"
-		dynasty = "Jabrid"
-		dip = 4
-		mil = 5
-		adm = 3
+		name = "Hamed"
+		dynasty = "Khalifa"
+		dip = 5
+		mil = 2
+		adm = 6
 	}
 	add_piety = 0.25
+	clear_scripted_personalities = yes
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = scholar_personality
 }
 
 1480.1.1 = {

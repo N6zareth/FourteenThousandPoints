@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = al_suryah_arabic
+religion = shiite
+technology_group = muslim
+capital = 382	# Damascus
+religious_school = shafii_school
+
+1444.11.11 = {
+	monarch = {
+		name = "Bashar"
+		dynasty = "al-Assad"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = embezzler_personality
+	add_ruler_personality = cruel_personality
+}

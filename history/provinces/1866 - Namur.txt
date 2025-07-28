@@ -54,4 +54,10 @@ discovered_by = ottoman
 	controller = NED
 	add_core = NED
 }
+add_core = BUR
 fort_15th = yes
+1444.11.11 = { 
+	remove_core = BUR
+}
+owner = FLA
+controller = FLA

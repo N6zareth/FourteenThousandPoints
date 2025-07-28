@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = hebrew
+religion = jewish
+technology_group = western
+capital = 379 # Jerusalem
+
+1444.11.11 = {
+	monarch = {
+		name = "Benjamin"
+		dynasty = "Netenyahu"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = babbling_buffoon_personality
+}

@@ -44,3 +44,9 @@ discovered_by = ottoman
 1815.3.16 = { 
 	controller = NED
 }
+add_core = BUR
+1444.11.11 = { 
+	remove_core = BUR
+}
+owner = FLA
+controller = FLA

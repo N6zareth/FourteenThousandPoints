@@ -52,3 +52,9 @@ latent_trade_goods = {
 	add_core = NED
 }
 hre = yes
+add_core = BUR
+1444.11.11 = { 
+	remove_core = BUR
+}
+owner = FLA
+controller = FLA

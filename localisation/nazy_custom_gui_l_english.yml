@@ -2,10 +2,25 @@
  
  # Deforestation
  nazy_deforestation_tt:0 "§GThe deforestation of [Root.Province.GetName]\n§!Pave the way for urban development at the cost of defendability."
- naz_removed_woods:0 "Deforest Province"
+ naz_removed_woods:0 "Deforested Province"
+ naz_removed_woods_2:0 "Deforested Province"
  nazy_deforestation_tt2:0 "Have at least §Y100.0§!¤"
  nazy_deforestation_tt3:0 "Military Power at least §Y15§!"
  nazy_deforestation_tt4:0 "Not already deforested [Root.Province.GetName]"
+
+ nazy_irrigation_tt:0 "§GThe irrigation of [Root.Province.GetName]\n§!Pave the way for urban development at a hefty price."
+ nazy_irrigation_tt_5000:0 "Not already irrigated [Root.Province.GetName]"
+ 
+ nazy_irrigation_tt_11:0 "Have at least §Y200.0§!¤"
+ nazy_irrigation_tt_12:0 "Diplomatic Power at least §Y30§!"
+
+ nazy_irrigation_tt_21:0 "Have at least §Y400.0§!¤"
+ nazy_irrigation_tt_22:0 "Diplomatic Power at least §Y60§!"
+
+ nazy_irrigation_cd:0 "Irrigated Province"
+ nazy_irrigation_d:0 "Irrigated Province"
+
+ 
 
  # Wool to Cloth
  nazy_cloth_change_tt:0 "§GDevelop cloth in [Root.Province.GetName]\n§!Economic growth has spurred the development of cloth in place of wool."

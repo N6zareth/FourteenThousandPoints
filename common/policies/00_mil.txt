@@ -748,7 +748,7 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	discipline = 0.05
+	land_morale = 0.10	
 	
 	effect = {}
 	removed_effect = {}
@@ -774,8 +774,8 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	nobles_loyalty_modifier = 0.1
-	cavalry_power = 0.1
+	diplomatic_reputation = 1	
+	accept_vassalization_reasons = 20	
 	
 	effect = {}
 	removed_effect = {}
@@ -1228,6 +1228,7 @@ bolstered_defence_act = {
 	
 	hostile_attrition = 1 
 	garrison_size = 0.25
+        development_cost = -0.1	
 
 	effect = {}
 	removed_effect = {}
@@ -1320,7 +1321,7 @@ universal_serfdom_act = {
 	}
 	
 	nobles_loyalty_modifier = 0.1
-	global_manpower_modifier = 0.15
+	cavalry_power = 0.15	
 
 	effect = {}
 	removed_effect = {}

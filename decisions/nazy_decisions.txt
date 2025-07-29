@@ -83,4 +83,23 @@ country_decisions = {
 			factor = 0
 		}
 	}
+
+	restore_irish_color = {
+		color = { 166 0 0 }
+		potential = {
+			NOT = {
+				has_country_flag = restore_irish_color
+			}
+			ai = no
+			tag = GBR
+		}
+		effect = {
+			GBR = {
+				change_country_color = {
+					color = { 112  150  105 }
+				}	
+			}
+			set_country_flag = restore_irish_color
+		}
+	}
 }

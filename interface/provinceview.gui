@@ -579,6 +579,26 @@ guiTypes = {
 			}
 
 			guiButtonType = {
+				name = "nazy_deforestation2_button"
+				position = { x = 447 y = -16 }
+				quadTextureSprite = "nazy_deforestation_icon"
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "nazy_irrigation_button"
+				position = { x = 447 y = -16 }
+				quadTextureSprite = "nazy_deforestation_icon"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "nazy_irrigation2_button"
+				position = { x = 447 y = -16 }
+				quadTextureSprite = "nazy_deforestation_icon"
+				scripted = yes
+			}
+
+			guiButtonType = {
 				name = "nazy_cloth_change_button"
 				position = { x = 447 y = 20 }
 				quadTextureSprite = "nazy_cloth_change_icon"

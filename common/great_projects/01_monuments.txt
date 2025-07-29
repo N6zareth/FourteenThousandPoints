@@ -12116,6 +12116,142 @@ duomo_milano = {
 	}
 }
 
+bahrain_RECLEMATION_reclemation = {
+	start = 396 #bahrain
+	date = 1100.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+		OR = {
+			culture = gulf_arabic
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			culture = gulf_arabic
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			culture = gulf_arabic
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 500
+		}
+		province_modifiers = {
+                        trade_goods_size = 2.0
+                        local_development_cost_modifier = -0.3
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.1	
+			local_development_cost = -0.1
+		}
+		country_modifiers = {
+			global_trade_goods_size_modifier = 0.05
+			burghers_loyalty_modifier = 0.05
+		}
+		on_upgraded = {
+                        add_base_tax = 3
+                        add_base_production = 3		
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 750
+		}
+		province_modifiers = {
+                        trade_goods_size = 4.0
+                        local_development_cost_modifier = -0.3
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.2	
+			local_development_cost = -0.2
+		}
+		country_modifiers = {
+			global_trade_goods_size_modifier = 0.075
+			burghers_loyalty_modifier = 0.1
+		}
+		on_upgraded = {
+                        add_building = counting_house
+                        add_base_tax = 4
+                        add_base_production = 4
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+                        trade_goods_size = 6.0
+                        local_development_cost_modifier = -0.3
+		}
+		area_modifier = {
+			local_development_cost_modifier = -0.3	
+			local_development_cost = -0.3
+		}
+		country_modifiers = {
+			global_trade_goods_size_modifier = 0.1
+			burghers_loyalty_modifier = 0.15
+		}
+		on_upgraded = {
+                        add_base_tax = 5
+                        add_base_production = 5
+                        add_building = University	
+		}
+		
+	}
+}
+
 dutch_polders = {
 	start = 97 #Amsterdam
 	date = 1100.01.01

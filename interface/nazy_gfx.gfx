@@ -61,4 +61,9 @@ spriteTypes = {
         noOfFrames = 1
         noOfDirections = 1
     }
+
+    spriteType = {
+        name = "GFX_great_project_bahrain_RECLEMATION_reclemation"	
+        texturefile = "gfx/interface/great_projects/great_project_bahraini_polders.dds"
+    }
 }

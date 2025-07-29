@@ -42,6 +42,16 @@
  qolu_asia_colonists_desc: ""
 
  edict_devastation_edict:0 "Reduce Devastation"
+
+ nazy_indian_servants:0 "Indian Servants"
+ nazy_indian_servants_desc: ""
+
+ nazy_army_flexibility:0 "Army Flexibility"
+ nazy_army_flexibility_desc:0 ""
+
+ nazy_diplo_actions_tt:0 "AI cannot do this"
+
+ bahrain_RECLEMATION_reclemation:0 "Bahraini Polders"
  
  CRO_ideas:0 "Croatian Ideas"
  zzz_cro_1:0 "Silver Printing"
@@ -58,11 +68,3 @@
  zzz_cro_6_desc: ""
  zzz_cro_7:0 "Hill Climbers"
  zzz_cro_7_desc: ""
-
- nazy_indian_servants:0 "Indian Servants"
- nazy_indian_servants_desc: ""
-
- nazy_army_flexibility:0 "Army Flexibility"
- nazy_army_flexibility_desc:0 ""
-
- nazy_diplo_actions_tt:0 "AI cannot do this"

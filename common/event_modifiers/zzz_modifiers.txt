@@ -40,3 +40,16 @@ naz_removed_woods = {
     local_development_cost = -0.15
   	local_attacker_dice_roll_bonus = 1
 }
+
+naz_removed_woods_2 = {
+	local_development_cost = -0.2
+  	local_attacker_dice_roll_bonus = 1
+}
+
+naz_irrigation_cd = {
+	local_development_cost = -0.35
+}
+
+naz_irrigation_d = {
+	local_development_cost = -0.5
+}

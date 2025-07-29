@@ -277,7 +277,7 @@ public_welfare_act = {
 		full_idea_group = economic_ideas
 	}
 	
-	development_cost_in_primary_culture = -0.1
+	production_efficiency = 0.10
 	stability_cost_modifier = -0.25
 
 	effect = {}

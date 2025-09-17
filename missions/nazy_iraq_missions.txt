@@ -1,0 +1,1231 @@
+nazy_iraq_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = IRQ
+	}
+	has_country_shield = yes
+
+	iraq_conquer_khuzestan = {
+		icon = per_establish_eastern_defenses
+		position = 3
+		required_missions = { iraq_republican_army }
+
+		provinces_to_highlight = {
+			area = khuzestan_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = khuzestan_area
+			}
+		}
+		effect = {
+			khuzestan_area = {
+				change_culture = al_iraqiya_arabic
+				add_local_autonomy = -80
+				add_nationalism = -20
+			}
+			4342 = {
+				add_building = fort_15th
+			}
+		}
+	}
+	iraq_tabriz_march = {
+		icon = per_recruit_the_qizilbash
+		position = 4
+		required_missions = { iraq_conquer_khuzestan iraq_subdue_kurds }
+
+		provinces_to_highlight = {
+			area = tabriz_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				area = tabriz_area
+				value = 4
+			}
+		}
+		effect = {
+			416 = {
+				remove_building = fort_15th
+				add_building = fort_16th
+			}
+			every_owned_province = {
+				limit = {
+					culture = azerbaijani
+				}
+				change_culture = al_iraqiya_arabic
+			}
+		}
+	}
+	iraq_alfath_al_fars = {
+		icon = mission_mustansiriya_madrasah
+		position = 7
+		required_missions = { iraq_three_cities }
+
+		provinces_to_highlight = {
+			OR = {
+				area = isfahan_area
+				area = farsistan_area
+				area = kerman_area
+				area = mogostan_area
+				area = persian_gulf_coast
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = isfahan_area
+					area = farsistan_area
+					area = kerman_area
+					area = mogostan_area
+					area = persian_gulf_coast
+				}
+				value = 15
+			}
+		}
+		effect = {
+			custom_tooltip = nazy_iraq_ajam_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						area = isfahan_area
+						area = farsistan_area
+						area = kerman_area
+						area = mogostan_area
+						area = persian_gulf_coast
+					}
+					add_nationalism = -20
+					add_local_autonomy = -80
+				}
+			}
+		}
+	}
+	iraq_subjugate_baluchistan = {
+		icon = mission_tribute_tax
+		position = 8
+		required_missions = { iraq_alfath_al_fars }
+
+		provinces_to_highlight = {
+			OR = {
+				area = makran_area
+				area = kalat_area
+				owned_by = BAL
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = makran_area
+					area = kalat_area
+				}
+				value = 7
+			}
+			NOT = {
+				exists = BAL
+			}
+		}
+		effect = {
+			create_vassal = BAL
+			SND = {
+				add_core = BAL
+			}
+			sindh_area = {
+				add_core = BAL
+			}
+			northern_sindh_area = {
+				add_core = BAL
+			}
+		}
+	}
+	iraq_subjugate_sindh = {
+		icon = mission_conquer_sindh_mer
+		position = 9
+		required_missions = { iraq_subjugate_baluchistan }
+
+		provinces_to_highlight = {
+			OR = {
+				area = sindh_area
+				area = northern_sindh_area
+				owned_by = SND
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = sindh_area
+					area = northern_sindh_area
+				}
+				value = 6
+			}
+			NOT = {
+				exists = SND
+			}
+		}
+		effect = {
+			sind_sagar_area = {
+				add_core = ROOT
+			}
+			lahore_area = {
+				add_core = ROOT
+			}
+			multan_area = {
+				add_core = ROOT
+			}
+		}
+	}
+}
+
+nazy_iraq_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = IRQ
+	}
+	has_country_shield = yes
+
+	iraq_republican_army = {
+		icon = mission_mansure_army
+		position = 2
+		required_missions = { iraq_religious_unity }
+		trigger = {
+			army_size = 30
+			has_leaders = {
+				value = 1
+				type = general
+				include_monarch = no
+				include_heir = no
+			}
+			OR = {
+				commandant = 1
+				army_reformer = 1
+			}
+		}
+		effect = {
+			add_manpower = 12
+			khuzestan_area = {
+				limit = {
+					NOT = { owned_by = IRQ }
+					NOT = { is_core = IRQ }
+				}
+				add_permanent_claim = IRQ
+			}
+			north_kurdistan_area = {
+				limit = {
+					NOT = { owned_by = IRQ }
+					NOT = { is_core = IRQ }
+				}
+				add_permanent_claim = IRQ
+			}
+			shahrizor_area = {
+				limit = {
+					NOT = { owned_by = IRQ }
+					NOT = { is_core = IRQ }
+				}
+				add_permanent_claim = IRQ
+			}
+			al_jazira_area = {
+				limit = {
+					NOT = { owned_by = IRQ }
+					NOT = { is_core = IRQ }
+				}
+				add_permanent_claim = IRQ
+			}
+		}
+	}
+	iraq_alfath_al_ajam = {
+		icon = arb_riyadh
+		position = 7
+		required_missions = { iraq_three_cities }
+
+		provinces_to_highlight = {
+			OR = {
+				area = azerbaijan_area
+				area = tabarestan_area
+				area = iraq_e_ajam_area
+				area = luristan_area
+				area = azerbaijan_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = azerbaijan_area
+					area = tabarestan_area
+					area = iraq_e_ajam_area
+					area = luristan_area
+					area = azerbaijan_area
+				}
+				value = 15
+			}
+		}
+		effect = {
+			custom_tooltip = nazy_iraq_ajam_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						area = azerbaijan_area
+						area = tabarestan_area
+						area = iraq_e_ajam_area
+						area = luristan_area
+						area = azerbaijan_area
+					}
+					add_nationalism = -20
+					add_local_autonomy = -80
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						primary_culture = khorasani
+					}
+				}
+				every_country = {
+					limit = {
+						primary_culture = khorasani
+					}
+					reverse_add_casus_belli = {
+						target = ROOT
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			else = {
+				mashhad_area = {
+					add_permanent_claim = ROOT
+				}	
+				birjand_area = {
+					add_permanent_claim = ROOT
+				}	
+				sistan_area = {
+					add_permanent_claim = ROOT
+				}
+				herat_area = {
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	iraq_subjugate_khorasan = {
+		icon = mission_central_asian_steppes
+		position = 8
+		required_missions = { iraq_alfath_al_ajam }
+
+		provinces_to_highlight = {
+			OR = {
+				area = mashhad_area
+				area = birjand_area
+				area = sistan_area
+				area = herat_area
+			}
+			NOT = {
+				OR = {
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+		}
+		trigger = {
+			OR = {
+				any_subject_country = {
+					primary_culture = khorasani
+				}
+				num_of_owned_provinces_with = {
+					OR = {
+						area = mashhad_area
+						area = birjand_area
+						area = sistan_area
+						area = herat_area
+					}
+					value = 12
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					any_subject_country = {
+						primary_culture = afghani
+					}
+				}
+				reverse_add_casus_belli = {
+					target = ROOT
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			else = {
+				kabulistan_area = {
+					add_permanent_claim = ROOT
+				}
+				balkh_area = {
+					add_permanent_claim = ROOT
+				}
+				ghor_area = {
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	iraq_subjugate_afghanistan = {
+		icon = mission_subdue_the_afghans
+		position = 9
+		required_missions = { iraq_subjugate_khorasan }
+
+		provinces_to_highlight = {
+			OR = {
+				area = kabulistan_area
+				area = balkh_area
+				area = ghor_area
+			}
+			NOT = {
+				owned_by = ROOT
+				owned_by_subject_of = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = kabulistan_area
+					area = balkh_area
+					area = ghor_area
+				}
+				value = 10
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_irq_afghan_subjugation
+				duration = -1
+			}
+		}
+	}
+}
+
+nazy_iraq_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = IRQ
+	}
+	has_country_shield = yes
+
+	iraq_religious_unity = {
+		icon = mission_quran
+		position = 1
+		required_missions = {  }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = nazy_iraq_has_sorted_religion
+				OR = {
+					has_country_flag = iraq_shia_path
+					has_country_flag = iraq_sunni_path
+				}
+			}
+		}
+		effect = {
+			add_treasury = 250
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+	iraq_subdue_kurds = {
+		icon = mission_conquer_maharashtra
+		position = 3
+		required_missions = { iraq_republican_army }
+
+		provinces_to_highlight = {
+			culture = kurdish
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 8
+				culture = kurdish
+			}
+		}
+		effect = {
+			custom_tooltip = nazy_iraq_kurdish_tooltip
+			hidden_effect = {
+				add_accepted_culture_or_dip_power = {
+					culture = kurdish
+				}
+				every_owned_province = {
+					limit = {
+						culture = kurdish
+					}
+					add_nationalism = -20
+					add_local_autonomy = -80
+				}
+			}
+		}
+	}
+	iraq_consolidate_lower_euphrates = {
+		icon = mam_baghdad
+		position = 4
+		required_missions = { iraq_subdue_kurds }
+
+		provinces_to_highlight = {
+			area = al_jazira_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = al_jazira_area
+			}
+		}
+		effect = {
+			al_jazira_area = {
+				change_culture = al_iraqiya_arabic
+				add_building = temple
+			}
+		}
+	}
+	iraq_prepare_persian_conquest = {
+		icon = mission_conquer_persia
+		position = 5
+		required_missions = { iraq_consolidate_lower_euphrates }
+
+		provinces_to_highlight = {
+			region = persia_region
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			army_size_percentage = 1
+			army_size = ARL
+			army_professionalism = 0.2
+			OR = {
+				commandant = 2
+				army_reformer = 2
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_iraq_persian_conquest
+				duration = 9125
+			}
+			persia_region = {
+				add_permanent_claim = IRQ
+			}
+		}
+	}
+	iraq_three_cities = {
+		icon = mam_city_thousand_minarets
+		position = 6
+		required_missions = { iraq_prepare_persian_conquest }
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 411
+				province_id = 410 
+				province_id = 408
+			}
+			OR = { 
+				NOT = { controlled_by = ROOT }
+				NOT = {
+					AND = {
+						has_building = temple
+						has_building = workshop
+						has_building = marketplace
+						development = 20
+						num_of_times_expanded_infrastructure = 1
+					}
+				}
+			}
+		}
+		trigger = {
+			411 = {
+				has_building = temple
+				has_building = workshop
+				has_building = marketplace
+				development = 20
+				num_of_times_expanded_infrastructure = 1
+			}
+			410 = {
+				has_building = temple
+				has_building = workshop
+				has_building = marketplace
+				development = 20
+				num_of_times_expanded_infrastructure = 1
+			}
+			408 = {
+				has_building = temple
+				has_building = workshop
+				has_building = marketplace
+				development = 20
+				num_of_times_expanded_infrastructure = 1
+			}
+		}
+		effect = {
+			411 = {
+				add_province_modifier = {
+					name = nazy_iraq_three_cities
+					duration = -1
+				}
+				add_building = university
+			}
+			410 = {
+				add_province_modifier = {
+					name = nazy_iraq_three_cities
+					duration = -1
+				}
+				add_building = university
+			}
+			408 = {
+				add_province_modifier = {
+					name = nazy_iraq_three_cities
+					duration = -1
+				}
+				add_building = university
+			}
+			mashriq_region = {
+				add_permanent_claim = IRQ
+			}
+			caucasia_region = {
+				add_permanent_claim = IRQ
+			}
+		}
+	}
+	iraq_humble_syrian_lion = {
+		icon = arm_proclaim_great_armenia
+		position = 7
+		required_missions = { iraq_three_cities }
+
+		provinces_to_highlight = {
+			owned_by = SYR
+		}
+		trigger = {
+			has_won_war_against = {
+				who = SYR
+				max_years_since = 25
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_irq_humble_syria
+				duration = 9125
+			}
+			add_accepted_culture_or_dip_power = {
+				culture = al_suryah_arabic
+			}
+		}
+	}
+	iraq_jewish_protection = {
+		icon = jerusalem
+		position = 8
+		required_missions = { } #iraq_humble_syrian_lion
+
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = palestine_area
+			}
+		}
+		effect = {
+			release = ISR
+			create_march = ISR
+			add_historical_friend = ISR
+			ISR = {
+				add_historical_friend = IRQ
+			}
+			egypt_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	iraq_egyptian_subjugation = {
+		icon = mission_conquer_alexandria
+		position = 9
+		required_missions = { iraq_jewish_protection }
+
+		provinces_to_highlight = {
+			OR = {
+				owned_by = MAM
+				region = egypt_region
+			}
+			NOT = {
+				owned_by = ROOT
+				owned_by_subject_of = ROOT
+			}
+		}
+		trigger = {
+			OR = {
+				any_subject_country = {
+					primary_culture = al_misr_arabic
+				}
+				num_of_owned_provinces_with = {
+					region = egypt_region
+					value = 15
+				}
+			}
+		}
+		effect = {
+			ROOT = {
+				every_subject_country = {
+					add_country_modifier = {
+						name = nazy_irq_iraqi_triumph
+						duration = -1
+					}
+				}
+			}
+			add_country_modifier = {
+				name = nazy_irq_egyptian_triumph
+				duration = -1
+			}
+		}
+	}
+	iraq_the_caliphate = {
+		icon = per_unify_islam
+		position = 10
+		required_missions = { iraq_subjugate_afghanistan iraq_subjugate_sindh iraq_egyptian_subjugation iraq_guard_the_caucusus iraq_holy_cities }
+		trigger = { }
+		effect = {
+			ROOT = {
+				override_country_name = GREAT_ASSYRIA
+			}
+		}
+	}
+}
+
+nazy_iraq_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = IRQ
+	}
+	has_country_shield = yes
+
+	iraq_develop_upper_euphrates = {
+		icon = mam_harness_spice_trade
+		position = 4
+		required_missions = { iraq_drain_basra }
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4288
+				province_id = 2311
+				province_id = 4975
+				province_id = 4972
+				province_id = 409
+			}
+			OR = { 
+				NOT = { controlled_by = ROOT }
+				NOT = { num_of_times_improved = 5 } 
+			}
+		}
+		trigger = {
+			4288 = {
+				num_of_times_improved = 5
+			}
+			2311 = {
+				num_of_times_improved = 5
+			}
+			4975 = {
+				num_of_times_improved = 5
+			}
+			4972 = {
+				num_of_times_improved = 5
+			}
+			409 = {
+				num_of_times_improved = 5
+			}
+		}
+		effect = {
+			4288 = {
+				add_province_modifier = {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			2311 = {
+				add_province_modifier = {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			4975 = {
+				add_province_modifier = {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			4972 = {
+				add_province_modifier = {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			409 = {
+				add_province_modifier = {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			4974 = {
+				center_of_trade = 1
+			}
+		}
+	}
+	iraq_subjugate_caucusus = {
+		icon = mission_the_caucasus_rus
+		position = 7
+		required_missions = { iraq_three_cities }
+
+		provinces_to_highlight = {
+			OR = {
+				culture = georgian
+				culture = azerbaijani
+				culture = armenian
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					culture = georgian
+					culture = azerbaijani
+					culture = armenian
+				}
+				value = 15
+			}
+			owns = 423
+			owns = 4305
+			owns = 422
+		}
+		effect = {
+			add_accepted_culture_or_dip_power = {
+				culture = georgian
+				culture = azerbaijani
+				culture = armenian
+			}
+			custom_tooltip = nazy_subjugate_caucusus_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = georgian
+						culture = azerbaijani
+						culture = armenian
+					}
+					add_nationalism = -20
+					add_local_autonomy = -80
+				}
+			}
+			add_country_modifier = {
+				name = nazy_irq_caucusus_siege_ability
+				duration = 9125
+			}
+		}
+	}
+	iraq_guard_the_caucusus = {
+		icon = alpine_fortifications
+		position = 9
+		required_missions = { iraq_subjugate_caucusus }
+		trigger = {
+			owns_core_province = 423
+			owns_core_province = 4305
+			owns_core_province = 422
+			423 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+				}
+			}
+			4305 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+				}
+			}
+			422 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = nazy_irq_guard_caucasian_forts
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							province_id = 423
+							province_id = 4305
+							province_id = 422
+						}
+						has_building = fort_18th
+					}
+					add_province_modifier = {
+						name = nazy_irq_caucasian_forts
+						duration = 36500
+					}
+				}
+				every_owned_province = {
+				limit = {
+							OR = {
+							province_id = 423
+							province_id = 4305
+							province_id = 422
+						}
+						}
+					if = {
+						limit = { has_building = fort_17th }
+						remove_building = fort_17th
+						add_building = fort_18th
+					}
+					else_if = {
+						limit = { has_building = fort_16th }
+						remove_building = fort_16th
+						add_building = fort_17th
+					}
+					else_if = {
+						limit = { has_building = fort_15th }
+						remove_building = fort_15th
+						add_building = fort_16th
+					}
+				}
+			}
+		}
+	}
+}
+
+nazy_iraq_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = IRQ
+	}
+	has_country_shield = yes
+
+	iraq_bahrain_kuwait = {
+		icon = mission_haasa
+		position = 2
+		required_missions = { iraq_religious_unity }
+
+		provinces_to_highlight = {
+			province_id = 4956
+		}
+		trigger = {
+			diplomat = 1
+			treasury = 250
+		}
+		effect = {
+			ALH = {
+				country_event = {
+					id = nazy_iraq_events.2
+				}
+			}
+		}
+	}
+	iraq_drain_basra = {
+		icon = mam_basrah
+		position = 3
+		required_missions = { iraq_bahrain_kuwait }
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 408
+				province_id = 4288
+				province_id = 2311
+				province_id = 4290
+			}
+			OR = { 
+				NOT = { controlled_by = ROOT }
+				NOT = { has_province_flag = nazy_deforestation_flag }
+			}
+		}
+		trigger = {
+			owns_core_province = 4956
+			custom_trigger_tooltip = {
+				tooltip = nazy_drain_basra_tooltip
+				408 = {
+					has_province_flag = nazy_deforestation_flag
+				}
+				4288 = {
+					has_province_flag = nazy_deforestation_flag
+				}
+				2311 = {
+					has_province_flag = nazy_deforestation_flag
+				}
+				4290 = {
+					has_province_flag = nazy_deforestation_flag
+				}
+			}
+		}
+		effect = {
+			408 = {
+				add_province_modifier =  {
+					name = nazy_drained_basra
+					duration = -1
+				}
+			}
+			4288 = {
+				add_province_modifier =  {
+					name = nazy_drained_basra
+					duration = -1
+				}
+			}
+			2311 = {
+				add_province_modifier =  {
+					name = nazy_drained_basra
+					duration = -1
+				}
+			}
+			4290 = {
+				add_province_modifier =  {
+					name = nazy_drained_basra
+					duration = -1
+				}
+			}
+		}
+	}
+	iraq_develop_tigris = {
+		icon = mission_finest_carpets
+		position = 4
+		required_missions = { iraq_drain_basra }
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4290
+				province_id = 2312
+				province_id = 4973
+				province_id = 4977
+				province_id = 2310	
+			}
+			OR = { 
+				NOT = { controlled_by = ROOT }
+				NOT = { num_of_times_improved = 5 } 
+			}
+		}
+		trigger = { 
+			4290 = {
+				num_of_times_improved = 5
+			}
+			2312 = {
+				num_of_times_improved = 5
+			}
+			4973 = {
+				num_of_times_improved = 5
+			}
+			4977 = {
+				num_of_times_improved = 5
+			}
+			2310 = {
+				num_of_times_improved = 5
+			}
+		}
+		effect = {
+			4290 = {
+				add_province_modifier =  {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			2312 = {
+				add_province_modifier =  {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			4973 = {
+				add_province_modifier =  {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			4977 = {
+				add_province_modifier =  {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			2310 = {
+				add_province_modifier =  {
+					name = naz_develop_iraqi_rivers
+					duration = -1
+				}
+			}
+			4978 = {
+				center_of_trade = 1
+			}
+		}
+	}
+	iraq_the_republican_guard = {
+		icon = per_create_the_ghulams
+		position = 5
+		required_missions = {  }
+		trigger = {
+			reform_level = 4
+			max_manpower = 120
+			army_size = 80
+			army_professionalism = 0.4
+			army_tradition = 60
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_iraq_the_republican_guard
+				duraton = -1
+			}
+		}
+	}
+	iraq_subjugate_bahrain = {
+		icon = mission_conquer_andhra_bah
+		position = 7
+		required_missions = { iraq_three_cities }
+		trigger = {
+			OR = {
+				AND = {
+					reverse_has_opinion = {
+						who = ALH
+						value = 150
+					}
+					ROOT = {
+						alliance_with = ALH
+					}
+				}
+				AND = {
+					is_rival = ALH
+					army_size_percentage = 1
+				}
+			}	
+		}
+		effect = {
+			ALH = {
+				country_event = {
+					id = nazy_iraq_events.5
+				}
+			}
+		}
+	}
+	iraq_subjugate_yemen = {
+		icon = yem_unite_yemen
+		position = 8
+		required_missions = { iraq_subjugate_bahrain }
+
+		provinces_to_highlight = {
+			OR = {
+				area = mahra_area
+				area = hadramut_area
+				area = yemen_area
+				area = upper_yemen_area
+				area = tihama_al_yemen_area
+			}
+			NOT = {
+				owned_by = ROOT
+				owned_by_subject_of = ROOT
+			}
+		}
+		trigger = {
+			OR = {
+				ALH = {
+					num_of_owned_provinces_with = {
+						OR = {
+							area = mahra_area
+							area = hadramut_area
+							area = yemen_area
+							area = upper_yemen_area
+							area = tihama_al_yemen_area
+						}
+						value = 12
+					}
+				}
+				num_of_owned_provinces_with = {
+					OR = {
+						area = mahra_area
+						area = hadramut_area
+						area = yemen_area
+						area = upper_yemen_area
+						area = tihama_al_yemen_area
+					}
+					value = 10
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = nazy_irq_eternal_friendship
+				}
+				arabia_region = {
+					add_permanent_claim = ALH
+				}
+			}
+			else_if = {
+				arabia_region = {
+					add_permanent_claim = IRQ
+				}
+			}
+		}
+	}
+	iraq_holy_cities = {
+		icon = mission_into_arabia
+		position = 9
+		required_missions = { iraq_subjugate_yemen }
+		trigger = {
+			OR = {
+				ALH = {
+					owns_core_province = 394
+					owns_core_province = 385
+				}
+				owns_core_province = 394
+				owns_core_province = 385
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = nazy_irq_eternal_friendship
+				}
+				ALH = {
+					add_country_modifier = {
+						name = nazy_irq_the_holy_cities
+						duration = -1
+					}
+				}
+				add_country_modifier = {
+					name = nazy_irq_the_holy_cities
+					duration = -1
+				}
+			}
+			else_if = {
+				add_country_modifier = {
+					name = nazy_irq_the_holy_cities
+					duration = -1
+				}
+			}
+		}
+	}
+}
+

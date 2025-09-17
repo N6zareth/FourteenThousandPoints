@@ -1701,20 +1701,10 @@ dom_cas_missions_2_c = {
 			809 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			if = {
-				limit = {
-					has_dlc = "Dharma"
-				}
-				809 = {
-					province_has_center_of_trade_of_level = 3
-				}
-			}
-			else = {
-				809 = {
-					OR = {
-						has_building = trade_depot
-						has_building = stock_exchange
-					}
+			809 = {
+				OR = {
+					has_building = trade_depot
+					has_building = stock_exchange
 				}
 			}
 			809 = {

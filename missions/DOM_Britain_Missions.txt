@@ -14,6 +14,7 @@ eng_row_slot_1 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -158,6 +159,7 @@ eng_row_slot_1 = {
 			OR = {
 				tag = GBR
 				tag = AVE
+				tag = GIR
 			}
 		}	
 		effect = {
@@ -610,6 +612,7 @@ eng_row_slot_2 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -700,6 +703,7 @@ gbr_row_slot_2 = {
 				NOT = { has_country_flag = eng_took_ave_branch }
 			}
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1100,6 +1104,7 @@ eng_row_slot_2_continuation = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1156,6 +1161,7 @@ gbr_row_slot_2_continuation = {
 				NOT = { has_country_flag = eng_took_ave_branch }
 			}
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1353,6 +1359,7 @@ gbr_ave_hundred_years_mission = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1432,6 +1439,7 @@ gbr_row_3 = {
 				NOT = { has_country_flag = eng_took_ave_branch }
 			}
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2447,6 +2455,7 @@ gbr_row_4 = {
 				NOT = { has_country_flag = eng_took_ave_branch }
 			}
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2801,6 +2810,7 @@ gbr_row_4 = {
 			if = {
 				limit = {
 					tag = GBR
+					tag = GIR
 				}
 				west_bengal_area = {
 					limit = {
@@ -3356,6 +3366,7 @@ gbr_ave_the_royal_court_slot = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -3412,6 +3423,7 @@ gbr_row_5 = {
 				NOT = { has_country_flag = eng_took_ave_branch }
 			}
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -4250,6 +4262,7 @@ gbr_ave_row_1 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -4329,6 +4342,7 @@ gbr_ave_row_2 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -4505,6 +4519,7 @@ gbr_ave_row_3 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -4657,6 +4672,7 @@ gbr_ave_row_4 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -4733,6 +4749,7 @@ gbr_ave_row_5 = {
 			tag = ENG
 			tag = AVE
 			tag = GBR
+			tag = GIR
 		}
 		NOT = { map_setup = map_setup_random }
 	}

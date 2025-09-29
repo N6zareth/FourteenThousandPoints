@@ -1,0 +1,79 @@
+namespace = nazy_croatia_events
+
+country_event = {
+	id = nazy_croatia_events.1
+	title = nazy_croatia_events.1.t
+	desc = nazy_croatia_events.1.desc
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nazy_croatia_events.1.a
+
+		add_country_modifier = {
+			name = nazy_cro_tomislav
+			duration = 5475
+		}
+	}
+}
+
+country_event = {
+	id = nazy_croatia_events.2
+	title = nazy_croatia_events.2.t
+	desc = nazy_croatia_events.2.desc
+	picture = GREAT_BUILDING_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nazy_croatia_events.2.a
+
+		add_country_modifier = {
+			name = nazy_cro_hegemony
+			duration = 5475
+		}
+		add_prestige = 25
+		add_power_projection = { 
+			type = 25_permanent_power_projection
+			amount = 25 
+		}
+	}
+}
+
+country_event = {
+	id = nazy_croatia_events.3
+	title = nazy_croatia_events.3.t
+	desc = nazy_croatia_events.3.desc
+	picture = FORT_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nazy_croatia_events.3.a
+		albania_area = {
+			add_province_modifier = {
+				name = nazy_cro_albania_defense
+				duration = -1
+			}
+		}
+		set_country_flag = nazy_cro_albania_dd_flag
+	}
+
+	option = {
+		name = nazy_croatia_events.3.b
+		release = ALB
+		create_march = ALB
+		add_historical_friend = ALB
+		ALB = {
+			add_historical_friend = CRO
+		}
+		ALB = {
+			add_country_modifier = {
+				name = nazy_cro_albania_defense_2
+				duration = -1
+			}
+		}
+		set_country_flag = nazy_cro_albania_am_flag
+	}
+}

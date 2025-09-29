@@ -273,3 +273,20 @@
  bertus_limitation_menu.9600.b:0 "Colonizating malus"
  bertus_limitation_menu.9600.c:0 "Unruly lands: §R+50%§! minimum autonomy that decays if player"
  bertus_limitation_menu.9600.d:0 "Blocked Area: §R+50%§! minimum autonomy permanently"
+
+ bertus_limitation_menu.54200.c:0 "Indochina"
+ bertus_limitation_menu.9700.t:0 "Indochina Region"
+ bertus_limitation_menu.9700.z:0 "Back"
+ bertus_limitation_menu.9700.a:0 "Snap"
+ bertus_limitation_menu.9700.b:0 "Colonizating malus"
+ bertus_limitation_menu.9700.c:0 "Unruly lands: §R+50%§! minimum autonomy that decays if player"
+ bertus_limitation_menu.9700.d:0 "Blocked Area: §R+50%§! minimum autonomy permanently"
+ 
+ bertus_limitation_menu.54200.d:0 "Burma"
+ bertus_limitation_menu.9800.t:0 "Burma Region"
+ bertus_limitation_menu.9800.z:0 "Back"
+ bertus_limitation_menu.9800.a:0 "Snap"
+ bertus_limitation_menu.9800.b:0 "Colonizating malus"
+ bertus_limitation_menu.9800.c:0 "Unruly lands: §R+50%§! minimum autonomy that decays if player"
+ bertus_limitation_menu.9800.d:0 "Blocked Area: §R+50%§! minimum autonomy permanently"
+ 

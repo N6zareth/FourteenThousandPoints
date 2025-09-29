@@ -3,10 +3,10 @@ owner = IRE
 controller = IRE
 culture = irish
 religion = catholic
-base_tax = 3
+base_tax = 4
 base_production = 3
 trade_goods = grain
-base_manpower = 2
+base_manpower = 3
 capital = "Carrickfergus"
 is_city = yes
 discovered_by = western
@@ -19,7 +19,6 @@ discovered_by = eastern
 	capital = "Belfast"
 }
 1609.1.1 = { culture = english religion = Protestant }
-1642.6.7 = { add_core = IRE }
 1646.6.5 = { controller = IRE }
 1650.6.21 = { controller = ENG }
 1707.5.12 = { 

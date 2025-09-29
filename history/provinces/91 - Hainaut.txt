@@ -3,10 +3,10 @@ capital = "Mons"
 is_city = yes
 culture = wallonian
 religion = catholic
-base_tax = 6
-base_production = 6
+base_tax = 2
+base_production = 3
 trade_goods = cloth
-base_manpower = 3
+base_manpower = 2
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -14,7 +14,6 @@ discovered_by = ottoman
 1444.1.1 = { 
 	owner = BUR
 	controller = BUR
-	add_core = BUR
 }
 latent_trade_goods = { 
 	coal 
@@ -51,10 +50,6 @@ latent_trade_goods = {
 	controller = NED
 	add_core = NED
 }
-hre = yes
 add_core = BUR
-1444.11.11 = { 
-	remove_core = BUR
-}
 owner = FLA
 controller = FLA

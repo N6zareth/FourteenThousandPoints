@@ -53,6 +53,8 @@ the_mercenary_registration_act = {
 		}
 	}
 }
+
+#Quantity Administrative
 the_provincial_taxation_system = {
 	monarch_power = MIL
 
@@ -66,7 +68,7 @@ the_provincial_taxation_system = {
 		full_idea_group = quantity_ideas
 	}
 	
-	land_maintenance_modifier = -0.05
+	land_maintenance_modifier = -0.1
 	manpower_recovery_speed = 0.15
 	
 	effect = {}
@@ -105,6 +107,7 @@ the_liquor_act = {
 	}
 }
 
+#Nazy Offensive Economic
 horse_artillery = {
 	monarch_power = MIL
 	
@@ -117,6 +120,7 @@ horse_artillery = {
 		full_idea_group = offensive_ideas
 		full_idea_group = economic_ideas
 	}
+
 	artillery_power = 0.1
 
 	effect = {}
@@ -155,8 +159,8 @@ public_road_act = {
 		full_idea_group = trade_ideas
 	}
 	
-	movement_speed = 0.10
-	trade_efficiency = 0.10
+	heavy_ship_power = 0.05
+	ship_durability = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -236,6 +240,7 @@ superior_fortification_act = {
 	}
 }
 
+#Nazy Quality Innovative
 modern_firearm_techniques = {
 	monarch_power = MIL
 	
@@ -249,7 +254,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.15
+	infantry_fire = 0.03
 
 	effect = {}
 	removed_effect = {}
@@ -412,6 +417,7 @@ underhanded_diplomacy_act = {
 	}
 }
 
+#Nazy Aristocratic Diplomatic
 the_tenures_abolition_act = {
 	monarch_power = MIL
 
@@ -448,7 +454,7 @@ the_maritime_intelligencer_unit = {
 		full_idea_group = spy_ideas
 	}	
 	
-	siege_blockade_progress = 1
+	light_ship_power = 0.15
 	global_naval_engagement_modifier = 0.1
 	
 	effect = {}
@@ -524,6 +530,7 @@ zealous_captains = {
 	}
 }
 
+#Nazy Aristocratic Influence
 autonomous_estates = {
 	monarch_power = MIL
 	
@@ -539,6 +546,7 @@ autonomous_estates = {
 	
 	all_estate_loyalty_equilibrium = 0.05
 	vassal_forcelimit_bonus = 1
+	diplomatic_upkeep = 1
 	
 	effect = {}
 	removed_effect = {}
@@ -564,86 +572,6 @@ autonomous_estates = {
 			factor = 1.5
 			vassal = 5
 		}	
-	}
-}
-
-inspirational_leaders = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = quantity_ideas
-	}
-	
-	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = quantity_ideas
-	}	
-	
-	leader_land_shock = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-the_naval_inspection_act = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = naval_ideas
-	}
-	
-	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = naval_ideas
-	}	
-	
-	ship_durability = 0.05
-	recover_navy_morale_speed = 0.1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.8
-		modifier = {
-			factor = 0
-			NOT = { navy_size = 20 }
-		}
-	}
-}
-
-the_preparation_act = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = defensive_ideas
-	}
-	
-	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = defensive_ideas
-	}	
-	
-	land_attrition = -0.25
-	war_exhaustion = -0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.9
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
 	}
 }
 
@@ -713,6 +641,7 @@ foreign_conscription_centers = {
 	}
 }
 
+#Quantity Influence
 guerilla_warfare = {
 	monarch_power = MIL
 	
@@ -728,6 +657,7 @@ guerilla_warfare = {
 	
 	hostile_attrition = 1
 	shock_damage = 0.05
+	diplomatic_upkeep = 1
 	
 	effect = {}
 	removed_effect = {}
@@ -761,6 +691,7 @@ weapon_quality_standards = {
 	}
 }
 
+#Nazy Aristocratic Espionage
 noble_loyalty_act = {
 	monarch_power = MIL
 
@@ -774,8 +705,8 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	diplomatic_reputation = 1	
-	accept_vassalization_reasons = 20	
+	cavalry_power = 0.05
+	cavalry_cost = -0.15
 	
 	effect = {}
 	removed_effect = {}
@@ -907,6 +838,7 @@ trade_kontor_network = {
 	}
 }
 
+#Nazy Quality Espionage
 deserteur_act = {
 	monarch_power = MIL
 
@@ -920,8 +852,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	army_tradition_decay = -0.005
-	reinforce_speed = 0.15
+	infantry_power = 0.125
 	
 	effect = {}
 	removed_effect = {}
@@ -1000,6 +931,7 @@ omne_datum_optimum_policy = {
 	}
 }
 
+#Nazy Divine Religious
 wielders_of_the_flaming_sword_policy = { 
 	monarch_power = MIL
 
@@ -1013,61 +945,8 @@ wielders_of_the_flaming_sword_policy = {
 		full_idea_group = religious_ideas
 	}
 
-	land_morale = 0.1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1.0
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-the_three_sisters_policy = { 
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = indigenous_ideas
-		has_idea_group = economic_ideas
-	}
-	
-	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = economic_ideas
-	}
-
 	land_morale = 0.05
-	infantry_cost = -0.15
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1.0
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-by_the_people_for_the_people_policy = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = indigenous_ideas
-		has_idea_group = humanist_ideas
-	}
-	
-	allow = {
-		full_idea_group = indigenous_ideas
-		full_idea_group = humanist_ideas
-	}
-
-	defensiveness = 0.25
-	garrison_size = 0.1
+	morale_damage_received = -0.05
 	
 	effect = {}
 	removed_effect = {}
@@ -1228,7 +1107,7 @@ bolstered_defence_act = {
 	
 	hostile_attrition = 1 
 	garrison_size = 0.25
-        development_cost = -0.1	
+    development_cost = -0.05
 
 	effect = {}
 	removed_effect = {}
@@ -1237,6 +1116,7 @@ bolstered_defence_act = {
 	}
 }
 
+#Nazy Quality Infrastructure
 handpicked_recruits_act = { 
 	monarch_power = MIL
 	
@@ -1250,8 +1130,9 @@ handpicked_recruits_act = {
 		full_idea_group = quality_ideas 
 	}
 	
-	drill_gain_modifier = 0.33
-	yearly_army_professionalism = 0.0025
+	global_tax_modifier = 0.05
+	trade_efficiency = 0.05
+	global_trade_goods_size_modifier = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -1307,6 +1188,7 @@ naval_armament_act = {
 	}
 }
 
+#Nazy Aristocratic Court
 universal_serfdom_act = { 
 	monarch_power = MIL
 	
@@ -1321,7 +1203,7 @@ universal_serfdom_act = {
 	}
 	
 	nobles_loyalty_modifier = 0.1
-	cavalry_power = 0.15	
+	cavalry_power = 0.125
 
 	effect = {}
 	removed_effect = {}
@@ -1400,12 +1282,13 @@ sturdy_argument_act = {
 	}
 }
 
+#Nazy Quality Court
 special_forces_act = { 
 	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = court_ideas
-		has_idea_group = quality_ideas 
+		has_idea_group = quality_ideas
 	}
 	
 	allow = {
@@ -1413,8 +1296,7 @@ special_forces_act = {
 		full_idea_group = quality_ideas 
 	}
 	
-	special_unit_forcelimit = 0.1
-	yearly_army_professionalism = 0.002
+	special_unit_forcelimit = 0.15
 
 	effect = {}
 	removed_effect = {}

@@ -1,0 +1,147 @@
+####################################
+### SIZE 40 INFANTRY MERCENARIES ###
+####################################
+
+nazy_merc_cav_1_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_2_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_3_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_4_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_5_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_6_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_7_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_cav_8_t4 = {
+	cost_modifier = 0.75
+	cavalry_weight = 1
+	
+	manpower_pool = 60
+	min_size = 40
+	max_size = 40
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}

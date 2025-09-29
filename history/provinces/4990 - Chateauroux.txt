@@ -1,0 +1,17 @@
+# 1879 - Alençon
+owner = FRA
+controller = FRA
+capital = "Chateauroux"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 3
+add_core = FRA
+add_local_autonomy = 80
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

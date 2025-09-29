@@ -1,9 +1,9 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = oligarchy_reform
 primary_culture = hebrew
 religion = jewish
 technology_group = western
-capital = 379 # Jerusalem
+capital = 4976 # Jerusalem
 
 1444.11.11 = {
 	monarch = {

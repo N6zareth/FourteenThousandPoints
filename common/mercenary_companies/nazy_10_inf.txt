@@ -1,0 +1,65 @@
+####################################
+### SIZE 10 INFANTRY MERCENARIES ###
+####################################
+
+nazy_merc_inf_1_t1 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 15
+	min_size = 10
+	max_size = 10
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			OR = {
+				has_idea_group = aristocracy_ideas
+				has_government_attribute = enables_horde_idea_group
+			}
+			total_development = 300
+		}
+	}
+}
+
+nazy_merc_inf_2_t1 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 15
+	min_size = 10
+	max_size = 10
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			OR = {
+				has_idea_group = aristocracy_ideas
+				has_government_attribute = enables_horde_idea_group
+			}
+			total_development = 300
+		}
+	}
+}
+
+nazy_merc_inf_3_t1 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 15
+	min_size = 10
+	max_size = 10
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			OR = {
+				has_idea_group = aristocracy_ideas
+				has_government_attribute = enables_horde_idea_group
+			}
+		}
+	}
+}

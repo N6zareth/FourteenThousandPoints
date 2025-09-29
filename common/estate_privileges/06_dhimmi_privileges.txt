@@ -759,63 +759,63 @@ estate_dhimmi_millet_system = {
 }
 
 #Domination generic Estate Privileges
-estate_dhimmi_development_of_communities = {
-	icon = privilege_development_efficiency
-	loyalty = 0.05
-	influence = 0.05
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	is_valid = {
-		has_dlc = "Domination"
-	}
-	on_granted = {
-		custom_tooltip = estate_dhimmi_development_of_communities_gt
-		tooltip = {
-			add_province_modifier = {
-				name = estate_dhimmi_development_of_communities_mod
-				duration = -1
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_dhimmi_development_of_communities_rt
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				NOT = { religion_group = ROOT }
-				has_tax_building_trigger = yes
-			}
-			add_province_modifier = {
-				name = estate_dhimmi_development_of_communities_mod
-				duration = -1
-			}
-		}
-	}
-	on_invalid_province = {
-		if = {
-			limit = { has_province_modifier = estate_dhimmi_development_of_communities_mod }
-			remove_province_modifier = estate_dhimmi_development_of_communities_mod
-		}
-	}
-	on_revoked_province = {
-		if = {
-			limit = { has_province_modifier = estate_dhimmi_development_of_communities_mod }
-			remove_province_modifier = estate_dhimmi_development_of_communities_mod
-		}
-	}
-	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
-		modifier = { monthly_russian_modernization = -0.03 }
-	}
+# estate_dhimmi_development_of_communities = {
+# 	icon = privilege_development_efficiency
+# 	loyalty = 0.05
+# 	influence = 0.05
+# 	max_absolutism = -5
+# 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+# 	is_valid = {
+# 		has_dlc = "Domination"
+# 	}
+# 	on_granted = {
+# 		custom_tooltip = estate_dhimmi_development_of_communities_gt
+# 		tooltip = {
+# 			add_province_modifier = {
+# 				name = estate_dhimmi_development_of_communities_mod
+# 				duration = -1
+# 			}
+# 		}
+# 	}
+# 	on_revoked = {
+# 		custom_tooltip = estate_dhimmi_development_of_communities_rt
+# 	}
+# 	on_granted_province = {
+# 		if = {
+# 			limit = {
+# 				NOT = { religion_group = ROOT }
+# 				has_tax_building_trigger = yes
+# 			}
+# 			add_province_modifier = {
+# 				name = estate_dhimmi_development_of_communities_mod
+# 				duration = -1
+# 			}
+# 		}
+# 	}
+# 	on_invalid_province = {
+# 		if = {
+# 			limit = { has_province_modifier = estate_dhimmi_development_of_communities_mod }
+# 			remove_province_modifier = estate_dhimmi_development_of_communities_mod
+# 		}
+# 	}
+# 	on_revoked_province = {
+# 		if = {
+# 			limit = { has_province_modifier = estate_dhimmi_development_of_communities_mod }
+# 			remove_province_modifier = estate_dhimmi_development_of_communities_mod
+# 		}
+# 	}
+# 	conditional_modifier = {
+# 		trigger = { has_government_mechanic = russian_modernization_mechanic }
+# 		modifier = { monthly_russian_modernization = -0.03 }
+# 	}
 
-	mechanics = {
-		no_estate_crownland_loss_from_developing
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
+# 	mechanics = {
+# 		no_estate_crownland_loss_from_developing
+# 	}
+# 	ai_will_do = {
+# 		factor = 0
+# 	}
+# }
 estate_dhimmi_grant_trading_privileges = {
 	icon = privilege_monopoly
 	loyalty = 0.0

@@ -1,0 +1,206 @@
+namespace = nazy_iraqi_events
+
+country_event = {
+	id = nazy_iraq_events.1
+    title = nazy_iraq_events.1.t
+    desc = nazy_iraq_events.1.desc
+    picture = muslimgfx_RELIGION_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = IRQ
+		not = { is_year = 1445 }
+	}
+
+	option = {
+		name = nazy_iraq_events.1.a
+
+		ROOT = {
+			change_religion = shiite
+		}
+		410 = {
+			change_religion = shiite
+		}
+		add_country_modifier = {
+			name = nazy_iraq_shia
+			duration = 9125
+		}
+		set_country_flag = iraq_shia_path
+	}
+
+	option = {
+		name = nazy_iraq_events.1.b
+
+		add_country_modifier = {
+			name = nazy_iraq_sunni
+			duration = 9125
+		}
+		set_country_flag = iraq_sunni_path
+	}
+}
+
+#bahrain receives offer
+country_event = {
+	id = nazy_iraq_events.2
+	title = nazy_iraq_events.2.t
+	desc = nazy_iraq_events.2.desc
+	#picture =
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#yes
+	option = {
+		name = nazy_iraq_events.2.a
+
+		IRQ = {
+			country_event = {
+				id = nazy_iraq_events.3
+			}
+		}
+
+		add_treasury = 250
+
+		ai_chance = {
+			factor = 1000
+		}
+	}
+
+	#no
+	option = {
+		name = nazy_iraq_events.2.b
+
+		IRQ = {
+			country_event = {
+				id = nazy_iraq_events.4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nazy_iraq_events.3
+	title = nazy_iraq_events.3.t
+	desc = nazy_iraq_events.3.desc
+	#picture =
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#yes
+	option = {
+		name = nazy_iraq_events.3.a
+
+		hidden_effect = {
+			remove_rival = ALH
+			ALH = {
+				remove_rival = IRQ
+			}
+		}
+		add_treasury = -250
+		4956 = {
+			cede_province = IRQ
+			change_controller = IRQ
+			add_core = IRQ
+			remove_core = ALH
+		}
+		add_historical_friend = ALH
+		create_alliance	= ALH
+		ALH = {
+			add_historical_friend = IRQ
+			create_alliance	= IRQ
+		}
+	}
+}
+
+country_event = {
+	id = nazy_iraq_events.4
+	title = nazy_iraq_events.4.t
+	desc = nazy_iraq_events.4.desc
+	#picture =
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#no
+	option = {
+		name = nazy_iraq_events.4.a
+		
+		4956 = {
+			add_core = IRQ
+		}
+		add_historical_rival = IRQ
+	}
+}
+
+country_event = {
+	id = nazy_iraq_events.5
+	title = nazy_iraq_events.5.t
+	desc = nazy_iraq_events.5.desc
+	#picture =
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	# friend
+	option = {
+		name = nazy_iraq_events.5.a
+
+		add_country_modifier = {
+			name = nazy_irq_eternal_friendship
+			duration = -1
+		}
+		force_remove_rival = IRQ
+		create_alliance = IRQ
+		add_historical_friend = IRQ
+		remove_historical_rival = IRQ
+	}
+	# enemy
+	option = {
+		name = nazy_iraq_events.5.b
+
+		remove_alliance = IRQ
+		remove_historical_friend = IRQ
+		add_historical_rival = IRQ
+	}
+}
+
+country_event = {
+	id = nazy_iraq_events.6
+	title = nazy_iraq_events.5.t
+	desc = nazy_iraq_events.6.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nazy_iraq_events.6.a
+		add_country_modifier = {
+			name = nazy_irq_eternal_friendship
+			duration = -1
+		}
+		force_remove_rival = ALH
+		create_alliance = ALH
+		add_historical_friend = ALH
+		remove_historical_rival = ALH
+	}
+}
+
+country_event = {
+	id = nazy_iraq_events.7
+	title = nazy_iraq_events.5.t
+	desc = nazy_iraq_events.7.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = nazy_iraq_events.7.a
+
+		remove_alliance = ALH
+		remove_historical_friend = ALH
+		add_historical_rival = ALH
+
+		bahrain_area = {
+			add_core = IRQ
+		}
+		naz_kuwait_area = {
+			add_core = IRQ
+		}
+	}
+}

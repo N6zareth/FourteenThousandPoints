@@ -1,0 +1,35 @@
+country_decisions = {
+	GreatIrelandDecision = {
+		major = yes
+		was_never_end_game_tag_trigger = yes
+		potential = {
+			NOT = {
+				has_country_flag = has_formed_great_hibernia
+			}
+			tag = IRE
+		}
+		allow = {
+			adm_tech = 7
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 237		# Oxfordshire
+			owns_core_province = 234		# Wessex
+			owns_core_province = 248		# Lothian
+			owns_core_province = 251		# Aberdeen
+			owns_core_province = 236		# London
+			236 = {							# London
+				is_state = yes
+			}
+		}
+		effect = {
+			set_country_flag = has_formed_great_hibernia
+			change_tag = GIR
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			ai_importance = 400
+		}
+	}
+}

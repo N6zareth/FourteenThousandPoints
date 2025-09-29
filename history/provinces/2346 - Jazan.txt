@@ -1,13 +1,13 @@
 #2346 - Jazan
-owner = HED
-controller = HED
+owner = RAS
+controller = RAS
 culture = hejazi_culture
 religion = shiite
 capital = "Jazan"
 trade_goods = fish
 base_tax = 3
 base_production = 3
-base_manpower = 1
+base_manpower = 3
 is_city = yes
 add_core = YEM
 discovered_by = muslim
@@ -36,4 +36,4 @@ discovered_by = east_african
 1803.1.1 = { 
 	controller = MFL
 }
-add_core = HED
+add_core = RAS

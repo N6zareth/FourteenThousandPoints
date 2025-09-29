@@ -1,10 +1,10 @@
 #212 - Girona
 culture = catalan
 religion = catholic
-base_tax = 3
-base_production = 3
+base_tax = 2
+base_production = 2
 trade_goods = fish
-base_manpower = 3
+base_manpower = 2
 capital = "Girona"
 is_city = yes# census of 1462, also includes the town of Figueres 
 discovered_by = western
@@ -14,7 +14,6 @@ discovered_by = ottoman
 1444.1.1 = { 
 	owner = ARA
 	controller = ARA
-	add_core = ARA
 }
 1412.6.29 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1413.1.1 = { controller = REB revolt = { size = 1 } }
@@ -44,9 +43,6 @@ discovered_by = ottoman
 1813.8.31 = { controller = REB revolt = { type = pretender_rebels size = 1 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
 add_core = CAT
-1444.11.11 = { 
-	remove_core = ARA
-}
 owner = GUY
 controller = GUY
 add_core = ARA

@@ -676,6 +676,7 @@ courthouse = {
 		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.1
 		local_governing_cost = -0.25
+		local_friendly_movement_speed = 0.2
 		allowed_num_of_buildings = 1
 	}
 	on_built = {
@@ -1236,7 +1237,7 @@ university = {
 	cost = 300
 	time = 12
 	modifier = {
-		local_development_cost = -0.5
+		local_development_cost_modifier = -0.05
 		allowed_num_of_buildings = 1
 	}
 
@@ -1780,6 +1781,7 @@ town_hall = {
 		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
 		local_governing_cost = -0.5
+		local_friendly_movement_speed = 0.25
 		allowed_num_of_buildings = 1
 	}
 
@@ -2214,12 +2216,6 @@ wharf = {
 			type = production
 			value = 2
 		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = production 
-			value = 1 
-		}
-		
 	}
 	on_destroyed = {
 		remove_development_from_building = {
@@ -2252,11 +2248,6 @@ weapons = {
 			building = manufactory
 			type = production
 			value = 2
-		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = manpower 
-			value = 1 
 		}
 	}
 	on_destroyed = {
@@ -2292,11 +2283,6 @@ textile = {
 			building = manufactory
 			type = production
 			value = 2
-		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = production 
-			value = 1 
 		}
 	}
 	on_destroyed = {
@@ -2335,11 +2321,6 @@ plantations = {
 			type = production
 			value = 2
 		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = production 
-			value = 1 
-		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
@@ -2377,11 +2358,6 @@ tradecompany = {
 			type = production
 			value = 2
 		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = production 
-			value = 1 
-		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
@@ -2415,11 +2391,6 @@ farm_estate = {
 			building = manufactory
 			type = production
 			value = 2
-		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = production 
-			value = 1
 		}
 		if = {
 			limit = {
@@ -2472,11 +2443,6 @@ mills = {
 			building = manufactory
 			type = production
 			value = 2
-		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = production 
-			value = 1 
 		}
 	}
 	on_destroyed = {
@@ -2552,11 +2518,6 @@ ramparts = {
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	
 	on_built = {
-		add_dev_from_building = {
-			building = manufactory 
-			type = manpower 
-			value = 1 
-		}
 		if = {
 			limit = {
 				owner = {
@@ -2631,11 +2592,6 @@ soldier_households = {
 			type = production
 			value = 2
 		}
-		add_dev_from_building = {
-			building = manufactory 
-			type = manpower 
-			value = 1 
-		}
 		if = {
 			limit = {
 				FROM = {
@@ -2707,11 +2663,6 @@ impressment_offices = {
 			building = impressment_offices
 			type = manpower
 			value = 2
-		}
-		add_dev_from_building = {
-			building = impressment_offices 
-			type = manpower 
-			value = 1 
 		}
 	}
 	on_destroyed = {

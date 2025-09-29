@@ -1,0 +1,397 @@
+has_river_estuary_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_river_estuary_tooltip
+		OR = {
+			has_province_modifier = river_estuary_modifier
+			has_province_modifier = neva_estuary_modifier
+			has_province_modifier = daugava_estuary_modifier
+			has_province_modifier = neman_estuary_modifier
+			has_province_modifier = vistula_estuary_modifier
+			has_province_modifier = oder_estuary_modifier
+			has_province_modifier = elbe_estuary_modifier
+			has_province_modifier = weser_estuary_modifier
+			has_province_modifier = ems_estuary_modifier
+			has_province_modifier = rhine_estuary_modifier
+			has_province_modifier = thames_estuary_modifier
+			has_province_modifier = rhone_estuary_modifier
+			has_province_modifier = gironde_estuary_modifier
+			has_province_modifier = loire_estuary_modifier
+			has_province_modifier = seine_estuary_modifier
+			has_province_modifier = ebro_estuary_modifier
+			has_province_modifier = douro_estuary_modifier
+			has_province_modifier = tagus_estuary_modifier
+			has_province_modifier = guadiana_estuary_modifier
+			has_province_modifier = po_estuary_modifier
+			has_province_modifier = danube_estuary_modifier
+			has_province_modifier = dnestr_estuary_modifier
+			has_province_modifier = dnieper_estuary_modifier
+			has_province_modifier = volga_estuary_modifier
+			has_province_modifier = don_estuary_modifier
+			has_province_modifier = yangtze_estuary_modifier
+			has_province_modifier = huang_he_estuary_modifier
+			has_province_modifier = ganges_estuary_modifier
+			has_province_modifier = djanges_estuary_modifier
+			has_province_modifier = indus_estuary_modifier
+			has_province_modifier = sindus_estuary_modifier
+			has_province_modifier = euphrates_estuary_modifier
+			has_province_modifier = nile_estuary_modifier
+			has_province_modifier = gambia_estuary_modifier
+			has_province_modifier = pearl_estuary_modifier
+			has_province_modifier = parana_estuary_modifier
+			has_province_modifier = mekong_estuary_modifier
+			has_province_modifier = mississippi_estuary_modifier
+			has_province_modifier = rio_grande_estuary_modifier
+			has_province_modifier = niger_estuary_modifier
+			has_province_modifier = saint_lawrence_estuary_modifier
+			has_province_modifier = hudson_estuary_modifier
+			has_province_modifier = nelson_eastuary_modifier
+			has_province_modifier = godavari_estuary_modifier
+			has_province_modifier = krodavari_estuary_modifier
+			has_province_modifier = krishna_estuary_modifier
+			has_province_modifier = chrishna_estuary_modifier
+			has_province_modifier = kura_estuary_modifier
+			has_province_modifier = mangaeza_estuary_modifier
+			has_province_modifier = columbia_estuary_modifier
+			has_province_modifier = delaware_estuary_modifier
+			has_province_modifier = james_estuary_modifier
+			has_province_modifier = santee_estuary_modifier
+			has_province_modifier = guayas_estuary_modifier
+			has_province_modifier = senegal_estuary_modifier
+			has_province_modifier = zambezi_estuary_modifier
+			has_province_modifier = red_river_estuary_modifier
+			has_province_modifier = irrawaddy_estuary_modifier
+			has_province_modifier = kongo_estuary_modifier
+			has_province_modifier = amur_estuary_modifier
+			has_province_modifier = orinoco_estuary_modifier
+			has_province_modifier = echo_dnieper_buh_estuary_pmod
+			#China
+			has_province_modifier = mng_bogue_modifier
+		}
+	}
+}
+
+#Province has no river estuary:
+has_no_river_estuary_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_no_river_estuary_tooltip
+		NOT = {
+			has_province_modifier = river_estuary_modifier
+			has_province_modifier = neva_estuary_modifier
+			has_province_modifier = daugava_estuary_modifier
+			has_province_modifier = neman_estuary_modifier
+			has_province_modifier = vistula_estuary_modifier
+			has_province_modifier = oder_estuary_modifier
+			has_province_modifier = elbe_estuary_modifier
+			has_province_modifier = weser_estuary_modifier
+			has_province_modifier = ems_estuary_modifier
+			has_province_modifier = rhine_estuary_modifier
+			has_province_modifier = thames_estuary_modifier
+			has_province_modifier = rhone_estuary_modifier
+			has_province_modifier = gironde_estuary_modifier
+			has_province_modifier = loire_estuary_modifier
+			has_province_modifier = seine_estuary_modifier
+			has_province_modifier = ebro_estuary_modifier
+			has_province_modifier = douro_estuary_modifier
+			has_province_modifier = tagus_estuary_modifier
+			has_province_modifier = guadiana_estuary_modifier
+			has_province_modifier = po_estuary_modifier
+			has_province_modifier = danube_estuary_modifier
+			has_province_modifier = dnestr_estuary_modifier
+			has_province_modifier = dnieper_estuary_modifier
+			has_province_modifier = volga_estuary_modifier
+			has_province_modifier = don_estuary_modifier
+			has_province_modifier = yangtze_estuary_modifier
+			has_province_modifier = huang_he_estuary_modifier
+			has_province_modifier = ganges_estuary_modifier
+			has_province_modifier = djanges_estuary_modifier
+			has_province_modifier = indus_estuary_modifier
+			has_province_modifier = sindus_estuary_modifier
+			has_province_modifier = euphrates_estuary_modifier
+			has_province_modifier = nile_estuary_modifier
+			has_province_modifier = gambia_estuary_modifier
+			has_province_modifier = pearl_estuary_modifier
+			has_province_modifier = parana_estuary_modifier
+			has_province_modifier = mekong_estuary_modifier
+			has_province_modifier = mississippi_estuary_modifier
+			has_province_modifier = rio_grande_estuary_modifier
+			has_province_modifier = niger_estuary_modifier
+			has_province_modifier = saint_lawrence_estuary_modifier
+			has_province_modifier = hudson_estuary_modifier
+			has_province_modifier = nelson_eastuary_modifier
+			has_province_modifier = godavari_estuary_modifier
+			has_province_modifier = krodavari_estuary_modifier
+			has_province_modifier = krishna_estuary_modifier
+			has_province_modifier = chrishna_estuary_modifier
+			has_province_modifier = kura_estuary_modifier
+			has_province_modifier = mangaeza_estuary_modifier
+			has_province_modifier = columbia_estuary_modifier
+			has_province_modifier = delaware_estuary_modifier
+			has_province_modifier = james_estuary_modifier
+			has_province_modifier = santee_estuary_modifier
+			has_province_modifier = guayas_estuary_modifier
+			has_province_modifier = senegal_estuary_modifier
+			has_province_modifier = zambezi_estuary_modifier
+			has_province_modifier = red_river_estuary_modifier
+			has_province_modifier = irrawaddy_estuary_modifier
+			has_province_modifier = kongo_estuary_modifier
+			has_province_modifier = amur_estuary_modifier
+			has_province_modifier = orinoco_estuary_modifier
+			has_province_modifier = mng_bogue_modifier
+			has_province_modifier = echo_dnieper_buh_estuary_pmod
+		}
+	}
+}
+
+#Province with special production modifier:
+province_with_special_goods_produced_trigger = {
+	OR = {
+		has_province_modifier = stora_kopparberget_modifier
+		has_province_modifier = granary_of_the_mediterranean
+		has_province_modifier = ven_murano_glass_industry
+		has_province_modifier = diamond_mines_of_golconda_modifier
+		has_province_modifier = coffea_arabica_modifier
+		has_province_modifier = skanemarket
+		has_province_modifier = spice_islands_modifier
+		has_province_modifier = comet_ore_modifier
+		has_province_modifier = paradise_modifier
+		has_province_modifier = ned_house_of_elzevir
+		has_province_modifier = bookmarket_of_x
+		has_province_modifier = grand_bank_fisheries
+		has_province_modifier = diamond_district
+		has_province_modifier = diamond_district2
+		has_province_modifier = jingdezhen_kilns
+		has_province_modifier = perfume_capital
+		has_active_triggered_province_modifier = cerro_rico_modifier
+	}
+}
+
+#Province without special production modifier:
+province_without_special_goods_produced_trigger = {
+	NOT = {
+		has_province_modifier = stora_kopparberget_modifier
+		has_province_modifier = granary_of_the_mediterranean
+		has_province_modifier = ven_murano_glass_industry
+		has_province_modifier = diamond_mines_of_golconda_modifier
+		has_province_modifier = coffea_arabica_modifier
+		has_province_modifier = skanemarket
+		has_province_modifier = spice_islands_modifier
+		has_province_modifier = comet_ore_modifier
+		has_province_modifier = paradise_modifier
+		has_province_modifier = ned_house_of_elzevir
+		has_province_modifier = bookmarket_of_x
+		has_province_modifier = grand_bank_fisheries
+		has_province_modifier = diamond_district
+		has_province_modifier = diamond_district2
+		has_province_modifier = jingdezhen_kilns
+		has_province_modifier = perfume_capital
+		has_active_triggered_province_modifier = cerro_rico_modifier
+		has_latent_trade_goods = coal
+	}
+}
+
+is_religious_center_province = {
+	OR = {
+		province_id = 118
+		province_id = 2075
+		province_id = 2099
+		province_id = 677
+		province_id = 385
+		province_id = 2311
+		province_id = 409
+		province_id = 2221
+		province_id = 2095
+	}
+}
+
+area_has_total_development_of_type = {
+	$1$ = {
+		custom_trigger_tooltip = {
+			tooltip = area_has_total_development_of_type_tt_$type$
+			OR = {
+				always = yes
+				development = $total$ # for the tooltip
+			}
+			variable_arithmetic_trigger = {
+				export_to_variable = {
+					which = area_var
+					value = base_$type$
+					who = $1$
+				}
+				[[2]
+					export_to_variable = {
+						which = province_$2$
+						value = base_$type$
+						who = $2$
+					}
+					change_variable = { which = area_var which = province_$2$ }
+				]
+				[[3]
+					export_to_variable = {
+						which = province_$3$
+						value = base_$type$
+						who = $3$
+					}
+					change_variable = { which = area_var which = province_$3$ }
+				]
+				[[4]
+					export_to_variable = {
+						which = province_$4$
+						value = base_$type$
+						who = $4$
+					}
+					change_variable = { which = area_var which = province_$4$ }
+				]
+				[[5]
+					export_to_variable = {
+						which = province_$5$
+						value = base_$type$
+						who = $5$
+					}
+					change_variable = { which = area_var which = province_$5$ }
+				]
+				check_variable = { which = area_var value = $total$ }
+			}
+		}
+	}
+}
+
+X_has_latest_building_trigger = {
+	[[trade]
+		if = {
+			limit = { $builder$ = { dip_tech = 22 } }
+			has_building = stock_exchange
+		}
+		else_if = {
+			limit = { $builder$ = { dip_tech = 17 } }
+			has_building = trade_depot
+		}
+		else = {
+			has_building = marketplace
+		}
+	]
+	[[government]
+		if = {
+			limit = { $builder$ = { adm_tech = 22 } }
+			has_building = town_hall
+		}
+		else = {
+			has_building = courthouse
+		}
+	]
+	[[production]
+		if = {
+			limit = { $builder$ = { adm_tech = 24 } }
+			has_building = counting_house
+		}
+		else = {
+			has_building = workshop
+		}
+	]
+	[[tax]
+		if = {
+			limit = { $builder$ = { adm_tech = 19 } }
+			has_building = cathedral
+		}
+		else = {
+			has_building = temple
+		}
+	]
+	[[manpower]
+		if = {
+			limit = { $builder$ = { mil_tech = 16 } }
+			has_building = training_fields
+		}
+		else = {
+			has_building = barracks
+		}
+	]
+	[[sailors]
+		if = {
+			limit = { $builder$ = { dip_tech = 19 } }
+			has_building = drydock
+		}
+		else = {
+			has_building = dock
+		}
+	]
+	[[army_forcelimit]
+		if = {
+			limit = { $builder$ = { mil_tech = 18 } }
+			has_building = conscription_center
+		}
+		else = {
+			has_building = regimental_camp
+		}
+	]
+	[[navy_forcelimit]
+		has_building = shipyard
+	]
+	[[coastal]
+		if = {
+			limit = { $builder$ = { dip_tech = 12 } }
+			has_building = naval_battery
+		}
+		else = {
+			has_building = coastal_defence
+		}
+	]
+	[[fort]
+		if = {
+			limit = { $builder$ = { mil_tech = 24 } }
+			has_building = fort_18th
+		}
+		else_if = {
+			limit = { $builder$ = { mil_tech = 19 } }
+			has_building = fort_17th
+		}
+		else_if = {
+			limit = { $builder$ = { mil_tech = 14 } }
+			has_building = fort_16th
+		}
+		else = {
+			has_building = fort_15th
+		}
+	]
+}
+
+MAM_upgrade_cot_and_trade_building = {
+	custom_trigger_tooltip = {
+		tooltip = MAM_upgrade_cot_to_level_2_and_build_trade_building
+		OR = {
+			NOT = { province_has_center_of_trade_of_level = 1 } 
+			AND = {
+				country_or_non_sovereign_subject_holds = ROOT
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					province_has_center_of_trade_of_level = 2
+				}
+				has_trade_building_trigger = yes
+			}
+		}
+	}
+}
+
+has_state_edict_enabled = {
+	OR = {
+		has_state_edict = edict_advancement_effort
+		has_state_edict = edict_centralization_effort
+		has_state_edict = edict_defensive_edict
+		has_state_edict = edict_of_governance
+		has_state_edict = edict_encourage_development
+		has_state_edict = edict_feudal_de_jure_law
+		has_state_edict = edict_devastation_edict
+		has_state_edict = french_infrastructure_network
+		has_state_edict = edict_promote_military_recruitment
+		has_state_edict = edict_protect_trade
+		has_state_edict = protect_trade_empowered
+		has_state_edict = edict_religion_enforced
+		has_state_edict = edict_religious_unity
+		has_state_edict = chinese_industrialization
+		has_state_edict = feudal_taxes_state_edict
+		has_state_edict = religious_tolerance_state_edict
+		has_state_edict = state_integration_state_edict
+		has_state_edict = urbanization_state_edict
+	}
+}

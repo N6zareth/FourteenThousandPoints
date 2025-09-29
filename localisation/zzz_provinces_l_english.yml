@@ -3,6 +3,8 @@
  naz_congo_area:0 "Namibia"
  naz_east_guinea_area:0 "East Guinea"
  naz_west_guinea_area:0 "West Guinea"
+ naz_kuwait_area:0 "Kuwait"
+ nazy_outer_austria:0 "Outer Austria"
  
  #Naz Congo 
  PROV4942:0 "Sumbe"
@@ -21,3 +23,212 @@
  PROV4953:0 "Saguela"
  PROV4954:0 "Korhogo"
  PROV4955:0 "Guinea"
+
+ #Bahrain
+ PROV4957:0 "Dammam"
+ PROV4958:0 "Salwa"
+ PROV4959:0 "Judah"
+ PROV4960:0 "Mishalah"
+
+ #Israel
+ PROV4961:0 "Bir al-Abd"
+ PROV4962:0 "Eilot"
+ PROV4963:0 "Be'er Sheva"
+ PROV4964:0 "Golan Heights"
+ PROV4976:0 "Tel-Aviv"
+
+ #Syria
+ PROV4965:0 "Latakia"
+ PROV4966:0 "Old Tripoli"
+ PROV4967:0 "South Syrian Desert"
+ PROV4968:0 "North Syrian Desert"
+ PROV4969:0 "Idlib"
+ PROV4970:0 "Maskanah"
+ PROV5057:0 "Badrah"
+ PROV5058:0 "Baqubah"
+ PROV5059:0 "Kalar"
+ PROV5060:0 "Erbil"
+
+ #Iraq
+ PROV4956:0 "Kuwait"
+ PROV4971:0 "East Syrian Desert"
+ PROV4972:0 "Hilah"
+ PROV4973:0 "Kut"
+ PROV4974:0 "Shatrah"
+ PROV4975:0 "Al Diwaniyah"
+ PROV4977:0 "Samarra"
+ PROV4978:0 "Al-Fajr"
+
+ #Spain
+ PROV4979:0 "Vitoria"
+ PROV4980:0 "Talavera"
+ PROV4981:0 "Don Benito"
+ PROV4982:0 "Ciudad Real"
+
+ #England
+ PROV4983:0 "Cambridge"
+ PROV4984:0 "Southend"
+ PROV4985:0 "Winchester"
+ PROV4986:0 "Newcastle"
+
+ #France
+ PROV4987:0 "Le Mans"
+ PROV4988:0 "Nantes"
+ PROV4989:0 "La Havre"
+ PROV4990:0 "Chateauroux"
+ PROV5068:0 "Arachon"
+ PROV5069:0 "Tarias"
+ PROV5070:0 "Bergerac"
+ PROV5089:0 "Vermandois"
+ PROV5090:0 "Champagne"
+ PROV5091:0 "Pocien"
+ PROV5092:0 "Courtenay"
+
+ #Morocco
+ PROV4991:0 "Ouezanne"
+ PROV5001:0 "Ifreane"
+ PROV5002:0 "Khayfara"
+ PROV5072:0 "Hoceim"
+ PROV5073:0 "Temara"
+ PROV5074:0 "Larache"
+
+ #Croatia
+ PROV4992:0 "Krizevci"
+ PROV4993:0 "Kutina"
+ PROV4994:0 "Karlovac"
+ PROV4995:0 "Bihac"
+ PROV4996:0 "Daruvar"
+
+ #Bosnia
+ PROV4997:0 "Zenica"
+
+ #Serbia
+ PROV4998:0 "Krusevac"
+ PROV4999:0 "Berane"
+ PROV5000:0 "Kovacica"
+
+ #Switzerland
+ PROV5003:0 "Bienne"
+ PROV5004:0 "Neauchatel"
+ PROV5005:0 "Frauenfield"
+ PROV5006:0 "Vaduz"
+
+ #Sweden
+ PROV5007:0 "Nybro"
+ PROV5008:0 "Vastervik"
+ PROV5009:0 "Nykoping"
+ PROV5010:0 "Hudiksvall"
+ PROV5011:0 "Orsa"
+ PROV5012:0 "Rattvik"
+ PROV5013:0 "Soderhamn"
+ PROV5014:0 "Enkoping"
+ PROV5025:0 "Kristinehamn"
+
+ #Austria
+ PROV5015:0 "Almhult"
+ PROV5016:0 "Mistelbach"
+ PROV5017:0 "Amstetten"
+ PROV5018:0 "Wiener-Neustadt"
+ PROV5019:0 "Kapfenberg"
+ PROV5020:0 "Feldkirchen"
+ PROV5021:0 "Zeltweg"
+ PROV5022:0 "Eisenstadt"
+ PROV5023:0 "Bratislava"
+ PROV5024:0 "Trnava"
+
+ #Finland
+ PROV5026:0 "Pori"
+ PROV5027:0 "Jakobstad"
+ PROV5028:0 "Oulu"
+ PROV5029:0 "Kalajoki"
+ PROV5030:0 "Helsinki"
+
+ #Brandenburg
+ PROV5031:0 "Kostrzyn"
+ PROV5032:0 "Frankfurt-an-der-Oder"
+ PROV5033:0 "Lubbenau"
+
+ #Hesse-Franconia
+ PROV5034:0 "Nastatten"
+ PROV5035:0 "Alsfeld"
+ PROV5036:0 "Salzkotten"
+ PROV5037:0 "Seligenstadt"
+ PROV5038:0 "Schwabach"
+ PROV5039:0 "Geiselwind"
+ PROV5040:0 "Weiden"
+ PROV5041:0 "Lichtenau"
+ PROV5042:0 "Marktheidenfeld"
+ PROV5043:0 "Rottenberg"
+ PROV5044:0 "Burghausen"
+ PROV5045:0 "Gelnhausen"
+
+ #Naples
+ PROV5046:0 "Ossola" 
+ PROV5047:0 "Asti" 
+ PROV5048:0 "Piacenza" 
+
+ #Milan
+ PROV5049:0 "Brindisi"
+ PROV5050:0 "Scalea"
+ PROV5051:0 "Manfredonia"
+ PROV5052:0 "Pescara"
+ PROV5053:0 "Spezia"
+
+ #Lubeck
+ PROV5054:0 "Neumunster"
+ PROV5055:0 "Gadebusch"
+ PROV5056:0 "Soltau"
+ PROV5071:0 "Gustrow"
+
+ #Persia
+ PROV5061:0 "Babol"
+ PROV5062:0 "Behshahr"
+ PROV5063:0 "Chalus"
+ PROV5064:0 "Ramsar"
+ PROV5065:0 "Asalem"
+ PROV5066:0 "Karaj"
+ PROV5067:0 "Lankaran"
+
+ #Egypt
+ PROV5075:0 "Sedat"
+ PROV5076:0 "Maghagha"
+ PROV5077:0 "Sohag"
+ PROV5078:0 "Luxor"
+ PROV5079:0 "El-Alamein"
+ PROV5080:0 "Ismailia"
+ PROV5081:0 "Port Said"
+ PROV5082:0 "Zagazig"
+
+ #Tunis
+ PROV5083:0 "Hammamet"
+ PROV5084:0 "Tabarka"
+ PROV5085:0 "Skikda"
+ PROV5086:0 "Jijel"
+ PROV5087:0 "Guelma"
+ PROV5088:0 "Monastir"
+
+ #Lowlands
+ PROV5093:0 "Stellingwerven"
+ PROV5094:0 "Zutphen"
+ PROV5095:0 "Nijmegen"
+ PROV5096:0 "Mechelen"
+ PROV5097:0 "Nieauport"
+ PROV5098:0 "Arras"
+
+ #Greece
+ PROV5099:0 "Rhaedestus"
+ PROV5100:0 "Varna"
+ PROV5101:0 "Kavala"
+ PROV5102:0 "Volos"
+ PROV5103:0 "Katerini"
+ PROV5104:0 "Megalopolis"
+ PROV5105:0 "Patras"
+ PROV5106:0 "Thermopylae"
+ PROV5107:0 "Kozani"
+ PROV5108:0 "Nafpaktos"
+ PROV5109:0 "Ionnina"
+ PROV5110:0 "Gjirokaster"
+ PROV5111:0 "Pyndus"
+ PROV5112:0 "Olympus"
+ PROV5113:0 "Sterea Hellas"
+ PROV5114:0 "Petrich"

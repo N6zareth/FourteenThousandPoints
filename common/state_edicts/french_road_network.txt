@@ -21,6 +21,7 @@ french_infrastructure_network = {
 	
 	modifier = {
 		local_friendly_movement_speed = 0.2
+		local_development_cost = -0.1
 	}
 	
 	color = { 51 93 159 }

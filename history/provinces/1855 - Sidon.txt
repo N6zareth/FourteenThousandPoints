@@ -1,13 +1,13 @@
 #1855 - Sidon
-owner = ISR
-controller = ISR
+owner = SYR
+controller = SYR
 culture = al_suryah_arabic
-religion = jewish
+religion = shiite
 capital = "Sayda"
-trade_goods = naval_supplies
-base_tax = 5
+trade_goods = glass
+base_tax = 3
 base_production = 5
-base_manpower = 3
+base_manpower = 5
 is_city = yes
 add_core = LEB
 discovered_by = muslim
@@ -21,4 +21,4 @@ discovered_by = east_african
 	controller = TUR
 	add_core = TUR
 }
-add_core = ISR
+add_core = SYR

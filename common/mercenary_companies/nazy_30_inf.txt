@@ -1,0 +1,93 @@
+####################################
+### SIZE 30 INFANTRY MERCENARIES ###
+####################################
+
+nazy_merc_inf_1_t3 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 45
+	min_size = 30
+	max_size = 30
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_inf_2_t3 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 45
+	min_size = 30
+	max_size = 30
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_inf_3_t3 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 45
+	min_size = 30
+	max_size = 30
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_inf_4_t3 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 45
+	min_size = 30
+	max_size = 30
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}
+
+nazy_merc_inf_5_t3 = {
+	cost_modifier = 0.75
+	cavalry_cap = 0
+	
+	manpower_pool = 45
+	min_size = 30
+	max_size = 30
+
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		ai = no
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_government_attribute = enables_horde_idea_group
+		}
+	}
+}

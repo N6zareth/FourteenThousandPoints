@@ -42,4 +42,3 @@ discovered_by = ottoman
 	controller = LUX
 }
 fort_15th = yes
-hre = yes

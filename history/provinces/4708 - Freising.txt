@@ -12,16 +12,12 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 #Last of the Landshuter Wittelsbachs dies, Bavaria reunited
-
 1444.1.1 = { 
 	owner = BAV
 	controller = BAV
-	add_core = BAV
 }
-
 1503.12.1 = { 
 	controller = BAV
-	add_core = BAV
 }
 1704.8.13 = { controller = HAB }
 1714.9.7 = { controller = BAV }

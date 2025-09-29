@@ -1,7 +1,7 @@
 #213 - Barcelona
 culture = catalan
 religion = catholic
-base_tax = 6
+base_tax = 3
 base_production = 5
 trade_goods = glass
 base_manpower = 3
@@ -46,8 +46,5 @@ center_of_trade = 1
 1813.8.31 = { controller = REB revolt = { type = pretender_rebels size = 1 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
 add_core = CAT
-1444.11.11 = { 
-	remove_core = CAT
-}
 owner = ARA
 controller = ARA

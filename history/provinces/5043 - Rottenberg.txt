@@ -1,0 +1,15 @@
+add_core = BAV
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+owner = BAV
+culture = bavarian
+religion = catholic
+hre = yes
+controller = BAV
+is_city = yes
+base_tax = 3
+base_manpower = 3
+base_production = 3
+trade_goods = cloth

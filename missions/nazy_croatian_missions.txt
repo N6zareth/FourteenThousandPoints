@@ -1,0 +1,1954 @@
+1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = CRO
+	}
+
+	cro_destroy_serbia = {
+		icon = defeat_the_serbs
+		position = 2
+		required_missions = { cro_build_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				OR = {
+					area = serbia_area
+					area = rascia_area
+				}
+				owned_by = SER
+			}
+			NOT = { owned_by = CRO }
+		}
+		trigger = {
+			NOT = {
+				exists = SER
+			}
+			num_of_owned_provinces_with = {
+				OR = {
+					area = serbia_area
+					area = rascia_area
+				}
+				value = 10
+			}
+		}
+		effect = {
+			# some event
+		}
+	}
+	cro_tomislav = {
+		icon = mission_conquer_romania
+		position = 5
+		required_missions = { cro_destroy_serbia cro_croatian_hegemon }
+		trigger = {
+			monthly_mil = 8
+			manpower_percentage = 0.8
+			army_size_percentage = 1
+			religious_unity = 1
+			legitimacy_equivalent = 100
+		}
+		effect = {
+			country_event = {
+				id = nazy_croatia_events.1
+			}
+		}
+	}
+	cro_albania = {
+		icon = mission_protect_albania
+		position = 6
+		required_missions = { cro_tomislav }
+		trigger = {
+			owns_all_provinces = {
+				area = albania_area
+			}
+		}
+		effect = {
+			albania_area = {
+				nazy_upgrade_building_fort = yes
+			}
+			country_event = {
+				id = nazy_croatia_events.3
+			}
+			venetia_area = {
+				add_permanent_claim = CRO
+			}
+		}
+	}
+	cro_venice = {
+		icon = mission_control_venice
+		position = 7
+		required_missions = { cro_albania }
+		provinces_to_highlight = {
+			NOT = { owned_by = CRO }
+			area = venetia_area
+		}
+		trigger = {
+			owns_all_provinces = { area = venetia_area }
+			owns_core_province = 112
+		}
+		effect = {
+			add_adm_power = 100
+		}
+	}
+	cro_naples = {
+		icon = capture_adriatic_ports
+		position = 8
+		required_missions = { cro_venice cro_albania_wardens }
+		provinces_to_highlight = {
+			OR = {
+				area = apulia_area
+				area = calabria_area
+				area = naples_area
+			}
+			NOT = { owned_by = CRO }
+		}
+		trigger = { 
+			num_of_owned_provinces_with = {
+				OR = {
+					area = apulia_area
+					area = calabria_area
+					area = naples_area
+				}
+				value = 12
+			}
+		}
+		effect = {
+			add_adm_power = 150
+		}
+	}
+	cro_navy = {
+		icon = mission_danish_navy
+		position = 9
+		required_missions = { cro_administration cro_naples }
+		trigger = { }
+		effect = {
+			add_country_modifier = {
+				name = nazy_cro_great_navy
+				duration = -1
+			}
+			custom_tooltip = cro_navy_tt
+			hidden_effect = {
+				112 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				4752 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				136 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				137 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				5100 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				151 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				148 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+				146 = {
+					add_province_modifier = {
+						name = nazy_cro_galleass
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+
+2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = CRO
+	}
+
+	cro_build_force_limit = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+			OR = {
+				num_of_estate_privileges = {
+					estate = estate_nobles
+					value = 2
+				}
+				num_of_mercenaries = 6
+			}
+		}
+		effect = {
+			rascia_area = {
+				limit = {
+					NOT = { owned_by = CRO }
+					NOT = { is_core = CRO }
+				}
+				add_permanent_claim = CRO
+			}
+			serbia_area = {
+				limit = {
+					NOT = { owned_by = CRO }
+					NOT = { is_core = CRO }
+				}
+				add_permanent_claim = CRO
+			}
+			bosnia_area = {
+				limit = {
+					NOT = { owned_by = CRO }
+					NOT = { is_core = CRO }
+				}
+				add_core = CRO
+			}
+		}
+	}
+	cro_conquer_bosnia = {
+		icon = fight_bosnian_heresies
+		position = 2
+		required_missions = { cro_build_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				area = bosnia_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = bosnia_area
+			}
+		}
+		effect = {
+			add_adm_power = 75
+			east_adriatic_coast_area = {
+				limit = {
+					NOT = { owned_by = CRO }
+					NOT = { is_core = CRO }
+				}
+				add_permanent_claim = CRO
+			}
+		}
+	}
+	cro_dalmatian_coast = {
+		icon = dalmatian_conquest
+		position = 3
+		required_missions = { cro_conquer_bosnia }
+		provinces_to_highlight = {
+			OR = {
+				area = east_adriatic_coast_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			east_adriatic_coast_area = {
+				owned_by = ROOT
+				is_core = CRO
+			}
+		}
+		effect = {
+			add_adm_power = 50
+			custom_tooltip = nazy_cro_dalmatian_conquest_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = dalmatian
+					}
+					change_culture = croatian
+				}
+			}
+			east_adriatic_coast_area = {
+				add_unrest = -5
+				add_nationalism = -10
+			}
+		}
+	}
+	cro_bulgaria = {
+		icon = push_on_to_bulgaria
+		position = 6
+		required_missions = { cro_tomislav }
+		provinces_to_highlight = {
+			OR = {
+				area = silistria_area
+				area = bulgaria_area
+				}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			OR = {
+				AND = {
+					num_of_owned_provinces_with = {
+						OR = {
+							area = silistria_area
+							area = bulgaria_area
+						}
+						value = 7
+					}
+					NOT = { exists = BUL }
+				}
+			}
+		}
+		effect = {
+			transdanubia_area = {
+				add_permanent_claim = CRO
+			}
+			alfold_area = {
+				add_permanent_claim = CRO
+			}
+		}
+	}
+	cro_hungary = {
+		icon = mission_destroy_the_hungarians
+		position = 7
+		required_missions = { cro_bulgaria }
+		provinces_to_highlight = {
+			OR = {
+				area = transdanubia_area
+				area = alfold_area
+			}
+			NOT = { owned_by = CRO }
+		}
+		trigger = {
+			OR = {
+				AND = {
+					num_of_owned_provinces_with = {
+						OR = {
+							area = transdanubia_area
+							area = alfold_area
+						}
+						value = 9
+					}
+					NOT = { exists = BUL }
+				}
+			}
+		}
+		effect = {
+			add_adm_power = 75
+		}
+	}
+	cro_army = {
+		icon = ven_standing_army_mission_2
+		position = 9
+		required_missions = { cro_administration }
+		trigger = {
+			reform_level = 7
+			max_manpower = 180
+			army_size = 120
+			army_professionalism = 0.8
+			army_tradition = 80
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_cro_great_army
+				duraton = -1
+			}
+		}
+	}
+}
+
+3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = CRO
+	}
+
+	cro_croatian_hegemon = {
+		icon = mission_integrate_croatia
+		position = 4
+		required_missions = { cro_dalmatian_coast cro_ragusa_suzerain }
+		provinces_to_highlight = {
+			OR = {
+				region = balkan_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				region = balkan_region
+				value = 32
+			}
+			stability = 3
+			has_great_project = {
+				type = nazy_city_of_ragusa
+				tier = 2
+			}
+			grown_by_development = 200
+			religious_unity = 1
+		}
+		effect = {
+			country_event = {
+				id = nazy_croatia_events.2
+			}
+		}
+	}
+	cro_administration = {
+		icon = reform_the_state
+		position = 8
+		required_missions = { cro_croatian_hegemon }
+		trigger = {
+			crown_land_share = 75
+			has_unified_culture_group = yes
+			government_rank = 3
+			reform_level = 7
+			131 = {
+				has_building = courthouse
+			}
+			137 = {
+				has_building = courthouse
+			}
+			153 = {
+				has_building = courthouse
+			}
+			4239 = {
+				has_building = courthouse
+			}
+			NOT = {
+				AND = {
+					estate_influence = {
+						estate = estate_church
+						influence = 30
+					}
+					estate_influence = {
+						estate = estate_nobles
+						influence = 40
+					}
+					estate_influence = {
+						estate = estate_burghers
+						influence = 30
+					}
+				}
+			}
+			NOT = {
+				AND = {
+					has_estate_privilege = estate_church_clerical_education 
+					has_estate_privilege = estate_nobles_supremacy_over_crown
+					has_estate_privilege = estate_burghers_promote_burgher_bookkeeping
+				}
+			}
+			NOT = {
+				AND = {
+					num_of_estate_privileges = {
+						estate = estate_church
+						value = 3
+					}
+					num_of_estate_privileges = {
+						estate = estate_nobles
+						value = 3
+					}
+					num_of_estate_privileges = {
+						estate = estate_burghers
+						value = 3
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_administration_modifier
+				duration = -1
+			}
+			add_country_modifier = {
+				name = nazy_cro_secular_education
+				duration = -1
+			}
+			add_country_modifier = {
+				name = nazy_cro_curtailed_estates
+				duration = -1
+			}
+			add_country_modifier = {
+				name = nazy_cro_state_bookkeeping
+				duration = -1
+			}
+			131 = {
+				nazy_upgrade_building_courthouse = yes
+			}
+			137 = {
+				nazy_upgrade_building_courthouse = yes
+			}
+			153 = {
+				nazy_upgrade_building_courthouse = yes
+			}
+			4239 = {
+				nazy_upgrade_building_courthouse = yes
+			}
+		}
+	}
+	cro_constantinople = {
+		icon = take_constantinople
+		position = 9
+		required_missions = { cro_administration }
+		provinces_to_highlight = {
+			province_id = 151
+			NOT = { owned_by = CRO }
+		}
+		trigger = {
+			owns_core_province = 151
+		}
+		effect = {
+			add_prestige_or_monarch_power = { amount = 30 }
+		}
+	}
+	cro_golden_age = {
+		icon = austria_prospers
+		position = 10
+		required_missions = { cro_army cro_constantinople cro_common_law cro_navy }
+		trigger = { 
+			stability = 3
+			corruption = 0
+			overextension_percentage = 0
+			average_home_autonomy = 0.025
+			average_unrest = -2
+			army_professionalism = 100
+			army_size_percentage = 1
+			navy_size_percentage = 1
+			legitimacy = 100
+			prestige = 90
+			has_unified_culture_group = yes
+			religious_unity = 1
+		}
+		effect = {
+			add_power_projection = { 
+				type = 25_permanent_power_projection
+				amount = 25 
+			}
+			add_prestige_or_monarch_power = 25
+			has_unified_culture_group = yes
+			custom_tooltip = cro_golden_age_tt
+			hidden_effect = {
+				clr_country_flag = economic_golden_age
+				clr_country_flag = military_golden_age
+			}
+		}
+	}
+}
+
+4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = CRO
+	}
+
+	cro_homeland_buildup = {
+		icon = despot_stefans_legacy
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 131
+					NOT = {
+						AND = {
+							has_building = temple
+							num_of_times_expanded_infrastructure = 1
+						}
+					}
+				}
+				AND = {
+					province_id = 1826
+					NOT = {
+						has_province_flag = nazy_deforestation_flag
+					}
+				}
+			}
+		}
+		trigger = {
+			131 = {
+				has_building = temple
+				development = 15
+				num_of_times_expanded_infrastructure = 1
+			}
+			custom_trigger_tooltip = {
+				tooltip = nazy_cro_homeland_buildup_tooltip
+				1826 = {
+					has_province_flag = nazy_deforestation_flag
+				}
+			}
+		}
+		effect = {
+			croatia_area = {
+				add_province_modifier = {
+					name = nazy_cro_heartland_prosperity
+					duration = -1
+				}
+				add_prosperity = 50
+			}
+		}
+	}
+	cro_slavonia_buildup = {
+		icon = secure_the_sava
+		position = 2
+		required_missions = { cro_homeland_buildup }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					area = slavonia_area
+					NOT = { has_building = temple }
+				}
+			}
+		}
+		trigger = {
+			slavonia_area = {
+				has_building = temple
+			}
+			4996 = {
+				num_of_times_improved = 3
+			}
+			4992 = {
+				num_of_times_improved = 3
+			}
+			152 = {
+				num_of_times_improved = 3
+			}
+		}
+		effect = {
+			slavonia_area = {
+				add_province_modifier = {
+					name = nazy_cro_heartland_prosperity
+					duration = -1
+				}
+				add_prosperity = 50
+			}
+			add_adm_power = 25
+			add_dip_power = 75
+			add_mil_power = 75
+		}
+	}
+	cro_adriatic = {
+		icon = adriatic_access
+		position = 6
+		required_missions = { cro_lion }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4752
+				province_id = 1826
+				province_id = 4753
+				province_id = 136
+				province_id = 137
+				province_id = 4754
+				province_id = 4175
+				province_id = 4174
+			}
+			OR = {
+				NOT = {
+					AND = {
+						has_building = dock
+						has_building = shipyard
+					}
+				}
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = nazy_adriatic_tt
+				4752 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				1826 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				4753 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				136 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				137 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				4754 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				4175 = {
+					has_building = dock
+					has_building = shipyard
+				}
+				4174 = {
+					has_building = dock
+					has_building = shipyard
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_cro_adriatic
+				duration = 5475
+			}
+		}
+	}
+	cro_albania_wardens = {
+		icon = pacify_the_albanian_lands
+		position = 7
+		required_missions = { cro_adriatic }
+		trigger = {
+			OR = {
+				AND = {
+					reverse_has_opinion = {
+						who = ALB
+						value = 200
+					}
+					ALB = {
+						is_subject_of = CRO
+					}
+					trust = { who = ALB value = 75 }
+				}
+				AND = {
+					albania_area = {
+						unrest = 0
+						nationalism = 0
+						nazy_trigger_building_fort = yes
+					}
+					accepted_culture = albanian
+				}
+			}
+		}
+		effect = {
+			simple_dynamic_effect = {
+				first_custom_tooltip = cro_albania_warden_am_mission_tt
+				first_limit = "has_country_flag = nazy_cro_albania_dd_flag"
+				first_effect = "
+					add_country_modifier = {
+						name = nazy_cro_crossing_strait
+						duration = 1825
+					}
+					122 = {
+						add_permanent_claim = CRO
+					}
+					5049 = {
+						add_permanent_claim = CRO
+					}
+					1933 = {
+						add_permanent_claim = CRO
+					}
+					calabria_area = {
+						add_permanent_claim = CRO
+					}
+				"
+				second_custom_tooltip = cro_albania_warden_dd_mission_tt
+				second_limit = "has_country_flag = nazy_cro_albania_am_flag"
+				second_effect = "
+					ALB = {
+						add_country_modifier  {
+							name = nazy_cro_alb_across_strait
+							duration = -1
+						}
+					}
+					122 = {
+						add_core = ALB
+					}
+					5049 = {
+						add_core = ALB
+					}
+					1933 = {
+						add_core = ALB
+					}
+					calabria_area = {
+						add_core = ALB
+					}
+				"
+			}
+		}
+	}
+	cro_common_law = {
+		icon = mission_book_of_royal_degrees
+		position = 9
+		required_missions = { cro_administration cro_hungary_lands }
+		provinces_to_highlight = {
+			OR = {
+				region = balkan_region
+				NOT = { has_building = courthouse }
+			}
+		}
+		trigger = {
+			average_autonomy = 0.05
+			num_of_owned_provinces_with  = {
+				value = 35
+				region = balkan_region
+				has_building = courthouse
+			}
+			monthly_adm = 12
+			crown_land_share = 95
+		}
+		effect = {
+			change_government_reform_progress = 300
+			add_country_modifier = {
+				name = nazy_cro_common_law
+				duration = 12045
+			}
+			131 = {
+				add_building = university
+			}
+			4239 = {
+				add_building = university
+			}
+			136 = {
+				add_building = university
+			}
+			1766 = {
+				add_building = university
+			}
+			153 = {
+				add_building = university
+			}
+			add_adm_power = 200
+		}
+	}
+	cro_zagreb_renovation = {
+		icon = mission_eastern_european_city
+		required_missions = { cro_danube_industry cro_common_law }
+		position = 11
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 131
+					NOT = {
+						AND = {
+							development = 30
+							NOT = { num_free_building_slots = 1 }
+							nazy_trigger_building_trade = yes
+							has_building = workshop
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			131 = {
+				owned_by = ROOT
+				development = 30
+				NOT = { num_free_building_slots = 1 }
+				nazy_trigger_building_trade = yes
+				has_building = workshop
+			}
+		}
+		effect = {
+			131 = {
+				add_base_production = 5
+				add_base_manpower = 3
+				center_of_trade = 2
+				nazy_upgrade_building_trade = yes
+				nazy_upgrade_building_production = yes
+				add_province_modifier = {
+					name = nazy_cro_zagreb_renovation
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = CRO
+	}
+
+	cro_bosnian_integration = {
+		icon = prosperity_for_all
+		position = 2
+		required_missions = { cro_homeland_buildup }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					area = bosnia_area
+					NOT = {
+						AND = {
+							local_autonomy = 10
+							unrest = 0
+						}
+					}
+				}
+				AND = {
+					OR = {
+						province_id = 139
+						province_id = 140
+					}
+					NOT = { nazy_trigger_building_fort = yes }
+				}
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = bosnia_area
+			}
+			bosnia_area = {
+				local_autonomy = 10
+				unrest = 0
+			}
+			139 = {
+				nazy_trigger_building_fort = yes
+			}
+			140 = {
+				nazy_trigger_building_fort = yes
+			}
+			accepted_culture = bosnian
+		}
+		effect = {
+			custom_tooltip = nazy_cro_bosnian_integration_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = bosnian
+					}
+					change_culture = croatian
+				}
+			}
+			bosnia_area = {
+				add_province_modifier = {
+					name = nazy_cro_heartland_prosperity
+					duration = -1
+				}
+				add_prosperity = 50
+			}
+			add_army_tradition_or_mil_power = { amount = 30 }
+			add_dip_power = 100
+		}
+	}
+	cro_ragusa_suzerain = {
+		icon = a_strong_government
+		position = 3
+		required_missions = { cro_slavonia_buildup cro_bosnian_integration }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 137
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+						has_center_of_trade_of_level = 3
+						OR = {
+							has_building = dock
+							has_building = drydock
+						}
+						OR = {
+							has_building = shipyard
+							has_building = grand_shipyard
+						}
+						OR = {
+							has_building = marketplace
+							has_building = trade_depot
+							has_building = stock_exchange
+						}
+						OR = {
+							has_building = workshop
+							has_building = counting_house
+						}
+						num_of_times_expanded_infrastructure = 1
+						development = 20
+						local_autonomy = 3
+						unrest = 0
+					}
+				}
+			}
+		}
+		trigger = {
+			137 = {
+				owned_by = ROOT
+				is_core = ROOT
+				has_center_of_trade_of_level = 3
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+				num_of_times_expanded_infrastructure = 1
+				development = 20
+				local_autonomy = 3
+				unrest = 0
+			}
+		}
+		effect = {
+			add_great_project_tier = {
+				type = nazy_city_of_ragusa
+				tier = 1
+			}
+			137 = {
+				nazy_upgrade_building_sailors = yes
+				nazy_upgrade_building_navalforcelimit = yes 
+				nazy_upgrade_building_trade = yes
+				nazy_upgrade_building_production = yes
+				nazy_upgrade_building_tax = yes
+				nazy_upgrade_building_coastaldefense = yes
+				add_building = university
+				change_culture = croatian
+				add_province_modifier = {
+					name = nazy_cro_dubrovnik_suzerain
+					duration = -1
+				}
+			}
+		}
+	}
+	cro_lion = {
+		icon = mission_the_hakkapeliitta
+		position = 5
+		required_missions = { cro_croatian_hegemon cro_ragusa_suzerain }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4752
+				province_id = 1826
+				province_id = 4753
+				province_id = 136
+				province_id = 137
+				province_id = 4754
+				province_id = 4175
+				province_id = 4174
+			}
+			OR = {
+				NOT = {
+					AND = {
+						nazy_trigger_building_trade = yes
+					}
+				}
+			}
+		}
+		trigger = {
+			navy_size = VEN
+			navy_size = BYZ
+			navy_size = NAP
+			trade_income_percentage = 0.3
+			custom_trigger_tooltip = {
+				tooltip = nazy_cro_lion_tt
+				4752 = {
+					nazy_trigger_building_trade = yes
+				}
+				1826 = {
+					nazy_trigger_building_trade = yes
+				}
+				4753 = {
+					nazy_trigger_building_trade = yes
+				}
+				136 = {
+					nazy_trigger_building_trade = yes
+				}
+				137 = {
+					nazy_trigger_building_trade = yes
+				}
+				4754 = {
+					nazy_trigger_building_trade = yes
+				}
+				4175 = {
+					nazy_trigger_building_trade = yes
+				}
+				4174 = {
+					nazy_trigger_building_trade = yes
+				}
+			}
+		}
+		effect = {
+			add_years_of_income = 0.75
+			136 = {
+				nazy_upgrade_building_sailors = yes
+				nazy_upgrade_building_navalforcelimit = yes
+			}
+		}
+	}
+	cro_danube_master = {
+		icon = danubian_power
+		position = 6
+		required_missions = { cro_lion }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4176
+				province_id = 5000
+				province_id = 5000
+				province_id = 141
+				province_id = 4239
+				province_id = 4173
+				province_id = 1767
+				province_id = 4996
+				province_id = 4756
+				province_id = 4992
+				province_id = 152
+				province_id = 135
+				province_id = 1864
+				province_id = 4126
+				province_id = 1954
+				province_id = 156
+				province_id = 2746
+				province_id = 150
+				province_id = 4532
+				province_id = 160
+				province_id = 4531
+				province_id = 4704
+				province_id = 159
+				province_id = 2998
+				province_id = 4706
+				province_id = 1756
+				province_id = 4530
+			}
+			OR = { 
+				NOT = {
+					AND = {
+						nazy_trigger_building_trade = yes
+						has_building = workshop
+					}
+				}
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = nazy_danube_master_tt
+				4176 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				5000 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				141 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4239 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4173 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				1767 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4996 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4756 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4992 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				152 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				135 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				1864 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4126 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				1954 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				156 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				2746 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				150 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4532 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				160 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4531 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4704 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				159 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				2998 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4706 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				1756 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+				4530 = {
+					nazy_trigger_building_trade = yes
+					has_building = workshop
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = nazy_cro_danube_master_tt
+			hidden_effect = {
+				4176 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				5000 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				141 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4239 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4173 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				1767 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4996 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4756 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4992 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				152 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				135 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				1864 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4126 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				1954 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				156 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				2746 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				150 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4532 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				160 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4531 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4704 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				159 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				2998 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				4706 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+				1756 = {
+					add_province_modifier = {
+						name = nazy_cro_danube_master_modifier
+						duration = -1
+					}
+					add_province_modifier = {
+						name = nazy_cro_danube_master2_modifier
+						duration = 5475
+					}
+				}
+					4530 = {
+						add_province_modifier = {
+							name = nazy_cro_danube_master_modifier
+							duration = -1
+						}
+						add_province_modifier = {
+							name = nazy_cro_danube_master2_modifier
+							duration = 5475
+						}
+					}
+			}
+		}
+	}
+	
+	cro_prosperity = {
+		icon = the_great_school
+		position = 7
+		required_missions = { cro_danube_master cro_adriatic }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 131
+				province_id = 4239
+				province_id = 4997
+				province_id = 1766
+				province_id = 136
+				province_id = 137
+			}
+			OR = {
+				NOT = {
+					AND = {
+						has_manufactory_trigger = yes
+						development = 20
+						is_prosperous = yes
+						has_owner_accepted_culture = yes
+					}
+				}
+			}
+		}
+		trigger = {
+			131 = {
+				has_manufactory_trigger = yes
+				development = 20
+				is_prosperous = yes
+				has_owner_accepted_culture = yes
+			}
+			4239 = {
+				has_manufactory_trigger = yes
+				development = 20
+				is_prosperous = yes
+				has_owner_accepted_culture = yes
+			}
+			4997 = {
+				has_manufactory_trigger = yes
+				development = 20
+				is_prosperous = yes
+				has_owner_accepted_culture = yes
+			}
+			1766 = {
+				has_manufactory_trigger = yes
+				development = 20
+				is_prosperous = yes
+				has_owner_accepted_culture = yes
+			}
+			136 = {
+				has_manufactory_trigger = yes
+				development = 20
+				is_prosperous = yes
+				has_owner_accepted_culture = yes
+			}
+			137 = {
+				has_manufactory_trigger = yes
+				development = 20
+				is_prosperous = yes
+				has_owner_accepted_culture = yes
+			}
+		}
+		effect = {
+			131 = {
+				add_province_modifier = {
+					name = nazy_cro_slavic_prosperity
+					duration = -1
+				}
+			}
+			4239 = {
+				add_province_modifier = {
+					name = nazy_cro_slavic_prosperity
+					duration = -1
+				}
+			}
+			4997 = {
+				add_province_modifier = {
+					name = nazy_cro_slavic_prosperity
+					duration = -1
+				}
+			}
+			1766 = {
+				add_province_modifier = {
+					name = nazy_cro_slavic_prosperity
+					duration = -1
+				}
+			}
+			136 = {
+				add_province_modifier = {
+					name = nazy_cro_slavic_prosperity
+					duration = -1
+				}
+			}
+			137 = {
+				add_province_modifier = {
+					name = nazy_cro_slavic_prosperity
+					duration = -1
+				}
+			}
+		}
+	}
+	cro_hungary_lands = {
+		icon = mission_steppe_warriors
+		position = 8
+		required_missions = { cro_prosperity cro_hungar }
+		provinces_to_highlight = {
+			OR = {
+				culture = hungarian
+				area = transdanubia_area
+				area = alfold_area
+			}
+			OR = {
+				NOT = {
+					AND = {
+						culture = croatian
+						development = 10
+						has_building = courthouse
+					}
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 4 
+				area = alfold_area
+				development = 10
+				has_building = courthouse
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				area = transdanubia_area
+				development = 10
+				has_building = courthouse
+			}
+			num_of_owned_provinces_with = {
+				value = 0
+				culture = hungarian
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_hungary_lands_modifier
+				duration = 18250
+			}
+		}
+	}
+	cro_danube_industry = {
+		icon = mission_have_manufactories
+		position = 10
+		required_missions = { cro_common_law cro_hungary_lands }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4176
+				province_id = 5000
+				province_id = 5000
+				province_id = 141
+				province_id = 4239
+				province_id = 4173
+				province_id = 1767
+				province_id = 4996
+				province_id = 4756
+				province_id = 4992
+				province_id = 152
+				province_id = 135
+				province_id = 1864
+				province_id = 4126
+				province_id = 1954
+				province_id = 156
+				province_id = 2746
+				province_id = 150
+				province_id = 4532
+				province_id = 160
+				province_id = 4531
+				province_id = 4704
+				province_id = 159
+				province_id = 2998
+				province_id = 4706
+				province_id = 1756
+				province_id = 4530
+			}
+			OR = { 
+				NOT = {
+					has_manufactory_trigger = yes
+				}
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = nazy_along_the_danube_trigger_tt
+				4176 = {
+					has_manufactory_trigger = yes
+				}
+				5000 = {
+					has_manufactory_trigger = yes
+				}
+				141 = {
+					has_manufactory_trigger = yes
+				}
+				4239 = {
+					has_manufactory_trigger = yes
+				}
+				4173 = {
+					has_manufactory_trigger = yes
+				}
+				1767 = {
+					has_manufactory_trigger = yes
+				}
+				4996 = {
+					has_manufactory_trigger = yes
+				}
+				4756 = {
+					has_manufactory_trigger = yes
+				}
+				4992 = {
+					has_manufactory_trigger = yes
+				}
+				152 = {
+					has_manufactory_trigger = yes
+				}
+				135 = {
+					has_manufactory_trigger = yes
+				}
+				1864 = {
+					has_manufactory_trigger = yes
+				}
+				4126 = {
+					has_manufactory_trigger = yes
+				}
+				1954 = {
+					has_manufactory_trigger = yes
+				}
+				156 = {
+					has_manufactory_trigger = yes
+				}
+				2746 = {
+					has_manufactory_trigger = yes
+				}
+				150 = {
+					has_manufactory_trigger = yes
+				}
+				4532 = {
+					has_manufactory_trigger = yes
+				}
+				160 = {
+					has_manufactory_trigger = yes
+				}
+				4531 = {
+					has_manufactory_trigger = yes
+				}
+				4704 = {
+					has_manufactory_trigger = yes
+				}
+				159 = {
+					has_manufactory_trigger = yes
+				}
+				2998 = {
+					has_manufactory_trigger = yes
+				}
+				4706 = {
+					has_manufactory_trigger = yes
+				}
+				1756 = {
+					has_manufactory_trigger = yes
+				}
+				4530 = {
+					has_manufactory_trigger = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nazy_along_the_danube_modifier2
+				duration = 18250
+			}
+			custom_tooltip = nazy_along_the_danube_modifier_tt
+			hidden_effect = {
+				4176 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				5000 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				141 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4239 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4173 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				1767 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4996 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4756 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4992 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				152 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				135 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				1864 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4126 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				1954 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				156 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				2746 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				150 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4532 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				160 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4531 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4704 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				159 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				2998 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4706 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				1756 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+				4530 = {
+					add_province_modifier = {
+						name = nazy_along_the_danube_modifier
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}

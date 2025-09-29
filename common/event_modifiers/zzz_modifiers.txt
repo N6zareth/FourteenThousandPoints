@@ -32,24 +32,38 @@ qolu_tackle_debt_cd = {
 }
 
 qolu_national_rebuild = {
-	global_manpower_modifier = -0.1
+	global_manpower_modifier = -0.2
 	land_morale = -0.1
 }
 
 naz_removed_woods = {
     local_development_cost = -0.15
   	local_attacker_dice_roll_bonus = 1
+	supply_limit = 2
 }
 
 naz_removed_woods_2 = {
 	local_development_cost = -0.2
   	local_attacker_dice_roll_bonus = 1
+	supply_limit = 4
 }
 
 naz_irrigation_cd = {
 	local_development_cost = -0.35
+	supply_limit = 4
 }
 
 naz_irrigation_d = {
 	local_development_cost = -0.5
+	supply_limit = 4
+}
+
+naz_drainage = {
+	local_development_cost = -0.25
+	local_attacker_dice_roll_bonus = 1
+	supply_limit = 3
+}
+
+nazy_court_hre_reform_approval = {
+	imperial_reform_catholic_approval = 25
 }

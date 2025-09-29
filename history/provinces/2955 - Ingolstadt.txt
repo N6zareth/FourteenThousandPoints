@@ -1,10 +1,10 @@
 # - Ingolstadt + Neuburg
 culture = bavarian
 religion = catholic
-base_tax = 5
-base_production = 5
+base_tax = 4
+base_production = 4
 trade_goods = wine#Would shift to beer over time
-base_manpower = 3
+base_manpower = 4
 capital = "Ingolstadt"
 is_city = yes
 hre = yes
@@ -23,7 +23,6 @@ discovered_by = ottoman
 }
 1503.12.1 = { 
 	controller = BAV
-	add_core = BAV
 }
 1537.1.1 = { fort_16th = yes }
 1546.1.1 = { trade_goods = Grain }
@@ -34,8 +33,5 @@ discovered_by = ottoman
 1714.9.7 = { controller = BAV }
 1806.7.12 = { hre = no }
 add_core = LBV
-1444.11.11 = { 
-	remove_core = LBV
-}
 owner = BAV
 controller = BAV

@@ -5,10 +5,10 @@ capital = "Cherbourg"
 is_city = yes
 culture = normand
 religion = catholic
-base_tax = 4
+base_tax = 2
 base_production = 4
-trade_goods = naval_supplies
-base_manpower = 2
+trade_goods = cloth
+base_manpower = 3
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -19,11 +19,10 @@ add_core = ENG
 extra_cost = 8
 center_of_trade = 1
 1415.10.25 = { controller = ENG }
-1420.5.12 = { owner = ENG add_core = ENG }
-1444.1.1 = {
+1420.5.12 = { owner = ENG }
+1444.1.1 = { 
 	owner = ENG
 	controller = ENG
-	add_core = ENG
 }
 1450.1.1 = { controller = FRA }
 1465.8.15 = { controller = NRM }

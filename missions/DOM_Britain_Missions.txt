@@ -163,7 +163,7 @@ eng_row_slot_1 = {
 			}
 		}	
 		effect = {
-			simple_dynamic_effect = {
+			complex_dynamic_effect = {
 				first_custom_tooltip = eng_act_of_union_at
 				first_limit = "tag = GBR"
 				first_effect = "
@@ -195,6 +195,17 @@ eng_row_slot_1 = {
 					}
 				}
 				"
+				third_custom_tooltip = gir_act_of_union_at
+				third_limit = "tag = GIR"
+				third_effect = "
+				british_isles_region = {
+					add_local_autonomy = -100
+					add_nationalism = -10
+					add_province_modifier = {
+						name = gbr_british_rule
+						duration = -1
+					}
+				}"
 			}
 		}
 		ai_weight = {

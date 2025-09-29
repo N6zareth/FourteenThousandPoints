@@ -1,0 +1,15 @@
+add_core = MLO
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = muslim
+owner = MLO
+culture = lombard
+religion = catholic
+controller = MLO
+is_city = yes
+hre = yes
+base_tax = 4
+base_manpower = 3
+base_production = 3
+trade_goods = cloth

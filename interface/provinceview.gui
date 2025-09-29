@@ -588,13 +588,20 @@ guiTypes = {
 			guiButtonType = {
 				name = "nazy_irrigation_button"
 				position = { x = 447 y = -16 }
-				quadTextureSprite = "nazy_deforestation_icon"
+				quadTextureSprite = "nazy_irrigation_icon"
 				scripted = yes
 			}
 			guiButtonType = {
 				name = "nazy_irrigation2_button"
 				position = { x = 447 y = -16 }
-				quadTextureSprite = "nazy_deforestation_icon"
+				quadTextureSprite = "nazy_irrigation_icon"
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "nazy_drainage_button"
+				position = { x = 447 y = -16 }
+				quadTextureSprite = "nazy_drainage_icon"
 				scripted = yes
 			}
 

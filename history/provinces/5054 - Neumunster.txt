@@ -1,0 +1,15 @@
+add_core = HSA
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = ottoman
+owner = HSA
+base_tax = 3
+base_manpower = 3
+base_production = 3
+culture = lower_saxon
+religion = catholic
+hre = yes
+controller = HSA
+is_city = yes
+trade_goods = livestock

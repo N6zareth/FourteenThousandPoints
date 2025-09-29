@@ -3,11 +3,10 @@ is_city = yes
 capital = "Brugge"
 culture = flemish
 religion = catholic
-hre = yes
-base_tax = 7
-base_production = 7
+base_tax = 2
+base_production = 4
 trade_goods = cloth
-base_manpower = 4
+base_manpower = 3
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -17,7 +16,6 @@ center_of_trade = 2
 1444.1.1 = { 
 	owner = BUR
 	controller = BUR
-	add_core = BUR
 }
 1477.1.5 = { controller = HAB add_core = HAB }
 1519.1.12 = { controller = SPA add_core = SPA }
@@ -48,8 +46,5 @@ center_of_trade = 2
 	controller = NED
 }
 add_core = BUR
-1444.11.11 = { 
-	remove_core = BUR
-}
 owner = FLA
 controller = FLA

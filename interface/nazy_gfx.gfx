@@ -66,4 +66,23 @@ spriteTypes = {
         name = "GFX_great_project_bahrain_RECLEMATION_reclemation"	
         texturefile = "gfx/interface/great_projects/great_project_bahraini_polders.dds"
     }
+
+    spriteType = {
+        name = "GFX_great_project_nazy_city_of_ragusa"	
+        texturefile = "gfx/interface/great_projects/great_project_city_of_ragusa.dds"
+    }
+
+    spriteType = {
+        name = "nazy_irrigation_icon"
+        texturefile = "gfx/interface/nazy_irrigation_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
+
+    spriteType = {
+        name = "nazy_drainage_icon"
+        texturefile = "gfx/interface/nazy_drainage_icon.dds"
+        noOfFrames = 1
+        noOfDirections = 1
+    }
 }

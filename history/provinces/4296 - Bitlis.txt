@@ -2,7 +2,7 @@
 owner = HSN
 controller = HSN
 culture = kurdish
-religion = sunni
+religion = shiite
 capital = "Bitlis"
 trade_goods = wool
 base_tax = 2

@@ -1,0 +1,15 @@
+add_core = HES
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+owner = HES
+culture = hessian
+religion = catholic
+hre = yes
+controller = HES
+is_city = yes
+base_tax = 3
+base_manpower = 3
+base_production = 3
+trade_goods = cloth

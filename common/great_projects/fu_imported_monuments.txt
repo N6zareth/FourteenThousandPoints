@@ -1,0 +1,132 @@
+fu_kasbah_of_tunis = {
+	start = 341
+	
+	date = 796.1.1 
+	
+	time = {
+		months = 120
+	}
+	
+	build_cost = 500
+	
+	can_be_moved = no
+	
+	move_days_per_unit_distance = 2
+	
+	starting_tier = 1
+	
+	type = monument
+
+	build_trigger = {
+	}
+	
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 500
+		}
+
+		province_modifiers = {
+			local_development_cost = -0.05
+			local_monthly_devastation = -0.025
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+		}
+		
+		on_upgraded = {
+		}
+
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			local_development_cost = -0.1
+			local_monthly_devastation = -0.025
+			allowed_num_of_buildings = 1 
+		}
+
+		area_modifier = { 
+			local_defensiveness = 0.1 
+		}
+
+		country_modifiers = {
+		}
+		
+		on_upgraded = {
+			341 = { add_prosperity = 25 }
+		}
+
+		
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		province_modifiers = {
+			local_monthly_devastation = -0.05
+			allowed_num_of_buildings = 1 
+		}
+
+		area_modifier = {
+			local_defensiveness = 0.15
+			local_development_cost = -0.2
+		}
+
+		country_modifiers = {
+			merchants = 1
+		}
+		
+		on_upgraded = {
+			341 = { add_prosperity = 50 }
+		}
+	}
+}

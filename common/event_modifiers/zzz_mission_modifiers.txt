@@ -3,3 +3,239 @@ zzz_french_colonial_enthusiasm = {
     native_uprising_chance = -0.20
     native_assimilation = 0.25
 }
+
+nazy_iraq_shia = {
+    missionaries = 1
+    global_missionary_strength = 0.04
+    missionary_maintenance_cost = -0.33
+}
+
+nazy_iraq_sunni = {
+    missionaries = 1
+    global_missionary_strength = 0.04
+    missionary_maintenance_cost = -0.33
+}
+
+nazy_iraq_the_republican_guard = {
+    infantry_power = 0.1
+}
+
+nazy_drained_basra = {
+    local_development_cost = -0.1
+    local_build_cost = -0.15
+}
+
+naz_develop_iraqi_rivers = {
+	local_build_cost = -0.15
+    local_prosperity_growth = 0.3
+    local_development_cost = -0.05
+    trade_goods_size = 1
+}
+
+nazy_iraq_persian_conquest = {
+    land_morale = 0.1
+    discipline = 0.025
+    core_creation = -0.2
+}
+
+nazy_iraq_three_cities = {
+    local_development_cost = -0.15
+    local_development_cost_modifier = -0.1
+    local_build_cost = -0.33
+}
+
+nazy_irq_humble_syria = {
+    core_creation = -0.2
+}
+
+nazy_irq_caucasian_forts = {
+    local_defensiveness = 0.33
+}
+
+nazy_irq_caucusus_siege_ability = {
+    siege_ability = 0.2
+    leader_siege = 1
+    max_general_siege = 1
+}
+
+nazy_irq_afghan_subjugation = {
+    global_unrest = -3
+    stability_cost_modifier = -0.15
+    defensiveness = 0.1
+}
+
+nazy_irq_iraqi_triumph = {
+    liberty_desire = -0.5
+}
+
+nazy_irq_egyptian_triumph = {
+    global_trade_goods_size_modifier = 0.05
+}
+
+nazy_irq_eternal_friendship = {
+    trade_efficiency = 0.15
+    build_cost = -0.15
+    development_cost_in_primary_culture = -0.05
+}
+
+nazy_irq_the_holy_cities = {
+    missionaries = 1
+    land_morale = 0.05
+}
+
+nazy_bra_dev = {
+    development_cost = -0.1
+    build_cost = -0.1
+}
+
+nazy_cro_heartland_prosperity = {
+	local_development_cost = -0.1
+    local_build_cost = -0.15
+}
+
+nazy_cro_dubrovnik_suzerain = {
+    local_development_cost_modifier = -0.15
+    local_build_cost = -0.33
+    allowed_num_of_manufactories = 1
+    prestige = 0.5
+}
+
+nazy_cro_zagreb_renovation = {
+    local_development_cost_modifier = -0.15
+    allowed_num_of_manufactories = 1
+}
+
+nazy_cro_tomislav = {
+    land_morale = 0.1
+    shock_damage = 0.1
+}
+
+nazy_cro_hegemony = {
+    administrative_efficiency = 0.05
+    development_cost_in_primary_culture  = -0.05
+}
+
+nazy_cro_adriatic = {
+    naval_morale = 0.1
+    prestige_from_naval = 0.5
+    max_admiral_maneuver = 1
+    leader_naval_manuever = 1
+}
+
+nazy_cro_albania_defense = {
+    local_fort_maintenance_modifier = -1
+    local_defender_dice_roll_bonus = 1
+    local_garrison_size = 0.5
+    local_garrison_damage = 0.2
+}
+
+nazy_cro_albania_defense_2 = {
+    infantry_power = 0.2
+    land_forcelimit_modifier = 0.33
+    land_maintenance_modifier = -0.33
+    development_cost_modifier = -0.15
+    fort_maintenance_modifier = -1
+    garrison_size = 0.5
+}
+
+nazy_cro_crossing_strait = {
+    naval_morale = 0.1
+    galley_cost = -0.2
+    galley_power = 0.1
+    global_ship_recruit_speed = -0.33
+}
+
+nazy_cro_alb_across_strait = {
+    trade_efficiency = 0.125
+    trade_steering = 0.125
+    discipline = 0.05
+    global_trade_goods_size = 0.125
+}
+
+nazy_cro_danube_master_modifier = {
+    local_production_efficiency = 0.05
+    local_prosperity_growth = 0.1
+    local_build_cost = -0.1
+}
+
+nazy_cro_danube_master2_modifier = {
+    local_development_cost = 0.05
+    local_culture_conversion_cost = -0.5
+    local_culture_conversion_time = -0.5
+}
+
+nazy_cro_slavic_prosperity = {
+    local_build_cost = -0.15
+    local_build_time = -0.15
+    local_prosperity_growth = 0.1
+    global_allowed_num_of_buildings = 1
+}
+
+nazy_hungary_lands_modifier = {
+    cavalry_power = 0.1
+    production_efficiency = 0.1
+    administrative_efficiency = 0.025
+}
+
+nazy_cro_common_law = {
+    monthly_reform_progress_modifier = 0.1
+    administrative_efficiency = 0.025
+    global_autonomy = -0.075
+    global_tax_modifier = 0.15
+}
+
+nazy_along_the_danube_modifier = {
+    allowed_num_of_manufactories = 1
+    trade_goods_size_modifier = 0.1
+}
+
+nazy_along_the_danube_modifier2 = {
+    trade_steering = 0.1
+    caravan_power = 0.1
+    trade_efficiency = 0.1
+}
+
+nazy_administration_modifier = {
+    administrative_efficiency = 0.03
+    global_autonomy = -0.05
+    monthly_reform_progress_modifier = 0.15
+    years_of_nationalism = -5
+    global_unrest = -2
+}
+
+nazy_cro_secular_education = {
+    reform_progress_growth = 0.2
+    idea_cost = -0.05
+}
+
+nazy_cro_curtailed_estates = {
+    all_estate_loyalty_equilibrium = 0.1
+    all_estate_influence_modifier = -0.1
+    all_estate_possible_privileges = -4
+    allow_free_estate_privilege_revocation = yes
+}
+
+nazy_cro_state_bookkeeping = {
+    inflation_action_cost = -0.5
+	interest = -0.75
+	state_maintenance_modifier = -0.33
+}
+
+nazy_cro_great_army = {
+    land_morale = 0.1
+    infantry_power = 0.1
+    army_tradition_decay = -0.01
+    drill_gain_modifier = 0.15
+}
+
+nazy_cro_great_navy = {
+    galley_power = 0.05
+    navy_tradition_decay = -1
+    ship_durability = 0.05
+    has_galleass = yes
+    allowed_galleass_fraction = 0.15
+}
+
+nazy_cro_galleass = {
+    local_has_galleass = yes
+}

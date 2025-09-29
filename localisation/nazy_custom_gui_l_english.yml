@@ -8,6 +8,9 @@
  nazy_deforestation_tt3:0 "Military Power at least §Y15§!"
  nazy_deforestation_tt4:0 "Not already deforested [Root.Province.GetName]"
 
+ nazy_deforestation2_tt2:0 "Have at least §Y150.0§!¤"
+ nazy_deforestation2_tt3:0 "Military Power at least §Y20§!"
+
  nazy_irrigation_tt:0 "§GThe irrigation of [Root.Province.GetName]\n§!Pave the way for urban development at a hefty price."
  nazy_irrigation_tt_5000:0 "Not already irrigated [Root.Province.GetName]"
  
@@ -17,8 +20,13 @@
  nazy_irrigation_tt_21:0 "Have at least §Y400.0§!¤"
  nazy_irrigation_tt_22:0 "Diplomatic Power at least §Y60§!"
 
- nazy_irrigation_cd:0 "Irrigated Province"
- nazy_irrigation_d:0 "Irrigated Province"
+ naz_irrigation_cd:0 "Irrigated Province"
+ naz_irrigation_d:0 "Irrigated Province"
+
+ nazy_drainage_tt:0 "§GThe drainage of [Root.Province.GetName]\n§!Pave the way for urban development at a hefty price."
+ nazy_drainage_tt_5000:0 "Not already drained [Root.Province.GetName]"
+
+ naz_drainage:0 "Drained Province"
 
  
 

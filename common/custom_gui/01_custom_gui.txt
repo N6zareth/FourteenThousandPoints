@@ -25,7 +25,7 @@ custom_button = {
 			    mil_power = 15
 		    }
         }
-        development = 10
+        development = 5
 		ROOT = {
             custom_trigger_tooltip = {
                 tooltip = nazy_deforestation_tt4
@@ -63,18 +63,18 @@ custom_button = {
     }
     trigger = {
         custom_trigger_tooltip = {
-            tooltip = nazy_deforestation_tt2
+            tooltip = nazy_deforestation2_tt2
 		    FROM = {
-			    treasury = 100
+			    treasury = 150
 		    }
         }
         custom_trigger_tooltip = {
-            tooltip = nazy_deforestation_tt3
+            tooltip = nazy_deforestation2_tt3
 		    FROM = {
-			    mil_power = 15
+			    mil_power = 20
 		    }
         }
-        development = 10
+        development = 5
 		ROOT = {
             custom_trigger_tooltip = {
                 tooltip = nazy_deforestation_tt4
@@ -84,8 +84,8 @@ custom_button = {
 	}
     effect = {
         FROM = {
-            add_treasury = -100
-            add_mil_power = -15
+            add_treasury = -150
+            add_mil_power = -20
         }
 
         add_province_modifier = {
@@ -126,7 +126,7 @@ custom_button = {
         development = 5
 		ROOT = {
             custom_trigger_tooltip = {
-                tooltip = nazy_deforestation_tt4
+                tooltip = nazy_irrigation_tt_5000
 			    NOT = { has_province_flag = nazy_deforestation_flag }
             }
 		}
@@ -175,7 +175,7 @@ custom_button = {
         development = 5
 		ROOT = {
             custom_trigger_tooltip = {
-                tooltip = nazy_deforestation_tt4
+                tooltip = nazy_irrigation_tt_5000
 			    NOT = { has_province_flag = nazy_deforestation_flag }
             }
 		}
@@ -187,13 +187,63 @@ custom_button = {
         }
 
         add_province_modifier = {
-            name = naz_removed_woods
+            name = naz_irrigation_d
             duration = -1
         }
 		set_province_flag = nazy_deforestation_flag
     }
 }
 
+#Drainage
+custom_button = {
+    name = nazy_drainage_button
+	tooltip = nazy_drainage_tt
+    potential = {
+        owned_by = FROM
+		FROM = {
+            ai = no
+            NOT = {
+				has_government_attribute = enables_horde_idea_group
+			}
+		}
+        has_terrain = marsh
+    }
+    trigger = {
+        custom_trigger_tooltip = {
+            tooltip = nazy_deforestation2_tt2
+		    FROM = {
+			    treasury = -150
+		    }
+        }
+        custom_trigger_tooltip = {
+            tooltip = nazy_irrigation_tt_12
+		    FROM = {
+			    dip_power = -30
+		    }
+        }
+        development = 5
+		ROOT = {
+            custom_trigger_tooltip = {
+                tooltip = nazy_drainage_tt_5000
+			    NOT = { has_province_flag = nazy_deforestation_flag }
+            }
+		}
+	}
+    effect = {
+        FROM = {
+            add_treasury = -150
+            add_dip_power = -30
+        }
+
+        add_province_modifier = {
+            name = naz_drainage
+            duration = -1
+        }
+		set_province_flag = nazy_deforestation_flag
+    }
+}
+
+# Cloth Change
 custom_button = {
     name = nazy_cloth_change_button
     tooltip = nazy_cloth_change_tt
@@ -237,6 +287,7 @@ custom_button = {
     }
 }
 
+#Mil Golden Age
 custom_button = {
     name = nazy_mil_golden_age
     tooltip = nazy_start_mil_golden_age
@@ -268,6 +319,7 @@ custom_button = {
     }
 }
 
+# Eco Golden Age
 custom_button = {
     name = nazy_eco_golden_age
     tooltip = nazy_start_eco_golden_age
@@ -299,6 +351,7 @@ custom_button = {
     }
 }
 
+#Tackle National Debt
 custom_button = {
     name = nazy_tackle_national_debt
     tooltip = nazy_tackle_national_debt_tt
@@ -334,6 +387,7 @@ custom_button = {
     }
 }
 
+# National Rebuilding
 custom_button = {
     name = nazy_national_rebuilding
     tooltip = nazy_national_rebuilding_tt
@@ -359,6 +413,7 @@ custom_button = {
     }
 }
 
+# Dev Counter
 custom_button = {
     name = nazy_dev_counter
     tooltip = development_counter_title
@@ -401,6 +456,7 @@ custom_button = {
     }
 }
 
+#Critical Events
 custom_button = {
     name = nazy_greatmen
     tooltip = naz_greatmen_events_title
@@ -459,6 +515,7 @@ custom_button = {
     }
 }
 
+#Trade center
 custom_button = {
     name = iv_tradecenter_button
 	tooltip = iv_tradecenter_button_title
@@ -519,6 +576,7 @@ custom_button = {
 	}	
 }
 
+#Make All Provinces Parliament
 custom_button = {
     name = nazy_all_seats_parliament
     tooltip = nazy_all_seats_parliament_tt

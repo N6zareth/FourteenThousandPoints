@@ -1,0 +1,13 @@
+add_core = SWE
+discovered_by = western
+discovered_by = eastern
+owner = SWE
+base_tax = 1
+base_manpower = 1
+base_production = 1
+culture = finnish
+trade_goods = fur
+religion = catholic
+controller = SWE
+is_city = yes
+capital = "Oulu"

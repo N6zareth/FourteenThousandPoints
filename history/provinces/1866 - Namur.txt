@@ -6,11 +6,10 @@ capital = "Namur"
 is_city = yes
 culture = wallonian
 religion = catholic
-hre = yes
-base_tax = 7
-base_production = 7
+base_tax = 3
+base_production = 3
 trade_goods = iron
-base_manpower = 3
+base_manpower = 2
 add_core = HAI
 discovered_by = eastern
 discovered_by = western
@@ -18,7 +17,6 @@ discovered_by = muslim
 discovered_by = ottoman
 1444.1.1 = { 
 	owner = BUR
-	add_core = BUR
 	controller = BUR
 }
 1477.1.5 = { controller = HAB add_core = HAB }
@@ -55,9 +53,6 @@ discovered_by = ottoman
 	add_core = NED
 }
 add_core = BUR
-fort_15th = yes
-1444.11.11 = { 
-	remove_core = BUR
-}
 owner = FLA
 controller = FLA
+fort_15th = yes

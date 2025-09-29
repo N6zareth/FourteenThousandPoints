@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = irish_highkingdom_reform
+technology_group = western
+primary_culture = irish
+religion = catholic
+capital = 373	# Dublin
+
+1444.11.11 = {
+	monarch = {
+		name = "Po'htato-fahhmeen"
+		dynasty = "O'Carbomb"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = craven_personality
+}
+
+1641.1.30 = {
+	monarch = {
+		name = "Aedh XIV"
+		dynasty = "mac Eóghain"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}

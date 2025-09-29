@@ -1,13 +1,14 @@
 #2209 - Ilam
 owner = IRQ
 controller = IRQ
+add_core = IRQ
 culture = kurdish
 religion = shiite
 capital = "Ilam"
 trade_goods = wool
-base_tax = 2
+base_tax = 3
 base_production = 2
-base_manpower = 1
+base_manpower = 3
 is_city = yes
 add_core = LRI
 discovered_by = muslim
@@ -31,7 +32,6 @@ discovered_by = indian
 1673.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
 add_core = QAR
+discovered_by = east_african
+discovered_by = eastern
 fort_15th = yes
-1444.11.11 = { 
-	remove_core = QAR
-}

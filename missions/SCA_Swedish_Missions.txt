@@ -1849,6 +1849,10 @@ swe_kalmar_union_mission_slot = {
 				province_id = 4
 				province_id = 5
 				province_id = 1985
+				province_id = 5025
+				province_id = 5012
+				province_id = 5011
+				province_id = 5014
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -1879,6 +1883,26 @@ swe_kalmar_union_mission_slot = {
 				has_manufactory_trigger = yes
 			}
 			1985 = {
+				base_production = 5
+				has_production_building_trigger = yes
+				has_manufactory_trigger = yes
+			}
+			5025 = {
+				base_production = 5
+				has_production_building_trigger = yes
+				has_manufactory_trigger = yes
+			}
+			5014 = {
+				base_production = 5
+				has_production_building_trigger = yes
+				has_manufactory_trigger = yes
+			}
+			5012 = {
+				base_production = 5
+				has_production_building_trigger = yes
+				has_manufactory_trigger = yes
+			}
+			5011 = {
 				base_production = 5
 				has_production_building_trigger = yes
 				has_manufactory_trigger = yes

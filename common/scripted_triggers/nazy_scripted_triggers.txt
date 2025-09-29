@@ -1,0 +1,33 @@
+nazy_trigger_building_trade = {
+	custom_trigger_tooltip = {
+		tooltip = nazy_trigger_building_trade_tt
+		OR = {
+			has_building = marketplace
+			has_building = trade_depot
+			has_building = stock_exchange
+		}
+	}
+}
+
+nazy_trigger_building_fort = {
+	custom_trigger_tooltip = {
+		tooltip = nazy_trigger_building_fort_tt
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+}
+
+nazy_trigger_building_manufactory = {
+	custom_trigger_tooltip = {
+		tooltip = nazy_trigger_building_manufactory_tt
+		OR = {
+			has_building = marketplace
+			has_building = trade_depot
+			has_building = stock_exchange
+		}
+	}
+}

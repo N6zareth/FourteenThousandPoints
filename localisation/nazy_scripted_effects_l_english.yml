@@ -1,0 +1,14 @@
+﻿l_english:
+ nazy_upgrade_building_sailors_tt:0 "§YDocks§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_manpower_tt:0 "§YBarracks§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_landforcelimit_tt:0 "§YRegimental Camps§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_navalforcelimit_tt:0 "§YShipyards§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_fort_tt:0 "§YForts§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_tax_tt:0 "§YChurches§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_production_tt:0 "§YWorkshops§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_trade_tt:0 "§YTrade buildings§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_courthouse_tt:0 "§YCorthouses§! will be §Gupgraded§! to the next level."
+ nazy_upgrade_building_coastaldefense_tt:0 "§YCoastal Defences§! will be §Gupgraded§! to the next level."
+
+ nazy_trigger_building_trade_tt:0 "Have any type of §YTrade building§!."
+ nazy_trigger_building_fort_tt:0 "Have any type of §YFort§!."

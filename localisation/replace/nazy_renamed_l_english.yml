@@ -2,6 +2,10 @@
  colonial_eastern_america:0 "New World"
 
  call_for_peace:0 "Hopefully disabled Call for Peace"
+ 
+ palestine_area:0 "Judea & Palestine"
+ PROV405:0 "Palmyra"
+ PROV1854:0 "Haifa"
 
 #Naz Trade Nodes
  carribean_trade:0 "New World"
@@ -19,6 +23,10 @@
  champagne:0 "Versailles"
  kiev:0 "Kyiv"
  nippon:0 "Japan"
+ aleppo:0 "Mesopotamia"
 
  ALH:0 "Bahrain"
  ALH_ADJ:0 "Bahraini"
+
+ smithian_economics_desc: "By opposing mercantilism and restricting the state's influence in economic matters, we shall support a free market that will increase our overall production efficiency."
+ bill_of_rights_desc:0 "By granting the citizens certain fundamental rights, we reduce the likelihood of a peasant uprising.\n\nMercenary Companies no longer reduce §YArmy Professionalism§! when hired"

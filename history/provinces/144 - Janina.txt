@@ -16,9 +16,14 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-
-1444.1.1 = {
+1444.1.1 = { 
 	owner = BYZ
 	controller = BYZ
 	add_core = BYZ
 }
+add_core = BYZ
+1444.11.11 = { 
+	remove_core = BYZ
+}
+owner = BYZ
+controller = BYZ

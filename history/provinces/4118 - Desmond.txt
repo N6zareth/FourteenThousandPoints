@@ -3,10 +3,10 @@ owner = IRE
 controller = IRE
 culture = irish
 religion = catholic
-base_tax = 2
-base_production = 3
+base_tax = 3
+base_production = 1
 trade_goods = copper
-base_manpower = 1
+base_manpower = 3
 capital = "Cork"
 is_city = yes
 discovered_by = western
@@ -19,7 +19,6 @@ center_of_trade = 1
 1642.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 1 } }
 1642.6.7 = { 
 	controller = IRE
-	add_core = IRE
 	revolt = { size = 1 }
 }
 1650.4.10 = { controller = ENG }

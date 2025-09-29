@@ -4,10 +4,10 @@ controller = IRQ
 culture = al_iraqiya_arabic
 religion = sunni
 capital = "Tikrit"
-trade_goods = livestock
-base_tax = 3
-base_production = 3
-base_manpower = 2
+trade_goods = sugar
+base_tax = 4
+base_production = 5
+base_manpower = 3
 is_city = yes
 add_core = IRQ
 discovered_by = east_african
@@ -32,6 +32,3 @@ add_local_autonomy = 20
 1624.1.1 = { controller = PER }
 1638.12.24 = { controller = TUR }
 add_core = QAR
-1444.11.11 = { 
-	remove_core = QAR
-}

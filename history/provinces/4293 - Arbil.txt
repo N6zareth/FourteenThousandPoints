@@ -2,7 +2,7 @@
 owner = HSN
 controller = HSN
 culture = kurdish
-religion = sunni
+religion = shiite
 capital = "Arbil"
 trade_goods = cloth
 base_tax = 2

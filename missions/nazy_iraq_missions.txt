@@ -634,7 +634,7 @@ nazy_iraq_3 = {
 	iraq_jewish_protection = {
 		icon = jerusalem
 		position = 8
-		required_missions = { } #iraq_humble_syrian_lion
+		required_missions = { iraq_humble_syrian_lion } 
 
 		provinces_to_highlight = {
 			OR = {

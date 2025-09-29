@@ -1,0 +1,14 @@
+add_core = FRA
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+owner = FRA
+base_tax = 3
+base_manpower = 3
+base_production = 3
+culture = cosmopolitan_french
+trade_goods = grain
+religion = catholic
+controller = FRA
+is_city = yes

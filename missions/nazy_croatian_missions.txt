@@ -34,7 +34,10 @@
 			}
 		}
 		effect = {
-			# some event
+			add_country_modifier = {
+				name = nazy_cro_serbian_destruction
+				duration = 3650
+			}
 		}
 	}
 	cro_tomislav = {
@@ -400,9 +403,11 @@
 				value = 32
 			}
 			stability = 3
-			has_great_project = {
-				type = nazy_city_of_ragusa
-				tier = 2
+			137 = {
+				has_great_project = {
+					type = nazy_city_of_ragusa
+					tier = 2
+				}
 			}
 			grown_by_development = 200
 			religious_unity = 1

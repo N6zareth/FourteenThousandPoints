@@ -242,3 +242,9 @@ nazy_cro_great_navy = {
 nazy_cro_galleass = {
     local_has_galleass = yes
 }
+
+nazy_cro_serbian_destruction = {
+    culture_conversion_cost	= -0.15
+    culture_conversion_time = -0.15
+    morale_damage = 0.05
+}

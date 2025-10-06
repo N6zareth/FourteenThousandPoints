@@ -893,15 +893,6 @@
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					area = bosnia_area
-					NOT = {
-						AND = {
-							local_autonomy = 10
-							unrest = 0
-						}
-					}
-				}
-				AND = {
 					OR = {
 						province_id = 139
 						province_id = 140
@@ -913,10 +904,6 @@
 		trigger = {
 			owns_all_provinces = {
 				area = bosnia_area
-			}
-			bosnia_area = {
-				local_autonomy = 10
-				unrest = 0
 			}
 			139 = {
 				nazy_trigger_building_fort = yes

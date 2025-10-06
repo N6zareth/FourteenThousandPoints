@@ -5129,7 +5129,6 @@ CRO_ideas = {
 	}
 	nazy_cro_7 = {
 		infantry_power = 0.1
-		discipline = 0.05
 	}
 	nazy_cro_2 = {
 		trade_efficiency = 0.10

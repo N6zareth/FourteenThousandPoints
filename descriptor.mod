@@ -1,9 +1,8 @@
-version="1.*.*"
+version="1.*"
 tags={
-	"Historical"
-	"Graphics"
+	"Balance"
+	"Events"
 	"Fixes"
 }
-name="Nazy"
+name="test2"
 supported_version="v1.37.5.0"
-remote_file_id="3415850575"

@@ -233,8 +233,8 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		hostile_attrition = 6
-		max_hostile_attrition = 12
+		hostile_attrition = 3
+		max_hostile_attrition = 10
 	}
 
 	defensive_mentality = {
@@ -246,12 +246,12 @@ defensive_ideas = {
 		global_garrison_growth = 0.5
 	}
 	military_drill = {
-		morale_damage_received = -0.12
-		fire_damage_received = -0.12
-		shock_damage_received = -0.12
+		morale_damage_received = -0.05
+		fire_damage_received = -0.05
+		shock_damage_received = -0.05
 	}
 	improved_manuever = {
-		own_territory_dice_roll_bonus = 2
+		own_territory_dice_roll_bonus = 1
 		land_morale = 0.15
 		recover_army_morale_speed = 0.1
 	}

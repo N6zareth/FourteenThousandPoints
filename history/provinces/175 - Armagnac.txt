@@ -28,4 +28,3 @@ discovered_by = ottoman
 1589.1.5 = { controller = NAV add_core = NAV }
 1589.8.2 = { controller = FRA add_core = FRA }
 1686.1.17 = { religion = Catholic }
-add_core = ENG

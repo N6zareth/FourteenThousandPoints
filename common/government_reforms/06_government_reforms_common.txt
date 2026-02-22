@@ -5153,7 +5153,6 @@ seven_provinces_reform = {
 			every_owned_province = {
 				limit = {
 					region = low_countries_region
-					culture_group = ROOT
 				}
 				add_province_modifier = {
 					name = ned_seven_provinces_organization_positive_modifier

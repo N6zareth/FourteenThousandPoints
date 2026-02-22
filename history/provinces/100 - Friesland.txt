@@ -1,6 +1,7 @@
 # 100 Friesland - Principal cities: Leeuwarden & Harlingen 
 owner = HOL
 controller = HOL
+add_core = HOL
 capital = "Leeuwarden"
 is_city = yes
 culture = frisian
@@ -45,8 +46,4 @@ discovered_by = ottoman
 }
 1813.11.30 = { 
 	controller = NED
-}
-add_core = HOL
-1444.11.11 = { 
-	remove_core = HOL
 }

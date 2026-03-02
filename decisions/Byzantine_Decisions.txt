@@ -22,7 +22,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			override_country_name = BYZ_eastern_roman_empire
+			override_country_name = nazy_eastern_rome_name
 			set_country_flag = is_BYZ_eastern_roman_empire_flag
 			clr_country_flag = BYZ_justinians_empire_decision_flag
 			

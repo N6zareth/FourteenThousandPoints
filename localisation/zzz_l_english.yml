@@ -34,7 +34,16 @@
  qolu_tackle_debt:0 "¤ Tackling National Debt"
  qolu_national_rebuild:0 "¤ National Rebuilding"
 
- Nazy_SPQR_tt:0 "Owns Rome, Constantinople, Ravenna, Antioch and Tunis"
+ Nazy_SPQR_tt:0 "Owns Rome, Constantinople, Ravenna, Antioch and Tunis."
+ nazy_spqr_greece_tt:0 "Owns all provinces in Greece."
+ nazy_spqr_tunis_tt:0 "Owns all provinces in Tunis."
+ nazy_spqr_fra_tt:0 "Owns all provinces in Southern France."
+ nazy_spqr_ara_tt:0 "Owns all provinces in Aragon."
+
+ nazy_empire_francaise_italy_tt:0 "Owns all provinces in North-West Italy."
+ nazy_empire_francaise_ger_tt:0 "Owns all provinces west of the Rhine River"
+
+ nazy_eastern_rome_name:0 "Eastern Rome"
  
  qolu_eur_colonists_title: "£explorer_16£ Colonial Ventures"
  qolu_eur_colonists_desc: ""

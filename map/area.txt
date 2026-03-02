@@ -1100,7 +1100,7 @@ kartli_kakheti_area = {  #3
 }
 armenia_area = {  #5
 
-	420 419 2202 2205 4302 
+	420 419 2202 2205 
 }
 shirvan_area = {  #5 #Northern Azerbaijan
 
@@ -1181,7 +1181,7 @@ palestine_area = {  #3
 dulkadir_area = {  # 4
 
 	color = { 184 54 72 }
-	332 2303 2308 4310 
+	332 2303 4310 
 }
 iraq_arabi_area = {  #5 Lower Mesopotamia
 
@@ -1198,7 +1198,7 @@ luristan_area = {  #4
 }
 north_kurdistan_area = {  #5
 
-	418 2306 2307 4295 4296 
+	418 2306 2307 4295 4296 4302
 }
 khuzestan_area = {  #5
 
@@ -1212,7 +1212,7 @@ shahrizor_area = {  #4
 al_jazira_area = {  #5
 
 	color = { 92 200 92 }
-	407 2309 2314 4292 4970 
+	407 2309 2314 4292 4970 2308
 }
 ########################################
 # Arabia				               #

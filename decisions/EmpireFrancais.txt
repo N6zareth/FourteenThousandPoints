@@ -1,0 +1,87 @@
+country_decisions = {
+	GreatIrelandDecision = {
+		major = yes
+		was_never_end_game_tag_trigger = yes
+		potential = {
+			NOT = {
+				has_country_flag = has_nazy_empire_francaise
+			}
+			tag = IRE
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = wallonia_area
+				area = flanders_area
+				area = brabant_area
+				area = liguria_area
+				area = piedmont_area
+				area = lombardy_area
+				area = alsace_area
+				area = lower_rhineland_area
+				province_id = 1761
+				province_id = 4767
+				province_id = 85
+				province_id = 4770
+				province_id = 95
+				area = catalonia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			mission_completed = fra_reform_legal_system
+			mission_completed = fra_musketeers
+			adm_tech = 19
+			adm_tech = 19
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = nazy_empire_francaise_belgium_tt
+					owns_all_provinces = {
+						area = wallonia_area
+						area = flanders_area
+						area = brabant_area
+					}
+				}
+			}
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = nazy_empire_francaise_italy_tt
+					owns_all_provinces = {
+						area = liguria_area
+						area = piedmont_area
+						area = lombardy_area
+					}
+				}
+			}
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = nazy_empire_francaise_ger_tt
+					owns_all_provinces = {
+						area = alsace_area
+						area = lower_rhineland_area
+						province_id = 1761
+						province_id = 4767
+						province_id = 85
+						province_id = 4770
+						province_id = 95
+					}
+				}
+			}
+			owns_all_provinces = {
+				area = catalonia_area
+			}
+		}
+		effect = {
+			set_country_flag = has_nazy_empire_francaise
+			add_government_reform = empire_francaise_reform
+			hidden_effect = {
+				unlock_government_reform = {
+					government_reform = empire_francaise_reform
+				}
+			}
+			ai_importance = 400
+		}
+	}
+}

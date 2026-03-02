@@ -420,6 +420,50 @@ absolutist_france_reform = {
 	}
 }
 
+empire_francaise_reform = {
+	icon = "imperial_nobility_reform"
+	allow_normal_conversion = no
+	potential = {
+		has_dlc = "Domination" 
+		OR = {
+			AND = { 
+				tag = FRA 
+				OR = {
+					has_reform = empire_francaise_reform
+					have_had_reform = empire_francaise_reform
+					has_unlocked_government_reform = { government_reform = empire_francaise_reform }
+				}
+			}
+			mission_completed = fra_movement_centralization
+		}
+	}
+	trigger = {
+		OR = {
+			AND = { 
+				tag = FRA 
+				OR = {
+					has_reform = empire_francaise_reform
+					have_had_reform = empire_francaise_reform
+				}
+			}
+		}
+	}
+	lock_level_when_selected = yes
+
+	modifiers = {
+		max_absolutism = 10
+		fire_damage = 0.1
+		shock_damage_received = -0.1
+		artillery_fire = 0.5
+		leader_land_fire = 1
+		max_general_fire = 1
+	}
+
+	custom_attributes = {
+		centralize_state_development = yes 
+	}
+}
+
 indep_daimyo = {
 	icon = "samurai"
 	allow_normal_conversion = no

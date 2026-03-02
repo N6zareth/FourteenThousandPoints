@@ -28,5 +28,11 @@
  ALH:0 "Bahrain"
  ALH_ADJ:0 "Bahraini"
 
+ ROM:0 "Rome"
+ ROME_ADJ:0 "Roman"
+
+ HLR:0 "Holy Rome"
+ HLR_ADJ:0 "Imperial"
+
  smithian_economics_desc: "By opposing mercantilism and restricting the state's influence in economic matters, we shall support a free market that will increase our overall production efficiency."
  bill_of_rights_desc:0 "By granting the citizens certain fundamental rights, we reduce the likelihood of a peasant uprising.\n\nMercenary Companies no longer reduce §YArmy Professionalism§! when hired"

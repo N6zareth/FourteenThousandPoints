@@ -2146,7 +2146,7 @@ french_missions_2_Continuation_b = {
 			total_development = 500 
 			crown_land_share = 50 
 		}
-		effect = { 
+		effect = {
 			if = {
 				limit = { has_reform = feudal_france_reform }
 				#remove_government_reform = feudal_france_reform 
@@ -2198,7 +2198,7 @@ french_missions_2_Continuation_b = {
 				}
 			}
 		}
-	}	
+	}
 }
 
 french_rev_missions_2 = {
@@ -2323,15 +2323,7 @@ french_rev_missions_2 = {
 				name = fra_french_supremacy_modifier
 				duration = -1 
 			}
-			
-			if = { 
-				limit = { has_had_golden_age = yes } 
-				reset_golden_age = yes 
-			}
-			else_if = {
-				limit = { has_dlc = "Mandate of Heaven" }
-				custom_tooltip = fra_reset_ga_tt
-			}
+			nazy_reset_golden_age = yes
 		}
 	}
 	

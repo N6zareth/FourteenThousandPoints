@@ -1722,7 +1722,7 @@ POR_ideas = {
 POL_ideas = {
 	start = {
 		cavalry_cost = -0.1
-		num_accepted_cultures = 1
+		culture_conversion_cost = -0.2
 	}
 	
 	bonus = {
@@ -1741,11 +1741,11 @@ POL_ideas = {
 		build_cost = -0.1
 	}
 	peichota_wybraniecka = {
-		manpower_in_accepted_culture_provinces = 0.2
+		manpower_in_own_culture_provinces = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.1
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.2
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
@@ -1867,8 +1867,8 @@ PLC_ideas = {
 		army_tradition = 1
 	}
 	winged_hussars = { 
-		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.1
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.2
 		can_recruit_hussars = yes
 	}
 	plc_refine_our_golden_liberty = { #Same for all of them

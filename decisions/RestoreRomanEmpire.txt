@@ -26,8 +26,8 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = italy
-				region = egypt
+				region = italy_region
+				region = egypt_region
 				area = carniola_area
 				province_id = 2313
 				area = thrace_area
@@ -130,25 +130,34 @@ country_decisions = {
 				}
 			}
 			OR = {
-				AND = {
-					total_development = emperor
-					emperor = {
-						humiliated_by = ROOT
-					}
-				}
-				OR = {
+				is_emperor = yes
+				custom_trigger_tooltip = {
+					tooltip = nazy_rome_tt_1
 					AND = {
-						NOT = { hre_size = 1 } 
-						NOT = { exists = HLR }
-					}
-					AND = {
-						total_development = HLR
-						HLR = {
+						total_development = emperor
+						emperor = {
 							humiliated_by = ROOT
 						}
 					}
 				}
-				is_emperor = yes
+				OR = {
+					custom_trigger_tooltip = {
+						tooltip = nazy_rome_tt_2
+						AND = {
+							NOT = { hre_size = 1 } 
+							NOT = { exists = HLR }
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = nazy_rome_tt_3
+						AND = {
+								total_development = HLR
+							HLR = {
+								humiliated_by = ROOT
+							}
+						}
+					}
+				}
 			}
 		}
 		effect = {

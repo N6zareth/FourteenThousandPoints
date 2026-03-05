@@ -41,7 +41,17 @@
  nazy_spqr_ara_tt:0 "Owns all provinces in Aragon."
 
  nazy_empire_francaise_italy_tt:0 "Owns all provinces in North-West Italy."
- nazy_empire_francaise_ger_tt:0 "Owns all provinces west of the Rhine River"
+ nazy_empire_francaise_belgium_tt:0 "Owns all provinces in Belgium."
+ nazy_empire_francaise_ger_tt:0 "Owns all provinces west of the Rhine River."
+
+ nazy_rome_tt_1:0 "Has humiliated and have more development than @[Emperor.GetTag] §Y[Emperor.GetName]§!."
+ nazy_rome_tt_2:0 "The Holy Roman Empire has been dissolved, and @[HLR.GetTag] §Y[HLR.GetName]§! has not been formed."
+ nazy_rome_tt_3:0 "Has humiliated and have more development than @[HLR.GetTag] §Y[HLR.GetName]§!."
+
+ EmpireFrancaiseDecision_title:0 "Reform the @[FRA.GetTag] French State"
+ EmpireFrancaiseDecision_desc:0 ""
+ empire_francaise_reform:0 "Empire Française"
+ empire_francaise_reform_desc:0 "The authority of the Crown now stands unrivaled, its laws enforced uniformly across the realm. From the banks of the Rhine River to the frontiers of Catalonia, provincial privilege yields to centralized rule. The nobility serve the state as officers of royal will, not as independent powers. France is no longer a patchwork of feudal rights, but a unified and disciplined kingdom. In all but name, it has become an Empire Française — governed by order, hierarchy, and the supremacy of the Crown."
 
  nazy_eastern_rome_name:0 "Eastern Rome"
  

@@ -1,15 +1,16 @@
 country_decisions = {
-	GreatIrelandDecision = {
+	EmpireFrancaiseDecision = {
 		major = yes
 		was_never_end_game_tag_trigger = yes
 		potential = {
 			NOT = {
 				has_country_flag = has_nazy_empire_francaise
 			}
-			tag = IRE
+			tag = FRA
 		}
 		provinces_to_highlight = {
 			OR = {
+				region = france_region
 				area = wallonia_area
 				area = flanders_area
 				area = brabant_area
@@ -23,6 +24,7 @@ country_decisions = {
 				province_id = 85
 				province_id = 4770
 				province_id = 95
+				province_id = 96
 				area = catalonia_area
 			}
 			NOT = { owned_by = ROOT }
@@ -35,37 +37,50 @@ country_decisions = {
 			mission_completed = fra_musketeers
 			adm_tech = 19
 			adm_tech = 19
+			owns_all_provinces = {
+				region = france_region
+			}
 			AND = {
 				custom_trigger_tooltip = {
 					tooltip = nazy_empire_francaise_belgium_tt
-					owns_all_provinces = {
-						area = wallonia_area
-						area = flanders_area
-						area = brabant_area
+					num_of_owned_provinces_with = {
+						OR = {
+							area = wallonia_area
+							area = flanders_area
+							area = brabant_area
+						}
+						value = 12
 					}
 				}
 			}
 			AND = {
 				custom_trigger_tooltip = {
 					tooltip = nazy_empire_francaise_italy_tt
-					owns_all_provinces = {
-						area = liguria_area
-						area = piedmont_area
-						area = lombardy_area
+					num_of_owned_provinces_with = {
+						OR = {
+							area = liguria_area
+							area = piedmont_area
+							area = lombardy_area
+						}
+						value = 16
 					}
 				}
 			}
 			AND = {
 				custom_trigger_tooltip = {
 					tooltip = nazy_empire_francaise_ger_tt
-					owns_all_provinces = {
-						area = alsace_area
-						area = lower_rhineland_area
-						province_id = 1761
-						province_id = 4767
-						province_id = 85
-						province_id = 4770
-						province_id = 95
+					num_of_owned_provinces_with = {
+						OR = {
+							area = alsace_area
+							area = lower_rhineland_area
+							province_id = 1761
+							province_id = 4767
+							province_id = 85
+							province_id = 4770
+							province_id = 95
+							province_id = 96
+						}
+						value = 13
 					}
 				}
 			}
@@ -74,13 +89,8 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = has_nazy_empire_francaise
+			add_country_flag = has_nazy_empire_francaise
 			add_government_reform = empire_francaise_reform
-			hidden_effect = {
-				unlock_government_reform = {
-					government_reform = empire_francaise_reform
-				}
-			}
 			ai_importance = 400
 		}
 	}

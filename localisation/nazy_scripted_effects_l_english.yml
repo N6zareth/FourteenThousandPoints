@@ -12,3 +12,7 @@
 
  nazy_trigger_building_trade_tt:0 "Have any type of §YTrade building§!."
  nazy_trigger_building_fort_tt:0 "Have any type of §YFort§!."
+
+ nazy_reset_golden_age_tt:0 "Gains an additional ¤ §YEconomic Golden Age§! and £infantry_icon_small£ §YMilitary Golden Age§! or extend the current ones by £time£§G50§! years."
+ nazy_ten_year_golden_age_extend_tt:0 "Extends §YEconomic Golden Age§! and £infantry_icon_small£ §YMilitary Golden Age§! by £time£§G10§! years."
+ nazy_thirty_year_golden_age_extend_tt:0 "Extends §YEconomic Golden Age§! and £infantry_icon_small£ §YMilitary Golden Age§! by £time£§G30§! years."

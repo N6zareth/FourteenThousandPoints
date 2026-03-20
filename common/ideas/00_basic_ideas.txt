@@ -20,7 +20,7 @@ quality_ideas = {
 	}
 
 	private_to_marshal = {
-		infantry_power = 0.125
+		infantry_power = 0.1
 	}
 	quality_education = {
 		army_tradition = 0.5
@@ -34,9 +34,8 @@ quality_ideas = {
 		yearly_army_professionalism = 0.005
 	}
 	naval_drill = {
-		shock_damage = 0.075
-		fire_damage = 0.075
-		development_cost = -0.05
+		shock_damage = 0.05
+		fire_damage = 0.05
 	}
 	nazy_army_flexibility = {
 		free_land_leader_pool = 3
@@ -642,23 +641,23 @@ religious_ideas = {
 		manpower_in_true_faith_provinces = 0.15
 	}
 	divine_supremacy = {
-		shock_damage_received = -0.025
-		fire_damage_received = -0.025
+		shock_damage_received = -0.05
+		fire_damage_received = -0.05
 	}
 	devoutness = {
 		tolerance_own = 3
 		enforce_religion_cost = -1
 	}
 	inquisition = {
-		papal_influence = 2
-		devotion = 0.33
-		monthly_fervor_increase = 0.33
-		church_power_modifier = 0.2
-		monthly_piety_accelerator = -0.01
-		yearly_karma_decay = 0.2
-		yearly_doom_reduction = 2
-		yearly_authority = 0.2
-		yearly_patriarch_authority = 0.01
+		papal_influence = 3
+		devotion = 0.5
+		monthly_fervor_increase = 0.5
+		church_power_modifier = 0.33
+		monthly_piety_accelerator = 0.03
+		yearly_karma_decay = 0.33
+		yearly_doom_reduction = 3
+		yearly_authority = 0.33
+		yearly_patriarch_authority = 0.03
 		relation_with_same_religion = 75
         establish_order_cost = -0.5
 	}
@@ -708,10 +707,10 @@ theocracy_gov_ideas = {
 		morale_damage = 0.2
 	}
 	by_the_grace_of_god = {
-		land_morale = 0.1
+		land_morale = 0.2
 	}
 	friends_in_high_places = {
-		warscore_from_battles_modifier = 1.5
+		warscore_from_battles_modifier = 2.5
 		war_exhaustion_cost = -0.33
 	}
 	flesh_is_weak = {
@@ -726,7 +725,7 @@ theocracy_gov_ideas = {
 		development_cost = -0.05
 	}
 	martyrs = {
-		manpower_in_true_faith_provinces = 0.05
+		manpower_in_true_faith_provinces = 0.125
 		prestige_from_land = 0.5
 	}
 	ai_will_do = {
@@ -930,7 +929,7 @@ diplomatic_ideas = {
 	
 	grand_banquets = {
 		diplomats = 1
-        stability_cost_to_declare_war = -2
+        stability_cost_to_declare_war = -5
 	}
 	foreign_embassies = {
 		dip_advisor_cost = -0.2

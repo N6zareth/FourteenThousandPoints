@@ -1467,6 +1467,27 @@ estate_church_for_the_faith = {
 	}
 	conditional_modifier = {
 		trigger = {
+			has_idea_group = theocracy_gov_ideas
+			NOT = {
+				any_known_country = {
+					NOT = { religion = root }
+					OR = {
+						war_with = root
+						truce_with = root
+					}
+				}
+			}
+		}
+		modifier = {
+			land_morale = 0.05
+			naval_morale = 0.05
+			morale_damage = 0.05
+			morale_damage_received = -0.05
+			recover_army_morale_speed = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
 			has_government_attribute = free_expansionist_zealotry
 		}
 		modifier = {

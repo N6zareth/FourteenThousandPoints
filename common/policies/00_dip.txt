@@ -300,6 +300,7 @@ fortified_trading_posts = {
 	}	
 	
 	global_ship_trade_power = 0.33
+	colony_development_boost = 2
 	
 	effect = {}
 	removed_effect = {}
@@ -415,7 +416,7 @@ record_keeping_act = {
 	}
 
 	diplomats = 1
-	global_autonomy = -0.05
+	administrative_efficiency = -0.05
 
 	effect = {}
 	removed_effect = {}

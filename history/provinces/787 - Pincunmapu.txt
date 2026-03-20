@@ -10,7 +10,6 @@ native_size = 20
 native_ferocity = 2
 native_hostileness = 9
 extra_cost = 8
-center_of_trade = 1
 1489.1.1 = { 
 	controller = INC
 	add_core = INC

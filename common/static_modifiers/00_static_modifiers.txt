@@ -334,7 +334,7 @@ core = {
 	local_tax_modifier = 0.75				#90% more in a core
 	local_manpower_modifier = 0.75			#75% more in a core
 	local_sailors_modifier = 0.75
-	local_development_cost = -0.1
+	local_development_cost = -0.05
 }
 
 non_core = {
@@ -462,7 +462,7 @@ devastation = {
 }
 
 prosperity = {
-	local_development_cost = -0.1
+	local_development_cost = -0.05
 	trade_goods_size_modifier = 0.25
 	local_autonomy = -0.05
 }
@@ -2165,7 +2165,8 @@ revolutionary_guard_regiment = {
 }
 
 innovativeness = {
-	all_power_cost	= -0.1
+	technology_cost = -0.025
+	idea_cost = -0.05
 	army_tradition_decay = -0.01
 	navy_tradition_decay = -0.01
 }
@@ -2242,7 +2243,7 @@ expanded_infrastructure = {
 	ship_recruit_speed = -0.15
 	local_defensiveness = 0.05
 	garrison_growth = 0.05
-	local_development_cost = -0.15
+	local_development_cost = -0.1
 	local_production_efficiency = 0.05
 	local_tax_modifier = 0.1
 	local_manpower_modifier = 0.05
@@ -2253,8 +2254,8 @@ expanded_infrastructure = {
 	local_build_time = -0.05
 	province_trade_power_modifier = 0.05
 	trade_goods_size_modifier = 0.05
-	local_governing_cost_increase = 15
-	local_governing_cost = 0.1
+	local_governing_cost_increase = 50
+	local_governing_cost = 0.15
 	local_great_project_upgrade_cost = -0.05
 }
 

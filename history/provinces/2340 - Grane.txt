@@ -1,6 +1,6 @@
 #2340 - Grane
-owner = ALH
-controller = ALH
+owner = SHM
+controller = SHM
 culture = gulf_arabic
 religion = sunni
 capital = "Grane"#old name for Kuwait
@@ -24,4 +24,4 @@ discovered_by = east_african
 1818.9.9 = { 
 	controller = TUR
 }
-add_core = ALH
+add_core = SHM

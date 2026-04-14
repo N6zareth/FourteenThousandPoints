@@ -1,6 +1,6 @@
 #397 - Abu Dhabi
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = gulf_arabic
 religion = shiite
 capital = "Abu Dhabi"
@@ -32,4 +32,4 @@ discovered_by = east_african
 	controller = OMA
 	add_core = OMA
 }
-add_core = ALH
+add_core = ORM

@@ -1,6 +1,6 @@
 #2999 - Hormuz
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 capital = "Hormuz"
 culture = gulf_arabic
 religion = sunni
@@ -29,4 +29,4 @@ center_of_trade = 2
 }
 1673.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
-add_core = ALH
+add_core = ORM

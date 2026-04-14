@@ -1,6 +1,6 @@
 #399 - Suhar
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = omani_culture
 religion = ibadi
 capital = "Suhar"
@@ -30,4 +30,4 @@ discovered_by = east_african
 1749.6.10 = { 
 	controller = OMA
 }
-add_core = ALH
+add_core = ORM

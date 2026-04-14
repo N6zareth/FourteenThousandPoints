@@ -253,7 +253,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_fire = 0.03
+	infantry_power = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -851,7 +851,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	infantry_power = 0.15
+	siege_ability = 0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -1131,8 +1131,7 @@ handpicked_recruits_act = {
 	
 	global_tax_modifier = 0.05
 	trade_efficiency = 0.05
-	global_trade_goods_size_modifier = 0.05
-	development_cost = -0.05
+	production_efficiency = 0.05
 
 	effect = {}
 	removed_effect = {}

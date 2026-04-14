@@ -613,6 +613,13 @@ guiTypes = {
 			}
 
 			guiButtonType = {
+				name = "nazy_exploit_admin_dev"
+				position = { x = 52 y = 24 }
+				quadTextureSprite = "GFX_exploit_button_tax"
+				scripted = yes
+			}
+
+			guiButtonType = {
 				name = "iv_tradecenter_button"
 				position = { x = 447 y = 56 }
 				quadTextureSprite = "button_flogi_tradecenter"
@@ -2972,6 +2979,48 @@ guiTypes = {
 					maxWidth = 256
 					maxHeight = 32
 					format = left
+				}
+
+				guiButtonType = {
+					name = "nazy_investments_countinghouse"
+					position = { x = 90 y = 363 }
+					quadTextureSprite = "GFX_counting_house"
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "nazy_investments_workshop"
+					position = { x = 90 y = 415 }
+					quadTextureSprite = "GFX_workshop"
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "nazy_investments_stockexchange"
+					position = { x = 145 y = 363 }
+					quadTextureSprite = "GFX_stock_exchange"
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "nazy_investments_tradedepot"
+					position = { x = 200 y = 363 }
+					quadTextureSprite = "GFX_trade_depot"
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "nazy_investments_marketplace"
+					position = { x = 145 y = 415 }
+					quadTextureSprite = "GFX_marketplace"
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "nazy_investments_manufactory"
+					position = { x = 200 y = 415 }
+					quadTextureSprite = "GFX_manufactory"
+					scripted = yes
 				}
 
 				guiButtonType = {

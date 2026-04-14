@@ -628,3 +628,151 @@ custom_button = {
         set_global_flag = bertus_snapped
     }
 }
+
+custom_button = {
+    name = nazy_exploit_admin_dev
+    tooltip = nazy_exploit_admin_dev_tt
+    potential = {
+        owned_by = FROM
+        FROM = {
+            ai = no
+        }
+    }
+    trigger = {
+        hidden_trigger = {
+            base_tax = 4
+        }
+    }
+    effect = {
+        add_base_tax = -1
+    }
+}
+
+#Investments
+custom_button = {
+    name = nazy_investments_countinghouse
+    tooltip = nazy_investments_countinghouse_tt
+    potential = {
+        FROM = {
+           alliance_with = ROOT
+           ai = no
+        }
+    }
+    trigger = {
+        NOT = { has_building = counting_house }
+        FROM = { treasury = 100 }
+        num_free_building_slots = 1
+    }
+    effect = {
+        add_building = counting_house
+        remove_building = workshop
+        FROM = { add_treasury = -100 }
+    }
+}
+
+custom_button = {
+    name = nazy_investments_workshop
+    tooltip = nazy_investments_workshop_tt
+    potential = {
+        FROM = {
+           alliance_with = ROOT
+           ai = no
+        }
+    }
+    trigger = {
+        NOT = { has_building = workshop }
+        NOT = { has_building = counting_house }
+        FROM = { treasury = 400 }
+        num_free_building_slots = 1
+    }
+    effect = {
+        add_building = workshop
+        FROM = { add_treasury = -400 }
+    }
+}
+
+custom_button = {
+    name = nazy_investments_stockexchange
+    tooltip = nazy_investments_stockexchange_tt
+    potential = {
+        FROM = {
+           alliance_with = ROOT
+           ai = no
+        }
+    }
+    trigger = {
+        NOT = { has_building = stock_exchange }
+        FROM = { treasury = 400 }
+        num_free_building_slots = 1
+    }
+    effect = {
+        add_building = stock_exchange
+        remove_building = trade_depot
+        remove_building = marketplace
+        FROM = { add_treasury = -400 }
+    }
+}
+
+custom_button = {
+    name = nazy_investments_tradedepot
+    tooltip = nazy_investments_tradedepot_tt
+    potential = {
+        FROM = {
+           alliance_with = ROOT
+           ai = no
+        }
+    }
+    trigger = {
+        NOT = { has_building = trade_depot }
+        NOT = { has_building = stock_exchange }
+        FROM = { treasury = 300 }
+        num_free_building_slots = 1
+    }
+    effect = {
+        add_building = trade_depot
+        remove_building = marketplace
+        FROM = { add_treasury = -300 }
+    }
+}
+
+custom_button = {
+    name = nazy_investments_marketplace
+    tooltip = nazy_investments_marketplace_tt
+    potential = {
+        FROM = {
+           alliance_with = ROOT
+           ai = no
+        }
+    }
+    trigger = {
+        NOT = { has_building = marketplace }
+        NOT = { has_building = trade_depot }
+        NOT = { has_building = stock_exchange }
+        FROM = { treasury = 100 }
+        num_free_building_slots = 1
+    }
+    effect = {
+        add_building = workshop
+        FROM = { add_treasury = -100 }
+    }
+}
+
+custom_button = {
+    name = nazy_investments_manufactory
+    tooltip = nazy_investments_manufactory_tt
+    potential = {
+        FROM = {
+           alliance_with = ROOT
+           ai = no
+        }
+    }
+    trigger = {
+        NOT = { has_building = manufactory }
+        FROM = { treasury = 500 }
+        num_free_building_slots = 1
+    }
+    effect = {
+        add_building = manufactory
+        FROM = { add_treasury = -500 }
+    }
+}

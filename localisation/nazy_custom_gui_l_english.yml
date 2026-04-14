@@ -67,3 +67,6 @@
  #Parliament
  nazy_all_seats_parliament_tt:0 "§YFull Parliamentary Representation§!\nSeatless provinces demand a voice in Parliament. Perhaps granting universal representation could unify and strengthen the realm."
  nazy_all_seats_parliament_tt2:0 "There are full-cored, stated provinces without a seat in Parliament"
+
+ #Exploit Admin Development
+ nazy_exploit_admin_dev_tt:0 "Exploiting Development will give us the following effects:"

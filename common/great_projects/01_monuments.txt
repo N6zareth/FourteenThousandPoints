@@ -12181,16 +12181,19 @@ bahrain_RECLEMATION_reclemation = {
 			factor = 500
 		}
 		province_modifiers = {
+						province_trade_power_modifier = 0.15
                         trade_goods_size = 2.0
-                        local_development_cost_modifier = -0.3
+                        local_development_cost_modifier = -0.15
+						local_development_cost = -0.15
 		}
 		area_modifier = {
-			local_development_cost_modifier = -0.1	
-			local_development_cost = -0.1
+			min_local_autonomy = -15
 		}
 		country_modifiers = {
-			global_trade_goods_size_modifier = 0.05
 			burghers_loyalty_modifier = 0.05
+		}
+		region_modifier = {
+			min_local_autonomy = 15
 		}
 		on_upgraded = {
                         add_base_tax = 3
@@ -12206,16 +12209,20 @@ bahrain_RECLEMATION_reclemation = {
 			factor = 750
 		}
 		province_modifiers = {
+						province_trade_power_modifier = 0.33
                         trade_goods_size = 4.0
-                        local_development_cost_modifier = -0.3
+                        local_development_cost_modifier = -0.33
+						local_development_cost = -0.33
 		}
 		area_modifier = {
-			local_development_cost_modifier = -0.2	
-			local_development_cost = -0.2
+			min_local_autonomy = -33
 		}
 		country_modifiers = {
-			global_trade_goods_size_modifier = 0.075
+			global_trade_goods_size_modifier = 0.025
 			burghers_loyalty_modifier = 0.1
+		}
+		region_modifier = {
+			min_local_autonomy = 33
 		}
 		on_upgraded = {
                         add_building = counting_house
@@ -12232,21 +12239,25 @@ bahrain_RECLEMATION_reclemation = {
 			factor = 1000
 		}
 		province_modifiers = {
+						province_trade_power_modifier = 0.6
                         trade_goods_size = 6.0
-                        local_development_cost_modifier = -0.3
+                        local_development_cost_modifier = -0.5
+						local_development_cost = -0.5
 		}
 		area_modifier = {
-			local_development_cost_modifier = -0.3	
-			local_development_cost = -0.3
+			min_local_autonomy = -55
 		}
 		country_modifiers = {
-			global_trade_goods_size_modifier = 0.1
+			global_trade_goods_size_modifier = 0.05
 			burghers_loyalty_modifier = 0.15
+		}
+		region_modifier = {
+			min_local_autonomy = 55
 		}
 		on_upgraded = {
                         add_base_tax = 5
                         add_base_production = 5
-                        add_building = University	
+                        add_building = university	
 		}
 		
 	}

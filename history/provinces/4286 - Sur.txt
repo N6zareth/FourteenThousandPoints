@@ -1,6 +1,6 @@
 #4286 - Sur, Qalhat, etc
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = omani_culture
 religion = ibadi
 capital = "Qalhat"
@@ -31,4 +31,4 @@ discovered_by = east_african
 1749.6.10 = { 
 	controller = OMA
 }
-add_core = ALH
+add_core = ORM

@@ -1,6 +1,6 @@
 #2333 - Abd al-Qays
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = gulf_arabic
 religion = shiite
 capital = "Sila"
@@ -27,4 +27,4 @@ discovered_by = east_african
 	controller = OMA
 	add_core = OMA
 }
-add_core = ALH
+add_core = ORM

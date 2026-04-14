@@ -1,6 +1,6 @@
 #400 - Muscat
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = omani_culture
 religion = ibadi
 capital = "Masqat"
@@ -32,5 +32,5 @@ center_of_trade = 2
 1749.6.10 = { 
 	controller = OMA
 }
-add_core = ALH
+add_core = ORM
 fort_15th = yes

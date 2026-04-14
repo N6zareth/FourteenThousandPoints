@@ -1,6 +1,6 @@
 #398 - Qawasim
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 culture = gulf_arabic
 religion = ibadi
 capital = "Sharjah"
@@ -27,4 +27,4 @@ discovered_by = east_african
 1727.1.1 = { 
 	controller = SHR
 }
-add_core = ALH
+add_core = ORM

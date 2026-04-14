@@ -416,7 +416,7 @@ record_keeping_act = {
 	}
 
 	diplomats = 1
-	administrative_efficiency = -0.05
+	administrative_efficiency = 0.05
 
 	effect = {}
 	removed_effect = {}

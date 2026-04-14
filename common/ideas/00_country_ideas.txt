@@ -13346,7 +13346,7 @@ SRV_ideas = {
 
 ALH_ideas = {
 	start = {
-		land_forcelimit_modifier = 0.1
+		land_forcelimit_modifier = 0.2
 		development_cost = -0.15
 	}
 	bonus = {
@@ -13361,8 +13361,7 @@ ALH_ideas = {
 		discipline = 0.05
 	}
 	nazy_indian_servants = {
-		can_recruit_rajputs = yes
-		allowed_rajput_fraction = 0.3
+		fire_damage = 0.1
 	}
 	alh_pearls_of_the_persian_gulf = {
 		global_trade_goods_size_modifier = 0.1

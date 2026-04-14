@@ -8,19 +8,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 122;4174;sea;1310;-1;-1;-1;-1;Italy-Albania
 4621;492;sea;1526;-1;-1;-1;-1;Hispanola-Puerto Rico
 493;492;sea;1526;-1;-1;-1;-1;Puerto Rico-Lesser Antilles
-4190;1994;sea;1692;-1;-1;-1;-1;Tokyo-Midway
-1997;4935;sea;1697;-1;-1;-1;-1;Midwway-Hawaii
-4935;4637;sea;1697;-1;-1;-1;-1;Hawaii-SanFransisco
-1978;980;sea;1281;-1;-1;-1;-1;Shetland-Newfoundland
-4988;481;sea;1502;-1;-1;-1;-1;Bermuda-French
-481;932;sea;1502;-1;-1;-1;-1;Bermuda-Carolina
-227;367;sea;1567;-1;-1;-1;-1;Azores-Portugal
-375;982;sea;1491;-1;-1;-1;-1;NovaScotia-Ireland
-367;493;sea;1562;-1;-1;-1;-1;LilStJames-Azores
-366;2470;sea;1471;-1;-1;-1;-1;Canaries-Morocco
-368;4565;sea;1471;-1;-1;-1;-1;CanariesCircleJerk
-368;366;sea;1471;-1;-1;-1;-1;CanariesCircleJerk
-368;2890;sea;1529;-1;-1;-1;-1;Brazil-Canaries
+
 493;1881;sea;1523;-1;-1;-1;-1;LA1
 1881;494;sea;1523;-1;-1;-1;-1;LA2
 496;497;sea;1523;-1;-1;-1;-1;LA3

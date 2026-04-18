@@ -1,139 +1,139 @@
-namespace = nazy_greatmen
+# namespace = nazy_greatmen
+#
+# country_event = { # Discipline, Commandant
+# 	id = nazy_greatmen.1
+# 	title = nazy_greatmen.1.title 
+# 	desc = nazy_greatmen.1.desc
+# 	picture = REFORM_eventPicture
 
-country_event = { # Discipline, Commandant
-	id = nazy_greatmen.1
-	title = nazy_greatmen.1.title 
-	desc = nazy_greatmen.1.desc
-	picture = REFORM_eventPicture
+# 	trigger = {
+# 		OR = {
+# 			commandant = 3
+# 			commandant = 4
+# 			commandant = 5
+# 		}
+# 		NOT = { has_country_modifier = nazy_discipline_event }
+# 		NOT = { has_country_modifier = nazy_discipline_timer }
+# 		NOT = { has_country_modifier = nazy_discipline_no }
+# 		ai = no
+# 	}
 
-	trigger = {
-		OR = {
-			commandant = 3
-			commandant = 4
-			commandant = 5
-		}
-		NOT = { has_country_modifier = nazy_discipline_event }
-		NOT = { has_country_modifier = nazy_discipline_timer }
-		NOT = { has_country_modifier = nazy_discipline_no }
-		ai = no
-	}
+# 	mean_time_to_happen = {
+# 		months = 144
+# 	}
 
-	mean_time_to_happen = {
-		months = 144
-	}
+# 	option = { # Yes
+# 		name = nazy_greatmen.b
+# 		add_country_modifier = {
+# 			name = "nazy_discipline_event"
+# 			duration = 3650
+# 		}
+# 		add_country_modifier = {
+# 			name = "nazy_discipline_timer"
+# 			duration = -1
+# 			hidden = yes
+# 		}
+# 	}
 
-	option = { # Yes
-		name = nazy_greatmen.b
-		add_country_modifier = {
-			name = "nazy_discipline_event"
-			duration = 3650
-		}
-		add_country_modifier = {
-			name = "nazy_discipline_timer"
-			duration = -1
-			hidden = yes
-		}
-	}
+# 	option = { # No
+# 		name = nazy_greatmen.a
+# 		add_country_modifier = {
+# 			name = "nazy_discipline_no"
+# 			duration = 10950
+# 			hidden = yes
+# 		}
+# 	}
+# }
 
-	option = { # No
-		name = nazy_greatmen.a
-		add_country_modifier = {
-			name = "nazy_discipline_no"
-			duration = 10950
-			hidden = yes
-		}
-	}
-}
+# country_event = { # Morale, Army Reformer
+# 	id = nazy_greatmen.2
+# 	title = nazy_greatmen.2.title
+# 	desc = nazy_greatmen.2.desc
+# 	picture = REFORM_eventPicture
 
-country_event = { # Morale, Army Reformer
-	id = nazy_greatmen.2
-	title = nazy_greatmen.2.title
-	desc = nazy_greatmen.2.desc
-	picture = REFORM_eventPicture
+# 	trigger = {
+# 		OR = {
+# 			army_reformer = 3
+# 			army_reformer = 4
+# 			army_reformer = 5
+# 		}
+# 		NOT = { has_country_modifier = nazy_morale_event }
+# 		NOT = { has_country_modifier = nazy_morale_timer }
+# 		NOT = { has_country_modifier = nazy_morale_no }
+# 		ai = no
+# 	}
 
-	trigger = {
-		OR = {
-			army_reformer = 3
-			army_reformer = 4
-			army_reformer = 5
-		}
-		NOT = { has_country_modifier = nazy_morale_event }
-		NOT = { has_country_modifier = nazy_morale_timer }
-		NOT = { has_country_modifier = nazy_morale_no }
-		ai = no
-	}
+# 	mean_time_to_happen = {
+# 		months = 144
+# 	}
 
-	mean_time_to_happen = {
-		months = 144
-	}
+# 	option = { # Yes
+# 		name = nazy_greatmen.b
+# 		add_country_modifier = {
+# 			name = "nazy_morale_event"
+# 			duration = 3650
+# 		}
+# 		add_country_modifier = {
+# 			name = "nazy_morale_timer"
+# 			duration = -1
+# 			hidden = yes
+# 		}
+# 	}
 
-	option = { # Yes
-		name = nazy_greatmen.b
-		add_country_modifier = {
-			name = "nazy_morale_event"
-			duration = 3650
-		}
-		add_country_modifier = {
-			name = "nazy_morale_timer"
-			duration = -1
-			hidden = yes
-		}
-	}
+# 	option = { # No
+# 		name = nazy_greatmen.a
+# 		add_country_modifier = {
+# 			name = "nazy_morale_no"
+# 			duration = 10950
+# 			hidden = yes
+# 		}
+# 	}
+# }
 
-	option = { # No
-		name = nazy_greatmen.a
-		add_country_modifier = {
-			name = "nazy_morale_no"
-			duration = 10950
-			hidden = yes
-		}
-	}
-}
+# country_event = { # Manpower, Recruitmaster
+# 	id = nazy_greatmen.3
+# 	title = nazy_greatmen.3.title
+# 	desc = nazy_greatmen.3.desc
+# 	picture = REFORM_eventPicture
 
-country_event = { # Manpower, Recruitmaster
-	id = nazy_greatmen.3
-	title = nazy_greatmen.3.title
-	desc = nazy_greatmen.3.desc
-	picture = REFORM_eventPicture
+# 	trigger = {
+# 		OR = {
+# 			recruitmaster = 3
+# 			recruitmaster = 4
+# 			recruitmaster = 5
+# 		}
+# 		NOT = { has_country_modifier = nazy_manpower_event }
+# 		NOT = { has_country_modifier = nazy_manpower_timer }
+# 		NOT = { has_country_modifier = nazy_manpower_no }
+# 		ai = no
+# 	}
 
-	trigger = {
-		OR = {
-			recruitmaster = 3
-			recruitmaster = 4
-			recruitmaster = 5
-		}
-		NOT = { has_country_modifier = nazy_manpower_event }
-		NOT = { has_country_modifier = nazy_manpower_timer }
-		NOT = { has_country_modifier = nazy_manpower_no }
-		ai = no
-	}
+# 	mean_time_to_happen = {
+# 		months = 144
+# 	}
 
-	mean_time_to_happen = {
-		months = 144
-	}
+# 	option = { # Yes
+# 		name = nazy_greatmen.b
+# 		add_country_modifier = {
+# 			name = "nazy_manpower_event"
+# 			duration = 3650
+# 		}
+# 		add_country_modifier = {
+# 			name = "nazy_manpower_timer"
+# 			duration = -1
+# 			hidden = yes
+# 		}
+# 	}
 
-	option = { # Yes
-		name = nazy_greatmen.b
-		add_country_modifier = {
-			name = "nazy_manpower_event"
-			duration = 3650
-		}
-		add_country_modifier = {
-			name = "nazy_manpower_timer"
-			duration = -1
-			hidden = yes
-		}
-	}
-
-	option = { # No
-		name = nazy_greatmen.a
-		add_country_modifier = {
-			name = "nazy_manpower_no"
-			duration = 10950
-			hidden = yes
-		}
-	}
-}
+# 	option = { # No
+# 		name = nazy_greatmen.a
+# 		add_country_modifier = {
+# 			name = "nazy_manpower_no"
+# 			duration = 10950
+# 			hidden = yes
+# 		}
+# 	}
+# }
 
 country_event = { # Military Reforms
 	id = nazy_greatmen.4

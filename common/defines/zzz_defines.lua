@@ -1,4 +1,4 @@
-NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 5
+Defines.NDiplomacy.CHANGE_RIVAL_YEARS = 5
 NDefines.NDiplomacy.DISHONORABLE_PEACE_MONTHS = 0
 NDefines.NDiplomacy.DISHONORABLE_PEACE_WARSCORE = 0
 NDefines.NDiplomacy.DEFENDER_OF_FAITH_TRUST_LOSS = 0
@@ -128,7 +128,6 @@ NDefines.NMilitary.MAX_BREACH = 1
 NDefines.NMilitary.SUPPLYLIMIT_BASE_MULTIPLIER = 8.0
 NDefines.NMilitary.DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 1.67 -- Makes holding the wargoal more valuable
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 40
-NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 50
 NDefines.NMilitary.WAR_ENTHUSIASM_HIGH_THRESHOLD = -15
 NDefines.NMilitary.LEADER_MIN_PIPS = 2
 NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 0

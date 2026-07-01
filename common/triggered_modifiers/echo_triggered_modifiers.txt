@@ -39,6 +39,7 @@ player_modifier = {
 	diplomatic_annexation_cost = -0.25
 	ae_impact = -0.25
 	global_missionary_strength = 0.04
+        warscore_from_battles_modifier = 3.0
 }
 
 Splendid_Court = {

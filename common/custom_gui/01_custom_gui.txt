@@ -660,7 +660,10 @@ custom_button = {
     }
     trigger = {
         NOT = { has_building = counting_house }
-        FROM = { treasury = 100 }
+        FROM = {
+            treasury = 100
+            adm_tech = 24
+            }
         num_free_building_slots = 1
     }
     effect = {
@@ -682,7 +685,10 @@ custom_button = {
     trigger = {
         NOT = { has_building = workshop }
         NOT = { has_building = counting_house }
-        FROM = { treasury = 400 }
+        FROM = {
+            treasury = 400
+            adm_tech = 6
+            }
         num_free_building_slots = 1
     }
     effect = {
@@ -702,7 +708,10 @@ custom_button = {
     }
     trigger = {
         NOT = { has_building = stock_exchange }
-        FROM = { treasury = 400 }
+        FROM = {
+            treasury = 400
+            dip_tech = 22
+            }
         num_free_building_slots = 1
     }
     effect = {
@@ -725,7 +734,10 @@ custom_button = {
     trigger = {
         NOT = { has_building = trade_depot }
         NOT = { has_building = stock_exchange }
-        FROM = { treasury = 300 }
+        FROM = {
+            treasury = 300
+            dip_tech = 17
+            }
         num_free_building_slots = 1
     }
     effect = {
@@ -748,7 +760,10 @@ custom_button = {
         NOT = { has_building = marketplace }
         NOT = { has_building = trade_depot }
         NOT = { has_building = stock_exchange }
-        FROM = { treasury = 100 }
+        FROM = {
+            treasury = 100
+            dip_tech = 4
+        }
         num_free_building_slots = 1
     }
     effect = {
@@ -767,12 +782,124 @@ custom_button = {
         }
     }
     trigger = {
-        NOT = { has_building = manufactory }
+        NOT = {
+            OR = {
+                has_building = wharf
+                has_building = weapons
+                has_building = textile
+                has_building = plantations
+                has_building = farm_estate
+                has_building = mills
+                has_building = furnace
+                has_building = tradecompany
+
+            }
+        }
         FROM = { treasury = 500 }
         num_free_building_slots = 1
     }
     effect = {
-        add_building = manufactory
-        FROM = { add_treasury = -500 }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = naval_supplies
+                    trade_goods = fish
+                    trade_goods = salt
+                }
+                FROM = { dip_tech = 11 }
+            }
+            add_building = wharf
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = copper
+                    trade_goods = iron
+                }
+                FROM = { mil_tech = 11 }
+            }
+            add_building = weapons
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = wool
+                    trade_goods = cloth
+                    trade_goods = silk
+                    trade_goods = dyes
+                }
+                FROM = { adm_tech = 11 }
+            }
+            add_building = textile
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = coffee
+                    trade_goods = cotton
+                    trade_goods = sugar
+                    trade_goods = tobacco
+                    trade_goods = tea
+                    trade_goods = cocoa
+                }
+                FROM = { adm_tech = 14 }
+            }
+            add_building = plantations
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = grain
+                    trade_goods = livestock
+                    trade_goods = wine
+                }
+                FROM = { adm_tech = 6 }
+            }
+            add_building = farm_estate
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = paper
+                    trade_goods = gems
+                    trade_goods = tropical_wood
+                    trade_goods = chinaware
+                    trade_goods = glass
+                }
+                FROM = { adm_tech = 16 }
+            }
+            add_building = mills
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = coal
+                }
+                FROM = { adm_tech = 21 }
+            }
+            add_building = furnace
+            FROM = { add_treasury = -500 }
+        }
+        if = {
+            limit = {
+                OR = {
+                    trade_goods = ivory
+                    trade_goods = slaves
+                    trade_goods = spices
+                    trade_goods = cloves
+                    trade_goods = fur
+                    trade_goods = incense
+                }
+                FROM = { dip_tech = 14 }
+            }
+            add_building = tradecompany
+            FROM = { add_treasury = -500 }
+        }
     }
 }

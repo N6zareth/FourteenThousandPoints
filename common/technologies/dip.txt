@@ -25,6 +25,9 @@ technology = { #Early Ships
 technology = { #Merchants & Trade
 	# Tech 1
 	year = 1390
+	expects_institution = {
+		feudalism = 0.25
+	}
 	
 	merchants = yes
 	trade_range				=	100

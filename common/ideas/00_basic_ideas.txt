@@ -974,8 +974,7 @@ plutocracy_ideas = {
 		mercenary_discipline = 0.1
 	}
 	abolished_serfdom = {
-		land_morale = 0.15
-		infantry_power = 0.125
+		land_morale = 0.125
 	}
 	bill_of_rights = {
 		merc_independent_from_trade_range = yes
@@ -990,7 +989,6 @@ plutocracy_ideas = {
 	}
 	free_cities = {
 		caravan_power = 0.25
-		development_cost = -0.05
 	}
 	emancipation = {
 		manpower_recovery_speed = 0.2

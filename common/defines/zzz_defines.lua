@@ -204,20 +204,20 @@ NDefines.NAI.ADVISOR_BUDGET_FRACTION = 0.75
 NDefines.NCountry.GOLDEN_ERA_YEARS = 400
 
 
-#NDefines.NMilitary.DEFAULT_WARGOAL_BATTLESCORE_BONUS = 7                 
-#NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 75
-#NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.05
-#NDefines.NMilitary.MERCENARY_BASE_COST = 100
-#NDefines.NMilitary.INFANTRY_COST = 30
-#NDefines.NMilitary.CAVALRY_COST = 60
-#NDefines.NMilitary.ARTILLERY_COST = 120
-#NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.333
+-- NDefines.NMilitary.DEFAULT_WARGOAL_BATTLESCORE_BONUS = 7                 
+-- NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 75
+-- NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.05
+-- NDefines.NMilitary.MERCENARY_BASE_COST = 100
+-- NDefines.NMilitary.INFANTRY_COST = 30
+-- NDefines.NMilitary.CAVALRY_COST = 60
+-- NDefines.NMilitary.ARTILLERY_COST = 120
+-- NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.333
 
-#NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 10
-#NDefines.NCountry.STARTING_ARMY_SIZE = 0.4
+-- NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 10
+-- NDefines.NCountry.STARTING_ARMY_SIZE = 0.4
 
-#NDefines.NGame.RNW_MERC_COMPANY_DEV_FACTOR_MIN = 0.0025
-#NDefines.NGame.RNW_MERC_COMPANY_DEV_FACTOR_MAX = 0.01
+-- NDefines.NGame.RNW_MERC_COMPANY_DEV_FACTOR_MIN = 0.0025
+-- NDefines.NGame.RNW_MERC_COMPANY_DEV_FACTOR_MAX = 0.01
 
 NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down

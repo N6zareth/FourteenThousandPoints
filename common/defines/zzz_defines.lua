@@ -118,11 +118,12 @@ NDefines.NEconomy.TRADE_PROPAGATE_DIVIDER = 20
 NDefines.NEconomy.HEAVY_SHIP_MAINT_FACTOR = 0.07	
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.2						-- 100 men/month is minimum
 NDefines.NMilitary.MIN_MONTHLY_SAILORS = 10						-- 5 sailors/month is minimum
-NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 5
+NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 33.3
 NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 60
 NDefines.NMilitary.ARMY_ATTRITION_AT_SEA = 1
 NDefines.NMilitary.GARRISON_SIZE = 3000							-- GARRISON_SIZE
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER =  0.334			-- x times garrison to be able to siege.
 NDefines.NMilitary.MAX_BREACH = 1
 NDefines.NMilitary.SUPPLYLIMIT_BASE_MULTIPLIER = 8.0
 NDefines.NMilitary.DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 1.67 -- Makes holding the wargoal more valuable
@@ -202,22 +203,6 @@ NDefines.NMilitary.FORTRESS_COST = 0.15
 NDefines.NAI.ADVISOR_BUDGET_FRACTION = 0.75
 
 NDefines.NCountry.GOLDEN_ERA_YEARS = 400
-
-
--- NDefines.NMilitary.DEFAULT_WARGOAL_BATTLESCORE_BONUS = 7                 
--- NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 75
--- NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.05
--- NDefines.NMilitary.MERCENARY_BASE_COST = 100
--- NDefines.NMilitary.INFANTRY_COST = 30
--- NDefines.NMilitary.CAVALRY_COST = 60
--- NDefines.NMilitary.ARTILLERY_COST = 120
--- NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.333
-
--- NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 10
--- NDefines.NCountry.STARTING_ARMY_SIZE = 0.4
-
--- NDefines.NGame.RNW_MERC_COMPANY_DEV_FACTOR_MIN = 0.0025
--- NDefines.NGame.RNW_MERC_COMPANY_DEV_FACTOR_MAX = 0.01
 
 NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down

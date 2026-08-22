@@ -1440,7 +1440,6 @@ VEN_ideas = {
 	venetian_arsenal = {
 		naval_forcelimit_modifier = 0.25
 		ship_durability = 0.05
-		infantry_power = 0.1
 	}
 	printing_industry = {
 		institution_spread_from_true_faith = 0.33
@@ -1454,7 +1453,6 @@ VEN_ideas = {
 		yearly_corruption = -0.05
 	}
 	conscription = {
-		global_manpower_modifier = 0.2
 		global_sailors_modifier = 0.33
 		allowed_marine_fraction = 0.1
 	}

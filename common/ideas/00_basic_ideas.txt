@@ -327,11 +327,10 @@ trade_ideas = {
  		global_trade_power = 0.2
   	}
   	free_trade = {
+		trade_range_modifier = 0.25
   		merchants = 1
-		can_transport_units = yes
   	}
 	merchant_adventures = {
-		trade_range_modifier = 0.25
         light_ship_cost = -0.5	
         light_ship_power = -0.5
 	}
